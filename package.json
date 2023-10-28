@@ -1,0 +1,40 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "sass": "^1.69.5"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --config ./.prettierrc.js --write"
+    ],
+    "**/*.{css,scss,md,html,json}": [
+      "prettier --config ./.prettierrc.js --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

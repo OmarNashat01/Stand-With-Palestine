@@ -12,16 +12,23 @@
   "dependencies": {
     "next": "14.0.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "touch-cli": "^0.0.1"
   },
   "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.0",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
-    "sass": "^1.69.5"
+    "sass": "^1.69.5",
+    "typescript": "^5.2.2"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [

@@ -9,7 +9,11 @@ export const metadata = {
     "This website is for documenting high-precision information about the Israeli aggression against the Palestinian people since the beginning of the occupation in 1948.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>

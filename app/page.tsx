@@ -1,9 +1,10 @@
+import Hero from "./components/hero/hero";
+
 import styles from "./page.module.scss";
 import TimelineSection from "./components/timelinesection/TimelineSection";
 import { TimelineSectionInterface } from "@/types/types";
 
-export default function Home() {
-  const sectionContent: TimelineSectionInterface = {
+const sectionContent: TimelineSectionInterface = {
     date: {
       day: "17",
       month: "oct",
@@ -11,8 +12,14 @@ export default function Home() {
     },
     direction: "left",
   };
+
+export default function Home() {
   return (
     <main className={styles.main}>
+       <Hero
+        title={"How long will the lies and aggression continue?"}
+        imgPath={"/images/hero.png"}
+      />
       <TimelineSection sectionContent={sectionContent} />
     </main>
   );

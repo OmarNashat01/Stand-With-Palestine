@@ -1,0 +1,17 @@
+@import '../../variables';
+
+
+.banner {
+
+        text-align: center;
+        color: black;
+        background-color:rgba($primary-color-light, 0.9);
+        margin: 1rem auto;
+        padding: 0.5rem;
+        letter-spacing: 2px;
+        box-shadow: 3px 4px 8px rgba(172, 9, 9, 0.634); /* Adjust values as needed */
+        &::selection {
+          color: white !important;
+        }
+
+}

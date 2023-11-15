@@ -1,0 +1,66 @@
+import React from 'react';
+// Homepage Primary Subcomponents
+import HeroWideSectionExtra from '../../components/HeroSections/HeroWideSectionExtra';
+import HeroDigitsSection from '../../components/HeroSections/HeroDigitsSection';
+import HeroWideSection from '../../components/HeroSections/HeroWideSection';
+import HeroSliderImage from '../../components/HeroSections/HeroSliderImage';
+import HeroGridVideo from '../../components/HeroSections/HeroGridVideo';
+// Homepage Secondary Subcomponents
+import Banner from '../../components/Simple/Banner';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
+// Homepage Data
+import homeData from './HomePageData'
+
+const HomePage = () => {
+
+  return (
+    <div style={{ flex: 1, borderTopLeftRadius: '4rem', borderTopRightRadius: '4rem', backgroundColor: '#101010' }}>
+      {/* Main Hero Section*/}
+      <HeroWideSection {...homeData.mainHeroSection} />
+      
+      {/* Status Section*/}
+      <Banner {...homeData.statusBanner} />
+      <HeroDigitsSection {...homeData.statusSection} />
+
+      {/* Timeline Section*/}
+      <Banner {...homeData.timelineBanner} />
+      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false}>
+        <HeroWideSectionExtra {...homeData.historicTimelineSection}/>
+        <HeroWideSectionExtra {...homeData.recentTimelineCrimeSection}/>
+        <HeroWideSectionExtra {...homeData.recentTimelineDiplomaticSection}/>
+      </Carousel>
+
+      {/* War Lies and Crimes Section*/}
+      <Banner {...homeData.warCrimeBanner} />
+      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false}>
+        <HeroWideSectionExtra {...homeData.genocideSection}/>
+        <HeroWideSectionExtra {...homeData.warCrimesLiesSection}/>
+        <HeroSliderImage {...homeData.beforeAfterSection} />
+      </Carousel>
+
+      {/* Intense Section*/}
+      <Banner {...homeData.intenseGridBanner} />
+      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false}>
+        <HeroGridVideo {...homeData.intenseGridSection1} />
+        <HeroGridVideo {...homeData.intenseGridSection2} />
+      </Carousel >
+
+      {/* Blogs Section*/}
+      <Banner {...homeData.blogBanner} />
+      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false}>
+        <HeroWideSectionExtra {...homeData.interviewSection1} />
+        <HeroWideSectionExtra {...homeData.interviewSection2} />
+        <HeroWideSectionExtra {...homeData.interviewSection3} />
+      </Carousel>
+
+      {/* Support Section*/}
+      <Banner {...homeData.supportBanner} />
+      <HeroWideSection {...homeData.supportSection}
+      />
+    </div>
+  );
+}
+
+export default HomePage;

@@ -1,47 +1,49 @@
 {
-  "name": "my-app",
+  "name": "war-palestine",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "postinstall": "husky install"
-  },
   "dependencies": {
-    "next": "14.0.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "touch-cli": "^0.0.1"
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@trendyol-js/react-carousel": "^3.0.2",
+    "@types/jest": "^29.5.8",
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "img-comparison-slider": "^8.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-carousel-nugget": "^3.2.28",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.2.2",
+    "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "@types/node": "^20.8.9",
-    "@types/react": "^18.2.33",
-    "@types/react-dom": "^18.2.14",
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
-    "@typescript-eslint/parser": "^6.9.0",
-    "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.52.0",
-    "eslint-config-next": "^14.0.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.0.2",
-    "sass": "^1.69.5",
-    "typescript": "^5.2.2"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "prettier --config ./.prettierrc.js --write"
-    ],
-    "**/*.{css,scss,md,html,json}": [
-      "prettier --config ./.prettierrc.js --write"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
     ]
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

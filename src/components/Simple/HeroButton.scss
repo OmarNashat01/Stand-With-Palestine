@@ -1,0 +1,34 @@
+@import '../../variables';
+
+.hero-button-red, .hero-button-blue {
+    padding: 1rem 1rem;
+    font-size: 0.9rem;
+    @media only screen and (max-width: 600px) {
+      font-size: 1.0rem;
+    }
+    background-color:  rgba($primary-color-light, 0.5);
+    border: 3px solid $primary-color-light;
+    color: #fff;
+    font-family: 'Poppins', 'Roboto'; 
+    margin: 1rem 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease-in-out; /* Adjust the duration (0.5s) and timing function (ease-in-out) as needed */
+
+    &:hover {
+      background-color:  $primary-color-light;
+      transform: scale(1.03);
+    }
+  }
+
+.hero-button-blue {
+        background-color:  rgba($primary-color-2, 0.5);
+        border: 3px solid $primary-color-2;
+        &:hover {
+          background-color:  $primary-color-2;
+          transform: scale(1.03);
+        }
+}

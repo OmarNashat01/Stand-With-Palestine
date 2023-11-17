@@ -1,6 +1,6 @@
-import React from 'react';
-import './HeroWideSection.scss';
-import HeroButton from '../Simple/HeroButton';
+import React from "react";
+import "./HeroWideSection.scss";
+import HeroButton from "../Simple/HeroButton";
 
 interface HeroWideSectionProps {
   imagePath: string;
@@ -29,29 +29,43 @@ const HeroWideSection: React.FC<HeroWideSectionProps> = ({
   minHeight,
   blur,
 }) => {
-
   return (
     <div
       className="hero-wide-section"
       style={{
         backgroundImage: `url(${imagePath})`,
-        borderTopLeftRadius: circular ? '6rem' : '0rem',
-        borderTopRightRadius: circular ? '6rem' : '0rem',
+        borderTopLeftRadius: circular ? "6rem" : "0rem",
+        borderTopRightRadius: circular ? "6rem" : "0rem",
         minHeight: minHeight,
       }}
     >
-      <div className="overlay" style={{ background: overlayColor, backdropFilter: blur }}></div>
+      <div
+        className="overlay"
+        style={{ background: overlayColor, backdropFilter: blur }}
+      ></div>
 
-      <div className="content" style={{ filter: 'brightness(1.0)' }}>
+      <div className="content" style={{ filter: "brightness(1.0)" }}>
         <h1>{title}</h1>
         <h2>{subTitle}</h2>
         <h3>{subTitle2}</h3>
-        {buttonText1 !== '' && <HeroButton type="red" content={buttonText1}  fontSize='1.2rem'/>
-}
-        {buttonText2 !== '' && (
-           <HeroButton type="blue" content={buttonText2} fontSize='1.2rem'/>
+        {buttonText1 !== "" && (
+          <HeroButton type="red" content={buttonText1} fontSize="1.2rem" />
         )}
-        {showDay && <h3 className="last-h3"> <b>34th Day</b></h3>}
+        {buttonText2 !== "" && (
+          <HeroButton type="blue" content={buttonText2} fontSize="1.2rem" />
+        )}
+        {showDay && (
+          <h3 className="last-h3">
+            {" "}
+            <b>
+              {Math.floor(
+                (new Date().getTime() - new Date("2023-10-06").getTime()) /
+                  (1000 * 60 * 60 * 24)
+              )}
+              th Day
+            </b>
+          </h3>
+        )}
       </div>
     </div>
   );

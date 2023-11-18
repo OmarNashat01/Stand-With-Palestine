@@ -1,8 +1,17 @@
-import React from 'react';
-
+import React from "react";
+import TimelineSection from "../../components/TimelineSection/TimelineSection";
 const RecentTimelinePage: React.FC = () => {
   return (
-    <div style={{ flex: 1, borderTopLeftRadius: '4rem', borderTopRightRadius: '4rem', backgroundColor: '#101010' }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "20px",
+      }}
+    >
+      <TimelineSection direction="left" />
+      <TimelineSection direction="right" />
+      <TimelineSection direction="left" />
     </div>
   );
 };

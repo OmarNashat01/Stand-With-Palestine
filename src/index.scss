@@ -18,6 +18,23 @@ body {
   overflow-x: hidden;
 }
 
+// for the statistics package
+body {
+  --tooltip-background: rgba(0,5,11,0.9);
+  --tooltip-color: #fff;
+  --tooltip-border-radius: 5px;
+  --tooltip-spacing: 5px;
+
+  --chart-background: rgb(51, 51, 51);
+  --chart-color: #fff;
+
+  --chart-handle-fill: #2c343a;
+  --chart-handle-stroke: $primary-color;
+  --chart-handle-drag-fill: transparent;
+  --chart-handle-dots:$primary-color;
+  --chart-handle-line: $primary-color;
+  }
+
 a {
   text-decoration: none; /* Removes underline */
   color: inherit; /* Inherits the color from the parent element */

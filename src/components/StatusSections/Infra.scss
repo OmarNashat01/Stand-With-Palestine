@@ -1,0 +1,80 @@
+@import '../../variables';
+
+
+.infra-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 6px;
+  width: 100%;
+  padding: 1rem;
+
+
+
+  .grid-item {
+    cursor: pointer;
+    text-align: left;
+    padding: 1rem;
+    border: 0.0px solid #dedede51;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#1f1f1f, #141414);
+    flex: 1;
+
+    @media (max-width: 1200px) {
+      flex-basis: 40%;
+    }
+   
+
+    .icon {
+      color: #fffaf0;
+      font-size: 3.0rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0.4rem;
+    }
+
+    .icon-color {
+      color: #fffaf0;
+      font-size: 2.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0.4rem;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .number-h1 {
+      font-size: 2.5rem;
+      color: $primary-color-light;
+      text-align: center;
+    }
+
+    .number-h1-mini {
+      font-size: 1.5rem;
+      color: $primary-color-light;
+      text-align: center;
+    }
+
+    .normal-h1 {
+      color: #fffaf0;
+    }
+
+    .mini-h1 {
+      font-size: 1.1rem;
+      color: #fffaf0;
+      text-align: center;
+    }
+
+  }
+
+
+}

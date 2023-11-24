@@ -1,9 +1,41 @@
 {
-    "22/11/2023": {
-        "deaths": 14757,
-        "injuries": 37850,
+    "23/11/2023": {
+        "martyr_data": {
+            "total_gaza": 14854,
+            "kids_gaza": 6150,
+            "women_gaza": 4000,
+            "total_west": 228,
+            "elderly_gaza": 682,
+            "medical": 207,
+            "press": 65,
+            "educational": 127,
+            "un": 108,
+            "kids_west": 56,
+            "civil_defence": 36,
+            "missing_kids_women": 4700,
+            "missing": 7000
+        },
+        "injured_data": {
+            "total_gaza": 36000,
+            "total_west": 2850,
+            "kids_gaza": 6168,
+            "kids_west": 364
+        },
+        "building_data": {
+            "damaged_housing_units": 234000,
+            "out_of_service_hospital": 26,
+            "destroyed_buildings": 25010,
+            "destroyed_housing_units": 46000,
+            "damaged_hospital": 25,
+            "destroyed_church": 3,
+            "destroyed_mosque": 88,
+            "destroyed_government_headquarters": 103,
+            "media": 14580,
+            "destroyed_school": 67,
+            "partially_destroyed_school": 200,
+            "destroyed_ambulances": 56
+        },
         "displaced": 1650000,
-        "buildings": 233000,
-        "captured": 3035
+        "detained": 3130
     }
 }

@@ -2,75 +2,169 @@ import re
 import os
 import json
 import urllib.request
+
 from bs4 import BeautifulSoup
+from typing import List, Dict, Tuple
 
 
 def get_tag_text(html_content: BeautifulSoup, tag_name: str) -> str:
+    """
+    Finds all instances of a certain tag, converts them to strings, and concatenates them.
+    """
     return ''.join(str(tag) for tag in html_content.find_all(tag_name))
 
 
-class DayData:
-
-    def __init__(self, deaths: int, injuries: int, displaced: int,
-                 buildings: int, captured: int):
-        self.deaths = deaths
-        self.injuries = injuries
-        self.displaced = displaced
-        self.buildings = buildings
-        self.captured = captured
-
+def get_html(url: str) -> BeautifulSoup:
     """
-    The numbers are stored somewhere in the HTML page in a script block containing something like this:
+    Fetches the HTML content of the given URL.
+    """
+    with urllib.request.urlopen(url) as request:
+        html_string = request.read().decode("utf8")
+        return BeautifulSoup(html_string, features="lxml")
 
-    ```
-    <!-- Lots of text -->
 
-    document.addEventListener("DOMContentLoaded", () => {
-     counterAnim("#Mat", 10, 14757, 1000);
-     counterAnim("#jareeh", 5000, 37850, 1500);
-     counterAnim("#Nazeh", 1000, 1650000, 2000);
-     counterAnim("#build", 500, 233000, 2500);
-     counterAnim("#aseer", 500, 3035, 2500);
-    });
+def get_counter_anim_numbers(
+        url: str, html_elements_to_keys: Dict[str, str]) -> Dict[str, int]:
+    """
+        Given a URL, and a dict that maps locations to json names, fetches the `counterAnim` data from its script tags 
+        and places each number under the proper json name. 
 
-    <!-- Lots of text -->
-    ```
+        NOTE: that each page (Martyrs, Injuired, etc..) has a set of `counterAnim` 
+        calls that contain the data for each subgroup.
 
-    `counterAnim(.*)` appears inside other tags, but we only care about the script
-    tags since they seem the easiest to parse. We extract the `counterAnim` calls,
-    then we extract the numbers and dump them into a file.
+        NOTE: `counterAnim(.*)` appears inside other tags, but we only care about the script
+        tags since they seem the easiest to parse. We extract the `counterAnim` calls,
+        then we extract the numbers and dump them into a file.
+
+        Example HTML from expanded martyr page:
+        ```
+        <!-- Lots of HTML/JS ... -->
+
+        document.addEventListener("DOMContentLoaded", () => {
+        counterAnim("#MartGaza", 100, 14854, 2000);
+        counterAnim("#KidsGaza", 100, 6150, 2000);
+        // other counterAnim calls...
+        });
+
+        <!-- Lots of HTML/JS ... -->
+        ```
+
+        Given the HTML containing the above snippet and `{ "MartGaza" : "total_martyrs", "KidsGaza": "kids_gaza" }`, 
+        should return `{ "total_martyrs": 14854, "kids_gaza": 6150 }`.
+    """
+    html_content = get_html(url)
+    scripts = get_tag_text(html_content, "script")
+
+    def number_pattern(key: str):
+        return fr'.*counterAnim\("#{key}", \S+, (\d+), \S+\)'
+
+    return {
+        key: int(re.findall(number_pattern(element), scripts)[0])
+        for element, key in html_elements_to_keys.items()
+    }
+
+
+def get_martyr_data() -> Dict[str, int]:
+    """
+    NOTE: Website doesn't mention whether "missing" is a total or a subgroup (men, elderly, etc...). I think it's safe 
+    to assume it's the total.
     """
 
-    def from_day_html(html_content: BeautifulSoup):
-        scripts = get_tag_text(html_content, "script")
+    # Obtained by visiting `pcbs.gov.ps` and clicking on each label (Martyrs in this case)
+    DATA_URL = "https://www.pcbs.gov.ps/site/lang__en/1405/Default.aspx"
 
-        COUNTER_ANIM_PATTERN = r'counterAnim\(.*?\);'
-        NUMBER_PATTERN = r'counterAnim\(\S+, \S+, (\d+), \S+\)'
+    # Obtained by manually inspecting the page HTML ( thanks ctrl-f :) )
+    # Maps from a location tag to the name in the json (just in case they update the location tags, will just need to
+    # update this script and not the rest of the code reading the data).
+    html_elements_to_keys = {
+        "MartGaza": "total_gaza",
+        "KidsGaza": "kids_gaza",
+        "MartWomanGaza": "women_gaza",
+        "MartWB": "total_west",
+        "MartOld": "elderly_gaza",
+        "Doctors": "medical",
+        "press": "press",
+        "teacher": "educational",
+        "UN": "un",
+        "WBKidsMart": "kids_west",
+        "CivilDef": "civil_defence",
+        "MissingKids": "missing_kids_women",
+        "Missing": "missing"
+    }
 
-        counter_anim_calls = re.findall(COUNTER_ANIM_PATTERN, scripts)
-        deaths, injuries, displacements, buildings, captures = [
-            int(re.findall(NUMBER_PATTERN, call)[0])
-            for call in counter_anim_calls
-        ]
-
-        return DayData(deaths, injuries, displacements, buildings, captures)
+    return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
 
 
-def get_date(html_content: BeautifulSoup):
-    DATE_PATTERN = r'(\d+/\d+/\d+)'
+def get_injuired_data() -> Dict[str, int]:
+    DATA_URL = "https://www.pcbs.gov.ps/site/lang__en/1406/Default.aspx"
+    html_elements_to_keys = {
+        "InjuredGaza": "total_gaza",
+        "InjuredWB": "total_west",
+        "InjuredGazaKids": "kids_gaza",
+        "InjuredWBKids": "kids_west"
+    }
 
-    h3 = get_tag_text(html_content, "h3")
-    date = re.findall(DATE_PATTERN, h3)[0]
-
-    return date
+    return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
 
 
-with urllib.request.urlopen("https://www.pcbs.gov.ps/default.aspx") as request:
-    html_string = request.read().decode("utf8")
-    html_content = BeautifulSoup(html_string, features="lxml")
+def get_date() -> str:
+    """
+    NOTE: We get all three since they appear in the main page. Detainees and displaced have no "extra info" page.
+    """
+    DATA_URL = "https://www.pcbs.gov.ps/default.aspx"
+    with urllib.request.urlopen(DATA_URL) as request:
+        html_string = request.read().decode("utf8")
+        html_content = BeautifulSoup(html_string, features="lxml")
 
-    day_data = DayData.from_day_html(html_content)
-    date = get_date(html_content)
+        DATE_PATTERN = r'(\d+/\d+/\d+)'
+        h3 = get_tag_text(html_content, "h3")
+        date = re.findall(DATE_PATTERN, h3)[0]
+
+        return date
+
+
+def get_detainees_displaced_data() -> Dict[str, int]:
+    DATA_URL = "https://www.pcbs.gov.ps/default.aspx"
+    html_elements_to_keys = {"Nazeh": "displaced", "aseer": "detained"}
+
+    return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
+
+
+def get_destroyed_building_data() -> Dict[str, int]:
+    DATA_URL = "https://www.pcbs.gov.ps/site/lang__en/1408/Default.aspx"
+    html_elements_to_keys = {
+        "DamagedUnits": "damaged_housing_units",
+        "hospitaloutser": "out_of_service_hospital",
+        "DestBuilding": "destroyed_buildings",
+        "DestUnits": "destroyed_housing_units",
+        "DamagedHospitals": "damaged_hospital",
+        "Church": "destroyed_church",
+        "Masjed": "destroyed_mosque",
+        "ministries": "destroyed_government_headquarters",
+
+        # Not displayed in the browser for some reason
+        "Media": "media",
+        "School": "destroyed_school",
+        "Schoolp": "partially_destroyed_school",
+        "ambulanace": "destroyed_ambulances"
+    }
+
+    return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
+
+
+if __name__ == '__main__':
+    date = get_date()
+    martyr_data = get_martyr_data()
+    injured_data = get_injuired_data()
+    detainees_displaced_data = get_detainees_displaced_data()
+    destroyed_building_data = get_destroyed_building_data()
+
+    day_data = {
+        "martyr_data": martyr_data,
+        "injured_data": injured_data,
+        "building_data": destroyed_building_data,
+        **detainees_displaced_data
+    }
 
     JSON_FILE_NAME = "pcbs_data.json"
     if not os.path.exists(JSON_FILE_NAME):
@@ -92,6 +186,6 @@ with urllib.request.urlopen("https://www.pcbs.gov.ps/default.aspx") as request:
             )
             exit(1)
 
-        json_file[date] = day_data.__dict__
+        json_file[date] = day_data
         f.write(json.dumps(json_file, indent=4))
         print(f"Data for {date} added to {JSON_FILE_NAME}")

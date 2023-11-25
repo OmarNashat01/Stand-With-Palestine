@@ -1,9 +1,11 @@
 import React from "react";
-import "./TimelineSection.scss";
+import "./HistoricTimelineSection.scss";
 interface TimelineInterface {
   direction: string;
 }
-const TimelineSection: React.FC<TimelineInterface> = ({ direction }) => {
+const HistoricTimelineSection: React.FC<TimelineInterface> = ({
+  direction,
+}) => {
   return (
     <div
       className="section-container"
@@ -80,4 +82,4 @@ const TimelineSection: React.FC<TimelineInterface> = ({ direction }) => {
   );
 };
 
-export default TimelineSection;
+export default HistoricTimelineSection;

@@ -48,7 +48,7 @@ const NavigationBar: React.FC = () => {
             <span className={`${location.pathname.includes('timeline')? 'selected' : ''}`}><BiSolidTimeFive style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Timeline</span>
             <ul className="dropdown-list">
               <li className={`nav-item`}>
-                <Link to="/timeline/historic">Current Timeline</Link>
+                <Link to="/timeline/historic">Historic Timeline</Link>
               </li>
               <li className={`nav-item`}>
                 <Link to="/timeline/recent">Recent Timeline</Link>

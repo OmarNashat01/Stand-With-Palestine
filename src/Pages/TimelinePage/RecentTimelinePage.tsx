@@ -1,19 +1,16 @@
 import React from "react";
-import TimelineSection from "../../components/TimelineSection/TimelineSection";
-const RecentTimelinePage: React.FC = () => {
+
+const HistoricTimelinePage: React.FC = () => {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "20px",
+        flex: 1,
+        borderTopLeftRadius: "4rem",
+        borderTopRightRadius: "4rem",
+        backgroundColor: "#101010",
       }}
-    >
-      <TimelineSection direction="left" />
-      <TimelineSection direction="right" />
-      <TimelineSection direction="left" />
-    </div>
+    ></div>
   );
 };
 
-export default RecentTimelinePage;
+export default HistoricTimelinePage;

@@ -1,5 +1,5 @@
 import React from "react";
-import { blogs } from "../../data/blogs";
+import { blogs } from "./BlogsPageData";
 import Card from "../../components/Simple/Card";
 
 const BlogsListPage: React.FC = () => {
@@ -10,7 +10,7 @@ const BlogsListPage: React.FC = () => {
                 borderTopLeftRadius: "4rem",
                 borderTopRightRadius: "4rem",
                 backgroundColor: "#1d1d1d",
-                padding: "5rem",
+                padding: "4rem",
             }}
         >
             <div

@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import HomePage from "./Pages/HomePage/HomePage";
 import BlogsListPage from "./Pages/BlogsPage/BlogsListPage";
+import BlogPage from "./Pages/BlogsPage/BlogPage";
 import CrimesPage from "./Pages/CrimesPage/CrimesPage";
 import LiesPage from "./Pages/LiesPage/LiesPage";
 import StatusPage from "./Pages/StatusPage/StatusPage";
@@ -11,21 +12,28 @@ import HistoricTimelinePage from "./Pages/TimelinePage/HistoricTimelinePage";
 import RecentTimelinePage from "./Pages/TimelinePage/RecentTimelinePage";
 
 function App() {
-  return (
-    <>
-      <NavigationBar />
-      <Routes>
-          <Route path="/" element={<HomePage/>} />
-          <Route path="/blogs" element={<BlogsListPage/>} />
-          <Route path="/crimes" element={<CrimesPage/>} />
-          <Route path="/lies" element={<LiesPage/>} />
-          <Route path="/status" element={<StatusPage/>} />
-          <Route path="/support" element={<SupportPage/>} />
-          <Route path="/timeline/historic" element={<HistoricTimelinePage/>} />
-          <Route path="/timeline/recent" element={<RecentTimelinePage/>} />
-      </Routes>
-      </>
-  );
+    return (
+        <>
+            <NavigationBar />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/blogs" element={<BlogsListPage />} />
+                <Route path="/blogs/:id" element={<BlogPage />} />
+                <Route path="/crimes" element={<CrimesPage />} />
+                <Route path="/lies" element={<LiesPage />} />
+                <Route path="/status" element={<StatusPage />} />
+                <Route path="/support" element={<SupportPage />} />
+                <Route
+                    path="/timeline/historic"
+                    element={<HistoricTimelinePage />}
+                />
+                <Route
+                    path="/timeline/recent"
+                    element={<RecentTimelinePage />}
+                />
+            </Routes>
+        </>
+    );
 }
 
 export default App;

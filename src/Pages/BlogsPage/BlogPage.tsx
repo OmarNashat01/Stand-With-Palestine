@@ -1,10 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { blogs } from "../../data/blogs";
+import Markdown from "../../components/Simple/Markdown";
 
 const BlogPage: React.FC = () => {
-  return (
-    <div style={{ flex: 1, borderTopLeftRadius: '4rem', borderTopRightRadius: '4rem', backgroundColor: '#101010' }}>
-    </div>
-  );
+    const [blog, setBlog] = useState<string | null>(null);
+    const { id } = useParams();
+
+    useEffect(() => {
+        if (!id) return;
+
+        const selectedBlog = blogs[id];
+        fetch(selectedBlog.blogPath)
+            .then((res) => res.text())
+            .then((text) => setBlog(text));
+    }, []);
+
+    return (
+        <div
+            style={{
+                flex: 1,
+                borderTopLeftRadius: "4rem",
+                borderTopRightRadius: "4rem",
+                backgroundColor: "#101010",
+            }}
+        >
+            <Markdown markdownText={blog || ""} />
+        </div>
+    );
 };
 
 export default BlogPage;

@@ -1,4 +1,12 @@
-export const blogs = {
+interface Blog {
+    id: number;
+    name: string;
+    imagePath: string;
+    blogPath: string;
+    summary: string;
+}
+
+export const blogs: Record<string, Blog> = {
     "1": {
         id: 1,
         name: "Very Important Blog to Read!",

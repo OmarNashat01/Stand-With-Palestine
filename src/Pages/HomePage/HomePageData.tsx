@@ -254,7 +254,7 @@ const homeData = {
       circular: false,
       minHeight: '40vh',
       imagePath: "https://static.timesofisrael.com/www/uploads/2023/10/33YA3AR-highres.jpg",
-      overlayColor: "rgba(0, 0, 0, 0.35)",
+      overlayColor: "rgba(0, 0, 0, 0.6)",
       title: "Speak Up, Support Humanity, Support Palestine",
       subTitle: '',
       subTitle2: "Together, we can prevent thousands more from suffering and dying",

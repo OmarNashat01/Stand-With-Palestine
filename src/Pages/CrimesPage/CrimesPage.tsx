@@ -3,7 +3,6 @@ import Banner from "../../components/Simple/Banner";
 // @ts-ignore
 import Faq from 'react-faq-component';
 import {crimesDict, crimeHeroDict, faqData} from './CrimesPageData'
-//import SearchInput from "../../components/Simple/SearchInput";
 import CrimesList from "../../components/CrimeSections/CrimesList";
 import GradientHero from "../../components/Simple/GradientHero";
 import SearchInput from "../../components/Simple/SearchInput";
@@ -25,7 +24,7 @@ const CrimesPage: React.FC = () => {
       }}
     >
       {/* Assuming CrimeHero and Banner components are imported */}
-      <GradientHero title={crimeHeroDict["title"]} subTitle1={crimeHeroDict["subTitle1"]} subTitle2={crimeHeroDict["subTitle2"]} />
+      <GradientHero title={crimeHeroDict["title"]} subTitle1={crimeHeroDict["subTitle1"]} subTitle2={crimeHeroDict["subTitle2"]} bloody/>
       <SearchInput listItems={crimesDict} onSearch={handleSearch} placeHolder="Search by article or crime instance..."/>
       <CrimesList crimesDict={filteredCrimes} />
       <div style={{ height: '80px', backgroundColor: '#141414' }}></div>

@@ -5,9 +5,10 @@ interface GradientHeroProps {
     title: string;
     subTitle1:string;
     subTitle2:string;
+    bloody?:boolean;
   }
   
-  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2}) => {
+  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, bloody=false}) => {
     return (
       <div
       className="war-intro"
@@ -23,7 +24,7 @@ interface GradientHeroProps {
           fontSize: "4rem",
           paddingBottom: "0.5rem",
         }}
-        className="dead-dude"
+        className={(bloody)?"dead-dude":"dude"}
       >
         {title}
       </h1>

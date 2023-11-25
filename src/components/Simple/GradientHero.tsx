@@ -1,11 +1,13 @@
-import "./CrimeHero.scss";
+import "./GradientHero.scss";
 import React, { useEffect } from "react";
 
-interface CrimeHeroProps {
-    crimeHeroDict: any;
+interface GradientHeroProps {
+    title: string;
+    subTitle1:string;
+    subTitle2:string;
   }
   
-  const CrimeHero: React.FC<CrimeHeroProps>  = ({crimeHeroDict}) => {
+  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2}) => {
     return (
       <div
       className="war-intro"
@@ -23,7 +25,7 @@ interface CrimeHeroProps {
         }}
         className="dead-dude"
       >
-        {crimeHeroDict["title"]}
+        {title}
       </h1>
       <h2
         style={{
@@ -33,7 +35,7 @@ interface CrimeHeroProps {
           color: "white",
         }}
       >
-        {crimeHeroDict["subTitle1"]}
+        {subTitle1}
       </h2>
       <h3
         style={{
@@ -42,7 +44,7 @@ interface CrimeHeroProps {
           fontWeight: "1rem",
         }}
       >
-        {crimeHeroDict["subTitle2"]}
+        {subTitle2}
       </h3>
     </div>
     )

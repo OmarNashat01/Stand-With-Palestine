@@ -11,6 +11,11 @@ interface CrimesListProps {
   }
   const CrimesList: React.FC<CrimesListProps>  = ({crimesDict}) => {
     const navigate = useNavigate();
+
+    if (crimesDict.length === 0) {
+      return <div className="crimes-content" style={{color: 'rgb(170, 169, 169)', textAlign:'center'}}>No crimes match this search criteria...</div>;
+    }
+
     return (
       <div className="crimes-content">
       {crimesDict.map((crime:any, index:any) => (

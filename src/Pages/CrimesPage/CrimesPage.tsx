@@ -1,34 +1,42 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Banner from "../../components/Simple/Banner";
 // @ts-ignore
 import Faq from 'react-faq-component';
 import {crimesDict, crimeHeroDict, faqData} from './CrimesPageData'
-import SearchInput from "../../components/Simple/SearchInput";
+//import SearchInput from "../../components/Simple/SearchInput";
 import CrimesList from "../../components/CrimeSections/CrimesList";
-import CrimeHero from "../../components/CrimeSections/CrimeHero";
+import GradientHero from "../../components/Simple/GradientHero";
+import SearchInput from "../../components/Simple/SearchInput";
 
 const CrimesPage: React.FC = () => {
+  const [filteredCrimes, setFilteredCrimes] = useState(crimesDict);
+
+  const handleSearch = (filteredCrimes: any) => {
+    setFilteredCrimes(filteredCrimes);
+  };
+
   return (
     <div
       style={{
         flex: 1,
-        borderTopLeftRadius: "4rem",
-        borderTopRightRadius: "4rem",
-        backgroundColor: "#101010",
+        borderTopLeftRadius: '4rem',
+        borderTopRightRadius: '4rem',
+        backgroundColor: '#101010',
       }}
     >
-      <CrimeHero crimeHeroDict={crimeHeroDict}/>
-      <SearchInput />
-      <CrimesList crimesDict={crimesDict} />
-      <div style={{height:"80px", backgroundColor: '#141414'}}></div>
-      <Banner
-        title="Frequently Asked Questions"
-        styleObj={{ color: "white" }}
-      />
-      <Faq data={faqData}/>
+      {/* Assuming CrimeHero and Banner components are imported */}
+      <GradientHero title={crimeHeroDict["title"]} subTitle1={crimeHeroDict["subTitle1"]} subTitle2={crimeHeroDict["subTitle2"]} />
+      <SearchInput listItems={crimesDict} onSearch={handleSearch} placeHolder="Search by article or crime instance..."/>
+      <CrimesList crimesDict={filteredCrimes} />
+      <div style={{ height: '80px', backgroundColor: '#141414' }}></div>
+      <Banner title="Frequently Asked Questions" styleObj={{ color: 'white' }} />
+      {/* Assuming Faq component is imported */}
+      <Faq data={faqData} />
     </div>
   );
 };
+
+
 
 
 export default CrimesPage;

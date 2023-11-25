@@ -1,17 +1,22 @@
-import React, { FC } from 'react';
+import React, { FC, useCallback, ChangeEvent } from 'react';
 import { FaEye } from 'react-icons/fa';
 import { AiFillSound } from 'react-icons/ai';
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 import HeroButton from './HeroButton';
 import "./Modal.scss";
+import 'rc-slider/assets/index.css';
+import { useGlobalAudioPlayer } from 'react-use-audio-player';
 
 interface ModalProps {
   showModal: boolean;
   setShowModal: (show: boolean) => void;
+  volume: number;
+  setVolume: any;
 }
 
-const Modal: FC<ModalProps> = ({ showModal, setShowModal }) => {
+const Modal: FC<ModalProps> = ({ showModal, setShowModal, volume, setVolume }) => {
+
   return (
     <>
       {showModal && (
@@ -34,7 +39,8 @@ const Modal: FC<ModalProps> = ({ showModal, setShowModal }) => {
                   <AiFillSound style={{ marginBottom: '-2px', marginRight: '0.3rem' }} />
                   Control Sound
                 </p>
-                <Slider />
+
+                <Slider max={1.0} step={0.02} value={volume} defaultValue={volume} onChange={(value)=>setVolume(value)} />
               </div>
             </div>
             <HeroButton

@@ -30,6 +30,7 @@
     "react-spring": "^9.7.3",
     "react-swift-reveal": "^1.0.2",
     "react-type-animation": "^3.2.0",
+    "react-use-audio-player": "^2.2.0",
     "typescript": "^5.2.2",
     "web-vitals": "^2.1.4"
   },

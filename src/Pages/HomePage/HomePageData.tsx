@@ -102,14 +102,15 @@ const homeData = {
       extraImagePath: "https://www.aljazeera.com/wp-content/uploads/2023/09/2023-09-22T133239Z_1726651141_RC2PD3AMM7DW_RTRMADP_3_UN-ASSEMBLY-1695389643.jpg?resize=1920%2C1440",
       overlayColor: "rgba(0, 0, 0, 0.6)",
       blur: "blur(3px)",
-      title: "Israeli Officials Speak Genocidally of Gaza",
+      title: "Israel is Committing Genocide in Gaza",
       subTitle: "",
       text: 
-      `President said #It is an entire nation out there that is responsible#.|
+      `Intended killing members of a nation, or causing serious bodily or mental harm is genocide by definition.|
+      President said #It is an entire nation out there that is responsible#.|
        Coordinator of Government Activities said #There will be no electricity and no water, there will only be destruction. You wanted hell, you will get hell#.|
        Finance Minister said #There is no such thing as a Palestinian nation. There is no Palestinian history#.|
-       Prime Minister said regarding the state of Gaza post-war #We must have security control. I insist upon it#.|
-       Intended killing members of a nation, or causing serious bodily or mental harm is genocide by definition.`,
+       Prime Minister said regarding the state of Gaza post-war #We must have security control. I insist upon it#.
+       `,
       bulleted: "unordered",
       buttonText1: "Check Israeli War Crimes ▶",
       buttonText2: "",
@@ -253,7 +254,7 @@ const homeData = {
       circular: false,
       minHeight: '40vh',
       imagePath: "https://static.timesofisrael.com/www/uploads/2023/10/33YA3AR-highres.jpg",
-      overlayColor: "rgba(0, 0, 0, 0.35)",
+      overlayColor: "rgba(0, 0, 0, 0.6)",
       title: "Speak Up, Support Humanity, Support Palestine",
       subTitle: '',
       subTitle2: "Together, we can prevent thousands more from suffering and dying",

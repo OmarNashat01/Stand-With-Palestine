@@ -7,7 +7,7 @@ interface Blog {
     summary: string;
 }
 
-export const blogs = [
+export const blogs: Blog[] = [
     {
         showBlog: true,
         name: "Very Important Blog to Read!",
@@ -37,17 +37,15 @@ export const blogs = [
     },
     {
         showBlog: true,
-        id: 4,
         name: "Blog 4",
-        imagePath: "/Unused/Gaza-Sat.jpeg",
         subTitle: "A Blog For the Next Gen Z Kids",
+        imagePath: "/Unused/Gaza-Sat.jpeg",
         blogPath: "/BlogsPage/mock-blog.md",
         summary:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a tempor nunc. Vestibulum id ligula.",
     },
     {
         showBlog: true,
-        id: 5,
         name: "Blog 5",
         subTitle: "A Blog For the Next Gen Z Kids",
         imagePath: "/Unused/Gaza-red.jpeg",

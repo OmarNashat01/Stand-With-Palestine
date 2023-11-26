@@ -5,56 +5,57 @@ import Markdown from "../../components/Simple/Markdown";
 import GradientHero from "../../components/Simple/GradientHero";
 import { useNavigate } from "react-router-dom";
 
-function getBlogByPath(blogPath: string){
-  const foundBlog = blogs.find(blog => blog.blogPath === blogPath);
-  return foundBlog;
+function getBlogByPath(blogPath: string) {
+    const foundBlog = blogs.find((blog) => blog.blogPath === blogPath);
+    return foundBlog;
 }
 
 const BlogPage: React.FC = () => {
-  const navigate = useNavigate();
-  const [blog, setBlog] = useState<string | null>(null);
-  const { id } = useParams();
-  const [title, setTitle] = useState("");
-  const [subTitle, setSubTitle] = useState("");
-  useEffect(() => {
-    if (!id) return;
-    const selectedBlog = getBlogByPath(`/BlogsPage/${id}.md`);
-    if (selectedBlog != undefined) {
-      setTitle(selectedBlog.name);
-      setSubTitle(selectedBlog.subTitle);
-      fetch(selectedBlog.blogPath)
-        .then((res) => res.text())
-        .then((text) => setBlog(text));
-    }
-    else {
-      navigate("/404");
-    }
-    //else  redirect to 404
+    const [blog, setBlog] = useState("");
+    const [title, setTitle] = useState("");
+    const [subTitle, setSubTitle] = useState("");
 
-  }, []);
+    const navigate = useNavigate();
+    const { id } = useParams();
 
-  return (
-    <div
-      style={{
-        flex: 1,
-        borderTopLeftRadius: "4rem",
-        borderTopRightRadius: "4rem",
-        backgroundColor: "#1d1d1d",
-        maxWidth: "85%",
-        margin: "auto",
-      }}
-      className="blog-page"
-    >
-      <GradientHero
-        title={title}
-        subTitle1={subTitle}
-        subTitle2={""}
-        bloody={false}
-        circular={true}
-      />
-      <Markdown markdownText={blog || ""} />
-    </div>
-  );
+    useEffect(() => {
+        if (!id) return;
+
+        const selectedBlog = getBlogByPath(`/BlogsPage/${id}.md`);
+
+        if (selectedBlog != undefined) {
+            setTitle(selectedBlog.name);
+            setSubTitle(selectedBlog.subTitle);
+            fetch(selectedBlog.blogPath)
+                .then((res) => res.text())
+                .then((text) => setBlog(text));
+        } else {
+            navigate("/404");
+        }
+    }, []);
+
+    return (
+        <div
+            style={{
+                flex: 1,
+                borderTopLeftRadius: "4rem",
+                borderTopRightRadius: "4rem",
+                backgroundColor: "#1d1d1d",
+                maxWidth: "85%",
+                margin: "auto",
+            }}
+            className="blog-page"
+        >
+            <GradientHero
+                title={title}
+                subTitle1={subTitle}
+                subTitle2={""}
+                bloody={false}
+                circular={true}
+            />
+            <Markdown markdownText={blog} />
+        </div>
+    );
 };
 
 export default BlogPage;

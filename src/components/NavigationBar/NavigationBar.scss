@@ -68,12 +68,15 @@
       cursor: pointer;
       font-weight: 500;
       font-size: 1.1rem;
-      padding: 0.6rem;
       border-radius: 1rem;
       display: flex;
-
+      
       &:hover {
         background-color: $primary-color;
+      }
+      
+      a {
+        padding: 0.6rem;
       }
 
       .nav-item-icon {
@@ -91,6 +94,7 @@
 
     .dropdown {
       position: relative;
+      padding: 0.6rem;
       z-index: 99;
 
       &:hover {
@@ -120,8 +124,16 @@
           border-radius: 1rem;
           white-space: nowrap;
           margin: 0;
-          border-top-left-radius: 0rem;
-          border-top-right-radius: 0rem;
+          border-radius: 0rem;
+          
+          &:first-child {
+            border-top-right-radius: 1rem;
+          }
+
+          &:last-child {
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+          }
 
           &:hover {
             background-color: $background-color-light;

@@ -33,7 +33,6 @@
     .card-content {
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
-        //background-color: #0d0d0d;
         background: linear-gradient(30deg, #131313, #000000);
 
         color: $text-color;
@@ -63,12 +62,12 @@
         }
 
         .card-footer a {
-                display: inline-block;
-                margin: 1rem 1.5rem 1.5rem 1.5rem;
-                color: $primary-color;
-                font-size: 0.8rem;
-                text-decoration: underline;
-                
+            display: block;
+            padding: 1rem 1.5rem 1.5rem 1.5rem;
+            color: $primary-color;
+            font-size: 0.8rem;
+            text-decoration: underline;
+
             &:hover {
                 color: $primary-color-light;
             }

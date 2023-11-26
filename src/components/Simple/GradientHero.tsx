@@ -6,9 +6,10 @@ interface GradientHeroProps {
     subTitle1:string;
     subTitle2:string;
     bloody?:boolean;
+    circular?:boolean;
   }
   
-  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, bloody=false}) => {
+  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, bloody=false, circular=false}) => {
     return (
       <div
       className="war-intro"
@@ -16,6 +17,8 @@ interface GradientHeroProps {
         background: "radial-gradient(#272727, #141414)",
         padding: "2rem",
         textAlign: "center",
+        borderTopLeftRadius: (circular) ? "4rem" : "0rem",
+        borderTopRightRadius: (circular) ? "4rem" : "0rem",
       }}
     >
       <h1

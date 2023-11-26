@@ -61,16 +61,8 @@ const NavigationBar: React.FC = () => {
           <li className={`nav-item ${location.pathname === '/lies' ? 'selected' : ''}`}>
             <Link to="/lies"><PiTelevisionSimpleFill style={{ margin: '-3px', paddingRight: '0.1rem' }} /> Lies</Link>
           </li>
-          <li className={`nav-item dropdown`}>
-            <span className={`${location.pathname.includes('history')||location.pathname.includes('interview') ? 'selected' : ''}`}><GiWhiteBook style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Blogs</span>
-            <ul className="dropdown-list">
-              <li className={`nav-item`}>
-                <Link to="/blogs/history">History Of Occupation</Link>
-              </li>
-              <li className={`nav-item`}>
-                <Link to="/blogs/interviews">Interviews</Link>
-              </li>
-            </ul>
+          <li className={`nav-item ${location.pathname === '/blogs' ? 'selected' : ''}`}>
+            <Link to="/blogs"><GiWhiteBook style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Blogs</Link>
           </li>
           <li className={`nav-item ${location.pathname === '/support' ? 'selected' : ''}`}>
             <Link to="/support"><AiFillHeart style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Support</Link>

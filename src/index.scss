@@ -84,3 +84,15 @@ a {
 .bounce {
   animation: bounce 1s infinite;
 }
+
+
+.markdown-container {
+  padding: 2rem !important;
+  max-width: none !important;
+}
+
+.blog-page {
+  @media only screen and (max-width: 760px) {
+    max-width: 100% !important;
+  }
+}

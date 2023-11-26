@@ -46,8 +46,6 @@ function getMostRecentDay(data: PCBSData) {
 	.sort((d1, d2) => {
 	    const date1 = parseDate(d1).valueOf();
 	    const date2 = parseDate(d2).valueOf();
-	    
-	    console.log(date1);
 
 	    if(date1 > date2) {
 		return -1;
@@ -59,7 +57,6 @@ function getMostRecentDay(data: PCBSData) {
 
 	})[0];
 
-    const mostRecent = parseDate(mostRecentStr);
     const yesterdayStr = formatDate(new Date(new Date().setDate(new Date().getDate()-1)));
 
     if(yesterdayStr in dates) {
@@ -234,7 +231,6 @@ export async function readPcbsData() {
     const gazaDict = getGazaData(latestData);
     const prevDayGazaDict = getGazaData(beforeLatestData);
     const gazaDictToday = computeDictDelta(gazaDict!, prevDayGazaDict);
-    console.log(gazaDict, prevDayGazaDict, gazaDictToday)
 
     const westBankDict = getWestBankData(latestData);
     const prevDayWestBankDict = getWestBankData(beforeLatestData);

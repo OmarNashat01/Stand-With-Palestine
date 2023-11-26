@@ -1,7 +1,7 @@
 const homeData = {
     mainHeroSection: {
       circular: true,
-      imagePath: "https://media.bnn.network/content/uploads/2023/10/gaza-israel-conflict-20231008182934.jpg",
+      imagePath: "./HomePage/gaza-ouch.webp",
       overlayColor: "rgba(0, 0, 0, 0.35)",
       title: "9/11 is a Daily Reality in Palestine",
       subTitle: "Tens of Thousands of Innocents are being Brutally Murdered or Severely Injured",
@@ -24,7 +24,7 @@ const homeData = {
     },
   
     statusSection: {
-      imagePath: './gaza-child-sad.webp',
+      imagePath: './HomePage/gaza-child-sad.webp',
       numbers: [6000, 4000, 38000, "~1.65M"],
       texts: ["Children Killed", "Woman Killed", "People in Pain", "People Displaced"],
       onClick: "./status"
@@ -37,8 +37,8 @@ const homeData = {
     },
   
     historicTimelineSection: {
-      imagePath: "./aqsa.webp",
-      extraImagePath: "./PMap.png",
+      imagePath: "./HomePage/aqsa.webp",
+      extraImagePath: "./HomePage/PMap.png",
       overlayColor: "rgba(0, 0, 0, 0.4)",
       blur: "blur(3px)",
       title: "Violence Did Not Begin with the Attacks from Hamas.",
@@ -57,8 +57,8 @@ const homeData = {
     },
   
     recentTimelineCrimeSection: {
-      imagePath: "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1937,w_3445,x_0,y_239/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1699618449/2023-11-09T154520Z_382644200_RC2O94A0OWRG_RTRMADP_3_ISRAL-PALESTINIANS-GAZA-HOSPITAL-SHIFA_v5etqj",
-      extraImagePath: "./almost.mp4",
+      imagePath: "./HomePage/gaza-carry.jpeg",
+      extraImagePath: "./HomePage/almost.mp4",
       isLocalVideo: true,
       isYouTube: false,
       overlayColor: "rgba(0, 0, 0, 0.6)",
@@ -79,8 +79,8 @@ const homeData = {
     },
   
     recentTimelineDiplomaticSection: {
-      imagePath: "https://truthout.org/app/uploads/2023/11/2023_11-01-jabalia-camp-bombed-1-1200x818.jpg",
-      extraImagePath: "https://media.npr.org/assets/img/2023/11/03/ap23306566121946-12f44564a940d349285effb3c46fb6981b117895-s1600-c85.webp",
+      imagePath: "./HomePage/gaza-demolish.jpeg",
+      extraImagePath: "./HomePage/us-aid.webp",
       overlayColor: "rgba(0, 0, 0, 0.6)",
       blur: "blur(2px)",
       title: "White House Approves a $14.3B Military Aid for Israel",
@@ -107,7 +107,7 @@ const homeData = {
   
     genocideSection: {
       imagePath: "",
-      extraImagePath: "https://www.aljazeera.com/wp-content/uploads/2023/09/2023-09-22T133239Z_1726651141_RC2PD3AMM7DW_RTRMADP_3_UN-ASSEMBLY-1695389643.jpg?resize=1920%2C1440",
+      extraImagePath: "./HomePage/NTN.webp",
       overlayColor: "rgba(0, 0, 0, 0.6)",
       blur: "blur(3px)",
       title: "Israel is Committing Genocide in Gaza",
@@ -130,7 +130,7 @@ const homeData = {
   
     warCrimesLiesSection: {
       imagePath: "",
-      extraImagePath: "./Azhar-University.mp4",
+      extraImagePath: "./HomePage/Azhar-University.mp4",
       overlayColor: "rgba(0, 0, 0, 0.6)",
       blur: "blur(3px)",
       isLocalVideo: true,
@@ -152,10 +152,10 @@ const homeData = {
     },
   
     beforeAfterSection: {
-      imagePath1: "./Before.jpg",
-      imagePath2: "./After.jpg",
-      imagePath1Resp: "./Before-rot.png",
-      imagePath2Resp: "./After-rot.png",
+      imagePath1: "./HomePage/Before.jpg",
+      imagePath2: "./HomePage/After.jpg",
+      imagePath1Resp: "./HomePage/Before-rot.png",
+      imagePath2Resp: "./HomePage/After-rot.png",
       title: "Indiscriminate Attacks or Hamas is Everywhere",
       subTitle: "Before and after - Atatra, northern Gaza",
     },
@@ -168,25 +168,25 @@ const homeData = {
   
     intenseGridSection1: {
       videoSources: [
-        "./videos/ChildSurvivor.mp4",
-        "./videos/IsraelTargetsChildren.mp4",
-        "./videos/ChildrenDead.mp4",
-        "./videos/Child.mp4",
-        "./videos/ChildrenGenocide.mp4",
-        "./videos/ChildCarried.mp4",
-        "./videos/Targeting Childrens2.mp4",
+        "./HomePage/videos-grid/ChildSurvivor.mp4",
+        "./HomePage/videos-grid/IsraelTargetsChildren.mp4",
+        "./HomePage/videos-grid/ChildrenDead.mp4",
+        "./HomePage/videos-grid/Child.mp4",
+        "./HomePage/videos-grid/ChildrenGenocide.mp4",
+        "./HomePage/videos-grid/ChildCarried.mp4",
+        "./HomePage/videos-grid/Targeting Childrens2.mp4",
       ],
     },
   
     intenseGridSection2: {
       videoSources: [
-        "./videos/Targeting Childrens2.mp4",
-        "./videos/Child.mp4",
-        "./videos/ChildSurvivor.mp4",
-        "./videos/IsraelTargetsChildren.mp4",
-        "./videos/ChildrenGenocide.mp4",
-        "./videos/ChildrenDead.mp4",
-        "./videos/ChildCarried.mp4",
+        "./HomePage/videos-grid/Targeting Childrens2.mp4",
+        "./HomePage/videos-grid/Child.mp4",
+        "./HomePage/videos-grid/ChildSurvivor.mp4",
+        "./HomePage/videos-grid/IsraelTargetsChildren.mp4",
+        "./HomePage/videos-grid/ChildrenGenocide.mp4",
+        "./HomePage/videos-grid/ChildrenDead.mp4",
+        "./HomePage/videos-grid/ChildCarried.mp4",
       ],
     },
   
@@ -197,7 +197,7 @@ const homeData = {
     },
   
     interviewSection1: {
-      imagePath: "https://nypost.com/wp-content/uploads/sites/2/2022/04/piers-show-002-1.jpg",
+      imagePath: "./HomePage/piers.webp",
       extraImagePath: "https://www.youtube.com/embed/4idQbwsvtUo?si=buoWlnAi7KOMcyyB\"",
       isYouTube: true,
       overlayColor: "rgba(0, 0, 0, 0.4)",
@@ -219,7 +219,7 @@ const homeData = {
     },
   
     interviewSection2: {
-      imagePath: "https://nypost.com/wp-content/uploads/sites/2/2022/04/piers-show-002-1.jpg",
+      imagePath: "./HomePage/piers.webp",
       extraImagePath: "https://www.youtube.com/embed/YRFKkmsDpuw?si=m8UjFWMtwvPZ21ZU",
       isYouTube: true,
       overlayColor: "rgba(0, 0, 0, 0.6)",
@@ -250,7 +250,7 @@ const homeData = {
     supportSection: {
       circular: false,
       minHeight: '40vh',
-      imagePath: "https://static.timesofisrael.com/www/uploads/2023/10/33YA3AR-highres.jpg",
+      imagePath: "./HomePage/paly.jpeg",
       overlayColor: "rgba(0, 0, 0, 0.6)",
       title: "Speak Up, Support Humanity, Support Palestine",
       subTitle: '',

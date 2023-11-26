@@ -18,7 +18,7 @@ const BlogPage: React.FC = () => {
   const [subTitle, setSubTitle] = useState("");
   useEffect(() => {
     if (!id) return;
-    const selectedBlog = getBlogByPath(`/blogs/${id}.md`);
+    const selectedBlog = getBlogByPath(`/BlogsPage/${id}.md`);
     if (selectedBlog != undefined) {
       setTitle(selectedBlog.name);
       setSubTitle(selectedBlog.subTitle);

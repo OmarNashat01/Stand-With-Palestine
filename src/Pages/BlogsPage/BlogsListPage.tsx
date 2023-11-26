@@ -34,7 +34,7 @@ const BlogsListPage: React.FC = () => {
             title={blog.name}
             summary={blog.summary}
             //@ts-ignore
-            link={`/blogs/${(blog.blogPath).match(/\/blogs\/(.*).md/)[1]}`}
+            link={`/blogs/${(blog.blogPath).match(/\/BlogsPage\/(.*).md/)[1]}`}
           />
         ))}
       </div>

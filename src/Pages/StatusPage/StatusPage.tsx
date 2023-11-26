@@ -8,17 +8,11 @@ import Banner from "../../components/Simple/Banner";
 import InfraStatusSection from "../../components/StatusSections/InfrasStatusSection";
 import StatisticsSection from "../../components/StatusSections/StatisticsSection";
 import {
-  gazaDict,
-  gazaDictToday,
-  westBankDict,
-  westBankDictToday,
-  infraDict,
-  deathRatiosData,
-  homeData,
   historyData,
   recentData,
   lastUpdated,
-  faqData
+  faqData,
+  readPcbsData,
 } from "./StatusPageData";
 import "../../components/StatusSections/FAQSection.scss";
 
@@ -31,6 +25,17 @@ const StatusPage: React.FC = () => {
   const [isSelectedToday, setIsSelectedToday] = useState(
     init("isSelectedToday", false)
   );
+
+  const [
+      gazaDict,
+      gazaDictToday,
+      westBankDict,
+      westBankDictToday,
+      infraDict,
+      deathRatiosData,
+      homeData
+  ] = readPcbsData();
+
   return (
     <div
       style={{

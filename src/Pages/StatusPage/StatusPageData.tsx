@@ -1,97 +1,214 @@
-export const gazaDict = {
-    killed: 12000,
-    killedKids: 5000,
-    killedWomen: 3300,
-    killedElder: 682,
-    killedMen: 12000 - 5000 - 3300 - 682,
-    killedMedical: 203,
-    killedUN: 103,
-    killedEdu: 127,
-    killedPress: 51,
-    injured: 30000,
-    injuredKids: 6168,
-    injuredAdults: 30000 - 6168,
-    missing: 3750,
-    missingKids: 1800,
-    missingAdults: 3750 - 1800,
-    displaced: 1.65,
-    funds: 14.3,
-    hospitalsDown: 26,
-    electricity: "OFF",
-    water: "OFF",
-    fuel: "OFF",
-    internet: "WEAK",
-  };
+import data from './pcbs_data.json';
 
-  export const gazaDictToday = {
-    killed:20,
-    killedKids: 10,
-    killedWomen: 4,
-    killedElder: 5,
-    killedMen: 1200 - 500 - 330 - 82,
-    killedMedical: 23,
-    killedUN: 13,
-    killedEdu: 17,
-    killedPress: 1,
-    injured: 3,
-    injuredKids: 61,
-    injuredAdults: 300 - 68,
-    missing: 30,
-    missingKids: 10,
-    missingAdults: 350 - 100,
-    displaced: 1.65,
-    funds: 14.3,
-    hospitalsDown: 3,
-    electricity: "OFF",
-    water: "OFF",
-    fuel: "OFF",
-    internet: "WEAK",
-  };
-
-  export const westBankDict = {
-    killed: 213,
-    killedKids: 49,
-    killedAdults: 213 - 49,
-    injured: 2750,
-    injuredKids: 282,
-    injuredAdults: 2750 - 282,
-    detained: 2850,
-  };
-
-  export const westBankDictToday = {
-    killed: 13,
-    killedKids: 9,
-    killedAdults: 21 - 4,
-    injured: 20,
-    injuredKids: 22,
-    injuredAdults: 20 - 2,
-    detained: 20,
-  };
-
-  export const infraDict = {
-    damagedHomes: 22500,
-    destroyedHomes: 43000,
-    damagedHospitals: 25,
-    destroyedAmbulances: 55,
-    damagedSchools: 196,
-    destroyedSchools: 64,
-    destroyedChurches: 3,
-    destroyedMosques: 77
-  }
-
-
-export const deathRatiosData = {
-  labels: ["Children", "Women", "Elderly", "Men"],
-  datasets: [
-    {
-      label: "Fatalities",
-      data: [5000, 3300, 682, 3018],
-      backgroundColor: "#d60a0aaa",
-      borderColor: "#d60a0a",
-      borderWidth: 1,
-    },
-  ],
+type DayData  = {
+    martyr: Map<string, number>,
+    injured: Map<string, number>,
+    building: Map<string, number>,
+    displaced: number,
+    detained: number
 };
+
+function parseDayData(dayData: any): DayData {
+    return {
+	martyr: new Map<string, number>(Object.entries(dayData.martyr_data)),
+	injured: new Map<string, number>(Object.entries(dayData.injured_data)),
+	building: new Map<string, number>(Object.entries(dayData.building_data)),
+	displaced: Number.parseInt(dayData.displaced),
+	detained: Number.parseInt(dayData.detained),
+    };
+}
+
+class PCBSData {
+    allDays: Map<string, DayData>;
+
+    constructor(jsonData: any) {
+	this.allDays = new Map();
+	for(let [day, data] of Object.entries(jsonData)) {
+	    this.allDays.set(day, parseDayData(data));
+	}
+    }
+};
+
+function getMostRecentTwoDays() {
+    const pcbsData = new PCBSData(data);
+    const [mostRecent, secondMostRecent] = Object.keys(data).sort((d1: string, d2: string) => {
+	const date1 = new Date(d1);
+	const date2 = new Date(d2);
+
+	if(date1 > date2) {
+	    return 1;
+	} else if (date1 < date2) {
+	    return -1;
+	} else {
+	    return 0;
+	}
+    }).slice(0, 2);
+
+    return [pcbsData.allDays.get(mostRecent), pcbsData.allDays.get(secondMostRecent)];
+}
+
+function getGazaData(dayData: DayData | undefined) {
+    if(!dayData) { 
+	return {};
+    }
+
+    const gMart = dayData?.martyr!;
+    const gInj = dayData?.injured!;
+    return {
+	killed: gMart.get("total_gaza")!,
+	killedKids:  gMart.get("kids_gaza")!,
+	killedWomen: gMart.get("women_gaza")!,
+	killedElder: gMart.get("elderly_gaza")!,
+	killedMen: (
+		gMart.get("total_gaza")! - (
+		    gMart.get("kids_gaza")! + 
+		    gMart.get("women_gaza")! +
+		    gMart.get("elderly_gaza")!
+		    )
+		),
+	killedMedical: gMart.get("medical")!,
+	killedUN: gMart.get("un")!,
+	killedEdu: gMart.get("educational")!,
+	killedPress: gMart.get("press")!,
+
+	injured: gInj.get("total_gaza")!,
+	injuredKids: gInj.get("kids_gaza")!,
+	injuredAdults: gInj.get("total_gaza")! - gInj.get("kids_gaza")!,
+
+	missing: gMart.get("missing")!,
+
+	// TODO: Need to change the UI to reflect that this is missing kids + women
+	missingKids: gMart.get("missing_kids_women")!,
+
+	// TODO: Need to also reflect that this is the men
+	missingAdults: gMart.get("missing")! - gMart.get("missing_kids_women")!,
+
+	displaced: dayData?.displaced! / 1_000_000,
+	hospitalsDown: dayData?.building.get("out_of_service_hospital")!,
+
+	funds: 14.3,
+	electricity: "OFF",
+	water: "OFF",
+	fuel: "OFF",
+	internet: "WEAK",
+    }
+
+}
+
+function getWestBankData(dayData: DayData | undefined) {
+    if(!dayData) { 
+	return {};
+    }
+
+    const mart = dayData?.martyr!;
+    const inj = dayData?.injured!;
+    return {
+	killed: mart.get("total_west")!,
+	killedKids: mart.get("kids_west")!,
+	killedAdults: mart.get("total_west")! - mart.get("kids_west")!,
+
+	injured: inj.get("total_west")!,
+	injuredKids: inj.get("kids_west")!,
+	injuredAdults: inj.get("total_west")! - inj.get("kids_west")!,
+
+	detained: undefined,
+    }
+
+}
+
+function computeDictDelta(dayDict: any, prevDayDict: any) {
+    if(!dayDict || !prevDayDict) {
+	return {};
+    } 
+
+    var deltaDict: any = {};
+    for(let key of Object.keys(dayDict)) {
+	deltaDict[key]	= dayDict[key] - prevDayDict[key];
+    }
+
+    return deltaDict;
+}
+
+function getInfraData(dayData: DayData) {
+    const b = dayData.building;
+    return {
+	damagedHomes: b.get("damaged_housing_units")!,
+	destroyedHomes: b.get("destroyed_housing_units")!,
+	damagedHospitals: b.get("damaged_hospital")!,
+	destroyedAmbulances: b.get("destroyed_ambulances")!,
+	damagedSchools: b.get("partially_destroyed_school")!,
+	destroyedSchools: b.get("destroyed_school")!,
+	destroyedChurches: b.get("destroyed_church")!,
+	destroyedMosques: b.get("destroyed_mosque")!
+    };
+}
+
+function getDeathRatios(dayData: DayData) {
+    const total_all = dayData.martyr.get("total_gaza")! + dayData.martyr.get("total_west")!
+    const total_children = dayData.martyr.get("kids_gaza")! + dayData.martyr.get("kids_west")!;
+    const total_women = dayData.martyr.get("women_gaza")!;
+    const total_elderly = dayData.martyr.get("elderly_gaza")!;
+    const total_men = total_all - (total_children + total_women + total_elderly);
+
+    return {
+      labels: ["Children", "Women", "Elderly", "Men"],
+      datasets: [
+	{
+	  label: "Fatalities",
+	  data: [total_children, total_women, total_elderly, total_men],
+	  backgroundColor: "#d60a0aaa",
+	  borderColor: "#d60a0a",
+	  borderWidth: 1,
+	},
+      ],
+    };
+}
+
+function getHomeData(dayData: DayData) {
+    // Assumed constant over a long period of time. 
+    // PCBS doesn't seem to publish it.
+    const totalHomes = 582000;
+
+    const damagedHomes = dayData.building.get("damaged_housing_units")!;
+    const destroyedHomes = dayData.building.get("destroyed_housing_units")!;
+    const destroyedPercentage = ((damagedHomes + destroyedHomes) / totalHomes);
+
+    console.log(destroyedPercentage);
+
+    return {
+      labels: ["Damaged or Destroyed", "Not Yet"],
+      datasets: [
+	{
+	  label: "Percentage of House Units Affected",
+	  data: [
+	    destroyedPercentage * 100,
+	    (1 - destroyedPercentage) * 100,
+	  ],
+	  backgroundColor: ["#990a0a88", "#d60a0a88"],
+	  borderColor: ["#990a0a", "#d60a0a"],
+	  borderWidth: 1,
+	},
+      ],
+    };
+}
+
+export function readPcbsData() { 
+    const [latestData, beforeLatestData] = getMostRecentTwoDays();
+
+    const gazaDict = getGazaData(latestData);
+    const prevDayGazaDict = getGazaData(beforeLatestData);
+    const gazaDictToday = computeDictDelta(latestData!, prevDayGazaDict);
+
+    const westBankDict = getWestBankData(latestData);
+    const prevDayWestBankDict = getWestBankData(beforeLatestData);
+    const westBankDictToday = computeDictDelta(westBankDict, prevDayWestBankDict);
+
+    const infraDict = getInfraData(latestData!);
+    const deathRatiosData = getDeathRatios(latestData!);
+    const homeData = getHomeData(latestData!);
+
+    return [gazaDict, gazaDictToday, westBankDict, westBankDictToday, infraDict, deathRatiosData, homeData];
+}
 
 export const historyData = {
   labels: [
@@ -125,22 +242,6 @@ export const historyData = {
         227,
       ],
       backgroundColor: "#d60a0a",
-    },
-  ],
-};
-
-export const homeData = {
-  labels: ["Damaged or Destroyed", "Not Yet"],
-  datasets: [
-    {
-      label: "Percentage of House Units Affected",
-      data: [
-        ((40000 + 222000) / 582000) * 100,
-        1 - ((40000 + 222000) / 582000) * 100,
-      ],
-      backgroundColor: ["#990a0a88", "#d60a0a88"],
-      borderColor: ["#990a0a", "#d60a0a"],
-      borderWidth: 1,
     },
   ],
 };

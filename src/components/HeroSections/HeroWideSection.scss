@@ -1,0 +1,111 @@
+@import '../../variables';
+
+
+.hero-wide-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 80vh;
+    @media only screen and (max-width: 600px) { min-height: 90vh; }
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    @media only screen and (max-width: 600px) {border-top-left-radius: 2rem !important; border-top-right-radius: 2rem !important;}
+    padding: 2rem;
+
+    .overlay {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .content {
+      text-align: center;
+  
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        text-shadow: 0 0 $text-shadow black;
+        @media only screen and (max-width: 600px) {
+          font-size: 2.2rem;
+        }
+      }
+     
+  
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-shadow: $neg-text-border  $neg-text-border  0 #000, 
+                     $text-border $neg-text-border  0 #000, 
+                     $neg-text-border  $text-border 0 #000, 
+                     $text-border $text-border 0 #000;
+
+        @media only screen and (max-width: 600px) {
+        font-size: 1rem;
+       }
+       }
+
+      h3 {
+        font-size: 1.0rem;
+        @media only screen and (max-width: 600px) { font-size: 0.9rem; }
+        width: 60%;
+        margin: auto;
+        margin-bottom: 2rem;
+        font-weight:400;
+
+      }
+      .last-h3 {
+        color: rgba($primary-color, 1.0);
+        text-shadow: -0.3px  -0.3px  0 #fafafa, 
+        0.3px -0.3px  0 #ffffff, 
+        -0.3px  0.3px 0 #ffffff, 
+        0.3px 0.3px 0 #ffffff;
+        margin-bottom: -6rem;
+        font-size: 1.2rem;
+        margin-top: 6rem;
+        @media only screen and (max-width: 900px) { margin-top: 0rem; }
+      }
+  
+      .button1, .button2 {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        @media only screen and (max-width: 600px) {
+          font-size: 1.0rem;
+        }
+        background-color:  rgba($primary-color-light, 0.5);
+        border: 3px solid $primary-color-light;
+        color: #fff;
+        font-family: 'Poppins', 'Roboto'; 
+        margin: 0rem 2rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        transition: transform 0.3s ease-in-out; /* Adjust the duration (0.5s) and timing function (ease-in-out) as needed */
+
+        &:hover {
+          background-color:  $primary-color-light;
+          transform: scale(1.03);
+        }
+      }
+
+      .button2 {
+        background-color:  rgba($primary-color-2, 0.5);
+        border: 3px solid $primary-color-2;
+        &:hover {
+          background-color:  $primary-color-2;
+          transform: scale(1.03);
+        }
+      }
+    }
+  }
+  

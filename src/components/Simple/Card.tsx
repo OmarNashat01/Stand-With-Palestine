@@ -12,7 +12,7 @@ interface CardProps {
 const Card: FC<CardProps> = ({ imagePath, title, summary, link }) => {
     return (
         <Link to={link}>
-            <div className="card">
+            <div className="card-og">
                 <div className="card-img">
                     <img src={imagePath} alt={title} />
                 </div>

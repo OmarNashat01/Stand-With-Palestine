@@ -1,4 +1,4 @@
-import data from './pcbs_data.json';
+import { useCallback, useEffect, useState } from "react";
 
 type DayData  = {
     martyr: Map<string, number>,
@@ -23,29 +23,30 @@ class PCBSData {
 
     constructor(jsonData: any) {
 	this.allDays = new Map();
-	console.log(jsonData);
 	for(let [day, data] of Object.entries(jsonData)) {
 	    this.allDays.set(day, parseDayData(data));
 	}
     }
 };
 
-function getMostRecentTwoDays() {
-    const pcbsData = new PCBSData(data);
-    const [mostRecent, secondMostRecent] = Object.keys(data).sort((d1: string, d2: string) => {
-	const date1 = new Date(d1);
-	const date2 = new Date(d2);
+function getMostRecentTwoDays(data: PCBSData) {
+    const [mostRecent, secondMostRecent] = Array
+	.from(data.allDays.keys())
+	.sort((d1: string, d2: string) => {
+	    const date1 = new Date(d1);
+	    const date2 = new Date(d2);
 
-	if(date1 > date2) {
-	    return 1;
-	} else if (date1 < date2) {
-	    return -1;
-	} else {
-	    return 0;
-	}
-    }).slice(0, 2);
+	    if(date1 > date2) {
+		return 1;
+	    } else if (date1 < date2) {
+		return -1;
+	    } else {
+		return 0;
+	    }
 
-    return [pcbsData.allDays.get(mostRecent), pcbsData.allDays.get(secondMostRecent)];
+	}).slice(0, 2);
+
+    return [mostRecent, secondMostRecent];
 }
 
 function getGazaData(dayData: DayData | undefined) {
@@ -191,8 +192,16 @@ function getHomeData(dayData: DayData) {
     };
 }
 
-export function readPcbsData() { 
-    const [latestData, beforeLatestData] = getMostRecentTwoDays();
+export async function readPcbsData() { 
+    const response = await fetch('./pcbs_data.json', {
+      headers: {
+	"Content-Type": "application/json",
+	Accept: "application/json"
+      }
+    });
+    const pcbsData = new PCBSData(await response.json());
+    const [latestDate, beforeLatestDate] = getMostRecentTwoDays(pcbsData);
+    const [latestData, beforeLatestData] = [ pcbsData.allDays.get(latestDate), pcbsData.allDays.get(beforeLatestDate) ];
 
     const gazaDict = getGazaData(latestData);
     const prevDayGazaDict = getGazaData(beforeLatestData);
@@ -206,7 +215,9 @@ export function readPcbsData() {
     const deathRatiosData = getDeathRatios(latestData!);
     const homeData = getHomeData(latestData!);
 
-    return [gazaDict, gazaDictToday, westBankDict, westBankDictToday, infraDict, deathRatiosData, homeData];
+    const lastUpdated = latestDate;
+
+    return [gazaDict, gazaDictToday, westBankDict, westBankDictToday, infraDict, deathRatiosData, homeData, lastUpdated];
 }
 
 export const historyData = {
@@ -301,8 +312,6 @@ export const recentData = {
     },
   ],
 };
-
-export const lastUpdated = "18th Nov. 2023 at 14 PM GMT";
 
 export const faqData = {
   title: "FAQ (How it works)",

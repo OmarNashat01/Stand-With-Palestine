@@ -17,10 +17,11 @@ import { useLocation } from "react-router-dom";
 import NotFoundPage from "./components/NotFound/NotFound";
 
 function App() {
-  const [showModal, setShowModal] = useState(false);    // eye modal
+  const [showModal, setShowModal] = useState(false); // eye modal
   const { load } = useGlobalAudioPlayer();
   const [isBouncing, setIsBouncing] = useState(true);
   const [showMobNav, setShowMobNav] = useState(false);
+  const [showEyeButton, setShowEyeButton] = useState(false);
 
   const { setVolume, volume } = useGlobalAudioPlayer();
   useEffect(() => {
@@ -29,46 +30,74 @@ function App() {
       initialVolume: 0.0,
     });
   }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPercentage =
+        (window.scrollY /
+          (document.documentElement.scrollHeight - window.innerHeight)) *
+        100;
+
+      // Set showEyeButton to true if scrolled through 0.5% of the page
+      setShowEyeButton(scrollPercentage >= 0.5);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <NavigationBar showMobNav={showMobNav} setShowMobNav={setShowMobNav}/>
-      <div
-        className={`eye-button ${isBouncing ? "bounce" : ""}`}
-        onClick={() => {
-          setShowModal(!showModal);
-          setIsBouncing(false);
-        }}
-      >
-        <img src="./eye.png" />
-      </div>
+      <NavigationBar showMobNav={showMobNav} setShowMobNav={setShowMobNav} />
+      {showEyeButton && (
+        <div
+          className={`eye-button ${isBouncing ? "bounce" : ""}`}
+          onClick={() => {
+            setShowModal(!showModal);
+            setIsBouncing(false);
+          }}
+        >
+          <img src="./eye.png" />
+        </div>
+      )}
       <ModalEye
         showModal={showModal}
         setShowModal={setShowModal}
         volume={volume}
         setVolume={setVolume}
       />
+      {!showMobNav && (
+        <>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/blogs" element={<BlogsListPage />} />
+            <Route path="/blogs/:id" element={<BlogPage />} />
+            <Route path="/crimes" element={<CrimesPage />} />
+            <Route path="/lies" element={<LiesPage />} />
+            <Route path="/status" element={<StatusPage />} />
+            <Route path="/support" element={<SupportPage />} />
+            <Route
+              path="/timeline/historic"
+              element={<HistoricTimelinePage />}
+            />
+            <Route path="/timeline/recent" element={<RecentTimelinePage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+          <Footer
+            title="Stand with Palestine"
+            subTitle="A Joint Collaborative Effort by a Group of Students from Egypt"
+            boldSubTitle="Share on Social Networks"
+          />
+        </>
+      )}
+
       <ScrollToTop />
-      {!showMobNav && (<Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/blogs" element={<BlogsListPage />} />
-        <Route path="/blogs/:id" element={<BlogPage />} />
-        <Route path="/crimes" element={<CrimesPage />} />
-        <Route path="/lies" element={<LiesPage />} />
-        <Route path="/status" element={<StatusPage />} />
-        <Route path="/support" element={<SupportPage />} />
-        <Route path="/timeline/historic" element={<HistoricTimelinePage />} />
-        <Route path="/timeline/recent" element={<RecentTimelinePage />} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>)}
-      <Footer 
-        title = "Stand with Palestine"
-        subTitle = "A Joint Collaborative Effort by a Group of Students from Egypt"
-        boldSubTitle = "Share on Social Networks"
-      />
     </>
   );
 }
-
 
 function ScrollToTop() {
   const { pathname } = useLocation();

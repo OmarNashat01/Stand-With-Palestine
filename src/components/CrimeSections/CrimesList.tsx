@@ -45,6 +45,7 @@ interface CrimesListProps {
                 infiniteLoop
                 showStatus={false}
                 showThumbs={false}
+                dynamicHeight={true}
               >
                 {crime.media.map((media:any, mediaIndex:any) => (
                   <MediaInput
@@ -65,6 +66,7 @@ interface CrimesListProps {
                   alignItems: "center",
                   fontSize: "1.2rem",
                 }}
+                respClass={true}
                 onClickFunc={() => navigate(crime.onClickFunc)}
               />
             </div>

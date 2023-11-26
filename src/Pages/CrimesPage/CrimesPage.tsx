@@ -27,7 +27,7 @@ const CrimesPage: React.FC = () => {
       <GradientHero title={crimeHeroDict["title"]} subTitle1={crimeHeroDict["subTitle1"]} subTitle2={crimeHeroDict["subTitle2"]} bloody/>
       <SearchInput listItems={crimesDict} onSearch={handleSearch} placeHolder="Search by article or crime instance..."/>
       <CrimesList crimesDict={filteredCrimes} />
-      <div style={{ height: '80px', backgroundColor: '#141414' }}></div>
+      <div style={{ height: '80px', backgroundColor: '#141414' }} className="crime-empty"></div>
       <Banner title="Frequently Asked Questions" styleObj={{ color: 'white' }} />
       {/* Assuming Faq component is imported */}
       <Faq data={faqData} />

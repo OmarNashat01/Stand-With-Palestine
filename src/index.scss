@@ -56,6 +56,12 @@ a {
   background-color:  rgba($primary-color-light, 0.7)
 }
 
+.crime-empty{
+  @media only screen and (max-width: 900px) {
+    display: none !important;
+  }
+}
+
 .eye-button {
   //height: 100vh;
   position: fixed;

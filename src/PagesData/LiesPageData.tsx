@@ -3,7 +3,7 @@ export const liesData = [
     special: false,
     source: "IDF & U.S.",
     title: "Hamas Beheaded Forty Israeli Babies",
-    modalContent: "",
+    modalContent: "Even the Even the US president confirmed 40 and said that he saw this in person Even the US president confirmed 40 and said that he saw this in person US president confirmed 40 and said that he saw this in person  Even the US president confirmed 40 and said that he saw this in person",
     modalTextItems: [
       "The Israeli Prime Minister's office said that <a href='https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-10-11-23/h_a63b0fd57f2df717147ea8e26a2f758c'>40 babeis were beheaded </a>",
       "Even the US president confirmed 40 and said that he saw this in person",
@@ -23,7 +23,7 @@ export const liesData = [
   {
     special: false,
     source: "IDF",
-    title: "Murder of Shereen Abu Akleh",
+    title: "Denying The Use of White Phosphorous in 2023",
     modalContent: "",
     modalTextItems: [
       "<a href=''> well met </a>",

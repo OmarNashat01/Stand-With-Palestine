@@ -13,7 +13,7 @@ export const blogs = [
         name: "Very Important Blog to Read!",
         subTitle: "A Blog For the Next Gen Z Kids",
         imagePath: "/Unused/Gaza-Now.jpeg",
-        blogPath: "/BlogsPage/mock-blog.md",
+        blogPath: "/BlogsPage/mock-blog.md",                // path in public folder
         summary:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a tempor nunc. Vestibulum id ligula.",
     },

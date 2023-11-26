@@ -1,5 +1,5 @@
 import React from "react";
-import { blogs } from "./BlogsPageData";
+import { blogs } from "../../PagesData/BlogsPageData";
 import Card from "../../components/Simple/Card";
 import Banner from "../../components/Simple/Banner";
 

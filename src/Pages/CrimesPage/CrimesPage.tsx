@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Banner from "../../components/Simple/Banner";
 // @ts-ignore
 import Faq from 'react-faq-component';
-import {crimesDict, crimeHeroDict, faqData} from './CrimesPageData'
+import {crimesDict, crimeHeroDict, faqData} from '../../PagesData/CrimesPageData'
 import CrimesList from "../../components/CrimeSections/CrimesList";
 import GradientHero from "../../components/Simple/GradientHero";
 import SearchInput from "../../components/Simple/SearchInput";

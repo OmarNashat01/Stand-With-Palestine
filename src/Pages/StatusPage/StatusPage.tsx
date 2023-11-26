@@ -19,7 +19,7 @@ import {
   recentData,
   lastUpdated,
   faqData
-} from "./StatusPageData";
+} from "../../PagesData/StatusPageData";
 import "../../components/StatusSections/FAQSection.scss";
 
 

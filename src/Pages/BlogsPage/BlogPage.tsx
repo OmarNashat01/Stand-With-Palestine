@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { blogs } from "./BlogsPageData";
+import { blogs } from "../../PagesData/BlogsPageData";
 import Markdown from "../../components/Simple/Markdown";
 import GradientHero from "../../components/Simple/GradientHero";
 import { useNavigate } from "react-router-dom";

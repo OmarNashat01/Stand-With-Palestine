@@ -25,7 +25,7 @@ export const crimesDict = [
       ],
       paragraphLeft: "",
       paragraphRight:
-        " Israel has imposed a total blockade on Gaza; allowing no electricity, no water, no food and no gas, all of which are necessary for the life of the civilians. This has led to catastrophic consequences.",
+        " ",
       onClickFunc: "blockade-crime",
     },
     {

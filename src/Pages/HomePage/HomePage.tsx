@@ -11,7 +11,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 // Homepage Data
-import homeData from './HomePageData'
+import homeData from '../../PagesData/HomePageData'
 
 const HomePage = () => {
 

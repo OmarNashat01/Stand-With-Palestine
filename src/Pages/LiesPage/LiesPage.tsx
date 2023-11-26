@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import GradientHero from "../../components/Simple/GradientHero";
 import SearchInput from "../../components/Simple/SearchInput";
 import LiesList from "../../components/LieSections/LiesList";
-import { liesData } from "./LiesPageData";
+import { liesData } from "../../PagesData/LiesPageData";
 
 const LiesPage: React.FC = () => {
   const [filteredLies, setFilteredLies] = useState([]);

@@ -1,9 +1,9 @@
 @import '../../variables';
 
 .card-og {
-    max-width: 350px;
+    max-width: 300px;
     transition: all 0.3s ease-in-out;
-    
+    border-radius: 8px;
     .card-img {
         height: 200px;
         border-top-left-radius: 8px;
@@ -33,7 +33,9 @@
     .card-content {
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
-        background-color: #0d0d0d;
+        //background-color: #0d0d0d;
+        background: linear-gradient(30deg, #131313, #000000);
+
         color: $text-color;
         
         .card-body {

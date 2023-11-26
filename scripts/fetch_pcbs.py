@@ -125,7 +125,7 @@ def get_date() -> str:
 
 def get_detainees_displaced_data() -> Dict[str, int]:
     DATA_URL = "https://www.pcbs.gov.ps/default.aspx"
-    html_elements_to_keys = {"Nazeh": "displaced", "aseer": "detained"}
+    html_elements_to_keys = {"Nazeh": "displaced", "aseer": "detained_west"}
 
     return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
 

@@ -5,7 +5,7 @@ type DayData  = {
     injured: Map<string, number>,
     building: Map<string, number>,
     displaced: number,
-    detained: number
+    detained_west: number
 };
 
 function parseDayData(dayData: any): DayData {
@@ -14,7 +14,7 @@ function parseDayData(dayData: any): DayData {
 	injured: new Map<string, number>(Object.entries(dayData.injured_data)),
 	building: new Map<string, number>(Object.entries(dayData.building_data)),
 	displaced: Number.parseInt(dayData.displaced),
-	detained: Number.parseInt(dayData.detained),
+	detained_west: Number.parseInt(dayData.detained_west),
     };
 }
 
@@ -23,6 +23,7 @@ class PCBSData {
 
     constructor(jsonData: any) {
 	this.allDays = new Map();
+	console.log(jsonData);
 	for(let [day, data] of Object.entries(jsonData)) {
 	    this.allDays.set(day, parseDayData(data));
 	}
@@ -111,7 +112,7 @@ function getWestBankData(dayData: DayData | undefined) {
 	injuredKids: inj.get("kids_west")!,
 	injuredAdults: inj.get("total_west")! - inj.get("kids_west")!,
 
-	detained: undefined,
+	detained_west: dayData.detained_west!
     }
 
 }
@@ -172,8 +173,6 @@ function getHomeData(dayData: DayData) {
     const damagedHomes = dayData.building.get("damaged_housing_units")!;
     const destroyedHomes = dayData.building.get("destroyed_housing_units")!;
     const destroyedPercentage = ((damagedHomes + destroyedHomes) / totalHomes);
-
-    console.log(destroyedPercentage);
 
     return {
       labels: ["Damaged or Destroyed", "Not Yet"],

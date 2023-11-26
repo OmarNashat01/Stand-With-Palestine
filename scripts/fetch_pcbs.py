@@ -4,7 +4,8 @@ import json
 import urllib.request
 
 from bs4 import BeautifulSoup
-from typing import List, Dict, Tuple
+from typing import Dict
+from argparse import ArgumentParser
 
 
 def get_tag_text(html_content: BeautifulSoup, tag_name: str) -> str:
@@ -92,6 +93,7 @@ def get_martyr_data() -> Dict[str, int]:
         "Missing": "missing"
     }
 
+    print("Fetching martyr data...")
     return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
 
 
@@ -104,6 +106,7 @@ def get_injuired_data() -> Dict[str, int]:
         "InjuredWBKids": "kids_west"
     }
 
+    print("Fetching injured data...")
     return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
 
 
@@ -112,6 +115,9 @@ def get_date() -> str:
     NOTE: We get all three since they appear in the main page. Detainees and displaced have no "extra info" page.
     """
     DATA_URL = "https://www.pcbs.gov.ps/default.aspx"
+
+    print("Fetching last update date...")
+
     with urllib.request.urlopen(DATA_URL) as request:
         html_string = request.read().decode("utf8")
         html_content = BeautifulSoup(html_string, features="lxml")
@@ -127,6 +133,7 @@ def get_detainees_displaced_data() -> Dict[str, int]:
     DATA_URL = "https://www.pcbs.gov.ps/default.aspx"
     html_elements_to_keys = {"Nazeh": "displaced", "aseer": "detained_west"}
 
+    print("Fetching detainee data...")
     return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
 
 
@@ -149,10 +156,15 @@ def get_destroyed_building_data() -> Dict[str, int]:
         "ambulanace": "destroyed_ambulances"
     }
 
+    print("Fetching building data...")
     return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
 
 
 if __name__ == '__main__':
+    argparser = ArgumentParser()
+    argparser.add_argument("output_path")
+    args = argparser.parse_args()
+
     date = get_date()
     martyr_data = get_martyr_data()
     injured_data = get_injuired_data()
@@ -166,16 +178,17 @@ if __name__ == '__main__':
         **detainees_displaced_data
     }
 
-    JSON_FILE_NAME = "pcbs_data.json"
+    JSON_FILE_NAME = args.output_path
     if not os.path.exists(JSON_FILE_NAME):
-        print(f"{JSON_FILE_NAME} not found, creating it...")
+        print(f"{JSON_FILE_NAME} not found, will create it it...")
 
-        # Just create the file
-        with open(JSON_FILE_NAME, "w+"):
-            pass
+        # Just create an empty file
+        with open(JSON_FILE_NAME, "w+") as f:
+            f.write("{}")
 
     # Read whatever's inside, as well as allow for writing
-    with open(JSON_FILE_NAME, "r+") as f:
+    json_file = None
+    with open(JSON_FILE_NAME, "r") as f:
         # If the file is empty, create an empty dict. Otherwise, read and parse it
         f_text = f.read()
         json_file = {} if (len(f_text) == 0) else json.loads(f_text)
@@ -186,6 +199,7 @@ if __name__ == '__main__':
             )
             exit(1)
 
+    with open(JSON_FILE_NAME, "w") as f:
         json_file[date] = day_data
         f.write(json.dumps(json_file, indent=4))
         print(f"Data for {date} added to {JSON_FILE_NAME}")

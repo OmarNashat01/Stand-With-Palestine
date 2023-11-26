@@ -78,10 +78,10 @@ function getGazaData(dayData: DayData | undefined) {
 	missing: gMart.get("missing")!,
 
 	// TODO: Need to change the UI to reflect that this is missing kids + women
-	missingKids: gMart.get("missing_kids_women")!,
+	missingKidsAndWomen: gMart.get("missing_kids_women")!,
 
 	// TODO: Need to also reflect that this is the men
-	missingAdults: gMart.get("missing")! - gMart.get("missing_kids_women")!,
+	missingMen: gMart.get("missing")! - gMart.get("missing_kids_women")!,
 
 	displaced: dayData?.displaced! / 1_000_000,
 	hospitalsDown: dayData?.building.get("out_of_service_hospital")!,

@@ -29,24 +29,46 @@ class PCBSData {
     }
 };
 
-function getMostRecentTwoDays(data: PCBSData) {
-    const [mostRecent, secondMostRecent] = Array
-	.from(data.allDays.keys())
-	.sort((d1: string, d2: string) => {
-	    const date1 = new Date(d1);
-	    const date2 = new Date(d2);
+function parseDate(date: string) {
+    const [day, month, year] = date.split("/").map((str) => Number.parseInt(str));
+    return new Date(year, month, day);
+}
+
+function formatDate(date: Date) {
+    // TODO: I'm not sure if PCBS follows dd/mm/YYYY or another format.
+    // So on the first of December, will the date be 1/12/2023, or 01/12/2023?
+    return `${date.getDay()}/${date.getMonth()}/${date.getFullYear()}`
+}
+
+function getMostRecentDay(data: PCBSData) {
+    const dates = Array.from(data.allDays.keys());
+    const mostRecentStr = dates
+	.sort((d1, d2) => {
+	    const date1 = parseDate(d1).valueOf();
+	    const date2 = parseDate(d2).valueOf();
+	    
+	    console.log(date1);
 
 	    if(date1 > date2) {
-		return 1;
-	    } else if (date1 < date2) {
 		return -1;
+	    } else if (date1 < date2) {
+		return 1;
 	    } else {
 		return 0;
 	    }
 
-	}).slice(0, 2);
+	})[0];
 
-    return [mostRecent, secondMostRecent];
+    const mostRecent = parseDate(mostRecentStr);
+    const yesterdayStr = formatDate(new Date(new Date().setDate(new Date().getDate()-1)));
+
+    if(yesterdayStr in dates) {
+	return [mostRecentStr, yesterdayStr];
+    }
+
+    // If we don't have the previous day, then no changes since yesterday.
+    // Hence, all fields should be zeroed (thing - thing = 0).
+    return [mostRecentStr, mostRecentStr];
 }
 
 function getGazaData(dayData: DayData | undefined) {
@@ -125,7 +147,13 @@ function computeDictDelta(dayDict: any, prevDayDict: any) {
 
     var deltaDict: any = {};
     for(let key of Object.keys(dayDict)) {
-	deltaDict[key]	= dayDict[key] - prevDayDict[key];
+	if(typeof(dayDict[key]) == "object") {
+	    deltaDict[key] = computeDictDelta(dayDict[key], prevDayDict[key]);
+	} else if(typeof(dayDict[key]) == "number" && typeof(prevDayDict[key]) == "number") {
+	    deltaDict[key] = dayDict[key] - prevDayDict[key];
+	} else {
+	    deltaDict[key] = dayDict[key];
+	}
     }
 
     return deltaDict;
@@ -200,16 +228,18 @@ export async function readPcbsData() {
       }
     });
     const pcbsData = new PCBSData(await response.json());
-    const [latestDate, beforeLatestDate] = getMostRecentTwoDays(pcbsData);
+    const [latestDate, beforeLatestDate] = getMostRecentDay(pcbsData);
     const [latestData, beforeLatestData] = [ pcbsData.allDays.get(latestDate), pcbsData.allDays.get(beforeLatestDate) ];
 
     const gazaDict = getGazaData(latestData);
     const prevDayGazaDict = getGazaData(beforeLatestData);
-    const gazaDictToday = computeDictDelta(latestData!, prevDayGazaDict);
+    const gazaDictToday = computeDictDelta(gazaDict!, prevDayGazaDict);
+    console.log(gazaDict, prevDayGazaDict, gazaDictToday)
 
     const westBankDict = getWestBankData(latestData);
     const prevDayWestBankDict = getWestBankData(beforeLatestData);
     const westBankDictToday = computeDictDelta(westBankDict, prevDayWestBankDict);
+
 
     const infraDict = getInfraData(latestData!);
     const deathRatiosData = getDeathRatios(latestData!);

@@ -11,22 +11,24 @@ interface CardProps {
 
 const Card: FC<CardProps> = ({ imagePath, title, summary, link }) => {
     return (
-        <Link to={link}>
-            <div className="card-og">
+        <div className="card-og">
+            <Link to={link}>
                 <div className="card-img">
                     <img src={imagePath} alt={title} />
                 </div>
-                <div className="card-content">
+            </Link>
+            <div className="card-content">
+                <Link to={link}>
                     <div className="card-body">
                         <p className="title">{title}</p>
                         <p className="summary">{summary}...</p>
                     </div>
-                    <div className="card-footer">
-                        <Link to={link}>Learn more &gt;</Link>
-                    </div>
+                </Link>
+                <div className="card-footer">
+                    <Link to={link}>Learn more &gt;</Link>
                 </div>
             </div>
-        </Link>
+        </div>
     );
 };
 

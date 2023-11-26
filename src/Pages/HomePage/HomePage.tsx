@@ -21,7 +21,7 @@ const HomePage = () => {
       <HeroWideSection {...homeData.mainHeroSection} />
       
       {/* Status Section*/}
-      <Banner {...homeData.statusBanner} />
+      <Banner {...homeData.statusBanner} id="first-banner"/>
       <HeroDigitsSection {...homeData.statusSection} />
 
       {/* Timeline Section*/}
@@ -52,7 +52,6 @@ const HomePage = () => {
       <Carousel interval={50000} autoPlay infiniteLoop showStatus={false}>
         <HeroWideSectionExtra {...homeData.interviewSection1} />
         <HeroWideSectionExtra {...homeData.interviewSection2} />
-        <HeroWideSectionExtra {...homeData.interviewSection3} />
       </Carousel>
 
       {/* Support Section*/}

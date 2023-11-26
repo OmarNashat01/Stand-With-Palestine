@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './HeroDigitsSection.scss'; // Import the SASS file
+import { useNavigate } from "react-router-dom";
 
 interface AnimatedNumberProps {
   value: number;
@@ -26,11 +27,13 @@ interface HeroDigitsSectionProps {
   imagePath: string;
   numbers: (number | string)[];
   texts: string[];
+  onClick:string;
 }
 
-const HeroDigitsSection: React.FC<HeroDigitsSectionProps> = ({ imagePath, numbers, texts  }) => {
+const HeroDigitsSection: React.FC<HeroDigitsSectionProps> = ({ imagePath, numbers, texts, onClick  }) => {
+  const navigate = useNavigate();
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="nums">
       <div className="hero-content">
         <div className="image-container" style={{ backgroundImage: `url('${imagePath}')` }}>
         </div>
@@ -52,7 +55,7 @@ const HeroDigitsSection: React.FC<HeroDigitsSectionProps> = ({ imagePath, number
             <p>People Displaced</p>
           </div>
           <div className='button-container'>
-            <button className="button">Full Report ▶</button>
+            <button className="button" onClick={()=>navigate(onClick)}>Full Report ▶</button>
           </div>
         </div>
       </div>

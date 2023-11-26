@@ -12,34 +12,42 @@ import { GiTargetShot } from 'react-icons/gi';
 // scss
 import './NavigationBar.scss';
 
-const NavigationBar: React.FC = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+interface NavBarProps {
+  showMobNav: boolean;
+  setShowMobNav: (showMobNav: boolean) => void;
+}
+
+const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
   const location = useLocation();
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setShowMobNav(!showMobNav);
   };
 
+
+
   useEffect(() => {
-    setIsMenuOpen(false);
+    setShowMobNav(false);
   }, [location.pathname]);
 
 
   return (
-    <div className={`navbar-container ${(isMenuOpen) ? 'hidenext': ''}`}>
+    <div className={`navbar-container ${(showMobNav) ? 'hidenext': ''}`}>
       <div className="logo">
         <div className='menu-icon'>
           <FaBars className="menu-icon" onClick={toggleMenu} />
         </div>
         <div className='logo-icon'>
-          <img src='\logo.png' width='30' alt='flag'></img>
+         <img src='\logo.png' width='30' alt='flag'></img>
         </div>
+        <Link to="./">
         <div className='logo-text'>Stand with Palestine</div>
+        </Link>
       </div>
-      <nav className={`navbar ${isMenuOpen ? 'active' : ''}`}>
+      <nav className={`navbar ${showMobNav ? 'active' : ''}`}>
         <ul className="nav-list">
           <li className={`nav-item ${location.pathname === '/' ? 'selected' : ''}`}>
-            <Link to="/"><GoHomeFill style={{ margin: '0px', paddingRight: '0.1rem' }} /> Home</Link>
+            <Link to="./"><GoHomeFill style={{ margin: '0px', paddingRight: '0.1rem' }} /> Home</Link>
           </li>
           <li className={`nav-item ${location.pathname === '/status' ? 'selected' : ''}`}>
             <Link to="/status"><GiTargetShot style={{ margin: '-1px', paddingRight: '0.1rem' }} /> Status</Link>
@@ -48,10 +56,10 @@ const NavigationBar: React.FC = () => {
             <span className={`${location.pathname.includes('timeline')? 'selected' : ''}`}><BiSolidTimeFive style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Timeline</span>
             <ul className="dropdown-list">
               <li className={`nav-item`}>
-                <Link to="/timeline/historic">Current Timeline</Link>
+                <Link to="/timeline/historic">Historic Timeline</Link>
               </li>
               <li className={`nav-item`}>
-                <Link to="/timeline/recent">Recent Timeline</Link>
+                <Link to="/timeline/recent">Conflict Timeline</Link>
               </li>
             </ul>
           </li>

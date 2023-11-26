@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeroWideSectionExtra.scss';
 import HeroButton from '../Simple/HeroButton';
+import { useNavigate } from "react-router-dom";
 
 interface HeroWideSectionExtraProps {
   imagePath: string;
@@ -16,6 +17,9 @@ interface HeroWideSectionExtraProps {
   reverse: boolean;
   isLocalVideo: boolean;
   isYouTube: boolean;
+  onClick1?:string,
+  onClick2?:string,
+  onClick2Mode?:string
 }
 
 const HeroWideSectionExtra: React.FC<HeroWideSectionExtraProps> = ({
@@ -32,6 +36,9 @@ const HeroWideSectionExtra: React.FC<HeroWideSectionExtraProps> = ({
   reverse,
   isLocalVideo,
   isYouTube,
+  onClick1="./",
+  onClick2="./",
+  onClick2Mode="external"
 }) => {
   const paragraphs = text.split('|').map((paragraph, index) => {
     const modifiedParagraph = paragraph.replace(/#/, '<span>"').replace(/#/, '"</span>');
@@ -40,6 +47,7 @@ const HeroWideSectionExtra: React.FC<HeroWideSectionExtraProps> = ({
   const unorderedList = <ul style={{ listStyleType: 'disc' }}>{paragraphs}</ul>;
   const orderedList = <ol>{paragraphs}</ol>;
   const paragraph = <p>{text}</p>;
+  const navigate = useNavigate();
 
   return (
     <div className="hero-section-extra" style={{ backgroundImage: `url(${imagePath})` }}>
@@ -55,8 +63,12 @@ const HeroWideSectionExtra: React.FC<HeroWideSectionExtraProps> = ({
             {bulleted === 'unordered' ? unorderedList : bulleted === 'ordered' ? orderedList : paragraph}
           </div>
           <div className="button-container-extra">
-            <HeroButton type="red" content={buttonText1} />
-            {buttonText2 !== '' && <HeroButton type="red" content={buttonText2} />}
+            <HeroButton type="red" content={buttonText1} onClickFunc={() => navigate(onClick1)}/>
+            {buttonText2 !== '' && 
+            ((onClick2Mode == "external") ? 
+            <HeroButton type="red" content={buttonText2} onClickFunc={() => {window.location.href=onClick2}}/>
+            : <HeroButton type="red" content={buttonText2} onClickFunc={() => navigate(onClick2)}/>)
+          }
           </div>
         </div>
       </div>

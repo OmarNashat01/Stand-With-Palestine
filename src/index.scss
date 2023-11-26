@@ -96,3 +96,15 @@ a {
     max-width: 100% !important;
   }
 }
+
+.slider-image {
+  @media only screen and (max-width: 760px) {
+    display: none !important;
+    max-height: 70vh !important;
+  }
+}
+.slider-image-resp {
+  @media only screen and (min-width: 760px) {
+    display: none !important;
+  }
+}

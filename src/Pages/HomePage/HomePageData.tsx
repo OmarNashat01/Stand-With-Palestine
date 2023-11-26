@@ -12,7 +12,9 @@ const homeData = {
       buttonText2: "Support ♥",
       showDay: true,
       minHeight: "80vh",
-      blur: "blur(0px)"
+      blur: "blur(0px)",
+      onClick1: "first-banner",
+      onClick2: "./support"
     },
   
     statusBanner: {
@@ -22,9 +24,10 @@ const homeData = {
     },
   
     statusSection: {
-      imagePath: 'https://www.middleeasteye.net/sites/default/files/styles/max_2600x2600/public/images-story/Palestinian%20medics%20treat%20wounded%20children%20at%20Shifa%20Hospital%20in%20Gaza%20City%20Palestinian%20medics%20treat%20wounded%20children%20at%20Shifa%20Hospital%20in%20Gaza%20City%2C%20on%20October%209%2C%202023-reuters.jpg?itok=NKsa8mDR',
-      numbers: [4500, 3000, 29000, "~1.5M"],
-      texts: ["Children Killed", "Woman Killed", "People in Pain", "People Displaced"]
+      imagePath: './gaza-child-sad.webp',
+      numbers: [6000, 4000, 38000, "~1.65M"],
+      texts: ["Children Killed", "Woman Killed", "People in Pain", "People Displaced"],
+      onClick: "./status"
     },
   
     timelineBanner: {
@@ -34,7 +37,7 @@ const homeData = {
     },
   
     historicTimelineSection: {
-      imagePath: "https://www.almukarramah.com/cdn/shop/articles/masjid_al-aqsa.jpg?v=1639921762",
+      imagePath: "./aqsa.webp",
       extraImagePath: "./PMap.png",
       overlayColor: "rgba(0, 0, 0, 0.4)",
       blur: "blur(3px)",
@@ -43,13 +46,14 @@ const homeData = {
       text: 
       `Gaza has been under an illegal and violent blockade for 16 years.| 
        Israel occupies and continues to construct illegal settlements in the West Bank.| 
-       Over 9000 Palestinians have died prior to this conflict since 2000, and over 4000 were imprisoned.`,
+       Over 9000 Palestinians have been killed prior to this conflict since 2000, and over 4000 were imprisoned.`,
       bulleted: "ordered",
       buttonText1: "Check Historic Timeline ▶",
       buttonText2: "",
       reverse: true,
       isYouTube: false,
-      isLocalVideo: false
+      isLocalVideo: false,
+      onClick1: './timeline/historic'
     },
   
     recentTimelineCrimeSection: {
@@ -67,9 +71,11 @@ const homeData = {
       Over 20/35 hospitals are out of service due to bombs or a lack of supplies; 
       remaining hospitals lacking anaesthetics perform surgical operations without numbing and patients scream.`,
       bulleted: "unordered",
-      buttonText1: "Read More",
-      buttonText2: "Check Recents Timeline ▶",
+      buttonText1: "Check Conflict Timeline ▶",
+      buttonText2: "Read More",
       reverse: true,
+      onClick1: './timeline/recent',
+      onClick2: 'https://www.palestinechronicle.com/dead-and-wounded-in-israeli-bombing-near-indonesian-hospital/'
     },
   
     recentTimelineDiplomaticSection: {
@@ -84,11 +90,13 @@ const homeData = {
       response to the war with Hamas but also a partisan approach by new Speaker Mike Johnson that poses 
       a direct challenge to Democrats and President Joe Biden.`,
       bulleted: "",
-      buttonText1: "Read More",
-      buttonText2: "Check Recents Timeline ▶",
+     buttonText1: "Check Conflict Timeline ▶",
+      buttonText2: "Read More",
       reverse: true,
       isYouTube: false,
-      isLocalVideo: false
+      isLocalVideo: false,
+      onClick1: './timeline/recent',
+      onClick2: 'https://apnews.com/article/house-israel-aid-ukraine-republicans-biden-gaza-b7bfe528b12ac5954cfd5c034f11320d'
     },
   
     warCrimeBanner: {
@@ -116,7 +124,8 @@ const homeData = {
       buttonText2: "",
       isYouTube: false,
       isLocalVideo: false,
-      reverse: false
+      reverse: false,
+      onClick1: "./crimes"
     },
   
     warCrimesLiesSection: {
@@ -137,12 +146,16 @@ const homeData = {
       buttonText1: "Check Israeli Lies ▶",
       buttonText2: "Check Israeli War Crimes ▶",
       reverse: false,
-      isYouTube: false
+      isYouTube: false,
+      onClick1: "./lies",
+      onClick2: "./crimes"
     },
   
     beforeAfterSection: {
       imagePath1: "./Before.jpg",
       imagePath2: "./After.jpg",
+      imagePath1Resp: "./Before-rot.png",
+      imagePath2Resp: "./After-rot.png",
       title: "Indiscriminate Attacks or Hamas is Everywhere",
       subTitle: "Before and after - Atatra, northern Gaza",
     },
@@ -200,7 +213,9 @@ const homeData = {
       buttonText2: "More Blogs ▶",
       reverse: true,
       bulleted: '',
-      isLocalVideo: false
+      isLocalVideo: false,
+      onClick1: './blogs/PiersInterviewsBassem',
+      onClick2: './blogs'
     },
   
     interviewSection2: {
@@ -220,29 +235,11 @@ const homeData = {
       buttonText2: "More Blogs ▶",
       reverse: true,
       bulleted: '',
-      isLocalVideo: false
+      isLocalVideo: false,
+      onClick1: './blogs/PiersInterviewsCenk',
+      onClick2: './blogs'
     },
-  
-    interviewSection3: {
-      imagePath: "https://nypost.com/wp-content/uploads/sites/2/2022/04/piers-show-002-1.jpg",
-      extraImagePath: "https://www.youtube.com/embed/SpIIjzS2BIo?si=B2ThgF6MWn_jJJlb",
-      isYouTube: true,
-      overlayColor: "rgba(0, 0, 0, 0.6)",
-      blur: "blur(2px)",
-      title: "Interview: Piers Morgan and Yuval Harari",
-      subTitle: '',
-      text: 
-      `This conversation between Piers Morgan and Yuval Noah 
-      Harari covers the impact of the October 7th attack on Harari's family and Israelis 
-      in general. Harari advocates for a proportionate response from Israel, emphasizing the need to 
-      disarm Hamas. He suggests that the current leadership, particularly Netanyahu, is a hindrance to 
-      achieving a resolution and calls for new leadership in Israel.`,
-      buttonText1: "Interview Analysis ▶",
-      buttonText2: "More Blogs ▶",
-      reverse: true,
-      bulleted: '',
-      isLocalVideo: false
-    },
+
   
     supportBanner: {
       title: "Please Stand with Palestine",
@@ -262,6 +259,7 @@ const homeData = {
       buttonText2: "Here is What You Can Do",
       showDay: false,
       blur: "blur(4px)",
+      onClick2: "./support"
     },
   };
   

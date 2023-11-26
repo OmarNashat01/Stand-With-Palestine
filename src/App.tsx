@@ -13,11 +13,14 @@ import RecentTimelinePage from "./Pages/TimelinePage/RecentTimelinePage";
 import ModalEye from "./components/NavigationBar/ModalEye";
 import { useGlobalAudioPlayer } from "react-use-audio-player";
 import Footer from "./components/Footer/Footer";
+import { useLocation } from "react-router-dom";
+import NotFoundPage from "./components/NotFound/NotFound";
 
 function App() {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);    // eye modal
   const { load } = useGlobalAudioPlayer();
   const [isBouncing, setIsBouncing] = useState(true);
+  const [showMobNav, setShowMobNav] = useState(false);
 
   const { setVolume, volume } = useGlobalAudioPlayer();
   useEffect(() => {
@@ -28,7 +31,7 @@ function App() {
   }, []);
   return (
     <>
-      <NavigationBar />
+      <NavigationBar showMobNav={showMobNav} setShowMobNav={setShowMobNav}/>
       <div
         className={`eye-button ${isBouncing ? "bounce" : ""}`}
         onClick={() => {
@@ -44,7 +47,8 @@ function App() {
         volume={volume}
         setVolume={setVolume}
       />
-      <Routes>
+      <ScrollToTop />
+      {!showMobNav && (<Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blogs" element={<BlogsListPage />} />
         <Route path="/blogs/:id" element={<BlogPage />} />
@@ -54,7 +58,8 @@ function App() {
         <Route path="/support" element={<SupportPage />} />
         <Route path="/timeline/historic" element={<HistoricTimelinePage />} />
         <Route path="/timeline/recent" element={<RecentTimelinePage />} />
-      </Routes>
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>)}
       <Footer 
         title = "Stand with Palestine"
         subTitle = "A Joint Collaborative Effort by a Group of Students from Egypt"
@@ -62,6 +67,17 @@ function App() {
       />
     </>
   );
+}
+
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
 }
 
 export default App;

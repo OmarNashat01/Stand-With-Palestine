@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-
+import { useNavigate } from "react-router-dom";
 interface FooterProps {
     title: string;
     subTitle: string;
@@ -9,6 +9,7 @@ interface FooterProps {
   
 
   const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
+    const navigate = useNavigate();
     return (
         <div className="real-footer">
     <footer>
@@ -27,12 +28,12 @@ interface FooterProps {
         <p>Copyright © 2023 All Rights Reserved.</p>
         <div className="footer-menu">
           <ul className="f-menu">
-            <li><a href="">Support</a></li>
-            <li><a href="">Home</a></li>
-            <li><a href="">Timeline</a></li>
-            <li><a href="">Crimes</a></li>
-            <li><a href="">Lies</a></li>
-            <li><a href="">Blogs</a></li>
+            <li><a onClick={()=>navigate("./support")}>Support</a></li>
+            <li><a onClick={()=>navigate("./")}>Home</a></li>
+            <li><a onClick={()=>navigate("./timeline/recent")}>Timeline</a></li>
+            <li><a onClick={()=>navigate("./crimes")}>Crimes</a></li>
+            <li><a onClick={()=>navigate("./lies")}>Lies</a></li>
+            <li><a onClick={()=>navigate("./blogs")}>Blogs</a></li>
           </ul>
         </div>
       </div>

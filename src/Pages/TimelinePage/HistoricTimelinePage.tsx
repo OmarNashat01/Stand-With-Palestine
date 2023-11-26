@@ -1,8 +1,10 @@
 import React from 'react';
+import GradientHero from "../../components/Simple/GradientHero";
 
 const HistoricTimelinePage: React.FC = () => {
   return (
     <div style={{ flex: 1, borderTopLeftRadius: '4rem', borderTopRightRadius: '4rem', backgroundColor: '#101010' }}>
+      <GradientHero title={"COMING SOON"} subTitle1="This Page is Under Construction" subTitle2="We Are Working Hard To Get This Up Quickly!" />
     </div>
   );
 };

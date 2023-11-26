@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { blogs } from "./BlogsPageData";
 import Markdown from "../../components/Simple/Markdown";
 import GradientHero from "../../components/Simple/GradientHero";
+import { useNavigate } from "react-router-dom";
 
 function getBlogByPath(blogPath: string){
   const foundBlog = blogs.find(blog => blog.blogPath === blogPath);
@@ -10,6 +11,7 @@ function getBlogByPath(blogPath: string){
 }
 
 const BlogPage: React.FC = () => {
+  const navigate = useNavigate();
   const [blog, setBlog] = useState<string | null>(null);
   const { id } = useParams();
   const [title, setTitle] = useState("");
@@ -24,6 +26,11 @@ const BlogPage: React.FC = () => {
         .then((res) => res.text())
         .then((text) => setBlog(text));
     }
+    else {
+      navigate("/404");
+    }
+    //else  redirect to 404
+
   }, []);
 
   return (

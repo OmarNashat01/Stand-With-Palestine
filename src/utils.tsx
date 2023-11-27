@@ -10,3 +10,6 @@ export const saveSet = (setter: any, name: string, value: any) => {
   }
   newSetter(value);
 };
+
+//@ts-ignore
+export const blurFilter = () => (localStorage.getItem('blur'))? `blur(${localStorage.getItem('blur')}px)` : `blur(0px)`;

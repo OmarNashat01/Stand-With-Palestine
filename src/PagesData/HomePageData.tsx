@@ -27,7 +27,8 @@ const homeData = {
       imagePath: './HomePage/gaza-child-sad.webp',
       numbers: [6000, 4000, 38000, "~1.65M"],
       texts: ["Children Killed", "Woman Killed", "People in Pain", "People Displaced"],
-      onClick: "./status"
+      onClick: "./status",
+      violent: true
     },
   
     timelineBanner: {
@@ -75,7 +76,8 @@ const homeData = {
       buttonText2: "Read More",
       reverse: true,
       onClick1: './timeline/recent',
-      onClick2: 'https://www.palestinechronicle.com/dead-and-wounded-in-israeli-bombing-near-indonesian-hospital/'
+      onClick2: 'https://www.palestinechronicle.com/dead-and-wounded-in-israeli-bombing-near-indonesian-hospital/',
+      violent: true
     },
   
     recentTimelineDiplomaticSection: {
@@ -96,7 +98,7 @@ const homeData = {
       isYouTube: false,
       isLocalVideo: false,
       onClick1: './timeline/recent',
-      onClick2: 'https://apnews.com/article/house-israel-aid-ukraine-republicans-biden-gaza-b7bfe528b12ac5954cfd5c034f11320d'
+      onClick2: 'https://apnews.com/article/house-israel-aid-ukraine-republicans-biden-gaza-b7bfe528b12ac5954cfd5c034f11320d',
     },
   
     warCrimeBanner: {
@@ -176,6 +178,9 @@ const homeData = {
         "./HomePage/videos-grid/ChildCarried.mp4",
         "./HomePage/videos-grid/Targeting Childrens2.mp4",
       ],
+      violences: [
+        false, true, true, false, true, true, true
+      ]
     },
   
     intenseGridSection2: {
@@ -188,6 +193,9 @@ const homeData = {
         "./HomePage/videos-grid/ChildrenDead.mp4",
         "./HomePage/videos-grid/ChildCarried.mp4",
       ],
+      violences: [
+        true, false, false, true, true, true, true
+      ]
     },
   
     blogBanner: {

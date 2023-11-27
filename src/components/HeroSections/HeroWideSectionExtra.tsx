@@ -2,6 +2,7 @@ import React from 'react';
 import './HeroWideSectionExtra.scss';
 import HeroButton from '../Simple/HeroButton';
 import { useNavigate } from "react-router-dom";
+import { blurFilter } from '../../utils';
 
 interface HeroWideSectionExtraProps {
   imagePath: string;
@@ -19,7 +20,8 @@ interface HeroWideSectionExtraProps {
   isYouTube: boolean;
   onClick1?:string,
   onClick2?:string,
-  onClick2Mode?:string
+  onClick2Mode?:string,
+  violent?:boolean
 }
 
 const HeroWideSectionExtra: React.FC<HeroWideSectionExtraProps> = ({
@@ -38,7 +40,8 @@ const HeroWideSectionExtra: React.FC<HeroWideSectionExtraProps> = ({
   isYouTube,
   onClick1="./",
   onClick2="./",
-  onClick2Mode="external"
+  onClick2Mode="external",
+  violent=false
 }) => {
   const paragraphs = text.split('|').map((paragraph, index) => {
     const modifiedParagraph = paragraph.replace(/#/, '<span>"').replace(/#/, '"</span>');
@@ -53,8 +56,8 @@ const HeroWideSectionExtra: React.FC<HeroWideSectionExtraProps> = ({
     <div className="hero-section-extra" style={{ backgroundImage: `url(${imagePath})` }}>
       <div className="overlay-effect" style={imagePath ? { background: overlayColor, backdropFilter: blur } : {}}></div>
       <div className="hero-content-extra" style={{ filter: 'brightness(1.0)', flexDirection: reverse ? 'row-reverse' : 'row' }}>
-        {!isLocalVideo && !isYouTube && <div className="image-container-extra" style={{ backgroundImage: `url('${extraImagePath}')` }}></div>}
-        {isLocalVideo && <video src={extraImagePath} autoPlay loop muted controls className="video-container-extra" />}
+        {!isLocalVideo && !isYouTube && <div className="image-container-extra" style={{ backgroundImage: `url('${extraImagePath}')`, filter: ((violent) ? blurFilter():'') }}></div>}
+        {isLocalVideo && <video src={extraImagePath} autoPlay loop muted controls className="video-container-extra" style={{filter: ((violent) ? blurFilter():'')}}/>}
         {isYouTube && <iframe className="video-container-extra" title="Video" src={extraImagePath}></iframe>}
         <div className="text-wrapper-extra">
           <div className="text-container-extra">

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './HeroDigitsSection.scss'; // Import the SASS file
 import { useNavigate } from "react-router-dom";
+import { blurFilter } from '../../utils';
 
 interface AnimatedNumberProps {
   value: number;
@@ -28,14 +29,15 @@ interface HeroDigitsSectionProps {
   numbers: (number | string)[];
   texts: string[];
   onClick:string;
+  violent?:boolean;
 }
 
-const HeroDigitsSection: React.FC<HeroDigitsSectionProps> = ({ imagePath, numbers, texts, onClick  }) => {
+const HeroDigitsSection: React.FC<HeroDigitsSectionProps> = ({ imagePath, numbers, texts, onClick, violent=false  }) => {
   const navigate = useNavigate();
   return (
     <div className="hero-section" id="nums">
       <div className="hero-content">
-        <div className="image-container" style={{ backgroundImage: `url('${imagePath}')` }}>
+        <div className="image-container" style={{ backgroundImage: `url('${imagePath}')`, filter: ((violent) ? blurFilter():'')}}>
         </div>
         <div className="text-wrapper">
           <div className="text-container">

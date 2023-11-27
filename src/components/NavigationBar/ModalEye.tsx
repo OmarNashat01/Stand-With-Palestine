@@ -6,16 +6,18 @@ import 'rc-slider/assets/index.css';
 import HeroButton from '../Simple/HeroButton';
 import "./ModalEye.scss";
 import 'rc-slider/assets/index.css';
-import { useGlobalAudioPlayer } from 'react-use-audio-player';
+import { saveSet } from '../../utils';
 
 interface ModalProps {
   showModal: boolean;
   setShowModal: (show: boolean) => void;
   volume: number;
   setVolume: any;
+  blur: number;
+  setBlur: any;
 }
 
-const ModalEye: FC<ModalProps> = ({ showModal, setShowModal, volume, setVolume }) => {
+const ModalEye: FC<ModalProps> = ({ showModal, setShowModal, volume, setVolume, blur, setBlur }) => {
   const modalRef = useRef(null);
 
   const handleCloseModal = useCallback((event: MouseEvent) => {
@@ -50,17 +52,17 @@ const ModalEye: FC<ModalProps> = ({ showModal, setShowModal, volume, setVolume }
               <div className="control-container">
                 <p>
                   <FaEye style={{ marginBottom: '-2px', marginRight: '0.3rem' }} />
-                  Control Blur
+                  Violence Blur
                 </p>
-                <Slider />
+                <Slider max={26} step={1} value={blur}  defaultValue={blur} onChange={(value)=>saveSet(setBlur, 'blur', value)}/>
               </div>
               <div className="control-container">
                 <p>
                   <AiFillSound style={{ marginBottom: '-2px', marginRight: '0.3rem' }} />
-                  Control Sound
+                  Shelling Volume
                 </p>
 
-                <Slider max={1.0} step={0.02} value={volume} defaultValue={volume} onChange={(value)=>setVolume(value)} />
+                <Slider max={1.0} step={0.001} value={volume} defaultValue={volume} onChange={(value)=>saveSet(setVolume, 'volume', value)} />
               </div>
             </div>
             <HeroButton

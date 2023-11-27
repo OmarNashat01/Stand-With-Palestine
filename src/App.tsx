@@ -15,19 +15,42 @@ import { useGlobalAudioPlayer } from "react-use-audio-player";
 import Footer from "./components/Footer/Footer";
 import { useLocation } from "react-router-dom";
 import NotFoundPage from "./components/NotFound/NotFound";
+import {init, saveSet} from "./utils"
 
 function App() {
   const [showModal, setShowModal] = useState(false); // eye modal
   const { load } = useGlobalAudioPlayer();
-  const [isBouncing, setIsBouncing] = useState(true);
+  const [isBouncing, setIsBouncing] = useState(init('isBouncing', true));
   const [showMobNav, setShowMobNav] = useState(false);
   const [showEyeButton, setShowEyeButton] = useState(false);
-
   const { setVolume, volume } = useGlobalAudioPlayer();
+  const [blur, setBlur] = useState(init('blur', 0));
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      if (isBouncing) {
+        setShowModal(true);
+        saveSet(setIsBouncing, 'isBouncing', false);
+      }
+    }, 10000);
+
+    return () => {
+      // Clear the timeout if the component is unmounted before 7 seconds
+      clearTimeout(timeoutId);
+    };
+  }, [isBouncing]);
+
+  useEffect(() => {
+    const storedVolume = localStorage.getItem('volume');
+    if (storedVolume) {
+      setVolume(parseFloat(storedVolume));  
+    }
+  }, [setVolume]);
+
   useEffect(() => {
     load("./shells.mp3", {
       autoplay: true,
-      initialVolume: 0.0,
+      initialVolume: init('volume', 0.001),
     });
   }, []);
 
@@ -57,7 +80,7 @@ function App() {
           className={`eye-button ${isBouncing ? "bounce" : ""}`}
           onClick={() => {
             setShowModal(!showModal);
-            setIsBouncing(false);
+            saveSet(setIsBouncing, 'isBouncing', false);
           }}
         >
           <img src="./eye.png" />
@@ -68,6 +91,8 @@ function App() {
         setShowModal={setShowModal}
         volume={volume}
         setVolume={setVolume}
+        blur={blur}
+        setBlur={setBlur}
       />
       {!showMobNav && (
         <>

@@ -52,6 +52,7 @@ interface CrimesListProps {
                     key={mediaIndex}
                     path={media.path}
                     mode={media.mode}
+                    violence={media.violence}
                   />
                 ))}
               </Carousel>

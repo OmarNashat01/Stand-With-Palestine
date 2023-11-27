@@ -20,8 +20,8 @@ export const crimesDict = [
         },
       ],
       media: [
-        { path: "./CrimesPage/siege1.mp4", mode: "video" },
-        { path: "./CrimesPage/siege2.mp4", mode: "video" },
+        { path: "./CrimesPage/siege1.mp4", mode: "video", violence: false },
+        { path: "./CrimesPage/siege2.mp4", mode: "video", violence: false },
       ],
       paragraphLeft: "",
       paragraphRight:
@@ -47,9 +47,9 @@ export const crimesDict = [
         },
       ],
       media: [
-        { path: "./CrimesPage/whitepv.mp4", mode: "video" },
-        { path: "./CrimesPage/white-ph.png", mode: "img" },
-        { path: "./CrimesPage/whitep.webp", mode: "img" },
+        { path: "./CrimesPage/whitepv.mp4", mode: "video", violence: false },
+        { path: "./CrimesPage/white-ph.png", mode: "img", violence: false },
+        { path: "./CrimesPage/whitep.webp", mode: "img", violence: true },
       ],
       paragraphLeft: "",
       paragraphRight:

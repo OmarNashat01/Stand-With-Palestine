@@ -1,0 +1,40 @@
+@import '../../variables';
+
+.card-og {
+    // max-width: 300px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+
+    &:hover {
+        box-shadow: 0px 0px 5px 5px #00000052;
+        cursor: pointer;
+    }
+
+    .selected {
+        background: linear-gradient(45deg, #a20017, transparent) !important;
+    }
+
+    .card-content {
+        background: linear-gradient(30deg, #131313, #000000);
+
+        color: $text-color;
+
+        .card-body {
+            min-height: 150px;
+            max-height: 150px;
+            min-width: 200px;
+            max-width: 200px;
+            padding: 1.5rem 1.5rem 0 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            .title {
+                font-size: 1.25rem;
+                font-weight: 800;
+            }
+        }
+
+
+    }
+}

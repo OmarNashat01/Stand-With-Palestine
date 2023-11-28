@@ -1,5 +1,4 @@
 import React from "react";
-import "./HistoricTimelineSection.scss";
 interface TimelineInterface {
   direction: string;
 }

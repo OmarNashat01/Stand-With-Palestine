@@ -10,9 +10,9 @@ import StatisticsSection from "../../components/StatusSections/StatisticsSection
 import {
   historyData,
   recentData,
-  faqData,
   readPcbsData,
-} from "./StatusPageData";
+  faqData
+} from "../../PagesData/StatusPageData";
 import "../../components/StatusSections/FAQSection.scss";
 
 

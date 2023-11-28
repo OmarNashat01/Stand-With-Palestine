@@ -26,26 +26,48 @@
       .text-wrapper {
         flex:1;
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Two columns */
-        grid-template-rows: repeat(2, 1fr);    /* Two rows */
-        gap: 3px;                             /* Gap between items */
-        justify-content: center;               /* Center the grid horizontally */
-        align-items: center;                   /* Center the grid vertically */
-        justify-content: space-around;
+        grid-template-columns: repeat(2, 6fr); 
+        grid-template-rows: repeat(2, 1fr);   
+        margin-top: 2rem;
+        margin: 1rem;
+        gap: 1rem;                            
+        //justify-content: center;              
+        //align-items: center;                  
+        //justify-content: space-around;
+        @keyframes gradientAnimation {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
       .text-container {
+        min-width: 250px;
+        @media only screen and (max-width: 600px) {
+          min-width: 200px;
+        }
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5); /* 3D-like shadow */
         cursor: pointer;
-
-        text-align: left;
+        text-align: center;
         margin: auto;
-        padding: 1rem;
-  
+        padding: 0.4rem;
+        background: radial-gradient(#1f1f1f, #141414);
+        background-size: 200% 200%; /* Increase the size for the gradient animation */
+        animation: gradientAnimation 3s infinite;
+        border-radius: 1rem;
+
         h1 {
           font-size: 2.5rem;
           color: $primary-color-light;
           text-align: center;
           text-decoration: underline;
-
-          //color: #dedede; // Set your desired text color
+          @media only screen and (max-width: 600px) {
+          font-size: 2.1rem;
+        }
         }
   
         p {
@@ -53,6 +75,9 @@
           text-align: center;
           color: #e8e8e8; // Set your desired text color
           margin-bottom: 30px;
+          @media only screen and (max-width: 600px) {
+          font-size: 1.0rem;
+        }
         }
       }
       .button-container{

@@ -1,17 +1,19 @@
 import React, { useEffect } from "react";
+import { blurFilter } from "../../utils";
 
 interface MediaInputProps {
     mode: string;
     path: string;
+    violence: boolean;
   }
   
-  const MediaInput: React.FC<MediaInputProps> = ({ mode, path }) => {
+  const MediaInput: React.FC<MediaInputProps> = ({ mode, path, violence }) => {
     return (
       <>
         {mode === "img" && (
           <img
             className="image-container-extra"
-            style={{ backgroundImage: `url('${path}')` }}
+            style={{ backgroundImage: `url('${path}')`, filter: ((violence) ? blurFilter():'') }}
           />
         )}
         {mode === "video" && (
@@ -21,6 +23,7 @@ interface MediaInputProps {
             autoPlay
             muted
             className="video-container-extra"
+            style={{filter: ((violence) ? blurFilter():'')}}
           />
         )}
         {mode === "iframe" && (

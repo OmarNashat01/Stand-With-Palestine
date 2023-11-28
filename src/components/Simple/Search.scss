@@ -16,9 +16,15 @@
   align-items: center;
   margin-top: 2rem;
   position: relative;
-
+  @media (max-width: 800px) {
+    margin: 1rem 0.7rem;
+   }
   .search-input {
     width: 70vw;
+    @media (max-width: 800px) {
+      width: 90vw;
+
+    }
     border-radius: 1rem;
     border: none;
     outline: none;
@@ -29,7 +35,9 @@
     background-color: rgba(29, 29, 29, 0.5);
     height: 50px;
     padding: 0.8rem;
-
+    @media (max-width: 800px) {
+      font-size: 0.85rem;
+     }
   }
 
   .search-button {

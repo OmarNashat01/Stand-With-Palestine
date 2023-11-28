@@ -49,7 +49,7 @@ interface GazaStatusSectionProps {
           <AnimatedNumber value={gazaDict["killed"]} className="number-h1" />
         </div>
         <div className="kids-killed grid-item killed-group">
-          <img src="./Mat_Kids.svg" className="icon" />
+          <img src="./StatusPage/Mat_Kids.svg" className="icon" />
           <h1 className="mini-h1">Children</h1>
           <AnimatedNumber
             value={gazaDict["killedKids"]}
@@ -66,7 +66,7 @@ interface GazaStatusSectionProps {
           />
         </div>
         <div className="women-killed grid-item killed-group">
-          <img src="./Mat_female.svg" className="icon" />
+          <img src="./StatusPage/Mat_female.svg" className="icon" />
           <h1 className="mini-h1">Women</h1>
           <AnimatedNumber
             value={gazaDict["killedWomen"]}
@@ -74,7 +74,7 @@ interface GazaStatusSectionProps {
           />
         </div>
         <div className="killed-un grid-item killed-group">
-          <img src="./UN.svg" className="icon" style={{ width: "3.5rem" }} />
+          <img src="./StatusPage/UN.svg" className="icon" style={{ width: "3.5rem" }} />
           <h1 className="mini-h1">UN Staff</h1>
           <AnimatedNumber
             value={gazaDict["killedUN"]}
@@ -83,7 +83,7 @@ interface GazaStatusSectionProps {
           />
         </div>
         <div className="elderly-killed grid-item killed-group">
-          <img src="./Mat_elder.svg" className="icon" />
+          <img src="./StatusPage/Mat_elder.svg" className="icon" />
           <h1 className="mini-h1">Elderly</h1>
           <AnimatedNumber
             value={gazaDict["killedElder"]}
@@ -101,7 +101,7 @@ interface GazaStatusSectionProps {
         </div>
         <div className="men-killed grid-item killed-group">
           <img
-            src="./chalk-outline-murder.svg"
+            src="./StatusPage/chalk-outline-murder.svg"
             style={{ width: "3.8rem" }}
             className="icon"
           />
@@ -158,7 +158,7 @@ interface GazaStatusSectionProps {
         </div>
         <div className="kids-women-missing grid-item missing-group">
           <img
-            src="./missing-kids-women.svg"
+            src="./StatusPage/missing-kids-women.svg"
             className="icon"
             style={{ maxWidth: "100px" }}
           />
@@ -170,7 +170,7 @@ interface GazaStatusSectionProps {
         </div>
         <div className="others-missing grid-item missing-group">
           <img
-            src="./missing-men.svg"
+            src="./StatusPage/missing-men.svg"
             className="icon"
             style={{ maxWidth: "100px" }}
           />

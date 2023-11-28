@@ -1,6 +1,9 @@
 import React from "react";
 import "./HeroWideSection.scss";
 import HeroButton from "../Simple/HeroButton";
+import { useNavigate } from "react-router-dom";
+//@ts-ignore
+import { Link } from "react-scroll";
 
 interface HeroWideSectionProps {
   imagePath: string;
@@ -14,6 +17,8 @@ interface HeroWideSectionProps {
   showDay: boolean;
   minHeight: string;
   blur: string;
+  onClick1?: string;
+  onClick2?: string;
 }
 
 const HeroWideSection: React.FC<HeroWideSectionProps> = ({
@@ -28,7 +33,10 @@ const HeroWideSection: React.FC<HeroWideSectionProps> = ({
   showDay,
   minHeight,
   blur,
+  onClick1="./",
+  onClick2="./",
 }) => {
+  const navigate = useNavigate();
   return (
     <div
       className="hero-wide-section"
@@ -49,14 +57,13 @@ const HeroWideSection: React.FC<HeroWideSectionProps> = ({
         <h2>{subTitle}</h2>
         <h3>{subTitle2}</h3>
         {buttonText1 !== "" && (
-          <HeroButton type="red" content={buttonText1} fontSize="1.2rem" />
+          <Link to={onClick1} spy={true} smooth={true} offset={0} duration={500}><HeroButton type="red" content={buttonText1} fontSize="1.2rem" /></Link>
         )}
         {buttonText2 !== "" && (
-          <HeroButton type="blue" content={buttonText2} fontSize="1.2rem" />
+          <HeroButton type="blue" content={buttonText2} fontSize="1.2rem" onClickFunc={() => navigate(onClick2)}/>
         )}
         {showDay && (
           <h3 className="last-h3">
-            {" "}
             <b>
               {Math.floor(
                 (new Date().getTime() - new Date("2023-10-06").getTime()) /

@@ -17,6 +17,7 @@
     border-top-right-radius: 4rem;
     @media only screen and (max-width: 600px) {border-top-left-radius: 2rem !important; border-top-right-radius: 2rem !important;}
     padding: 2rem;
+    cursor: default;
 
     .overlay {
       content: "";

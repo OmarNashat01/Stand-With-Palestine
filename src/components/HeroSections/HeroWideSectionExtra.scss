@@ -38,7 +38,7 @@
       max-height: 80vh;
       padding-top: 1rem;
       @media only screen and (max-width: 800px) { width: 100%; flex: 0 1 auto; height: 50vh; align-self: center;}
-      background-size: cover; 
+      background-size: contain; 
       background-repeat: no-repeat; 
       background-position: center;
     }

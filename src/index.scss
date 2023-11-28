@@ -56,6 +56,12 @@ a {
   background-color:  rgba($primary-color-light, 0.7)
 }
 
+.crime-empty{
+  @media only screen and (max-width: 900px) {
+    display: none !important;
+  }
+}
+
 .eye-button {
   //height: 100vh;
   position: fixed;
@@ -83,4 +89,28 @@ a {
 
 .bounce {
   animation: bounce 1s infinite;
+}
+
+
+.markdown-container {
+  padding: 2rem !important;
+  max-width: none !important;
+}
+
+.blog-page {
+  @media only screen and (max-width: 760px) {
+    max-width: 100% !important;
+  }
+}
+
+.slider-image {
+  @media only screen and (max-width: 760px) {
+    display: none !important;
+    max-height: 70vh !important;
+  }
+}
+.slider-image-resp {
+  @media only screen and (min-width: 760px) {
+    display: none !important;
+  }
 }

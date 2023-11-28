@@ -29,8 +29,8 @@ const MapSection: React.FC<MapSectionProps> = ({
         <img
           src={
             selectedRegion === "Gaza"
-              ? "./gazaselect.svg"
-              : "./westbankselect.svg"
+              ? "./StatusPage/gazaselect.svg"
+              : "./StatusPage/westbankselect.svg"
           }
           alt="Map"
           style={{

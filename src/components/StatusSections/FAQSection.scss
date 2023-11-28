@@ -4,6 +4,7 @@
         background-color: transparent !important;
         color: #fff1f1 !important;
         display: none;
+        
     }
 
     .faq-body {
@@ -22,13 +23,20 @@
                 }
                 font-size: 1rem !important;
                 font-weight: 600;
+                @media only screen and (max-width: 900px) {
+                    font-size: 0.8rem !important;
+                  }
             }
             .row-content {
                 .row-content-text {
-                    color: #fff1f1 !important;
+                    color: #979797 !important;
                     padding: 1rem !important;
                     padding-left: 2rem !important;
                     font-size: 0.9rem !important;
+                    text-align: justify;
+                    @media only screen and (max-width: 900px) {
+                        font-size: 0.8rem !important;
+                      }
                 }
             }
         }

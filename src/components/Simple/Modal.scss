@@ -17,6 +17,8 @@
     &.show {
       display: flex;
     }
+
+    
   
     .modal_content {
       background: #1a1a1a;
@@ -25,6 +27,7 @@
       border-radius: 8px;
       max-width: 60%;
       max-height: 80%;
+
       overflow: auto;
       border-radius: 1rem;
 
@@ -35,17 +38,20 @@
         color: $primary-color-light;
         padding: 1rem;
         margin: 0.5rem 1rem;
-        @media only screen and (max-width: 600px) {
-          font-size: 1.5rem;
-
-        }
+        @media only screen and (max-width: 900px) {
+          font-size: 1.35rem;         margin: 0.5rem 0.3rem;
+        } 
       }
 
       ul {
         margin: 0.5rem 1rem;
         padding: 1rem;
         font-size: 1.2rem;
-
+        @media only screen and (max-width: 900px) {
+          font-size: 0.9rem;  
+          margin: 0.5rem 0.5rem;
+          padding: 0.5rem;      
+        } 
         color:rgb(170, 169, 169);
         a {
           text-decoration: underline;
@@ -60,12 +66,12 @@
         line-height: 1.4;
         font-size: 1.2rem;
         padding: 1rem;
-        color:rgb(170, 169, 169);
-        text-align: left;
         @media only screen and (max-width: 600px) {
           font-size: 0.9rem;
-
+          padding: 0.5rem;
         }
+        color:rgb(170, 169, 169);
+        text-align: left;
       }
     }
   }

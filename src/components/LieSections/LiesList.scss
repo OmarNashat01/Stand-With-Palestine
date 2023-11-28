@@ -1,5 +1,6 @@
 @import '../../variables';
 
+
 .wrapper-lies {
   max-width: 1320px;
   margin: 0 auto;
@@ -50,6 +51,7 @@
   position: relative;
   border-radius: 10px;
   min-height: 250px;
+
   overflow: hidden;
   background: linear-gradient(45deg, #1f1f1f, #141414);
   cursor: pointer;
@@ -70,6 +72,9 @@
     line-height: 24px;
     padding-top: 0.5rem;
     max-width: 90%;
+    word-wrap: break-word;
+    hyphens: auto;
+    padding-right: 0.5rem;
   }
 
   &__topic {
@@ -88,7 +93,9 @@
 
 .card--overlay--wide {
   min-height: 200px;
-
+  @media (max-width: 800px) {
+    min-height: 250px !important;
+   }
   .card {
     &__content {
       order: 1;

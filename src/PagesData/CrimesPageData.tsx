@@ -20,12 +20,12 @@ export const crimesDict = [
         },
       ],
       media: [
-        { path: "./siege1.mp4", mode: "video" },
-        { path: "./siege2.mp4", mode: "video" },
+        { path: "./CrimesPage/siege1.mp4", mode: "video", violence: false },
+        { path: "./CrimesPage/siege2.mp4", mode: "video", violence: false },
       ],
       paragraphLeft: "",
       paragraphRight:
-        " Israel has imposed a total blockade on Gaza; allowing no electricity, no water, no food and no gas, all of which are necessary for the life of the civilians. This has led to catastrophic consequences.",
+        "Israel has imposed a total blockade on Gaza, allowing no electricity, no water, no food and no gas. This had catastrophic consequences on innocent civilians.",
       onClickFunc: "blockade-crime",
     },
     {
@@ -47,9 +47,9 @@ export const crimesDict = [
         },
       ],
       media: [
-        { path: "./whitepv.mp4", mode: "video" },
-        { path: "./white-ph.png", mode: "img" },
-        { path: "./whitep.webp", mode: "img" },
+        { path: "./CrimesPage/whitepv.mp4", mode: "video", violence: false },
+        { path: "./CrimesPage/white-ph.png", mode: "img", violence: false },
+        { path: "./CrimesPage/whitep.webp", mode: "img", violence: true },
       ],
       paragraphLeft: "",
       paragraphRight:

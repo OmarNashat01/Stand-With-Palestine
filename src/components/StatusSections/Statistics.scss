@@ -1,0 +1,75 @@
+@import '../../variables';
+
+.stat-parent {
+    display: grid;
+    max-height: 100vh;
+    @media (max-width: 1200px) {
+        max-height: 100%;
+    }
+    grid-template-rows: repeat(6, 0.5fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+        "bar bar bar bar bar radar radar radar"
+        "bar bar bar bar bar radar radar radar"
+        "bar bar bar bar bar radar radar radar"
+        "pie pie pie line line line line line"
+        "pie pie pie line line line line line"
+        "pie pie pie line line line line line";
+        @media (max-width: 1200px) {
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            grid-template-areas:
+            "bar bar bar bar bar bar bar bar"
+            "bar bar bar bar bar bar bar bar"
+            "radar radar radar radar radar radar radar radar"
+            "pie pie pie pie pie pie pie pie"
+            "line line line line line line line line"
+            "line line line line line line line line"
+            ;
+          }
+          @media (max-width: 800px) {
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas:
+            "radar radar radar radar radar radar radar radar"
+            "pie pie pie pie pie pie pie pie"
+            ;
+          }
+
+
+    gap: 1rem;
+    width: 100%;
+    padding: 2rem;
+    background-color: #1d1d1d;//radial-gradient(#1f1f1f, #141414) !important;
+
+    .grid-item {
+        padding: 1.5rem;
+        background: radial-gradient(#1f1f1f, #141414);
+        border-radius: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bar {
+        grid-area: bar;
+        @media (max-width: 800px) {
+            display: none;
+        }
+    }
+
+    .radar {
+        grid-area: radar;
+    }
+
+    .pie {
+        grid-area: pie;
+    }
+
+    .line {
+        grid-area: line;
+        @media (max-width: 800px) {
+            display: none;
+        }
+    }
+}

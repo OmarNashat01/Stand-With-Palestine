@@ -1,0 +1,165 @@
+@import '../../variables';
+
+
+.wrapper-lies {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 1rem;
+
+
+  .btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.875rem;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .btn--white {
+    color: #000000;
+    background-color: rgba(#f1f1f1, 1.0);
+  }
+}
+
+
+.cards {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1rem;
+  grid-template-areas:
+    "p1 p1"
+    "p2 p3"
+    "p4 p5"
+    "p6 p6";
+
+  .special {
+    background: linear-gradient(45deg, rgba(#1f1f1f, 0.5), rgba($primary-color, 0.4));
+  }
+}
+
+
+
+
+.card {
+  color: #fff;
+  padding: 4rem 2rem;
+  position: relative;
+  border-radius: 10px;
+  min-height: 250px;
+
+  overflow: hidden;
+  background: linear-gradient(45deg, #1f1f1f, #141414);
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(45deg, rgba($primary-color-light, 0.4), rgba($primary-color, 0.4));
+  }
+
+
+  &__header {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+
+  &__title {
+    font-size: 1.175rem;
+    line-height: 24px;
+    padding-top: 0.5rem;
+    max-width: 90%;
+    word-wrap: break-word;
+    hyphens: auto;
+    padding-right: 0.5rem;
+  }
+
+  &__topic {
+    font-size: 0.875rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    margin-top: 2rem;
+  }
+}
+
+.card--overlay--wide {
+  min-height: 200px;
+  @media (max-width: 800px) {
+    min-height: 250px !important;
+   }
+  .card {
+    &__content {
+      order: 1;
+    }
+
+    &__title {
+      font-size: 1.75rem;
+      line-height: 34px;
+      max-width: 95%;
+    }
+  }
+}
+
+.post-1 {
+  grid-area: p1;
+}
+
+.post-2 {
+  grid-area: p2;
+}
+
+.post-3 {
+  grid-area: p3;
+}
+
+.post-4 {
+  grid-area: p4;
+}
+
+.post-5 {
+  grid-area: p5;
+}
+
+.post-6 {
+  grid-area: p6;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 2rem 1fr;
+    grid-template-areas:
+      "p1 p1 p2 p3"
+      "p4 p5 p2 p3"
+      "p4 p5 p6 p6";
+  }
+
+  .card {
+    height: 250px;
+
+    &__title {
+      padding-top: 0.75rem;
+      max-width: 60%;
+    }
+  }
+
+  .card--overlay--wide {
+    height: 200px;
+
+    .card {
+      &__footer {
+        left: 20px;
+      }
+    }
+  }
+}

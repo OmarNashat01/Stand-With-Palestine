@@ -1,7 +1,7 @@
 const homeData = {
     mainHeroSection: {
       circular: true,
-      imagePath: "https://media.bnn.network/content/uploads/2023/10/gaza-israel-conflict-20231008182934.jpg",
+      imagePath: "./HomePage/gaza-ouch.webp",
       overlayColor: "rgba(0, 0, 0, 0.35)",
       title: "9/11 is a Daily Reality in Palestine",
       subTitle: "Tens of Thousands of Innocents are being Brutally Murdered or Severely Injured",
@@ -12,7 +12,9 @@ const homeData = {
       buttonText2: "Support ♥",
       showDay: true,
       minHeight: "80vh",
-      blur: "blur(0px)"
+      blur: "blur(0px)",
+      onClick1: "first-banner",
+      onClick2: "./support"
     },
   
     statusBanner: {
@@ -22,9 +24,11 @@ const homeData = {
     },
   
     statusSection: {
-      imagePath: 'https://www.middleeasteye.net/sites/default/files/styles/max_2600x2600/public/images-story/Palestinian%20medics%20treat%20wounded%20children%20at%20Shifa%20Hospital%20in%20Gaza%20City%20Palestinian%20medics%20treat%20wounded%20children%20at%20Shifa%20Hospital%20in%20Gaza%20City%2C%20on%20October%209%2C%202023-reuters.jpg?itok=NKsa8mDR',
-      numbers: [4500, 3000, 29000, "~1.5M"],
-      texts: ["Children Killed", "Woman Killed", "People in Pain", "People Displaced"]
+      imagePath: './HomePage/gaza-child-sad.webp',
+      numbers: [6000, 4000, 38000, "~1.65M"],
+      texts: ["Children Killed", "Woman Killed", "People in Pain", "People Displaced"],
+      onClick: "./status",
+      violent: true
     },
   
     timelineBanner: {
@@ -34,8 +38,8 @@ const homeData = {
     },
   
     historicTimelineSection: {
-      imagePath: "https://www.almukarramah.com/cdn/shop/articles/masjid_al-aqsa.jpg?v=1639921762",
-      extraImagePath: "./PMap.png",
+      imagePath: "./HomePage/aqsa.webp",
+      extraImagePath: "./HomePage/PMap.png",
       overlayColor: "rgba(0, 0, 0, 0.4)",
       blur: "blur(3px)",
       title: "Violence Did Not Begin with the Attacks from Hamas.",
@@ -43,18 +47,19 @@ const homeData = {
       text: 
       `Gaza has been under an illegal and violent blockade for 16 years.| 
        Israel occupies and continues to construct illegal settlements in the West Bank.| 
-       Over 9000 Palestinians have died prior to this conflict since 2000, and over 4000 were imprisoned.`,
+       Over 9000 Palestinians have been killed prior to this conflict since 2000, and over 4000 were imprisoned.`,
       bulleted: "ordered",
       buttonText1: "Check Historic Timeline ▶",
       buttonText2: "",
       reverse: true,
       isYouTube: false,
-      isLocalVideo: false
+      isLocalVideo: false,
+      onClick1: './timeline/historic'
     },
   
     recentTimelineCrimeSection: {
-      imagePath: "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1937,w_3445,x_0,y_239/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1699618449/2023-11-09T154520Z_382644200_RC2O94A0OWRG_RTRMADP_3_ISRAL-PALESTINIANS-GAZA-HOSPITAL-SHIFA_v5etqj",
-      extraImagePath: "./almost.mp4",
+      imagePath: "./HomePage/gaza-carry.jpeg",
+      extraImagePath: "./HomePage/almost.mp4",
       isLocalVideo: true,
       isYouTube: false,
       overlayColor: "rgba(0, 0, 0, 0.6)",
@@ -67,14 +72,17 @@ const homeData = {
       Over 20/35 hospitals are out of service due to bombs or a lack of supplies; 
       remaining hospitals lacking anaesthetics perform surgical operations without numbing and patients scream.`,
       bulleted: "unordered",
-      buttonText1: "Read More",
-      buttonText2: "Check Recents Timeline ▶",
+      buttonText1: "Check Conflict Timeline ▶",
+      buttonText2: "Read More",
       reverse: true,
+      onClick1: './timeline/recent',
+      onClick2: 'https://www.palestinechronicle.com/dead-and-wounded-in-israeli-bombing-near-indonesian-hospital/',
+      violent: true
     },
   
     recentTimelineDiplomaticSection: {
-      imagePath: "https://truthout.org/app/uploads/2023/11/2023_11-01-jabalia-camp-bombed-1-1200x818.jpg",
-      extraImagePath: "https://media.npr.org/assets/img/2023/11/03/ap23306566121946-12f44564a940d349285effb3c46fb6981b117895-s1600-c85.webp",
+      imagePath: "./HomePage/gaza-demolish.jpeg",
+      extraImagePath: "./HomePage/us-aid.webp",
       overlayColor: "rgba(0, 0, 0, 0.6)",
       blur: "blur(2px)",
       title: "White House Approves a $14.3B Military Aid for Israel",
@@ -84,11 +92,13 @@ const homeData = {
       response to the war with Hamas but also a partisan approach by new Speaker Mike Johnson that poses 
       a direct challenge to Democrats and President Joe Biden.`,
       bulleted: "",
-      buttonText1: "Read More",
-      buttonText2: "Check Recents Timeline ▶",
+     buttonText1: "Check Conflict Timeline ▶",
+      buttonText2: "Read More",
       reverse: true,
       isYouTube: false,
-      isLocalVideo: false
+      isLocalVideo: false,
+      onClick1: './timeline/recent',
+      onClick2: 'https://apnews.com/article/house-israel-aid-ukraine-republicans-biden-gaza-b7bfe528b12ac5954cfd5c034f11320d',
     },
   
     warCrimeBanner: {
@@ -99,28 +109,30 @@ const homeData = {
   
     genocideSection: {
       imagePath: "",
-      extraImagePath: "https://www.aljazeera.com/wp-content/uploads/2023/09/2023-09-22T133239Z_1726651141_RC2PD3AMM7DW_RTRMADP_3_UN-ASSEMBLY-1695389643.jpg?resize=1920%2C1440",
+      extraImagePath: "./HomePage/NTN.webp",
       overlayColor: "rgba(0, 0, 0, 0.6)",
       blur: "blur(3px)",
-      title: "Israeli Officials Speak Genocidally of Gaza",
+      title: "Israel is Committing Genocide in Gaza",
       subTitle: "",
       text: 
-      `President said #It is an entire nation out there that is responsible#.|
+      `Intended killing members of a nation, or causing serious bodily or mental harm is genocide by definition.|
+      President said #It is an entire nation out there that is responsible#.|
        Coordinator of Government Activities said #There will be no electricity and no water, there will only be destruction. You wanted hell, you will get hell#.|
        Finance Minister said #There is no such thing as a Palestinian nation. There is no Palestinian history#.|
-       Prime Minister said regarding the state of Gaza post-war #We must have security control. I insist upon it#.|
-       Intended killing members of a nation, or causing serious bodily or mental harm is genocide by definition.`,
+       Prime Minister said regarding the state of Gaza post-war #We must have security control. I insist upon it#.
+       `,
       bulleted: "unordered",
       buttonText1: "Check Israeli War Crimes ▶",
       buttonText2: "",
       isYouTube: false,
       isLocalVideo: false,
-      reverse: false
+      reverse: false,
+      onClick1: "./crimes"
     },
   
     warCrimesLiesSection: {
       imagePath: "",
-      extraImagePath: "./Azhar-University.mp4",
+      extraImagePath: "./HomePage/Azhar-University.mp4",
       overlayColor: "rgba(0, 0, 0, 0.6)",
       blur: "blur(3px)",
       isLocalVideo: true,
@@ -136,12 +148,16 @@ const homeData = {
       buttonText1: "Check Israeli Lies ▶",
       buttonText2: "Check Israeli War Crimes ▶",
       reverse: false,
-      isYouTube: false
+      isYouTube: false,
+      onClick1: "./lies",
+      onClick2: "./crimes"
     },
   
     beforeAfterSection: {
-      imagePath1: "./Before.jpg",
-      imagePath2: "./After.jpg",
+      imagePath1: "./HomePage/Before.jpg",
+      imagePath2: "./HomePage/After.jpg",
+      imagePath1Resp: "./HomePage/Before-rot.png",
+      imagePath2Resp: "./HomePage/After-rot.png",
       title: "Indiscriminate Attacks or Hamas is Everywhere",
       subTitle: "Before and after - Atatra, northern Gaza",
     },
@@ -154,26 +170,32 @@ const homeData = {
   
     intenseGridSection1: {
       videoSources: [
-        "./videos/ChildSurvivor.mp4",
-        "./videos/IsraelTargetsChildren.mp4",
-        "./videos/ChildrenDead.mp4",
-        "./videos/Child.mp4",
-        "./videos/ChildrenGenocide.mp4",
-        "./videos/ChildCarried.mp4",
-        "./videos/Targeting Childrens2.mp4",
+        "./HomePage/videos-grid/ChildSurvivor.mp4",
+        "./HomePage/videos-grid/IsraelTargetsChildren.mp4",
+        "./HomePage/videos-grid/ChildrenDead.mp4",
+        "./HomePage/videos-grid/Child.mp4",
+        "./HomePage/videos-grid/ChildrenGenocide.mp4",
+        "./HomePage/videos-grid/ChildCarried.mp4",
+        "./HomePage/videos-grid/Targeting Childrens2.mp4",
       ],
+      violences: [
+        false, true, true, false, true, true, true
+      ]
     },
   
     intenseGridSection2: {
       videoSources: [
-        "./videos/Targeting Childrens2.mp4",
-        "./videos/Child.mp4",
-        "./videos/ChildSurvivor.mp4",
-        "./videos/IsraelTargetsChildren.mp4",
-        "./videos/ChildrenGenocide.mp4",
-        "./videos/ChildrenDead.mp4",
-        "./videos/ChildCarried.mp4",
+        "./HomePage/videos-grid/Targeting Childrens2.mp4",
+        "./HomePage/videos-grid/Child.mp4",
+        "./HomePage/videos-grid/ChildSurvivor.mp4",
+        "./HomePage/videos-grid/IsraelTargetsChildren.mp4",
+        "./HomePage/videos-grid/ChildrenGenocide.mp4",
+        "./HomePage/videos-grid/ChildrenDead.mp4",
+        "./HomePage/videos-grid/ChildCarried.mp4",
       ],
+      violences: [
+        true, false, false, true, true, true, true
+      ]
     },
   
     blogBanner: {
@@ -183,7 +205,7 @@ const homeData = {
     },
   
     interviewSection1: {
-      imagePath: "https://nypost.com/wp-content/uploads/sites/2/2022/04/piers-show-002-1.jpg",
+      imagePath: "./HomePage/piers.webp",
       extraImagePath: "https://www.youtube.com/embed/4idQbwsvtUo?si=buoWlnAi7KOMcyyB\"",
       isYouTube: true,
       overlayColor: "rgba(0, 0, 0, 0.4)",
@@ -199,11 +221,13 @@ const homeData = {
       buttonText2: "More Blogs ▶",
       reverse: true,
       bulleted: '',
-      isLocalVideo: false
+      isLocalVideo: false,
+      onClick1: './blogs/PiersInterviewsBassem',
+      onClick2: './blogs'
     },
   
     interviewSection2: {
-      imagePath: "https://nypost.com/wp-content/uploads/sites/2/2022/04/piers-show-002-1.jpg",
+      imagePath: "./HomePage/piers.webp",
       extraImagePath: "https://www.youtube.com/embed/YRFKkmsDpuw?si=m8UjFWMtwvPZ21ZU",
       isYouTube: true,
       overlayColor: "rgba(0, 0, 0, 0.6)",
@@ -219,29 +243,11 @@ const homeData = {
       buttonText2: "More Blogs ▶",
       reverse: true,
       bulleted: '',
-      isLocalVideo: false
+      isLocalVideo: false,
+      onClick1: './blogs/PiersInterviewsCenk',
+      onClick2: './blogs'
     },
-  
-    interviewSection3: {
-      imagePath: "https://nypost.com/wp-content/uploads/sites/2/2022/04/piers-show-002-1.jpg",
-      extraImagePath: "https://www.youtube.com/embed/SpIIjzS2BIo?si=B2ThgF6MWn_jJJlb",
-      isYouTube: true,
-      overlayColor: "rgba(0, 0, 0, 0.6)",
-      blur: "blur(2px)",
-      title: "Interview: Piers Morgan and Yuval Harari",
-      subTitle: '',
-      text: 
-      `This conversation between Piers Morgan and Yuval Noah 
-      Harari covers the impact of the October 7th attack on Harari's family and Israelis 
-      in general. Harari advocates for a proportionate response from Israel, emphasizing the need to 
-      disarm Hamas. He suggests that the current leadership, particularly Netanyahu, is a hindrance to 
-      achieving a resolution and calls for new leadership in Israel.`,
-      buttonText1: "Interview Analysis ▶",
-      buttonText2: "More Blogs ▶",
-      reverse: true,
-      bulleted: '',
-      isLocalVideo: false
-    },
+
   
     supportBanner: {
       title: "Please Stand with Palestine",
@@ -252,8 +258,8 @@ const homeData = {
     supportSection: {
       circular: false,
       minHeight: '40vh',
-      imagePath: "https://static.timesofisrael.com/www/uploads/2023/10/33YA3AR-highres.jpg",
-      overlayColor: "rgba(0, 0, 0, 0.35)",
+      imagePath: "./HomePage/paly.jpeg",
+      overlayColor: "rgba(0, 0, 0, 0.6)",
       title: "Speak Up, Support Humanity, Support Palestine",
       subTitle: '',
       subTitle2: "Together, we can prevent thousands more from suffering and dying",
@@ -261,6 +267,7 @@ const homeData = {
       buttonText2: "Here is What You Can Do",
       showDay: false,
       blur: "blur(4px)",
+      onClick2: "./support"
     },
   };
   

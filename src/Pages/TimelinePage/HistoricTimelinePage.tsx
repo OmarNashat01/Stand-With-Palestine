@@ -1,8 +1,9 @@
-import React from "react";
-import "./HistoricTimelinePage.scss";
-const RecentTimelinePage: React.FC = () => {
+import React from 'react';
+import GradientHero from "../../components/Simple/GradientHero";
+
+const HistoricTimelinePage: React.FC = () => {
   return (
-    // <div
+     // <div
     //   className="section-container"
     //   style={{
     //     flexDirection: direction === "right" ? "row-reverse" : "row",
@@ -74,8 +75,10 @@ const RecentTimelinePage: React.FC = () => {
     //     <button className="read-more-btn">Read More</button>
     //   </div>
     // </div>
-    <span>Coming soon</span>
+    <div style={{ flex: 1, borderTopLeftRadius: '4rem', borderTopRightRadius: '4rem', backgroundColor: '#101010' }}>
+      <GradientHero title={"COMING SOON"} subTitle1="This Page is Under Construction" subTitle2="We Are Working Hard To Get This Up Quickly!" />
+    </div>
   );
 };
 
-export default RecentTimelinePage;
+export default HistoricTimelinePage;

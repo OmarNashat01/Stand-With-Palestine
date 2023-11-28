@@ -1,10 +1,17 @@
 @import '../../variables';
 
+.hero-button-resp {
+  @media only screen and (max-width: 900px) {
+    margin: 1rem 0rem !important;
+  }
+}
+
 .hero-button-red, .hero-button-blue {
     padding: 1rem 1rem;
     font-size: 0.9rem;
-    @media only screen and (max-width: 600px) {
-      font-size: 1.0rem;
+    @media only screen and (max-width: 900px) {
+      font-size: 0.9rem !important;
+      padding: 0.6rem 0.6rem !important;
     }
     background-color:  rgba($primary-color-light, 0.5);
     border: 3px solid $primary-color-light;

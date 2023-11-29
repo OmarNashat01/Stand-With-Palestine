@@ -1,4 +1,22 @@
 export const supportPageData = [
+
+    {
+        "organization": "Unicef",
+        "description": "UNICEF works in over 190 countries and territories to save children's lives, to defend their rights, and to help them fulfil their potential, from early childhood through adolescence.",
+        "trucksNumber": "X",
+        "donationLink": "https://help.unicef.org/eg/donate-to-children",
+        "learnMoreLink": "https://www.unicef.org/",
+        "logo": "./SupportPage/UnicefLogo.png",
+        "trucksImages": [
+            "./SupportPage/Unicef-logo.jpeg",
+            "./SupportPage/Unicef-1.jpg",
+            "./SupportPage/Unicef-2.jpg",
+            "./SupportPage/Unicef-3.jpg",
+            "./SupportPage/Unicef-4.jpg",
+            "./SupportPage/Unicef-5.jpg"
+
+        ]
+    },
     {
         "organization": "Unrwa",
         "description": "The United Nations Relief and Works Agency for Palestine Refugees (UNRWA) is a humanitarian organization providing assistance and protection to registered Palestine refugees.",
@@ -16,23 +34,6 @@ export const supportPageData = [
         ]
     },
     {
-        "organization": "Unicef",
-        "description": "UNICEF works in over 190 countries and territories to save children's lives, to defend their rights, and to help them fulfil their potential, from early childhood through adolescence.",
-        "trucksNumber": "X",
-        "donationLink": "https://help.unicef.org/eg/donate-to-children",
-        "learnMoreLink": "https://www.unicef.org/",
-        "logo": "./SupportPage/UnicefLogo.png",
-        "trucksImages": [
-            "./SupportPage/UnicefLogo.png",
-            "./SupportPage/Unicef-1.jpg",
-            "./SupportPage/Unicef-2.jpg",
-            "./SupportPage/Unicef-3.jpg",
-            "./SupportPage/Unicef-4.jpg",
-            "./SupportPage/Unicef-5.jpg"
-
-        ]
-    },
-    {
         "organization": "World Food Programme",
         "description": "The World Food Programme is the food-assistance branch of the United Nations and the world's largest humanitarian organization addressing hunger and promoting food security.",
         "trucksNumber": "X",
@@ -40,7 +41,7 @@ export const supportPageData = [
         "learnMoreLink": "https://www.wfp.org/",
         "logo": "./SupportPage/WorldFoodProgrammeLogo.png",
         "trucksImages": [
-            "./SupportPage/WorldFoodProgrammeLogo.png",
+            "./SupportPage/wfp-logos.png",
             "./SupportPage/WFP-1.jpg",
             "./SupportPage/WFP-2.jpg",
             "./SupportPage/WFP-3.jpg",
@@ -56,6 +57,18 @@ export const supportPageData = [
         "trucksImages": [
             "./SupportPage/RedCrossLogo.png",
             "./SupportPage/ICRC-1.jpg",
+        ]
+    },
+    {
+        "organization": "Palestinian Red Crescent",
+        "description": "The Palestine Red Crescent Society (PRCS) is an officially recognized independent Palestinian National Society. It enjoys legal personality and is part of the International Red Cross and Red Crescent Movement.",
+        "trucksNumber": "X",
+        "donationLink": "https://www.palestinercs.org/ar/donation",
+        "learnMoreLink": "https://www.palestinercs.org/en",
+        "logo": "./SupportPage/prc-logo.png",
+        "trucksImages": [
+            "./SupportPage/prc-logo.png",
+            "./SupportPage/prc.png",
         ]
     },
 
@@ -130,15 +143,35 @@ export const supportPageData = [
             "./SupportPage/ZFA-2.jpg",
         ]
     },
+
+]
+
+const link = "standwithpalestine.com";
+const text = "Learn more about the latest news, the status of Gaza, Israeli war crimes, and misinformation about the ongoing massacre in Gaza. Support Palestine! ";
+export const supportActionData = [
+
     {
-        "organization": "Palestinian Red Crescent",
-        "description": "The Palestine Red Crescent Society (PRCS) is an officially recognized independent Palestinian National Society. It enjoys legal personality and is part of the International Red Cross and Red Crescent Movement.",
-        "trucksNumber": "X",
-        "donationLink": "https://www.palestinercs.org/ar/donation",
-        "learnMoreLink": "https://www.palestinercs.org/en",
-        "logo": "./SupportPage/PalestinianRedCrescentLogo.png",
+        "organization": "Call For a Ceasefire",
+        "description": "Call and Email your representative in the congress and demand a ceasefire. Lives can be saved in Gaza just by putting enough pressure on Politicians that in turn put pressure on Israel to stop this massacre.",
         "trucksImages": [
-            "./SupportPage/PalestinianRedCrescentLogo.png",
-        ]
-    }
+            "./SupportPage/congress-better.webp",
+        ],
+        link: "https://act.uscpr.org/a/callforgaza"
+    },
+    {
+        "organization": "Spread The Word",
+        "description": "Amplify the voices of those shining a light on the human rights abuses being committed by the IDF against the people of Gaza; otherwise, no one will know anything to stop them. Don't hesitate to share this website and engage in debates to make clear of the truth. ",
+        "trucksImages": [
+            "./SupportPage/hamas.jpeg",
+        ],
+        link: `https://twitter.com/intent/tweet?url=${link}&text=${text}`
+    },
+    {
+        "organization": "Go To Protests",
+        "description": "Expressing solidarity with Palestine through participation in protests, marches, rallies, and vigils encourages both ordinary citizens and policymakers to give greater attention and gravity to the ongoing massacre.",
+        "trucksImages": [
+            "./HomePage/paly.jpeg",
+        ],
+        link: "https://uscpr.org/oct-2023-protests/"
+    },
 ]

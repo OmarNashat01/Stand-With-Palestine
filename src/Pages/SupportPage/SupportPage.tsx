@@ -1,37 +1,36 @@
-import React from "react";
-import Card from "../../components/Simple/Card";
-import { supportPageData } from '../../PagesData/SupportPageData'
+import React, {useRef, useEffect} from "react";
+import { supportPageData, supportActionData } from '../../PagesData/SupportPageData'
 import OrgCard from "../../components/donations/orgCard";
 import { Carousel as ResponsiveCarousel } from "react-responsive-carousel";
-import Carousel from "react-multi-carousel";
 
 import HeroButton from "../../components/Simple/HeroButton";
 import GradientHero from "../../components/Simple/GradientHero";
+import Banner from "../../components/Simple/Banner";
+import HeroWideSection from "../../components/HeroSections/HeroWideSection";
 
 import "react-multi-carousel/lib/styles.css";
 import './SupportPage.scss'
 
 const SupportPage: React.FC = () => {
-  const [selectedOrg, setSelectedOrg] = React.useState(0);
+  const [selectedOrg, setSelectedOrg] = React.useState(4);
+  const [selectedOption, setSelectedOption] = React.useState(1);
 
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 4,
-      slidesToSlide: 1 // optional, default to 1.
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 1 // optional, default to 1.
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1 // optional, default to 1.
+  const orgCardsRef = useRef(null);
+  useEffect(() => {
+    if (orgCardsRef.current) {
+      // Calculate 50% of the scroll width
+      //@ts-ignore
+      let scrollPosition = orgCardsRef.current.scrollWidth * 0.235;
+      if (window.innerWidth < 700) {
+      //@ts-ignore
+       scrollPosition = orgCardsRef.current.scrollWidth * 0.345;
+      }
+
+      // Set the scrollLeft property to the calculated value
+      //@ts-ignore
+      orgCardsRef.current.scrollLeft = scrollPosition;
     }
-  };
-
+  }, []); 
 
   return (
     <div
@@ -43,25 +42,11 @@ const SupportPage: React.FC = () => {
       }}
     >
       <GradientHero title={"SUPPORT PALESTINE"} subTitle1="They Need Your Help" subTitle2="There Are Many Ways We Can Help Make Things Better" special={true} />
-      <div style={{ paddingBottom: "2%", paddingTop: "2%" }}>
-        {/* Horizontal Grid Section */}
-        <Carousel
-          swipeable={true}
-          draggable={true}
-          showDots={false}
-          responsive={responsive}
-          ssr={true}
-          infinite={true}
-          autoPlaySpeed={1000}
-          keyBoardControl={true}
-          customTransition="all .5"
-          transitionDuration={500}
-          containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style"
-          itemClass="carousel-item-padding-40-px" >
+      <Banner title={"You Could Help Prevent Someone From Dying in the Hospital or From Starving to Death"} styleObj={{color: 'white', backgroundColor:'transparent', boxShadow: 'none'}}/>
+      <div style={{ paddingBottom: "2%", paddingTop: "2%" }} className="org-cards" ref={orgCardsRef}>          
           {supportPageData.map((item, index) => {
             return (
+              <div className="card-item">
               <OrgCard
                 // key={index}
                 title={item.organization}
@@ -69,114 +54,75 @@ const SupportPage: React.FC = () => {
                 selected={index === selectedOrg}
                 onClick={() => setSelectedOrg(index)}
               />
+              </div>
             );
           })}
-        </Carousel>
       </div>
-
-      {/* Selected Org Detailes Section */}
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          gap: "1rem",
-          alignItems: "center",
-          flexWrap: "revert",
-          padding: "1rem",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            gap: "1rem",
-            alignItems: "center",
-            flexWrap: "wrap",
-            padding: "1rem",
-            maxWidth: "60%"
-          }}
-        >
-          <ResponsiveCarousel showThumbs={false} showStatus={false} showIndicators={true} showArrows={true} autoPlay={true} infiniteLoop={true} interval={3000} stopOnHover={true} >
-            {supportPageData[selectedOrg].trucksImages.map((item, index) => {
-              return (
-                <div key={index} style={{ display: "flex", flexDirection: "row", gap: "1rem" }}>
-                  <img
-                    src={item}
-                    style={{ width: "100%", height: "30rem" }}
-
-                  />
-                </div>
-              )
-            })}
+        <div className="container">
+        <div className="first-child">
+          <ResponsiveCarousel className="carousel" showThumbs={false} dynamicHeight={false} showStatus={false} showIndicators={true} showArrows={true} autoPlay={false} infiniteLoop={true} interval={3000} stopOnHover={true}>
+            {supportPageData[selectedOrg].trucksImages.map((item, index) => (
+              <div key={index} className="image-container">
+                <img src={item} alt={`Truck ${index + 1}`} />
+              </div>
+            ))}
           </ResponsiveCarousel>
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "start",
-            gap: "1rem",
-            alignItems: "start",
-            flexWrap: "wrap",
-            padding: "1rem",
-            maxWidth: "40%"
-          }}
-        >
-          <div style={{ display: "flex", flexDirection: "row", gap: "1rem", flexWrap: "wrap" }}>
-
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                gap: "1rem",
-                alignItems: "center",
-                flexWrap: "wrap",
-                padding: "1rem",
-              }}
-            >
-              <p
-                style={{
-                  color: "white",
-                  fontSize: "3rem",
-                  fontWeight: "bold",
-                }}
-              >
-                {supportPageData[selectedOrg].organization}
-              </p>
-              <p
-                style={{
-                  color: "white",
-                  fontSize: "1rem",
-                  fontWeight: "bold",
-                }}
-              >
-                {supportPageData[selectedOrg].description}{`So far they sent ${supportPageData[selectedOrg].trucksNumber} trucks`}
-              </p>
-              {/* Hero Button */}
-              <div style={{ display: "flex", flexDirection: "row", gap: "1rem" }}>
-                <HeroButton
-                  type="blue"
-                  content="Support ♥"
-                  fontSize=".8rem"
-                  onClickFunc={() => window.open(supportPageData[selectedOrg].donationLink, "_blank")}
-                />
-                <HeroButton
-                  type="red"
-                  content="Learn More"
-                  fontSize=".8rem"
-                  onClickFunc={() => window.open(supportPageData[selectedOrg].learnMoreLink, "_blank")}
-                />
+        {/* Second Child */}
+        <div className="second-child">
+          {/* Inner Container */}
+          <div className="inner-container">
+            <div className="inner-child">
+              <h1>{supportPageData[selectedOrg].organization}</h1>
+              <p>{supportPageData[selectedOrg].description}{(false)?`So far they sent ${supportPageData[selectedOrg].trucksNumber} trucks`:``}</p>
+              {/* Buttons */}
+              <div className="buttons">
+                <HeroButton type="blue" content="More Info" fontSize="1.0rem" styleObj={{borderRadius:'2rem'}} onClickFunc={() => window.open(supportPageData[selectedOrg].learnMoreLink, "_blank")} />
+                <HeroButton type="blue" content="Support ♥" fontSize="1.0rem" styleObj={{borderRadius:'2rem'}} onClickFunc={() => window.open(supportPageData[selectedOrg].donationLink, "_blank")} />
               </div>
             </div>
           </div>
         </div>
-
-
+        </div>
+<Banner title={"Or You Could Help End This Massacre Altogether"} styleObj={{color: 'white', backgroundColor:'transparent', boxShadow: 'none'}}/>
+<div className="org-cards-s" style={{justifyContent: 'center', overflow: 'hidden'}} >          
+          {supportActionData.map((item, index) => {
+            return (
+              <div className="card-item" >
+              <OrgCard
+                small={true}
+                title={item.organization}
+                description={item.description}
+                selected={index === selectedOption}
+                onClick={() => setSelectedOption(index)}
+              />
+              </div>
+            );
+          })}
       </div>
+      <div className="container"style={{ maxWidth: '100%', margin: 'auto', flexDirection: 'row-reverse'}}>
+        <div className="first-child" style={{flexBasis: '60%'}}>
+          <ResponsiveCarousel className="carousel" showThumbs={false} dynamicHeight={false} showStatus={false} showIndicators={true} showArrows={true} autoPlay={false} infiniteLoop={true} interval={3000} stopOnHover={true}>
+            {supportActionData[selectedOption].trucksImages.map((item, index) => (
+              <div key={index} className="image-container"  >
+                <img src={item} alt={`Truck ${index + 1}`} />
+              </div>
+            ))}
+          </ResponsiveCarousel>
+        </div>
+        <div className="second-child" style={{flexBasis: '60%'}}>
+          <div className="inner-container">
+            <div className="inner-child" style={{minWidth: '70px'}}>
+              <h1>{supportActionData[selectedOption].organization}</h1>
+              <p>{supportActionData[selectedOption].description}</p>
+              <div className="buttons">
+                <HeroButton type="blue" content="Act Now ♥" fontSize="1.0rem" styleObj={{borderRadius:'2rem'}} onClickFunc={() => window.open(supportActionData[selectedOption].link, '_blank')} />
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
     </div >
   );
 };

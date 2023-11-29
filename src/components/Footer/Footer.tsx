@@ -10,7 +10,7 @@ interface FooterProps {
 const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
   const navigate = useNavigate();
   const link = "standwithpalestine.com";
-  const text = "Learn more about latest and historic news, the status of Gaza, crimes and lies involved in the Israeli-Palestine conflict by visiting ";
+  const text = "Learn more about the latest news, the status of Gaza, Israeli war crimes, and misinformation about the ongoing massacre in Gaza. Support Palestine!";
   return (
     <div className="real-footer">
       <footer>
@@ -39,7 +39,7 @@ const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
             </li>
             <li>
               <a
-                href={`https://www.linkedin.com/shareArticle?url=${link}&title=Support%20Palestine&summary=${text}&source=${link}`}
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${link}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >

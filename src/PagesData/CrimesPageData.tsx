@@ -323,7 +323,7 @@ export const crimesDict = [
       ],
       paragraphLeft: "",
       paragraphRight:
-        `All bakeries in northern Gaza have been forced to close due to shortages of vital supplies. There are various reports on directly and indirectly targeted bakeries, food markets and water reserves.`,
+        `As of the 27th of November, over <span style="color:#ed2f2f">60</span> journalists have been killed. Some have been obliterated along with their whole families.`,
       onClickFunc: "murder-journalists-crime",
     },
     {
@@ -404,7 +404,7 @@ export const crimesDict = [
       ],
       paragraphLeft: "",
       paragraphRight:
-        `Videos reported to be from IDF soldiers depict the torture and humilation the inflict upon detainees in the West Bank.`,
+        `Videos reported to be from IDF soldiers depict the torture and humilation that they inflict upon detainees in the West Bank.`,
       onClickFunc: "torture-crime",
     },
     {
@@ -433,7 +433,7 @@ export const crimesDict = [
       ],
       paragraphLeft: "",
       paragraphRight:
-        `Israel continues endorsing Israeli settlements in the Palestinian West Bank. This has been ongoing since long before the 7th of Oct.`,
+        `Israel continues endorsing Israeli settlements in the Palestinian West Bank. This has been ongoing since long before the 7th of Oct. Attack.`,
       onClickFunc: "illegal-settlements-crime",
     },
   ];

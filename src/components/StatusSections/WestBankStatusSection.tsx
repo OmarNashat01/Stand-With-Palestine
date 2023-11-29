@@ -51,7 +51,7 @@ interface WestBankStatusSectionProps {
           <AnimatedNumber value={westBankDict["injured"]} className="number-h1" />
         </div>
         <div className="killed-kids killed-group grid-item">
-        <img src="./Mat_Kids.svg" className="icon" style={{ maxWidth: "110px" }}/>
+        <img src="./StatusPage/Mat_Kids.svg" className="icon" style={{ maxWidth: "110px" }}/>
           <h1 className="mini-h1">Children</h1>
           <AnimatedNumber
             value={westBankDict["killedKids"]}
@@ -59,7 +59,7 @@ interface WestBankStatusSectionProps {
           />
         </div>
         <div className="killed-adults killed-group grid-item">
-        <img src="./Mat_elder.svg" className="icon" style={{ maxWidth: "110px" }}/>
+        <img src="./StatusPage/Mat_elder.svg" className="icon" style={{ maxWidth: "110px" }}/>
           <h1 className="mini-h1">Elderly</h1>
           <AnimatedNumber
             value={westBankDict["killedAdults"]}

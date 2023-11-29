@@ -113,7 +113,7 @@ function App() {
           </Routes>
           <Footer
             title="Stand with Palestine"
-            subTitle="A Joint Collaborative Effort by a Group of Students from Egypt"
+            subTitle="A Joint Collaborative Effort by a Group of Graduates from Egypt"
             boldSubTitle="Share on Social Networks"
           />
         </>

@@ -30,7 +30,10 @@
         grid-template-rows: repeat(2, 1fr);   
         margin-top: 2rem;
         margin: 1rem;
-        gap: 1rem;                            
+        gap: 1rem;           
+        @media only screen and (max-width: 600px) {
+          padding: 1rem;
+        }          
         //justify-content: center;              
         //align-items: center;                  
         //justify-content: space-around;
@@ -48,25 +51,27 @@
       .text-container {
         min-width: 250px;
         @media only screen and (max-width: 600px) {
-          min-width: 200px;
+          min-width: 160px;
         }
         box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5); /* 3D-like shadow */
         cursor: pointer;
         text-align: center;
         margin: auto;
         padding: 0.4rem;
-        background: radial-gradient(#1f1f1f, #141414);
+        background: radial-gradient(#1a1a1a, #2b2b2b);
         background-size: 200% 200%; /* Increase the size for the gradient animation */
         animation: gradientAnimation 3s infinite;
         border-radius: 1rem;
-
+        @media only screen and (max-width: 600px) {
+          padding: 0.4rem;
+        } 
         h1 {
           font-size: 2.5rem;
           color: $primary-color-light;
           text-align: center;
           text-decoration: underline;
           @media only screen and (max-width: 600px) {
-          font-size: 2.1rem;
+          font-size: 1.6rem;
         }
         }
   
@@ -76,7 +81,7 @@
           color: #e8e8e8; // Set your desired text color
           margin-bottom: 30px;
           @media only screen and (max-width: 600px) {
-          font-size: 1.0rem;
+          font-size: 0.8rem;
         }
         }
       }

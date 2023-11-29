@@ -83,7 +83,7 @@ function App() {
             saveSet(setIsBouncing, 'isBouncing', false);
           }}
         >
-          <img src="./eye.png" />
+          <img src="/eye.png" />
         </div>
       )}
       <ModalEye

@@ -9,49 +9,31 @@ interface Blog {
 
 export const blogs: Blog[] = [
     {
-        showBlog: true,
-        name: "Very Important Blog to Read!",
-        subTitle: "A Blog For the Next Gen Z Kids",
-        imagePath: "/Unused/Gaza-Now.jpeg",
-        blogPath: "/BlogsPage/mock-blog.md",                // path in public folder
-        summary:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a tempor nunc. Vestibulum id ligula.",
-    },
-    {
-        showBlog: false,
-        name: "Blog 2",
-        subTitle: "A Blog For the Next Gen Z Kids",
-        imagePath: "/Unused/Gaza-red.jpeg",
-        blogPath: "/BlogsPage/mock-blog.md",
-        summary:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a tempor nunc. Vestibulum id ligula.",
-    },
+      showBlog: true,
+      name: "Cenk Ugyr X Piers Morgan Interview",
+      subTitle: "Antisemitism ≠ Pro-Palestine",
+      imagePath: "/BlogsPage/cenk.png",
+      blogPath: "/BlogsPage/piers-cenk-interview.md",                // path in public folder
+      summary:
+          "In this interview, Cenk Ugyr, co-founder and host of The Young Turks, discusses the Israeli-Palestinian conflict with Piers Morgan.",
+  },
     {
         showBlog: true,
-        name: "Blog 3",
-        subTitle: "A Blog For the Next Gen Z Kids",
-        imagePath: "/Unused/Gaza-Now2.jpeg",
-        blogPath: "/BlogsPage/mock-blog.md",
+        name: "Bassem Yousef X Piers Morgan Interview",
+        subTitle: "Dark Comedy Can Save Lives",
+        imagePath: "/BlogsPage/bassem.png",
+        blogPath: "/BlogsPage/piers-bassem-interview.md",                // path in public folder
         summary:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a tempor nunc. Vestibulum id ligula.",
+            "In this interview, Bassem Yousef, an Egyptian comedian and satirist, engages in a conversation with Piers Morgan about the recent events in Gaza.",
     },
     {
         showBlog: true,
-        name: "Blog 4",
-        subTitle: "A Blog For the Next Gen Z Kids",
-        imagePath: "/Unused/Gaza-Sat.jpeg",
-        blogPath: "/BlogsPage/mock-blog.md",
+        name: "Yuval Harari X Piers Morgan Interview",
+        subTitle: "Israeli Government is a Root Problem",
+        imagePath: "/BlogsPage/harari.png",
+        blogPath: "/BlogsPage/piers-harari-interview.md",
         summary:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a tempor nunc. Vestibulum id ligula.",
-    },
-    {
-        showBlog: true,
-        name: "Blog 5",
-        subTitle: "A Blog For the Next Gen Z Kids",
-        imagePath: "/Unused/Gaza-red.jpeg",
-        blogPath: "/BlogsPage/mock-blog.md",
-        summary:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin purus sapien, semper eget tincidunt vel, interdum sit amet erat. Duis.",
+            "Yuval Harari, an Israeli professor and author, discusses the ongoing conflict with Piers Morgan.",
     },
     {
         showBlog: false,
@@ -166,7 +148,7 @@ export const blogs: Blog[] = [
         blogPath: "/BlogsPage/torture-crime.md",
       },
       {
-        showBlog: true,
+        showBlog: false,
         subTitle: "Israeli War Crimes",
         summary: "",
         imagePath: "",

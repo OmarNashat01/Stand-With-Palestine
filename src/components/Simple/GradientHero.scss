@@ -1,5 +1,8 @@
 @import '../../variables';
 
+h1 {
+  cursor: pointer;
+}
 
 .war-intro {
   .dude {
@@ -8,6 +11,21 @@
     margin: 0 auto;
     color: $primary-color-light;
   }
+
+  $hovered-color: darken($primary-color-2, 0%);
+  $shadow-color: #f1f1f149;
+
+.special-dude {
+  color: $primary-color-2;
+  transition: color 0.3s ease, box-shadow 0.3s ease; // Add a smooth transition for color and box-shadow
+  display: inline-block;
+  margin: 0 auto;
+  &:hover {
+    color: $hovered-color;
+    text-shadow: 0 0 10px $shadow-color; // Add a subtle shadow on hover
+  }
+}
+
   .dead-dude {
     transition: all 3s ease-in-out;
     -webkit-transition: all 3s ease-in-out;

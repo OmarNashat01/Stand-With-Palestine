@@ -6,9 +6,10 @@ import { Carousel as ResponsiveCarousel } from "react-responsive-carousel";
 import Carousel from "react-multi-carousel";
 
 import HeroButton from "../../components/Simple/HeroButton";
-import Banner from "../../components/Simple/Banner";
+import GradientHero from "../../components/Simple/GradientHero";
 
 import "react-multi-carousel/lib/styles.css";
+import './SupportPage.scss'
 
 const SupportPage: React.FC = () => {
   const [selectedOrg, setSelectedOrg] = React.useState(0);
@@ -17,12 +18,12 @@ const SupportPage: React.FC = () => {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 4,
-      slidesToSlide: 4 // optional, default to 1.
+      slidesToSlide: 1 // optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,
-      slidesToSlide: 2 // optional, default to 1.
+      slidesToSlide: 1 // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -30,7 +31,6 @@ const SupportPage: React.FC = () => {
       slidesToSlide: 1 // optional, default to 1.
     }
   };
-
 
 
   return (
@@ -42,14 +42,13 @@ const SupportPage: React.FC = () => {
         backgroundColor: "#101010",
       }}
     >
-      <Banner title="Stand With Palestine" />
-
+      <GradientHero title={"SUPPORT PALESTINE"} subTitle1="They Need Your Help" subTitle2="There Are Many Ways We Can Help Make Things Better" special={true} />
       <div style={{ paddingBottom: "2%", paddingTop: "2%" }}>
         {/* Horizontal Grid Section */}
         <Carousel
-          swipeable={false}
-          draggable={false}
-          showDots={true}
+          swipeable={true}
+          draggable={true}
+          showDots={false}
           responsive={responsive}
           ssr={true}
           infinite={true}

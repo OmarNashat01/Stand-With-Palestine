@@ -1,38 +1,46 @@
 @import '../../variables';
 
-.card-og {
+.react-multi-carousel-list, .carousel-container {
+    margin: 1rem 5rem !important;
+    @media only screen and (max-width:700px) {
+        margin: 1rem 1rem !important;
+    }
+}
+
+.card-org {
     // max-width: 300px;
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
-
-    &:hover {
-        box-shadow: 0px 0px 5px 5px #00000052;
-        cursor: pointer;
-    }
+    padding: 1.5rem;
+    cursor: pointer;
 
     .selected {
-        background: linear-gradient(45deg, #a20017, transparent) !important;
+        background: linear-gradient(45deg, #0041a2,  rgb(11, 37, 75)) !important;
     }
 
     .card-content {
-        background: linear-gradient(30deg, #131313, #000000);
-
+        background-color: #1d1d1d;
         color: $text-color;
-
+        padding: 1rem;
+        border-radius: 1rem;
         .card-body {
             min-height: 150px;
             max-height: 150px;
             min-width: 200px;
-            max-width: 200px;
-            padding: 1.5rem 1.5rem 0 1.5rem;
+            max-width: 250px;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             gap: 1rem;
 
             .title {
-                font-size: 1.25rem;
-                font-weight: 800;
+                font-size: 1.2rem;
+                font-weight: 600;
                 border-bottom: none;
+                text-align: center;
+                @media only screen and (max-width:700px) {
+                    font-size: 1.0rem;
+                }
             }
         }
 

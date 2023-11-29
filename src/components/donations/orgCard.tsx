@@ -11,7 +11,7 @@ interface OrgCardProps {
 
 const OrgCard: FC<OrgCardProps> = ({ title, description, selected, onClick }) => {
     return (
-        <div className="card-og" onClick={onClick}>
+        <div className="card-org" onClick={onClick}>
 
             {/* add class selected if selected */}
             <div className={`card-content` + (selected ? " selected" : "")}>

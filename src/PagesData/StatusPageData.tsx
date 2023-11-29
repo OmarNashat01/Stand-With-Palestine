@@ -284,54 +284,24 @@ export const historyData = {
 
 export const recentData = {
   labels: [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19",
-    "20",
-    "21",
-    "22",
-    "23",
-    "24",
-    "25",
-    "26",
-    "27",
-    "28",
-    "29",
-    "30"
+    "1", "2", "3", "4", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15",
+    "19", "20", "21", "22", "23", "26", "27",
   ],
   datasets: [
     {
       label: "Killed Palestinians",
       data: [
-        4, 8, 13, 27, 32, 47, 32, 37, 41, 46,
-        51, 56, 61, 35, 70, 75, 80, 84, 89, 94,
-        99, 104, 79, 84, 109, 54, 128, 133, 138, 143
-    ],
+	  8796, 9061, 9227, 9488, 10022, 10328, 10569, 10569, 11078, 11078, 11078, 11240,
+	  11240, 11240, 13000, 13300, 14128, 14532, 14854, 14854, 15000,
+      ],
       backgroundColor: "#990a0a",
       borderColor: "#990a0aaa",
     },
     {
       label: "Killed Children",
       data: [
-        2, 3, 10, 14, 45, 20, 22, 30, 31, 36,
-        41, 56, 51, 75, 30, 45, 60, 74, 79, 84,
-        19, 94, 99, 104, 19, 104, 18, 103, 108, 103
+	  3648, 3760, 3826, 3900, 4104, 4237, 4324, 4324, 4506, 4506, 4506, 4630, 4630,
+	  4630, 5500, 5600, 5600, 6000, 6150, 6150, 6150,
       ],
       backgroundColor: "#d60a0a",
       borderColor: "#d60a0aaa",
@@ -344,7 +314,7 @@ export const faqData = {
   rows: [
     {
       title: "1. What Are The Sources of the Numbers Above? ",
-      content: "These numbers are updated daily with data published on the Palestinian Central Bureau of Statistics (PCBS) website. The bureau is independent from the government; however, most if not all humanatirian metrics are first recorded by the ministry of health in an office at Al-Shifa hospital."
+      content: "These numbers are updated daily with data published on the Palestinian Central Bureau of Statistics (PCBS) website. The bureau is independent from the government; however, most if not all humanatirian metrics are first recorded by the ministry of health in an office at Al-Shifa hospital. Note that the numbers for the cumulative sum of adult and child martyrs were sourced from the daily coverage of AlJazeera."
     },
     {
       title: "2. Should I Trust the Numbers Given by the Ministry Given That It's \"Hamas-Controlled\"?",

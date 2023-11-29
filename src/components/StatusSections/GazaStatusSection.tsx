@@ -152,31 +152,31 @@ interface GazaStatusSectionProps {
         <div className="missing grid-item missing-group">
           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
             <TbUserQuestion className="icon" />
-            <h1 className="normal-h1">Missing</h1>
+            <h1 className="normal-h1">Total missing</h1>
           </div>
           <AnimatedNumber value={gazaDict["missing"]} className="number-h1" />
         </div>
-        <div className="kids-missing grid-item missing-group">
+        <div className="kids-women-missing grid-item missing-group">
           <img
-            src="./StatusPage/missing-kids.svg"
+            src="./StatusPage/missing-kids-women.svg"
             className="icon"
             style={{ maxWidth: "100px" }}
           />
-          <h1 className="mini-h1">Children</h1>
+          <h1 className="mini-h1">Children and Women</h1>
           <AnimatedNumber
-            value={gazaDict["missingKids"]}
+            value={gazaDict["missingKidsAndWomen"]}
             className="number-h1-mini"
           />
         </div>
         <div className="others-missing grid-item missing-group">
           <img
-            src="./StatusPage/missing-adult.svg"
+            src="./StatusPage/missing-men.svg"
             className="icon"
             style={{ maxWidth: "100px" }}
           />
-          <h1 className="mini-h1">Adults</h1>
+          <h1 className="mini-h1">Men</h1>
           <AnimatedNumber
-            value={gazaDict["missingAdults"]}
+            value={gazaDict["missingMen"]}
             className="number-h1-mini"
           />
         </div>

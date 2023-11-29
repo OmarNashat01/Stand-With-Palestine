@@ -36,7 +36,7 @@
         margin-bottom: 1rem;
         text-shadow: 0 0 $text-shadow black;
         @media only screen and (max-width: 600px) {
-          font-size: 2.2rem;
+          font-size: 1.7rem;
         }
       }
      
@@ -50,7 +50,8 @@
                      $text-border $text-border 0 #000;
 
         @media only screen and (max-width: 600px) {
-        font-size: 1rem;
+        font-size: 1.0rem;
+        margin-bottom: 0.3rem;
        }
        }
 
@@ -61,7 +62,10 @@
         margin: auto;
         margin-bottom: 2rem;
         font-weight:400;
-
+        @media only screen and (max-width: 600px) {
+          font-size: 0.7rem;
+          width: 90%;
+         }
       }
       .last-h3 {
         color: rgba($primary-color, 1.0);
@@ -72,7 +76,13 @@
         margin-bottom: -6rem;
         font-size: 1.2rem;
         margin-top: 6rem;
-        @media only screen and (max-width: 900px) { margin-top: 0rem; }
+        @media only screen and (max-width: 900px) { 
+          margin-top: 0rem; 
+          font-size: 0.8rem;
+          margin-bottom: -3rem;
+
+        }
+        
       }
   
       .button1, .button2 {

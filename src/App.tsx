@@ -8,7 +8,7 @@ import CrimesPage from "./Pages/CrimesPage/CrimesPage";
 import LiesPage from "./Pages/LiesPage/LiesPage";
 import StatusPage from "./Pages/StatusPage/StatusPage";
 import SupportPage from "./Pages/SupportPage/SupportPage";
-import HistoricTimelinePage from "./Pages/TimelinePage/HistoricTimelinePage";
+// import HistoricTimelinePage from "./Pages/TimelinePage/HistoricTimelinePage";
 import RecentTimelinePage from "./Pages/TimelinePage/RecentTimelinePage";
 import ModalEye from "./components/NavigationBar/ModalEye";
 import { useGlobalAudioPlayer } from "react-use-audio-player";
@@ -83,7 +83,7 @@ function App() {
             saveSet(setIsBouncing, 'isBouncing', false);
           }}
         >
-          <img src="./eye.png" />
+          <img src="/eye.png" />
         </div>
       )}
       <ModalEye
@@ -104,16 +104,16 @@ function App() {
             <Route path="/lies" element={<LiesPage />} />
             <Route path="/status" element={<StatusPage />} />
             <Route path="/support" element={<SupportPage />} />
-            <Route
+            {/* <Route
               path="/timeline/historic"
               element={<HistoricTimelinePage />}
-            />
+            /> */}
             <Route path="/timeline/recent" element={<RecentTimelinePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
           <Footer
             title="Stand with Palestine"
-            subTitle="A Joint Collaborative Effort by a Group of Students from Egypt"
+            subTitle="A Joint Collaborative Effort by a Group of Graduates from Egypt"
             boldSubTitle="Share on Social Networks"
           />
         </>

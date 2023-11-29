@@ -52,6 +52,7 @@ const BlogPage: React.FC = () => {
                 subTitle2={""}
                 bloody={false}
                 circular={true}
+                fontSize={"2.7rem"}
             />
             <Markdown markdownText={blog} />
         </div>

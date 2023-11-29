@@ -8,16 +8,9 @@ import Banner from "../../components/Simple/Banner";
 import InfraStatusSection from "../../components/StatusSections/InfrasStatusSection";
 import StatisticsSection from "../../components/StatusSections/StatisticsSection";
 import {
-  gazaDict,
-  gazaDictToday,
-  westBankDict,
-  westBankDictToday,
-  infraDict,
-  deathRatiosData,
-  homeData,
   historyData,
   recentData,
-  lastUpdated,
+  readPcbsData,
   faqData
 } from "../../PagesData/StatusPageData";
 import "../../components/StatusSections/FAQSection.scss";
@@ -31,67 +24,98 @@ const StatusPage: React.FC = () => {
   const [isSelectedToday, setIsSelectedToday] = useState(
     init("isSelectedToday", false)
   );
+
+  const [data, setData] = useState<any[]>([]);
+
+  useEffect(() => {
+      const fetchData = async() => {
+	setData(await readPcbsData());
+      }
+
+      fetchData();
+  }, []);
+
+  if(data.length == 0) {
+    return (<div> Loading... </div>);
+  }
+
+  const [
+      gazaDict,
+      gazaDictToday,
+      westBankDict,
+      westBankDictToday,
+      infraDict,
+      deathRatiosData,
+      homeData,
+      lastUpdated
+  ] = data!;
+
   return (
-    <div
-      style={{
-        flex: 1,
-        borderTopLeftRadius: "4rem",
-        borderTopRightRadius: "4rem",
-        backgroundColor: "#101010",
-      }}
-    >
-      <Banner
-        title="Israeli Onslaught on Palestine in Numbers Since 7th Oct. 2023"
-        styleObj={{ color: "white" }}
-      />
-      {selectedRegion == "Gaza" && (
-        <GazaStatusSection
-          gazaDict={gazaDict}
-          gazaDictToday={gazaDictToday}
-          selectedRegion={selectedRegion}
-          setSelectedRegion={setSelectedRegion}
-          isSelectedToday={isSelectedToday}
-          setIsSelectedToday={setIsSelectedToday}
-        />
-      )}
-      {selectedRegion == "West Bank" && (
-        <WestBankStatusSection
-          westBankDict={westBankDict}
-          westBankDictToday={westBankDictToday}
-          selectedRegion={selectedRegion}
-          setSelectedRegion={setSelectedRegion}
-          isSelectedToday={isSelectedToday}
-          setIsSelectedToday={setIsSelectedToday}
-        />
-      )}
-      <Banner
-        title="The Crisis is Beyond Humanatirian. Gaza is Being Demolished."
-        color={"white"}
-        bgColor={"transparent"}
-        styleObj={{ fontSize: "1rem" }}
-      />
-      <InfraStatusSection infraDict={infraDict} />
-      <Banner
-        title="More Grieving Statistics"
-        color={"white"}
-        bgColor={"transparent"}
-        styleObj={{ fontSize: "1rem" }}
-      />
-      <StatisticsSection deathRatiosData={deathRatiosData}
-                         homeData={homeData}
-                         historyData={historyData}
-                         recentData={recentData} />
-      <Banner
-        title={`Last Updated ${lastUpdated}`}
-        color={"grey"}
-        bgColor={"transparent"}
-        styleObj={{ fontSize: "1rem" }}
-      />
-      <Banner
-        title="Frequently Asked Questions"
-        styleObj={{ color: "white" }}
-      />
-      <Faq data={faqData}/>
+    <div> 
+    {
+	(gazaDict != undefined) && 
+	<div
+	  style={{
+	    flex: 1,
+	    borderTopLeftRadius: "4rem",
+	    borderTopRightRadius: "4rem",
+	    backgroundColor: "#101010",
+	  }}
+	>
+	  <Banner
+	    title="Israeli Onslaught on Palestine in Numbers Since 7th Oct. 2023"
+	    styleObj={{ color: "white" }}
+	  />
+	  {selectedRegion == "Gaza" && (
+	    <GazaStatusSection
+	      gazaDict={gazaDict}
+	      gazaDictToday={gazaDictToday}
+	      selectedRegion={selectedRegion}
+	      setSelectedRegion={setSelectedRegion}
+	      isSelectedToday={isSelectedToday}
+	      setIsSelectedToday={setIsSelectedToday}
+	    />
+	  )}
+	  {selectedRegion == "West Bank" && (
+	    <WestBankStatusSection
+	      westBankDict={westBankDict}
+	      westBankDictToday={westBankDictToday}
+	      selectedRegion={selectedRegion}
+	      setSelectedRegion={setSelectedRegion}
+	      isSelectedToday={isSelectedToday}
+	      setIsSelectedToday={setIsSelectedToday}
+	    />
+	  )}
+	  <Banner
+	    title="The Crisis is Beyond Humanatirian. Gaza is Being Demolished."
+	    color={"white"}
+	    bgColor={"transparent"}
+	    styleObj={{ fontSize: "1rem" }}
+	  />
+	  <InfraStatusSection infraDict={infraDict} />
+	  <Banner
+	    title="More Grieving Statistics"
+	    color={"white"}
+	    bgColor={"transparent"}
+	    styleObj={{ fontSize: "1rem" }}
+	  />
+	  <StatisticsSection deathRatiosData={deathRatiosData}
+			     homeData={homeData}
+			     historyData={historyData}
+			     recentData={recentData} />
+	  <Banner
+	    title={`Last Updated ${lastUpdated}`}
+	    color={"grey"}
+	    bgColor={"transparent"}
+	    styleObj={{ fontSize: "1rem" }}
+	  />
+	  <Banner
+	    title="Frequently Asked Questions"
+	    styleObj={{ color: "white" }}
+	  />
+	  <Faq data={faqData}/>
+	</div>
+    }
     </div>
   );
 };

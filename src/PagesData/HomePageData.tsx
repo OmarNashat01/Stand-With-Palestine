@@ -112,7 +112,7 @@ const homeData = {
       extraImagePath: "./HomePage/NTN.webp",
       overlayColor: "rgba(0, 0, 0, 0.6)",
       blur: "blur(3px)",
-      title: "Israel is Committing Genocide in Gaza",
+      title: "Israel is Potentially Committing Genocide in Gaza",
       subTitle: "",
       text: 
       `Intended killing members of a nation, or causing serious bodily or mental harm is genocide by definition.|
@@ -185,16 +185,16 @@ const homeData = {
   
     intenseGridSection2: {
       videoSources: [
-        "./HomePage/videos-grid/Targeting Childrens2.mp4",
-        "./HomePage/videos-grid/Child.mp4",
-        "./HomePage/videos-grid/ChildSurvivor.mp4",
-        "./HomePage/videos-grid/IsraelTargetsChildren.mp4",
-        "./HomePage/videos-grid/ChildrenGenocide.mp4",
-        "./HomePage/videos-grid/ChildrenDead.mp4",
-        "./HomePage/videos-grid/ChildCarried.mp4",
+        "./CrimesPage/hospital0.mp4",
+        "./CrimesPage/torture-raid-livestream.mp4",
+        "./CrimesPage/destruction-by-israel1.mp4",
+        "./CrimesPage/legs-video.mp4",
+        "./CrimesPage/detain1.mp4",
+        "./CrimesPage/israel-total.mp4",
+        "./CrimesPage/bakery.mp4",
       ],
       violences: [
-        true, false, false, true, true, true, true
+        false, true, false, true, true, false, false
       ]
     },
   

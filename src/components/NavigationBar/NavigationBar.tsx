@@ -70,7 +70,7 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
           <li className={`nav-item ${location.pathname === '/lies' ? 'selected' : ''}`}>
             <Link to="/lies"><PiTelevisionSimpleFill style={{ margin: '-3px', paddingRight: '0.1rem' }} /> Lies</Link>
           </li>
-          <li className={`nav-item ${location.pathname === '/blogs' ? 'selected' : ''}`}>
+          <li className={`nav-item ${location.pathname.includes('/blogs') ? 'selected' : ''}`}>
             <Link to="/blogs"><GiWhiteBook style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Blogs</Link>
           </li>
           <li className={`nav-item ${location.pathname === '/support' ? 'selected' : ''}`}>

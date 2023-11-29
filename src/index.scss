@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import './variables';
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -95,6 +94,43 @@ a {
 .markdown-container {
   padding: 2rem !important;
   max-width: none !important;
+  a {
+    text-decoration: underline;
+  }
+  img {
+    width: 60%;
+  }
+  iframe {
+    width: 80%;
+    min-height: 400px;
+    @media only screen and (max-width: 760px) {
+      width: 100%;
+      min-height: 200px;
+    }
+  }
+  h2 {
+    color: $primary-color-light;
+  }
+  h3 {
+    color: #c7c6c6;
+
+  }
+  strong {
+    color:rgb(181, 52, 52);
+  }
+  p {
+    color: #f1f1f1;
+    font-family: 'Raleway';
+    line-height: 1.7rem;
+  }
+  blockquote {
+    p {
+    color: #878787;
+    }
+    font-family: 'Raleway';
+    font-style: italic;
+  }
+
 }
 
 .blog-page {

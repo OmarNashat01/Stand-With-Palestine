@@ -1,0 +1,1 @@
+This document is a work in progress. Instances of the crime, commentary of the videos and consequences will be included.

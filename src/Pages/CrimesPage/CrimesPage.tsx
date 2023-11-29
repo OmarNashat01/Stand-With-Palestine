@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import Banner from "../../components/Simple/Banner";
 // @ts-ignore
 import Faq from 'react-faq-component';
-import {crimesDict, crimeHeroDict, faqData} from '../../PagesData/CrimesPageData'
+import {crimesDict, crimeHeroDict, finaleText, finaleVideoPath, faqData} from '../../PagesData/CrimesPageData'
 import CrimesList from "../../components/CrimeSections/CrimesList";
 import GradientHero from "../../components/Simple/GradientHero";
 import SearchInput from "../../components/Simple/SearchInput";
+import FinalNote from "../../components/CrimeSections/FinalNote";
 
 const CrimesPage: React.FC = () => {
   const [filteredCrimes, setFilteredCrimes] = useState(crimesDict);
@@ -28,13 +29,13 @@ const CrimesPage: React.FC = () => {
       <SearchInput listItems={crimesDict} onSearch={handleSearch} placeHolder="Search by article or crime instance..."/>
       <CrimesList crimesDict={filteredCrimes} />
       <div style={{ height: '80px', backgroundColor: '#141414' }} className="crime-empty"></div>
+      <FinalNote text1={finaleText[0]} text2={finaleText[1]} videoPath={finaleVideoPath}/>
       <Banner title="Frequently Asked Questions" styleObj={{ color: 'white' }} />
       {/* Assuming Faq component is imported */}
       <Faq data={faqData} />
     </div>
   );
 };
-
 
 
 

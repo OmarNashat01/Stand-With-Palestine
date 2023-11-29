@@ -95,6 +95,12 @@ a {
 .markdown-container {
   padding: 2rem !important;
   max-width: none !important;
+  a {
+    text-decoration: underline;
+  }
+  img {
+    width: 60%;
+  }
 }
 
 .blog-page {

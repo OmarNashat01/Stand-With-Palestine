@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import MediaInput from "../Simple/MediaInput";
 import "./CrimesList.scss";
+import { Link } from "react-router-dom";
 
 interface CrimesListProps {
     crimesDict: any;
@@ -53,10 +54,19 @@ interface CrimesListProps {
                     path={media.path}
                     mode={media.mode}
                     violence={media.violence}
+                    crop={media.crop}
                   />
                 ))}
               </Carousel>
-              <p>{crime.paragraphRight}</p>
+              <p>
+                {crime.paragraphRight.split("<br/><br/>").map((line:any, index:any) => (
+                    <div
+                      key={index}
+                      dangerouslySetInnerHTML={{ __html: line }}
+                    />
+                  ))}  
+              </p>
+              <Link to={`/blogs/${crime.onClickFunc}`}>
               <HeroButton
                 type="red"
                 content={"Consequences and Instances ▶"}
@@ -68,8 +78,8 @@ interface CrimesListProps {
                   fontSize: "1.2rem",
                 }}
                 respClass={true}
-                onClickFunc={() => navigate(crime.onClickFunc)}
               />
+              </Link>
             </div>
           </div>
         </Fade>

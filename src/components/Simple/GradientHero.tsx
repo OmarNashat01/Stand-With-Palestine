@@ -7,9 +7,10 @@ interface GradientHeroProps {
     subTitle2:string;
     bloody?:boolean;
     circular?:boolean;
+    fontSize?:string;
   }
   
-  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, bloody=false, circular=false}) => {
+  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, bloody=false, circular=false, fontSize='4rem'}) => {
     return (
       <div
       className="war-intro"
@@ -24,7 +25,7 @@ interface GradientHeroProps {
       <h1
         style={{
           textAlign: "center",
-          fontSize: "4rem",
+          fontSize: fontSize,
           paddingBottom: "0.5rem",
         }}
         className={(bloody)?"dead-dude":"dude"}

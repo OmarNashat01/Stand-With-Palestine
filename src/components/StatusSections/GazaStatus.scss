@@ -11,7 +11,7 @@
   margin: 1rem;
   grid-template-areas:
     "map map killed killed killed killed injured injured missing missing"
-    "map map kids-killed women-killed elderly-killed men-killed kids-injured others-injured kids-missing others-missing"
+    "map map kids-killed women-killed elderly-killed men-killed kids-injured others-injured kids-women-missing others-missing"
     "map map killed-medical killed-un killed-edu killed-press hospitals hospitals funds funds"
     "map-text-wrapper map-text-wrapper displaced displaced displaced displaced electricity water fuel internet";
 
@@ -24,7 +24,7 @@
       "map map killed-medical killed-un killed-edu killed-press"
       "map-text-wrapper map-text-wrapper displaced displaced displaced displaced"
       "injured injured injured missing missing missing"
-      "kids-injured kids-injured others-injured kids-missing kids-missing others-missing"
+      "kids-injured kids-injured others-injured kids-women-missing kids-women-missing others-missing"
       "hospitals hospitals hospitals funds funds funds"
       "electricity water water fuel fuel internet"
   }
@@ -41,7 +41,7 @@
       "injured injured injured injured "
       "kids-injured kids-injured others-injured others-injured"
       "missing missing missing missing"
-      "kids-missing kids-missing others-missing others-missing"
+      "kids-women-missing kids-women-missing others-missing others-missing"
       "hospitals hospitals funds funds"
       "electricity water fuel internet"
   }
@@ -257,8 +257,8 @@
     grid-area: missing;
   }
 
-  .kids-missing {
-    grid-area: kids-missing;
+  .kids-women-missing {
+    grid-area: kids-women-missing;
   }
 
   .others-missing {

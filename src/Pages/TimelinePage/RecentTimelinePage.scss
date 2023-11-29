@@ -1,0 +1,106 @@
+@import "../../variables";
+.timeline-container {
+  margin: 0 20px;
+  .timeline {
+    margin-top: -1.4rem !important;
+    --line-width: 0.2rem;
+    --line-color: rgb(198, 61, 53);
+    --line-overhang: 1rem;
+    --item-gap: 1rem;
+    --item-start-offset-left: 0;
+    --item-start-offset-right: 5rem;
+    --marker-size: 1rem;
+    --marker-color: var(--line-color);
+    --marker-radius: 50%;
+    --pointer-height: 2rem;
+    --pointer-width: 1rem;
+    --pointer-min-offset: 5rem;
+    --card-background: #4d4d4d;
+    --card-radius: 0.1rem;
+    --card-shadow: unset;
+    --card-padding: 1rem;
+    --card-offset: 1rem;
+    p,
+    li {
+      color: white;
+    }
+    .points-list {
+      h1 {
+        font-size: 1.5rem;
+        background: -webkit-linear-gradient(#d60a0a, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      li {
+        padding: 8px;
+        padding-left: 40px;
+        transition: ease 400ms;
+        display: flex;
+        letter-spacing: 1px;
+        opacity: 0.85;
+        cursor: pointer;
+        @media only screen and (max-width:800px){
+          padding-left: 15px;
+          font-size: 0.8rem;
+          }
+        a {
+          text-decoration: none;
+          //border-bottom: 3px solid #d60a0a;
+          cursor: pointer;
+        }
+      }
+      li:hover {
+        transform: translateX(20px);
+        opacity: 1;
+      }
+      li:focus-visible {
+        outline: 2px solid #d60a0a;
+        outline-offset: 2px;
+        border-radius: 4px;
+      }
+      .my-list {
+        list-style: none;
+        counter-reset: ordered-list;
+      }
+      li:before {
+        counter-increment: ordered-list;
+        content: counter(ordered-list);
+        font-family: "Sharpie", sans-serif;
+        margin-right: 10px;
+        
+        background-color: #d60a0a;
+        color: #f6f6f6;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        @media only screen and (max-width:800px){
+          align-self: flex-start;
+          padding:0.3rem;
+          }
+      }
+    }
+  }
+}
+
+
+.timeline-card {
+  background: radial-gradient(#1f1f1f, #141414) !important;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin-right: 3rem;
+  @media only screen and (max-width:800px){
+  margin-right: 0.5rem;
+  }
+}
+
+.timeline-card__date {
+  color: #6b6a6a !important;
+  @media only screen and (max-width:800px){
+    font-size: 0.7rem !important;
+
+    p {
+    }
+    }
+}

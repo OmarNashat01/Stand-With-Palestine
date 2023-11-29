@@ -54,8 +54,9 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
           <li className={`nav-item ${location.pathname === '/status' ? 'selected' : ''}`}>
             <Link to="/status"><GiTargetShot style={{ margin: '-1px', paddingRight: '0.1rem' }} /> Status</Link>
           </li>
-          <li className={`nav-item dropdown`}>
-            <span className={`${location.pathname.includes('timeline')? 'selected' : ''}`}><BiSolidTimeFive style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Timeline</span>
+          <li  className={`nav-item ${location.pathname.includes('timeline')? 'selected' : ''}`}>
+          <Link to="/timeline/recent"><GiTargetShot style={{ margin: '-1px', paddingRight: '0.1rem' }} />Timeline</Link>
+            {/* <span className={`${location.pathname.includes('timeline')? 'selected' : ''}`}><BiSolidTimeFive style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Timeline</span>
             <ul className="dropdown-list">
               <li className={`nav-item`}>
                 <Link to="/timeline/historic">Historic Timeline</Link>
@@ -63,7 +64,7 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
               <li className={`nav-item`}>
                 <Link to="/timeline/recent">Conflict Timeline</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className={`nav-item ${location.pathname === '/crimes' ? 'selected' : ''}`}>
             <Link to="/crimes"><FaHandcuffs style={{ margin: '-1px', paddingRight: '0.1rem' }} /> Crimes</Link>

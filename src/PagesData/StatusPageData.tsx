@@ -1,97 +1,250 @@
-export const gazaDict = {
-    killed: 12000,
-    killedKids: 5000,
-    killedWomen: 3300,
-    killedElder: 682,
-    killedMen: 12000 - 5000 - 3300 - 682,
-    killedMedical: 203,
-    killedUN: 103,
-    killedEdu: 127,
-    killedPress: 51,
-    injured: 30000,
-    injuredKids: 6168,
-    injuredAdults: 30000 - 6168,
-    missing: 3750,
-    missingKids: 1800,
-    missingAdults: 3750 - 1800,
-    displaced: 1.65,
-    funds: 14.3,
-    hospitalsDown: 26,
-    electricity: "OFF",
-    water: "OFF",
-    fuel: "OFF",
-    internet: "WEAK",
-  };
+import { useCallback, useEffect, useState } from "react";
 
-  export const gazaDictToday = {
-    killed:20,
-    killedKids: 10,
-    killedWomen: 4,
-    killedElder: 5,
-    killedMen: 1200 - 500 - 330 - 82,
-    killedMedical: 23,
-    killedUN: 13,
-    killedEdu: 17,
-    killedPress: 1,
-    injured: 3,
-    injuredKids: 61,
-    injuredAdults: 300 - 68,
-    missing: 30,
-    missingKids: 10,
-    missingAdults: 350 - 100,
-    displaced: 1.65,
-    funds: 14.3,
-    hospitalsDown: 3,
-    electricity: "OFF",
-    water: "OFF",
-    fuel: "OFF",
-    internet: "WEAK",
-  };
-
-  export const westBankDict = {
-    killed: 213,
-    killedKids: 49,
-    killedAdults: 213 - 49,
-    injured: 2750,
-    injuredKids: 282,
-    injuredAdults: 2750 - 282,
-    detained: 2850,
-  };
-
-  export const westBankDictToday = {
-    killed: 13,
-    killedKids: 9,
-    killedAdults: 21 - 4,
-    injured: 20,
-    injuredKids: 22,
-    injuredAdults: 20 - 2,
-    detained: 20,
-  };
-
-  export const infraDict = {
-    damagedHomes: 22500,
-    destroyedHomes: 43000,
-    damagedHospitals: 25,
-    destroyedAmbulances: 55,
-    damagedSchools: 196,
-    destroyedSchools: 64,
-    destroyedChurches: 3,
-    destroyedMosques: 77
-  }
-
-
-export const deathRatiosData = {
-  labels: ["Children", "Women", "Elderly", "Men"],
-  datasets: [
-    {
-      label: "Fatalities",
-      data: [5000, 3300, 682, 3018],
-      backgroundColor: "#d60a0aaa",
-      borderColor: "#d60a0a",
-      borderWidth: 1,
-    },
-  ],
+type DayData  = {
+    martyr: Map<string, number>,
+    injured: Map<string, number>,
+    building: Map<string, number>,
+    displaced: number,
+    detained_west: number
 };
+
+function parseDayData(dayData: any): DayData {
+    return {
+	martyr: new Map<string, number>(Object.entries(dayData.martyr_data)),
+	injured: new Map<string, number>(Object.entries(dayData.injured_data)),
+	building: new Map<string, number>(Object.entries(dayData.building_data)),
+	displaced: Number.parseInt(dayData.displaced),
+	detained_west: Number.parseInt(dayData.detained_west),
+    };
+}
+
+class PCBSData {
+    allDays: Map<string, DayData>;
+
+    constructor(jsonData: any) {
+	this.allDays = new Map();
+	for(let [day, data] of Object.entries(jsonData)) {
+	    this.allDays.set(day, parseDayData(data));
+	}
+    }
+};
+
+function parseDate(date: string) {
+    const [day, month, year] = date.split("/").map((str) => Number.parseInt(str));
+    return new Date(year, month, day);
+}
+
+function formatDate(date: Date) {
+    // TODO: I'm not sure if PCBS follows dd/mm/YYYY or another format.
+    // So on the first of December, will the date be 1/12/2023, or 01/12/2023?
+    return `${date.getDay()}/${date.getMonth()}/${date.getFullYear()}`
+}
+
+function getMostRecentDay(data: PCBSData) {
+    const dates = Array.from(data.allDays.keys());
+    const mostRecentStr = dates
+	.sort((d1, d2) => {
+	    const date1 = parseDate(d1).valueOf();
+	    const date2 = parseDate(d2).valueOf();
+
+	    if(date1 > date2) {
+		return -1;
+	    } else if (date1 < date2) {
+		return 1;
+	    } else {
+		return 0;
+	    }
+
+	})[0];
+
+    const yesterdayStr = formatDate(new Date(new Date().setDate(new Date().getDate()-1)));
+
+    if(yesterdayStr in dates) {
+	return [mostRecentStr, yesterdayStr];
+    }
+
+    // If we don't have the previous day, then no changes since yesterday.
+    // Hence, all fields should be zeroed (thing - thing = 0).
+    return [mostRecentStr, mostRecentStr];
+}
+
+function getGazaData(dayData: DayData | undefined) {
+    if(!dayData) { 
+	return {};
+    }
+
+    const gMart = dayData?.martyr!;
+    const gInj = dayData?.injured!;
+    return {
+	killed: gMart.get("total_gaza")!,
+	killedKids:  gMart.get("kids_gaza")!,
+	killedWomen: gMart.get("women_gaza")!,
+	killedElder: gMart.get("elderly_gaza")!,
+	killedMen: (
+		gMart.get("total_gaza")! - (
+		    gMart.get("kids_gaza")! + 
+		    gMart.get("women_gaza")! +
+		    gMart.get("elderly_gaza")!
+		    )
+		),
+	killedMedical: gMart.get("medical")!,
+	killedUN: gMart.get("un")!,
+	killedEdu: gMart.get("educational")!,
+	killedPress: gMart.get("press")!,
+
+	injured: gInj.get("total_gaza")!,
+	injuredKids: gInj.get("kids_gaza")!,
+	injuredAdults: gInj.get("total_gaza")! - gInj.get("kids_gaza")!,
+
+	missing: gMart.get("missing")!,
+
+	// TODO: Need to change the UI to reflect that this is missing kids + women
+	missingKidsAndWomen: gMart.get("missing_kids_women")!,
+
+	// TODO: Need to also reflect that this is the men
+	missingMen: gMart.get("missing")! - gMart.get("missing_kids_women")!,
+
+	displaced: dayData?.displaced! / 1_000_000,
+	hospitalsDown: dayData?.building.get("out_of_service_hospital")!,
+
+	funds: 14.3,
+	electricity: "OFF",
+	water: "OFF",
+	fuel: "OFF",
+	internet: "WEAK",
+    }
+
+}
+
+function getWestBankData(dayData: DayData | undefined) {
+    if(!dayData) { 
+	return {};
+    }
+
+    const mart = dayData?.martyr!;
+    const inj = dayData?.injured!;
+    return {
+	killed: mart.get("total_west")!,
+	killedKids: mart.get("kids_west")!,
+	killedAdults: mart.get("total_west")! - mart.get("kids_west")!,
+
+	injured: inj.get("total_west")!,
+	injuredKids: inj.get("kids_west")!,
+	injuredAdults: inj.get("total_west")! - inj.get("kids_west")!,
+
+	detained_west: dayData.detained_west!
+    }
+
+}
+
+function computeDictDelta(dayDict: any, prevDayDict: any) {
+    if(!dayDict || !prevDayDict) {
+	return {};
+    } 
+
+    var deltaDict: any = {};
+    for(let key of Object.keys(dayDict)) {
+	if(typeof(dayDict[key]) == "object") {
+	    deltaDict[key] = computeDictDelta(dayDict[key], prevDayDict[key]);
+	} else if(typeof(dayDict[key]) == "number" && typeof(prevDayDict[key]) == "number") {
+	    deltaDict[key] = dayDict[key] - prevDayDict[key];
+	} else {
+	    deltaDict[key] = dayDict[key];
+	}
+    }
+
+    return deltaDict;
+}
+
+function getInfraData(dayData: DayData) {
+    const b = dayData.building;
+    return {
+	damagedHomes: b.get("damaged_housing_units")!,
+	destroyedHomes: b.get("destroyed_housing_units")!,
+	damagedHospitals: b.get("damaged_hospital")!,
+	destroyedAmbulances: b.get("destroyed_ambulances")!,
+	damagedSchools: b.get("partially_destroyed_school")!,
+	destroyedSchools: b.get("destroyed_school")!,
+	destroyedChurches: b.get("destroyed_church")!,
+	destroyedMosques: b.get("destroyed_mosque")!
+    };
+}
+
+function getDeathRatios(dayData: DayData) {
+    const total_all = dayData.martyr.get("total_gaza")! + dayData.martyr.get("total_west")!
+    const total_children = dayData.martyr.get("kids_gaza")! + dayData.martyr.get("kids_west")!;
+    const total_women = dayData.martyr.get("women_gaza")!;
+    const total_elderly = dayData.martyr.get("elderly_gaza")!;
+    const total_men = total_all - (total_children + total_women + total_elderly);
+
+    return {
+      labels: ["Children", "Women", "Elderly", "Men"],
+      datasets: [
+	{
+	  label: "Fatalities",
+	  data: [total_children, total_women, total_elderly, total_men],
+	  backgroundColor: "#d60a0aaa",
+	  borderColor: "#d60a0a",
+	  borderWidth: 1,
+	},
+      ],
+    };
+}
+
+function getHomeData(dayData: DayData) {
+    // Assumed constant over a long period of time. 
+    // PCBS doesn't seem to publish it.
+    const totalHomes = 582000;
+
+    const damagedHomes = dayData.building.get("damaged_housing_units")!;
+    const destroyedHomes = dayData.building.get("destroyed_housing_units")!;
+    const destroyedPercentage = ((damagedHomes + destroyedHomes) / totalHomes);
+
+    return {
+      labels: ["Damaged or Destroyed", "Not Yet"],
+      datasets: [
+	{
+	  label: "Percentage of House Units Affected",
+	  data: [
+	    destroyedPercentage * 100,
+	    (1 - destroyedPercentage) * 100,
+	  ],
+	  backgroundColor: ["#990a0a88", "#d60a0a88"],
+	  borderColor: ["#990a0a", "#d60a0a"],
+	  borderWidth: 1,
+	},
+      ],
+    };
+}
+
+export async function readPcbsData() { 
+    const response = await fetch('./pcbs_data.json', {
+      headers: {
+	"Content-Type": "application/json",
+	Accept: "application/json"
+      }
+    });
+    const pcbsData = new PCBSData(await response.json());
+    const [latestDate, beforeLatestDate] = getMostRecentDay(pcbsData);
+    const [latestData, beforeLatestData] = [ pcbsData.allDays.get(latestDate), pcbsData.allDays.get(beforeLatestDate) ];
+
+    const gazaDict = getGazaData(latestData);
+    const prevDayGazaDict = getGazaData(beforeLatestData);
+    const gazaDictToday = computeDictDelta(gazaDict!, prevDayGazaDict);
+
+    const westBankDict = getWestBankData(latestData);
+    const prevDayWestBankDict = getWestBankData(beforeLatestData);
+    const westBankDictToday = computeDictDelta(westBankDict, prevDayWestBankDict);
+
+
+    const infraDict = getInfraData(latestData!);
+    const deathRatiosData = getDeathRatios(latestData!);
+    const homeData = getHomeData(latestData!);
+
+    const lastUpdated = latestDate;
+
+    return [gazaDict, gazaDictToday, westBankDict, westBankDictToday, infraDict, deathRatiosData, homeData, lastUpdated];
+}
 
 export const historyData = {
   labels: [
@@ -129,72 +282,26 @@ export const historyData = {
   ],
 };
 
-export const homeData = {
-  labels: ["Damaged or Destroyed", "Not Yet"],
-  datasets: [
-    {
-      label: "Percentage of House Units Affected",
-      data: [
-        ((40000 + 222000) / 582000) * 100,
-        1 - ((40000 + 222000) / 582000) * 100,
-      ],
-      backgroundColor: ["#990a0a88", "#d60a0a88"],
-      borderColor: ["#990a0a", "#d60a0a"],
-      borderWidth: 1,
-    },
-  ],
-};
-
 export const recentData = {
   labels: [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19",
-    "20",
-    "21",
-    "22",
-    "23",
-    "24",
-    "25",
-    "26",
-    "27",
-    "28",
-    "29",
-    "30"
+    "1", "2", "3", "4", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15",
+    "19", "20", "21", "22", "23", "26", "27",
   ],
   datasets: [
     {
-      label: "Killed Palestinians",
+      label: "Killed Children",
       data: [
-        4, 8, 13, 27, 32, 47, 32, 37, 41, 46,
-        51, 56, 61, 35, 70, 75, 80, 84, 89, 94,
-        99, 104, 79, 84, 109, 54, 128, 133, 138, 143
-    ],
+	  3648, 3760, 3826, 3900, 4104, 4237, 4324, 4324, 4506, 4506, 4506, 4630, 4630,
+	  4630, 5500, 5600, 5600, 6000, 6150, 6150, 6150,
+      ],
       backgroundColor: "#990a0a",
       borderColor: "#990a0aaa",
     },
     {
-      label: "Killed Children",
+      label: "Killed Palestinians",
       data: [
-        2, 3, 10, 14, 45, 20, 22, 30, 31, 36,
-        41, 56, 51, 75, 30, 45, 60, 74, 79, 84,
-        19, 94, 99, 104, 19, 104, 18, 103, 108, 103
+	  8796, 9061, 9227, 9488, 10022, 10328, 10569, 10569, 11078, 11078, 11078, 11240,
+	  11240, 11240, 13000, 13300, 14128, 14532, 14854, 14854, 15000,
       ],
       backgroundColor: "#d60a0a",
       borderColor: "#d60a0aaa",
@@ -202,14 +309,12 @@ export const recentData = {
   ],
 };
 
-export const lastUpdated = "18th Nov. 2023 at 14 PM GMT";
-
 export const faqData = {
   title: "FAQ (How it works)",
   rows: [
     {
       title: "1. What Are The Sources of the Numbers Above? ",
-      content: "These numbers are updated daily with data published on the Palestinian Central Bureau of Statistics (PCBS) website. The bureau is independent from the government; however, most if not all humanatirian metrics are first recorded by the ministry of health in an office at Al-Shifa hospital."
+      content: "These numbers are updated daily with data published on the Palestinian Central Bureau of Statistics (PCBS) website. The bureau is independent from the government; however, most if not all humanatirian metrics are first recorded by the ministry of health in an office at Al-Shifa hospital. Note that the numbers for the cumulative sum of adult and child martyrs were sourced from the daily coverage of AlJazeera."
     },
     {
       title: "2. Should I Trust the Numbers Given by the Ministry Given That It's \"Hamas-Controlled\"?",

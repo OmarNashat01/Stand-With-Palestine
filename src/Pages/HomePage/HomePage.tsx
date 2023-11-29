@@ -26,7 +26,7 @@ const HomePage = () => {
 
       {/* Timeline Section*/}
       <Banner {...homeData.timelineBanner} />
-      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false}>
+      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true}>
         <HeroWideSectionExtra {...homeData.historicTimelineSection}/>
         <HeroWideSectionExtra {...homeData.recentTimelineCrimeSection}/>
         <HeroWideSectionExtra {...homeData.recentTimelineDiplomaticSection}/>
@@ -34,7 +34,7 @@ const HomePage = () => {
 
       {/* War Lies and Crimes Section*/}
       <Banner {...homeData.warCrimeBanner} />
-      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false}>
+      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true} swipeable={false}>
         <HeroWideSectionExtra {...homeData.genocideSection}/>
         <HeroWideSectionExtra {...homeData.warCrimesLiesSection}/>
         <HeroSliderImage {...homeData.beforeAfterSection} />

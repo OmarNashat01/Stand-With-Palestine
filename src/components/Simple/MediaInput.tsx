@@ -5,25 +5,28 @@ interface MediaInputProps {
     mode: string;
     path: string;
     violence: boolean;
+    crop: boolean;
+    autoplay?: boolean;
   }
   
-  const MediaInput: React.FC<MediaInputProps> = ({ mode, path, violence }) => {
+  const MediaInput: React.FC<MediaInputProps> = ({ mode, path, violence, crop, autoplay=true }) => {
     return (
       <>
         {mode === "img" && (
           <img
             className="image-container-extra"
-            style={{ backgroundImage: `url('${path}')`, filter: ((violence) ? blurFilter():'') }}
+            style={{  filter: ((violence) ? blurFilter():''), objectFit: ((crop) ? 'cover' : 'contain')}}
+            src={`${path}`}
           />
         )}
         {mode === "video" && (
           <video
             src={path}
             controls
-            autoPlay
-            muted
+            autoPlay={autoplay}
+            muted={autoplay}
             className="video-container-extra"
-            style={{filter: ((violence) ? blurFilter():'')}}
+            style={{filter: ((violence) ? blurFilter():''), objectFit: ((crop) ? 'cover' : 'contain')}}
           />
         )}
         {mode === "iframe" && (
@@ -31,6 +34,7 @@ interface MediaInputProps {
             className="video-container-extra"
             title="Video"
             src={path}
+            style={{filter: ((violence) ? blurFilter():''), objectFit: ((crop) ? 'cover' : 'contain')}}
           ></iframe>
         )}
       </>

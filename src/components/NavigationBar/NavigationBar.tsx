@@ -37,12 +37,14 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
         <div className='menu-icon'>
           <FaBars className="menu-icon" onClick={toggleMenu} />
         </div>
-        <div className='logo-icon'>
-         <img src='\logo.png' width='30' alt='flag'></img>
+        <div className='logo-container'>
+          <div className='logo-icon'>
+           <img src='\logo.png' width='30' alt='flag'></img>
+          </div>
+          <Link to="./">
+          <div className='logo-text'>Stand with Palestine</div>
+          </Link>
         </div>
-        <Link to="./">
-        <div className='logo-text'>Stand with Palestine</div>
-        </Link>
       </div>
       <nav className={`navbar ${showMobNav ? 'active' : ''}`}>
         <ul className="nav-list">

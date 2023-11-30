@@ -5,12 +5,13 @@ interface GradientHeroProps {
     title: string;
     subTitle1:string;
     subTitle2:string;
+    fontSize?:string;
     bloody?:boolean;
     circular?:boolean;
     special?:boolean;
   }
   
-  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, bloody=false, circular=false, special=false}) => {
+  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, bloody=false, fontSize='4rem', circular=false, special=false}) => {
 
     return (
       <div

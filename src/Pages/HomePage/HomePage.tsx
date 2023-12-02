@@ -26,7 +26,7 @@ const HomePage = () => {
 
       {/* Timeline Section*/}
       <Banner {...homeData.timelineBanner} />
-      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true}>
+      <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true}>
         <HeroWideSectionExtra {...homeData.historicTimelineSection}/>
         <HeroWideSectionExtra {...homeData.recentTimelineCrimeSection}/>
         <HeroWideSectionExtra {...homeData.recentTimelineDiplomaticSection}/>
@@ -34,7 +34,7 @@ const HomePage = () => {
 
       {/* War Lies and Crimes Section*/}
       <Banner {...homeData.warCrimeBanner} />
-      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true} swipeable={false}>
+      <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true}>
         <HeroWideSectionExtra {...homeData.genocideSection}/>
         <HeroWideSectionExtra {...homeData.warCrimesLiesSection}/>
         <HeroSliderImage {...homeData.beforeAfterSection} />
@@ -42,14 +42,14 @@ const HomePage = () => {
 
       {/* Intense Section*/}
       <Banner {...homeData.intenseGridBanner} />
-      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false}>
+      <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false}>
         <HeroGridVideo {...homeData.intenseGridSection1} />
         <HeroGridVideo {...homeData.intenseGridSection2} />
       </Carousel >
 
       {/* Blogs Section*/}
       <Banner {...homeData.blogBanner} />
-      <Carousel interval={50000} autoPlay infiniteLoop showStatus={false}>
+      <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false}>
         <HeroWideSectionExtra {...homeData.interviewSection1} />
         <HeroWideSectionExtra {...homeData.interviewSection2} />
       </Carousel>

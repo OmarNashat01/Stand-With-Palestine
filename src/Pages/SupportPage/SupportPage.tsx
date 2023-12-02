@@ -60,7 +60,7 @@ const SupportPage: React.FC = () => {
       </div>
       <div className="container">
         <div className="first-child">
-          <ResponsiveCarousel className="carousel" showThumbs={false} dynamicHeight={false} showStatus={false} showIndicators={true} showArrows={true} autoPlay={false} infiniteLoop={true} interval={3000} stopOnHover={true}>
+          <ResponsiveCarousel swipeable={false} className="carousel" showThumbs={false} dynamicHeight={false} showStatus={false} showIndicators={true} showArrows={true} autoPlay={false} infiniteLoop={true} interval={3000} stopOnHover={true}>
             {supportPageData[selectedOrg].trucksImages.map((item, index) => (
               <div key={index} className="image-container">
                 <img src={item} alt={`Truck ${index + 1}`} />
@@ -103,7 +103,7 @@ const SupportPage: React.FC = () => {
       </div>
       <div className="container" style={{ maxWidth: '100%', margin: 'auto', flexDirection: 'row-reverse' }}>
         <div className="first-child" style={{ flexBasis: '60%' }}>
-          <ResponsiveCarousel className="carousel" showThumbs={false} dynamicHeight={false} showStatus={false} showIndicators={true} showArrows={true} autoPlay={false} infiniteLoop={true} interval={3000} stopOnHover={true}>
+          <ResponsiveCarousel swipeable={false} className="carousel" showThumbs={false} dynamicHeight={false} showStatus={false} showIndicators={true} showArrows={true} autoPlay={false} infiniteLoop={true} interval={3000} stopOnHover={true}>
             {supportActionData[selectedOption].trucksImages.map((item, index) => (
               <div key={index} className="image-container"  >
                 <img src={item} alt={`Truck ${index + 1}`} />

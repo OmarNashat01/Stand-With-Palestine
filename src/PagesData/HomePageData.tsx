@@ -222,7 +222,7 @@ const homeData = {
       reverse: true,
       bulleted: '',
       isLocalVideo: false,
-      onClick1: './blogs/PiersInterviewsBassem',
+      onClick1: './blogs/piers-bassem-interview',
       onClick2: './blogs'
     },
   
@@ -244,7 +244,7 @@ const homeData = {
       reverse: true,
       bulleted: '',
       isLocalVideo: false,
-      onClick1: './blogs/PiersInterviewsCenk',
+      onClick1: './blogs/piers-cenk-interview',
       onClick2: './blogs'
     },
 

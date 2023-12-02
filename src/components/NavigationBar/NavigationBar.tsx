@@ -37,12 +37,14 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
         <div className='menu-icon'>
           <FaBars className="menu-icon" onClick={toggleMenu} />
         </div>
-        <div className='logo-icon'>
-         <img src='\logo.png' width='30' alt='flag'></img>
+        <div className='logo-container'>
+          <div className='logo-icon'>
+           <img src='\logo.png' width='30' alt='flag'></img>
+          </div>
+          <Link to="./">
+          <div className='logo-text'>Stand with Palestine</div>
+          </Link>
         </div>
-        <Link to="./">
-        <div className='logo-text'>Stand with Palestine</div>
-        </Link>
       </div>
       <nav className={`navbar ${showMobNav ? 'active' : ''}`}>
         <ul className="nav-list">
@@ -73,7 +75,7 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
           <li className={`nav-item ${location.pathname.includes('/blogs') ? 'selected' : ''}`}>
             <Link to="/blogs"><GiWhiteBook style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Blogs</Link>
           </li>
-          <li className={`nav-item ${location.pathname === '/support' ? 'selected' : ''}`}>
+          <li className={`nav-item ${location.pathname === '/support' ? 'selected-support' : ''}`}>
             <Link to="/support"><AiFillHeart style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Support</Link>
           </li>
         </ul>

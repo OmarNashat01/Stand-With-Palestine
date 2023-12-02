@@ -15,22 +15,22 @@ import { useGlobalAudioPlayer } from "react-use-audio-player";
 import Footer from "./components/Footer/Footer";
 import { useLocation } from "react-router-dom";
 import NotFoundPage from "./components/NotFound/NotFound";
-import {init, saveSet} from "./utils"
+import { init, saveSet } from "./utils";
 
 function App() {
   const [showModal, setShowModal] = useState(false); // eye modal
   const { load } = useGlobalAudioPlayer();
-  const [isBouncing, setIsBouncing] = useState(init('isBouncing', true));
+  const [isBouncing, setIsBouncing] = useState(init("isBouncing", true));
   const [showMobNav, setShowMobNav] = useState(false);
   const [showEyeButton, setShowEyeButton] = useState(false);
   const { setVolume, volume } = useGlobalAudioPlayer();
-  const [blur, setBlur] = useState(init('blur', 0));
+  const [blur, setBlur] = useState(init("blur", 0));
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       if (isBouncing) {
         setShowModal(true);
-        saveSet(setIsBouncing, 'isBouncing', false);
+        saveSet(setIsBouncing, "isBouncing", false);
       }
     }, 10000);
 
@@ -41,16 +41,16 @@ function App() {
   }, [isBouncing]);
 
   useEffect(() => {
-    const storedVolume = localStorage.getItem('volume');
+    const storedVolume = localStorage.getItem("volume");
     if (storedVolume) {
-      setVolume(parseFloat(storedVolume));  
+      setVolume(parseFloat(storedVolume));
     }
   }, [setVolume]);
 
   useEffect(() => {
     load("./shells.mp3", {
       autoplay: true,
-      initialVolume: init('volume', 0.001),
+      initialVolume: init("volume", 0.001),
     });
   }, []);
 
@@ -80,10 +80,10 @@ function App() {
           className={`eye-button ${isBouncing ? "bounce" : ""}`}
           onClick={() => {
             setShowModal(!showModal);
-            saveSet(setIsBouncing, 'isBouncing', false);
+            saveSet(setIsBouncing, "isBouncing", false);
           }}
         >
-          <img src="./eye.png" />
+          <img src="\eye.png" />
         </div>
       )}
       <ModalEye

@@ -20,11 +20,15 @@
     --card-shadow: unset;
     --card-padding: 1rem;
     --card-offset: 1rem;
+    @media only screen and (max-width: 800px) {
+      --card-padding: 0.25rem;
+    }
     p,
     li {
       color: white;
     }
     .points-list {
+      width: 100%;
       h1 {
         font-size: 1.5rem;
         background: -webkit-linear-gradient(#d60a0a, red);
@@ -32,6 +36,7 @@
         -webkit-text-fill-color: transparent;
       }
       li {
+        text-align: start;
         padding: 8px;
         padding-left: 40px;
         transition: ease 400ms;
@@ -39,10 +44,10 @@
         letter-spacing: 1px;
         opacity: 0.85;
         cursor: pointer;
-        @media only screen and (max-width:800px){
+        @media only screen and (max-width: 800px) {
           padding-left: 15px;
           font-size: 0.8rem;
-          }
+        }
         a {
           text-decoration: none;
           //border-bottom: 3px solid #d60a0a;
@@ -67,7 +72,6 @@
         content: counter(ordered-list);
         font-family: "Sharpie", sans-serif;
         margin-right: 10px;
-        
         background-color: #d60a0a;
         color: #f6f6f6;
         border-radius: 5px;
@@ -75,32 +79,33 @@
         justify-content: center;
         align-items: center;
         width: 30px;
-        @media only screen and (max-width:800px){
+        height: 30px;
+        aspect-ratio: auto 1/1;
+        @media only screen and (max-width: 800px) {
+          width: 15px;
+          height: 15px;
+          aspect-ratio: auto 1/1;
           align-self: flex-start;
-          padding:0.3rem;
-          }
+          padding: 0.3rem;
+        }
       }
     }
   }
 }
-
 
 .timeline-card {
   background: radial-gradient(#1f1f1f, #141414) !important;
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
   margin-right: 3rem;
-  @media only screen and (max-width:800px){
-  margin-right: 0.5rem;
+  @media only screen and (max-width: 800px) {
+    margin-right: 0.5rem;
   }
 }
 
 .timeline-card__date {
   color: #6b6a6a !important;
-  @media only screen and (max-width:800px){
+  @media only screen and (max-width: 800px) {
     font-size: 0.7rem !important;
-
-    p {
-    }
-    }
+  }
 }

@@ -67,6 +67,7 @@ const RecentTimelinePage: React.FC = () => {
         }
         positioning="left"
       />
+          <p style={{color: '#7f7f7f', margin: 'auto', textAlign: 'center', marginBottom: '-1rem'}}> This page is updated every few days... </p>
 
     </div>
   );

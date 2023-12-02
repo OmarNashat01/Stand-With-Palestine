@@ -53,7 +53,7 @@ const Modal: FC<ModalProps> = ({
             {textContent!="" && <p>{textContent}</p>}
             <ul>
               {listTextItems.map((item, index) => (
-                <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+                <li key={index} dangerouslySetInnerHTML={{ __html: item }}  />
               ))}
             </ul>
             <HeroButton

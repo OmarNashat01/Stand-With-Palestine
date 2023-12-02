@@ -35,6 +35,7 @@ const LiesPage: React.FC = () => {
         placeHolder="Search by lie or related information..."
       />
     <LiesList liesData={filteredLies}/>
+
     </div>
   );
 };

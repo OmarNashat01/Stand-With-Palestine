@@ -1,154 +1,1298 @@
-
 export const dailyNews = [
-    {
-      date: new Date("2023-10-08"),
-      title: "Day 1",
-      events: [
-        {
-          text: "At least 510 Palestinians had been killed and 2,751 are injured",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "Several buildings have been razed to the ground by Israeli airstrikes in Gaza City. ",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "An Israeli airstrike kills 19 members of the same family in southern Gaza refugee camp.",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "At least 510 Palestinians had been killed and 2,751 are injured",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-      ],
-    },
-    {
-      date: new Date("2023-10-09"),
-      title: "Day 2",
-      events: [
-        {
-          text: "At least 510 Palestinians had been killed and 2,751 are injured",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "Several buildings have been razed to the ground by Israeli airstrikes in Gaza City. ",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "An Israeli airstrike kills 19 members of the same family in southern Gaza refugee camp.",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "At least 510 Palestinians had been killed and 2,751 are injured",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-      ],
-    },
-    {
-      date: new Date("2023-10-10"),
-      title: "Day 3",
-      events: [
-        {
-          text: "At least 510 Palestinians had been killed and 2,751 are injured",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "Several buildings have been razed to the ground by Israeli airstrikes in Gaza City. ",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "An Israeli airstrike kills 19 members of the same family in southern Gaza refugee camp.",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "At least 510 Palestinians had been killed and 2,751 are injured",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-      ],
-    },
-    {
-      date: new Date("2023-10-11"),
-      title: "Day 4",
-      events: [
-        {
-          text: "At least 510 Palestinians had been killed and 2,751 are injured",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "Several buildings have been razed to the ground by Israeli airstrikes in Gaza City. ",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "An Israeli airstrike kills 19 members of the same family in southern Gaza refugee camp.",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "At least 510 Palestinians had been killed and 2,751 are injured",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-      ],
-    },
-    {
-      date: new Date("2023-10-12"),
-      title: "Day 5",
-      events: [
-        {
-          text: "At least 510 Palestinians had been killed and 2,751 are injured",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "Several buildings have been razed to the ground by Israeli airstrikes in Gaza City. ",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "An Israeli airstrike kills 19 members of the same family in southern Gaza refugee camp.",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-        {
-          text: "At least 510 Palestinians had been killed and 2,751 are injured",
-          link: "https://edition.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
-          description: "",
-          images: []
-        },
-      ],
-    },
-  ];
-  
+  {
+    date: new Date("2023-10-07"),
+    title: "Day 1",
+    events: [
+      {
+        text: "Hamas Launches a Massive Surprise Attack on Israel",
+        link: "https://www.cnn.com/2023/10/07/middleeast/sirens-israel-rocket-attack-gaza-intl-hnk/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel strikes the 11 Story Palestinian Tower",
+        link: "https://www.dailymail.co.uk/news/article-12605787/Palestinian-tower-israel-hamas-conflict-missile-strike-tv-reporter-screaming.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel hits Indonesian hospital in Beit Lahiya and an ambulance stationed in front of Nasser Hospital in the city of Khan Yunis",
+        link: "https://www.businessinsider.com/doctors-without-borders-hospitals-ambulances-targets-israel-hamas-gaza-2023-10",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israelis kill four Palestinians in the west bank amid confrontations.",
+        link: "https://www.aljazeera.com/news/2023/10/5/israeli-troops-kill-two-palestinians-in-occupied-west-bank-clash",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-08"),
+    title: "Day 2",
+    events: [
+      {
+        text: "Israeli Strike Destroys Al-Amin Muhammad Mosque in South Gaza",
+        link: "https://www.moroccoworldnews.com/2023/10/358152/israeli-strike-destroys-al-amin-muhammad-mosque-in-gaza",
+        description: "",
+        images: [],
+      },
+      {
+        text: "An Israeli airstrike kills 19 members of the same family in southern Gaza refugee camp.One member that stayed outside the house, Abu Quta, doesn't understand why Israel struck his house. There were no militants in his building, he insisted, and his family was not warned.",
+        link: "https://abcnews.go.com/International/wireStory/israeli-airstrike-kills-19-members-same-family-southern-103822313",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 20K Gazans sought shelter in UNRWA schools.",
+        link: "https://www.palestinechronicle.com/this-is-what-israels-war-on-gaza-is-doing-photo-story/",
+        description: "",
+        images: [],
+      },
+      {
+        text: "413 people killed, 78 of them children and 41 women and 2,300 people injure",
+        link: "https://www.aljazeera.com/news/liveblog/2023/10/8/israel-palestine-escalation-live-israeli-forces-bombard-gaza",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-9"),
+    title: "Day 3",
+    events: [
+      {
+        text: "Israel hits more refugee camps and mosques in Gaza, killing dozens.This includes the Jabalia refugee camp, Shati refugee camp, and the Yassin mosque ",
+        link: "https://www.aljazeera.com/gallery/2023/10/9/dozens-of-palestinians-killed-wounded-in-israeli-strikes-on-gaza-refugee",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli defense minister announces ‘complete siege’ of Gaza: No power, food or fuel.“We are fighting human animals and we are acting accordingly,” he adds.",
+        link: "https://web.archive.org/web/20231009105739/https://www.timesofisrael.com/liveblog_entry/defense-minister-announces-complete-siege-of-gaza-no-power-food-or-fuel/",
+        description: "",
+        images: [],
+      },
+      {
+        text: "International Community Condemns Israel Decision as a War Crime.",
+        link: "https://www.citywatchla.com/important-reads/27767-a-massive-war-crime-israel-announces-total-blockade-of-gaza-strip",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Overall, Israel has hit over 200 targets in Gaza in one night.",
+        link: "https://www.cnn.com/videos/world/2023/10/10/drone-video-israel-airstrikes-gaza-hamas-es-intl-ldn-vpx.cnn",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 510 Palestinians had been killed and 2,751 are injured",
+        link: "https://www.aljazeera.com/news/2023/10/9/death-tolls-soar-as-fighting-between-israel-and-hamas-rages",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-10"),
+    title: "Day 4",
+    events: [
+      {
+        text: "Israel Strikes Over 200 Targets in Rimal and Khan Yunis neighborhoods",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-10-10-23/h_12bb60370b786629fb366bcbfb3a14c8",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel Strikes the Palestinian Side of the Rafah Crossing for the Third Time in 24 Hours.This is the only crossing between Palestine and Egypt and it is controlled by Egypt",
+        link: "https://www.aljazeera.com/news/2023/10/10/alarm-as-israel-again-hits-rafah-border-crossing-between-gaza-and-egypt",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Four More Palestinians Killed by Israeli Forces in the West Bank",
+        link: "https://globeecho.com/news/middle-east/4-palestinians-were-killed-by-israeli-forces-in-the-west-bank/",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 704 Palestinians had been killed and 4000 are injured",
+        link: "https://www.aljazeera.com/news/2023/10/10/hamas-says-will-kill-hostages-if-israeli-attacks-on-gaza-civilians-continue",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-11"),
+    title: "Day 5",
+    events: [
+      {
+        text: "Israel brutally bombs the Islamic University of Gaza.IDF claims it's a training center for hamas engineers",
+        link: "https://www.timesofisrael.com/liveblog_entry/iaf-bombs-islamic-university-of-gaza-a-training-center-for-hamas-engineers/",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Five IFRC Paramedics in an Ambulance Killed by an Israeli Air Strike",
+        link: "https://www.ifrc.org/press-release/five-ifrc-network-members-killed-civilians-and-healthcare-workers-must-be-respected",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Gaza's only power station stops working after fuel runs out",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-10-11-23/h_b44251fc62ee96a79fcdb942c6aaad97#:~:text=Four paramedics have been killed,Dahman%2C a PRCS statement reads.",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Three Palestinians killed in clashes with settlers in West Bank",
+        link: "https://www.timesofisrael.com/three-palestinians-said-killed-in-clashes-with-settlers-in-west-bank/",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 1055 Palestinians had been killed and 5184 are injured",
+        link: "https://www.aljazeera.com/news/2023/10/11/israel-hamas-war-list-of-key-events-day-5",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-12"),
+    title: "Day 6",
+    events: [
+      {
+        text: "Israel's president says it is abiding by international law, when asked by CNN about war crime accusations.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-news-hamas-war-10-12-23/h_f4e1bf04de9aeeeba67a7a8ffb123bba",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel military says it has dropped 6,000 bombs on Gaza since start of war.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli official says the government can't confirm babies were beheaded in Hamas attack.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-news-hamas-war-10-12-23/h_f4e1bf04de9aeeeba67a7a8ffb123bba",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Human Rights Watch find that Israel Unleashed White Phosphorus in Gaza",
+        link: "https://news.yahoo.com/israel-unleashed-white-phosphorus-gaza-215457025.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 1537 Palestinians had been killed and 6612 are injured",
+        link: "https://www.aljazeera.com/news/liveblog/2023/10/11/israel-hamas-war-live-gaza-faces-growing-humanitarian-catastrophe",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-13"),
+    title: "Day 7",
+    events: [
+      {
+        text: "Israel tells 1.1 million Gazans living North of Wadi Gaza to evacuate south.UN Called the Order impossible",
+        link: "https://www.cnn.com/2023/10/13/middleeast/israel-gaza-hamas-war-friday-intl-hnk/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "IDF launches first ‘localized’ raids into Gaza ahead of expected ground invasion",
+        link: "https://www.aljazeera.com/gallery/2023/10/13/tens-of-thousands-rally-around-the-world-against-israels-gaza-bombardment",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel’s Bombardment of Gaza continues",
+        link: "https://www.france24.com/en/video/20231013-ongoing-bombardment-israeli-artillery-fires-on-gaza-every-30-seconds",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 16 Palestinians killed by Israeli forces in the West Bank amid protest",
+        link: "https://www.aljazeera.com/news/2023/10/13/several-palestinians-killed-by-israeli-forces-in-occupied-west-bank",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 1799 Palestinians had been killed and 6388 are injured",
+        link: "https://www.aljazeera.com/news/liveblog/2023/10/13/israel-hamas-live-iran-says-new-fronts-may-open-if-gaza-bombing-continues",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-14"),
+    title: "Day 8",
+    events: [
+      {
+        text: "Israel Readies Massive Ground Assualt on Gaza",
+        link: "https://www.voanews.com/a/israel-readies-massive-ground-assault-on-gaza/7311471.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel announces a six-hour window for Palestinians to flee south safely along specified streets within Gaza.",
+        link: "https://www.abc12.com/news/israel-announces-6-hour-window-for-gazans-fleeing-south-as-troops-gather-near-border/article_f0b73c2e-75c2-5a0c-8599-75a3aacbbc49.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 70 Killed and 200 Injured while fleeing south along one of the designated routes.",
+        link: "https://www.youtube.com/watch?v=bsEj2dcihP4&ab_channel=TheTimesandTheSundayTimes",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli forces fatally shoot seven Palestinian boys in the occupied West Bank",
+        link: "https://www.dci-palestine.org/israeli_forces_fatally_shoot_seven_palestinian_boys_in_the_occupied_west_bank",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 2215 Palestinians had been killed and 8700 are injured",
+        link: "https://www.genocidewatch.com/single-post/un-warns-water-rapidly-running-out-in-gaza",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-15"),
+    title: "Day 9",
+    events: [
+      {
+        text: "Half a million people have fled to southern Gaza, IDF says",
+        link: "https://edition.cnn.com/middleeast/live-news/israel-news-hamas-war-10-15-23/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "UN chief warns of disaster, pleads for water, food and medicine for Gaza",
+        link: "https://www.pbs.org/newshour/world/live-updates-whats-happening-on-day-9-of-the-israel-hamas-war",
+        description: "",
+        images: [],
+      },
+      {
+        text: "There aren't enough shelters for those fleeing to southern Gaza, UN official says",
+        link: "https://edition.cnn.com/middleeast/live-news/israel-news-hamas-war-10-15-23/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel continues bombing Gaza for the 9th Day",
+        link: "https://www.reuters.com/world/middle-east/gaza-residents-who-have-lost-family-fear-more-destruction-ground-assault-looms-2023-10-15/",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 2670 Palestinians had been killed and 9600 are injured",
+        link: "https://www.aljazeera.com/news/2023/10/16/israel-hamas-war-list-of-key-events-day-10",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-16"),
+    title: "Day 10",
+    events: [
+      {
+        text: "Humanitarian supplies piling up on the Egyptian side of the border.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-news-hamas-war-10-16-23/h_090dae30aee6070da7c7b2a217d73156",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Hamas says it holds between at least 200-250 hostages and claims 22 were killed in Israeli airstrikes",
+        link: "https://www.cnn.com/middleeast/live-news/israel-news-hamas-war-10-16-23/h_090dae30aee6070da7c7b2a217d73156",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel continues bombing Gaza for the 10th Day",
+        link: "https://www.cnn.com/middleeast/live-news/israel-news-hamas-war-10-16-23/h_090dae30aee6070da7c7b2a217d73156",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 2808 Palestinians had been killed and 10859 are injured",
+        link: "https://www.aljazeera.com/news/liveblog/2023/10/16/israel-hamas-war-live-iran-warns-resistance-front-may-attack",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-17"),
+    title: "Day 11",
+    events: [
+      {
+        text: "Severe damage to Al Karama Hospital in Gaza led it to be put out of service",
+        link: "https://www.cnn.com/middleeast/live-news/israel-news-hamas-war-10-17-23/h_aadef8f98c26846c0d8700587882bc3b",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli airstrikes hit 2 refugee camps in Gaza, Palestinian interior ministry says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-news-hamas-war-10-17-23/h_0ad5c30759078dc4dfaa55bde25d8d6d",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Palestinian health ministry says an estimated 200 to 300 people killed in Israeli strike on hospital in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-news-hamas-war-10-17-23/h_2ad68ba412d7535e90ef90e42c0478a4",
+        description: "",
+        images: [],
+      },
+      {
+        text: '"No safe passage has been granted" for humanitarian aid from Egypt to Gaza, foreign minister says',
+        link: "https://www.cnn.com/middleeast/live-news/israel-news-hamas-war-10-17-23/h_234761c28d0e0101c06183ef7c55f606",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 3000 Palestinians had been killed and 12500 are injured",
+        link: "",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-18"),
+    title: "Day 12",
+    events: [
+      {
+        text: "Israeli airstrike destroys a bakery at a Gaza refugee camp.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Airstrike kills 7 small children in Gaza home, residents and doctors said.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Palestinian fatalities continue to grow, and international community is nowhere to be found.",
+        link: "https://www.pbs.org/newshour/world/live-updates-whats-happening-on-day-12-of-the-israel-hamas-war",
+        description: "",
+        images: [],
+      },
+      {
+        text: "U.S. vetoes UN resolution to condemn violence in Israel-Hamas war.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The death toll in Gaza stands at 3,478 killed while 12,065 others have been wounded. In the occupied West Bank, 69 people have been killed and 1,300 wounded. More than 1 million Palestinians, roughly half of Gaza’s population, have fled homes in the north and Gaza City after Israel told them to evacuate.",
+        link: "https://www.aljazeera.com/news/2023/10/19/israel-hamas-war-list-of-key-events-day-13",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-19"),
+    title: "Day 13",
+    events: [
+      {
+        text: "Israeli Air Forces attacks areas in the south that Israel had declared as “safe zones.”",
+        link: "https://www.pbs.org/newshour/world/live-updates-whats-happening-on-day-13-of-the-israel-hamas-war",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least five Palestinians were killed in Israeli raids in the occupied West Bank.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Palestinians say Israel is targeting bakeries in Gaza.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Gaza authorities report death and injuries in bombing of historic church.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 3785 Palestinians had been killed and 12493 are injured",
+        link: "https://www.instagram.com/p/CylaWAEMX60/",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-20"),
+    title: "Day 14",
+    events: [
+      {
+        text: "Israel strikes south Gaza.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Dozens killed in Gaza airstrikes mourned.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Two Palestinian teens killed in West Bank clashes.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Gaza hospital struggles to function with dwindling power.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The Hamas-run Gaza Health Ministry said that 4,137 Palestinians have been killed and more than 13,000 others wounded.",
+        link: "https://www.pbs.org/newshour/world/live-updates-whats-happening-on-day-13-of-the-israel-hamas-war-2",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-21"),
+    title: "Day 15",
+    events: [
+      {
+        text: "Egypt official says aid trucks entered Rafah crossing but haven’t passed into Gaza Strip",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli airstrikes hit several residential buildings.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 12 people die in a house in Gaza hit by an Israeli strike.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The Hamas-run Gaza Health Ministry said Saturday that the death toll has reached 4,385, while 13,561 people have been wounded.",
+        link: "https://www.pbs.org/newshour/world/live-updates-whats-happening-on-day-14-of-the-israel-hamas-war",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-22"),
+    title: "Day 16",
+    events: [
+      {
+        text: "UN agency for Palestine refugees (UNRWA) has confirmed that 29 of its workers have been killed in Gaza since 7 October.",
+        link: "https://www.theguardian.com/world/2023/oct/22/hamas-and-israel-at-war-what-we-know-on-day-16",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel also struck the West Bank, hitting a compound beneath a mosque early on Sunday that the Israeli military claimed was being used by Hamas.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Bombardments in Gaza continue to intensify. At least 11 Palestinians have been killed and dozens injured in an Israeli attack on a cafe in Khan Younis, south of the Gaza Strip. The Hamas group has said at least 55 people were killed in overnight raids on the Strip.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The Palestinian health ministry said Israeli strikes have killed 4,741 Palestinians, with 15,898 hurt. Authorities in Gaza said that 40% of those killed in the Gaza Strip were children. Israel has been launching the attacks since 7 October, when a surprise Hamas attack inside Israel killed over 1,400 Israelis, mostly civilians.",
+        link: "",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-23"),
+    title: "Day 17",
+    events: [
+      {
+        text: "Two Palestinians have been killed at the Jalazone refugee camp near Ramallah in the Israeli-occupied West Bank, the Palestinian health ministry said on Monday.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The health ministry in Gaza has said at least 5,087 Palestinians have been killed in Israeli strikes since 7 October. It said the dead included 2,055 children. Additionally, it said 15,273 people had been wounded. The ministry put the death toll in the past 24 hours at 436, including 182 children. It said most of the fatalities had occurred in the southern Gaza Strip, to where Israel’s military has ordered Palestinians to evacuate. The claims have not been independently verified.",
+        link: "https://www.theguardian.com/world/2023/oct/23/hamas-and-israel-at-war-what-we-know-on-day-17",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-24"),
+    title: "Day 18",
+    events: [
+      {
+        text: "More than 700 killed in overnight Israeli attacks, Gaza officials say.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Overnight the UNRWA confirmed that another six of its staff had been killed in Gaza, bringing the total killed since 7 October to 35. It said 40 UNRWA installations had been damaged so far by Israeli airstrikes.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 5,791 Palestinians have been killed in Israeli strikes on Gaza since 7 October, according to the Hamas-run Gaza health ministry. It said the number included 2,360 children, and it said 704 Palestinians had been killed in the previous 24 hours. A spokesperson for the ministry, Ashraf al-Qidra, said they had received 1,550 reports of missing people, including 870 children, and suggested that those missing could still be under the rubble of collapsed buildings. The claims have not been independently verified.",
+        link: "https://www.theguardian.com/world/2023/oct/24/hamas-and-israel-at-war-what-we-know-on-day-18",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-25"),
+    title: "Day 19",
+    events: [
+      {
+        text: "Family of Al Jazeera Gaza bureau chief killed in Israeli air raid.",
+        link: "https://www.aljazeera.com/news/2023/10/25/family-of-al-jazeera-gaza-bureau-head-killed-in-israeli-air-raid",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Starvation used as a ‘weapon of war’ in Gaza amid Israeli siege: Oxfam.",
+        link: "https://www.aljazeera.com/news/2023/10/25/starvation-used-as-a-weapon-of-war-on-civilians-in-gaza-oxfam",
+        description: "",
+        images: [],
+      },
+      {
+        text: "A school sheltering Palestinians in Gaza sustained “severe collateral damage”.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Predawn Israeli air attacks and shelling continued across the Gaza Strip killing at least 19 people.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The Gaza health ministry, run by Hamas, said Israeli airstrikes have killed 6,546 Palestinians in the Gaza Strip since 7 October, including 2,704 children. The figure includes 756 people – 344 of whom were children – killed in the last 24 hours, it said, adding that 17,439 had been wounded in total.",
+        link: "https://www.theguardian.com/world/2023/oct/26/hamas-and-israel-at-war-what-we-know-on-day-20",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-26"),
+    title: "Day 20",
+    events: [
+      {
+        text: "Air attacks in Khan Younis have killed at least 18 people and injured several others, according to the Palestinian news agency Wafa.",
+        link: "https://www.aljazeera.com/news/2023/10/26/israel-hamas-war-list-of-key-events-day-20",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli bombardment on Palestinian journalist Duaa Sharaf’s house killed Sharaf and her child in the early hours of Thursday, according to Wafa.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Ramping up overnight raids in the West Bank, Israeli forces have arrested more than 1,200 Palestinians across the occupied territory since October 7.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 7028 Palestinians had been killed and 17439 are injured",
+        link: "https://www.aljazeera.com/features/2023/10/27/analysis-is-the-us-approach-to-gaza-damaging-ties-with-its-arab-allies",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-27"),
+    title: "Day 21",
+    events: [
+      {
+        text: "Telecommunications services are down across Gaza. Palestinian telecom provider, Paltel, said the bombardment caused “complete disruption” of internet, cellular and landline services late on Friday.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel intensifies Gaza bombardment as internet and phone services go down.",
+        link: "https://www.aljazeera.com/news/2023/10/27/israel-intensifies-gaza-bombardment-as-internet-and-phone-services-go-down",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 7326 Palestinians had been killed and 18967 are injured",
+        link: "https://www.aljazeera.com/news/liveblog/2023/10/27/israel-hamas-war-live-israel-bombs-gaza-overnight-more-than-7000-dead",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-28"),
+    title: "Day 22",
+    events: [
+      {
+        text: "UN agencies say they are unable to contact staff in Gaza amid the near-total communications blackout and call for civilians to be protected. The UN Relief and Works Agency for Palestine Refugees in the Near East (UNRWA) said on Friday: “In the last 24 hours 14 additional UNRWA staff were killed, bringing the total to 53 staff killed.”",
+        link: "https://www.aljazeera.com/news/2023/10/28/israel-hamas-war-list-of-key-events-day-22",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Witnesses told an Al Jazeera reporter in the Gaza Strip that Israel has been bombing around the Indonesian Hospital and al-Shifa Hospital in the besieged territory. Hospitals in Gaza, including al-Shifa, have been sheltering thousands of civilians forced to flee their homes amid Israel’s continued bombardment.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli security forces restricted young Palestinians from entering the Al-Aqsa Mosque in Jerusalem for prayers on Friday and deployed in strength across the Old City and beyond to quell any unrest spilling over from the conflict in Gaza.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "In the occupied West Bank, Israeli troops killed four Palestinians during raids, the official Palestinian news agency WAFA said. Two of the dead were identified by fighter groups as their members.",
+        link: "https://www.aljazeera.com/news/2023/10/28/protests-clashes-in-jerusalem-and-west-bank-as-israel-gaza-war-rages",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 7773 Palestinians had been killed and 19734 are injured",
+        link: "https://www.instagram.com/p/Cy8yY_9oJKC/",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-29"),
+    title: "Day 23",
+    events: [
+      {
+        text: "Overnight Israeli air raids have killed more than 30 people and caused “significant damage” to Turkish Hospital in southwest Gaza. Early on Sunday, Gaza’s largest al-Shifa hospital was also hit by air raids, according to The Associated Press news agency.",
+        link: "https://www.aljazeera.com/news/2023/10/30/israel-hamas-war-list-of-key-events-day-23",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli forces said their offensive was in its “second stage” as they clashed with Hamas fighters in northern Gaza while continuing air raids.",
+        link: "https://www.aljazeera.com/news/2023/10/29/netanyahu-says-war-entering-second-stage-as-troops-push-into-gaza",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The Palestinian Red Crescent said on Sunday it had received warnings from Israeli authorities to immediately evacuate al-Quds hospital in the Gaza Strip. The head of the World Health Organization said the report was “deeply concerning”.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 8309 Palestinians had been killed and 21048 are injured",
+        link: "https://www.ochaopt.org/content/hostilities-gaza-strip-and-israel-flash-update-24",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-30"),
+    title: "Day 24",
+    events: [
+      {
+        text: "Internet connectivity is gradually being restored in Gaza after a communications blackout swept the enclave on Friday. Israeli air raids targeted communication nodes, prompting people around the world to push for alternate sources of internet.",
+        link: "https://www.aljazeera.com/news/2023/10/30/israel-hamas-war-list-of-key-events-day-23",
+        description: "",
+        images: [],
+      },
+      {
+        text: "A Reuters journalist killed in strikes near the Israel-Lebanon border was deliberately targeted along with six other media workers injured in the attacks, Reporters Without Borders (RSF) has said.",
+        link: "https://www.aljazeera.com/news/2023/10/30/reuters-al-jazeera-journalists-targeted-in-lebanon-strike-press-group",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 8525 Palestinians had been killed and 21543 are injured",
+        link: "https://judyhaiven.ca/2023/10/31/on-palestine-oct-31/",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-10-31"),
+    title: "Day 25",
+    events: [
+      {
+        text: "Israel’s Prime Minister Benjamin Netanyahu ruled out a ceasefire in Gaza, declaring this is “a time for war”",
+        link: "https://www.aljazeera.com/news/2023/10/31/israel-hamas-war-list-of-key-events-day-25",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Dozens of people have been killed in an Israeli air raid on the Jabalia refugee camp in northern Gaza.",
+        link: "https://www.aljazeera.com/news/2023/10/31/dozens-killed-in-israeli-air-attack-on-gaza-refugee-camp-medical-official",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The Israeli's Intelligence Ministry drafted a wartime proposal to transfer the Gaza Strip’s 2.3 million people to Egypt’s Sinai peninsula ",
+        link: "https://www.timesofisrael.com/intelligence-ministry-concept-paper-proposes-transferring-gazans-to-egypts-sinai/",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Hospitals continue to be targeted across the Gaza Strip. Al-Quds and Indonesian Hospital in the north have been facing air strikes and artillery shelling",
+        link: "https://www.aljazeera.com/news/2023/10/31/israel-hamas-war-list-of-key-events-day-25",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Gaza’s health ministry has given a “final warning” to the world, saying that the main generators at two key hospitals in the territory are “hours away” from completely shutting down.",
+        link: "https://www.aljazeera.com/news/liveblog/2023/10/31/israel-hamas-war-live-israeli-air-attacks-continue-across-gaza",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-01"),
+    title: "Day 26",
+    events: [
+      {
+        text: "At least 8796 Palestinians had been killed and 22219 are injured",
+        link: "https://www.aljazeera.com/news/2023/11/1/who-is-exiting-gaza",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The only remaining hospital serving cancer patients in Gaza has been forced to shut down, with other hospitals saying they are on the brink of running out of power as Israel continues to block fuel deliveries",
+        link: "https://www.aljazeera.com/news/liveblog/2023/11/1/israel-hamas-war-live-anger-grows-over-israeli-attack-on-gaza-refugee-camp",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Latin American countries have grown increasingly critical of Israel: Colombia and Chile have recalled their ambassadors, Argentina condemned Israel’s attack on the Jabalia refugee camp, and Bolivia cut ties completely.",
+        link: "https://www.dw.com/en/israel-hamas-war-hundreds-of-evacuees-leave-gaza-for-egypt/live-67272330#liveblog-post-67277566",
+        description: "",
+        images: [],
+      },
+      {
+        text: "UN Human Rights office said the civilian toll of Israeli strikes on the Jabalia refugee camp in Gaza may represent a “disproportionate” attack that “could amount to war crimes”",
+        link: "https://www.aljazeera.com/news/liveblog/2023/11/1/israel-hamas-war-live-anger-grows-over-israeli-attack-on-gaza-refugee-camp",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-02"),
+    title: "Day 27",
+    events: [
+      {
+        text: "Israel’s top military commander said on Thursday that his country’s forces have surrounded Gaza City on three sides",
+        link: "https://www.theguardian.com/world/2023/nov/02/israel-and-hamas-at-war-what-we-know-on-day-27",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel carried out deadly air raids on the Jabalia refugee camp over the past two days, bringing the death toll there to about 200 and injuring nearly 800 people in just 24 hours",
+        link: "https://www.aljazeera.com/news/2023/11/2/israel-hamas-war-list-of-key-events-day-27",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Republicans at the United States House of Representatives on Thursday passed a plan providing $14.3bn in aid to Israel as it fights Hamas. The Democrat-controlled Senate said that it would not bring this bill up for a vote.",
+        link: "https://www.aljazeera.com/news/2023/11/3/israel-hamas-war-list-of-key-events-day-28",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 9061 Palestinians had been killed and 32000 are injured",
+        link: "https://www.aljazeera.com/news/liveblog/2023/11/2/israel-hamas-war-live-195-killed-120-missing-in-jabalia-strikes",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-03"),
+    title: "Day 28",
+    events: [
+      {
+        text: "Israel admitted responsibility for an airstrike on an ambulance outside a Gaza hospital that witnesses say killed and wounded dozens, with videos showing people bloodied and strewn across the ground",
+        link: "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-03-23/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel rebuffs US push for humanitarian pause, says hostages must be released first",
+        link: "https://apnews.com/article/israel-hamas-war-live-updates-11-3-2023-bf135710cf11f04cdcea078c5046e903",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The Israeli bombardment through the night targeted areas across the Gaza Strip, including Jabalia and Gaza City neighbourhoods. New Israeli air attacks have also hit the vicinity of al-Quds Hospital",
+        link: "https://www.aljazeera.com/news/2023/11/3/israel-hamas-war-list-of-key-events-day-28",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 9227 Palestinians had been killed and 32516 are injured",
+        link: "https://www.aljazeera.com/news/liveblog/2023/11/3/israel-hamas-war-live-israeli-forces-gather-outside-gaza-city",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-04"),
+    title: "Day 29",
+    events: [
+      {
+        text: "Israel also carried out airstrikes on a UN-run school in the Jabalia camp, killing more than 80 people, including many children",
+        link: "https://www.aljazeera.com/news/2023/11/4/israel-hamas-war-list-of-key-events-day-29",
+        description: "",
+        images: [],
+      },
+      {
+        text: "More than 30 people were killed in an Israeli bombing of the Maghazi refugee camp in central Gaza",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Up to a million people have fled to southern Gaza, placing stress on humanitarian response",
+        link: "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-04-23/h_f6ff2be2e3697a0115527741f5048402",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli forces are conducting raids backed by air strikes across the occupied West Bank, including in the towns of Nablus, Jenin, Hebron and Bethlehem. More than 143 Palestinians have been killed in the West Bank since the start of the conflict last month",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 9488 Palestinians had been killed and 24158 are injured",
+        link: "https://www.aljazeera.com/news/longform/2023/10/17/mapping-the-israel-palestine-war-major-events-on-the-ground",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-05"),
+    title: "Day 30",
+    events: [
+      {
+        text: 'The company Paltel announced a “complete interruption” of its telecom and network services due to "the main routes that were previously reconnected being cut off again from the Israeli side',
+        link: "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-05-23/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "according to operators. Five more United Nations employees have been killed in Gaza over the past 48 hours, according to the main UN agency in the besieged territory.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Many demonstrations continued to be held across the globe in support of Palestinians. Large protests were organised in Washington, London, Paris, Berlin and elsewhere on Saturday and Sunday. ",
+        link: "https://www.aljazeera.com/news/2023/11/5/israel-hamas-war-list-of-key-events-day-30",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Humanitarian agencies have lost contact with aid workers in Gaza, as the Palestinian enclave faces its third communications blackout of the Israel-Hamas war, according to operator",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 9770 Palestinians had been killed and 26000 are injured",
+        link: "https://www.aljazeera.com/news/2023/11/6/eu-ramps-up-gaza-aid-by-27m-looks-for-alternative-aid-delivery-routes",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-06"),
+    title: "Day 31",
+    events: [
+      {
+        text: "70% of people in Gaza are displaced with many living in inhumane conditions, UN agency says",
+        link: "https://www.aljazeera.com/news/2023/11/6/israel-hamas-war-list-of-key-events-day-31",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Gaza's Al-Aqsa Martyrs hospital saw more than 100 fatalities in a single day",
+        link: "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-06-23/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: `China's UN Ambassador Jun Zhang, echoed the sentiments expressed by Secretary-General António Guterres, emphasizing that "Gaza is a graveyard for children." Zhang called for an urgent ceasefire to facilitate the delivery of humanitarian aid to Gaza.`,
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 10022 Palestinians had been killed.",
+        link: "https://www.aljazeera.com/news/2023/11/6/number-of-palestinians-killed-in-israeli-attacks-on-gaza-tops-10000",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-07"),
+    title: "Day 32",
+    events: [
+      {
+        text: "Doctors without borders team member killed in strike on refugee camp",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Some doctors performing operations without anesthesia in Gaza",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: `"Nothing justifies the horror being endured by civilians in Gaza," WHO spokesperson Christian Lindmeier said Tuesday during a press briefing in Geneva, Switzerland, stressing their "desperate need for water, fuel, food and safe access to health care to survive.”"`,
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "the United States and the United Kingdom, permanent members who possess veto power, have opposed it. Western powers, particularly the US and UK, are resistant to including language in the resolution that calls for an immediate ceasefire, a proposition supported by several other Council members.",
+        link: "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-07-23/h_88e63f93be73e647189d1040736edbb1",
+        description: "",
+        images: [],
+      },
+      {
+        text: "More than 70% of the 10,305 people killed in Gaza since October 7 were children, women, and the elderly, the Palestinian Ministry of Health in Ramallah said in a report Tuesday. UNICEF spokesperson James Elder defended the accuracy of the death toll numbers being reported out of Gaza, saying the organization's numbers closely align with that of the Hamas-controlled Ministry of Health in Gaza",
+        link: "https://www.aljazeera.com/news/liveblog/2023/11/7/israel-hamas-war-live-one-month-of-conflict-10000-dead-in-gaza",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-08"),
+    title: "Day 33",
+    events: [
+      {
+        text: `"Nothing is left": Palestinians fleeing south in Gaza describe unbearable situation in Gaza City`,
+        link: "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-08-23/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The United States House of Representatives voted to censure Congress’s only Palestinian-American member, Rashida Tlaib, over her criticism of Israeli bombardment of Gaza and US support for Israel.",
+        link: "https://www.aljazeera.com/news/2023/11/8/us-house-votes-to-censure-rashida-tlaib-over-israel-hamas-war-comments",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Gaza’s Al Quds hospital facing ‘acute’ fuel shortage, Palestinian Red Crescent says",
+        link: "https://www.cnbc.com/2023/11/08/israel-hamas-war-live-updates-latest-news-on-gaza-conflict.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel loses much of the support it gained after Hamas’ attack - Regarding US opinion/support for Israel",
+        link: "https://www.pbs.org/newshour/politics/americans-divided-over-israel-response-in-gaza-to-hamas-attacks-ap-norc-poll-shows",
+        description: "",
+        images: [],
+      },
+      {
+        text: `At least 10569 Palestinians had been killed.About 74% of the 10,515 people killed in Gaza since October 7 are children, women, and the elderly, the Palestinian Ministry of Health in Ramallah said in a report Wednesday, drawing from sources in the Hamas-controlled enclave. It's unclear how many combatants are included in the total.`,
+        link: "https://www.reuters.com/world/middle-east/reuters-next-un-chief-says-gaza-deaths-show-something-wrong-with-israel-2023-11-08/",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-09"),
+    title: "Day 34",
+    events: [
+      {
+        text: "Israeli incursion kills 14 people in West Bank city of Jenin, Palestinian health ministry says",
+        link: "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-09-23/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "huge blast has been reported near al-Shifa Hospital in the early hours of Thursday.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Al-Nasr Children’s Hospital has been attacked twice, according to the director",
+        link: "https://www.aljazeera.com/news/liveblog/2023/11/9/israel-gaza-war-live-day-34",
+        description: "",
+        images: [],
+      },
+      {
+        text: `UN aid chief warns that Gaza conflict is "a wildfire that could consume the region”`,
+        link: "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-09-23/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 10812 Palestinians had been killed.",
+        link: "https://www.aljazeera.com/news/liveblog/2023/11/9/israel-gaza-war-live-day-34",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-10"),
+    title: "Day 35",
+    events: [
+      {
+        text: `strikes were reported by Al Jazeera Arabic in the vicinity of Gaza Patient’s Friends Hospital, while the Red Crescent reported a “violent bombardment” near al-Quds Hospital.`,
+        link: "https://www.aljazeera.com/news/2023/11/10/israel-hamas-war-list-of-key-events-day-35",
+        description: "",
+        images: [],
+      },
+      {
+        text: "WHO chief says a child is killed every 10 minutes in Gaza",
+        link: "https://www.theguardian.com/world/live/2023/nov/10/israel-hamas-war-live-updates-benjamin-netanyahu-gaza-fighting-pauses-un-palestine",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 45% of Gaza’s housing has been destroyed or damaged as of November 4, and as many as 200,000 people no longer have homes, a UN agency reported. On Friday",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "The UN’s human rights chief, Volker Türk, has called for an investigation into what he described as Israel’s “indiscriminate” bombardment and shelling in densely populated areas in the Gaza Strip.",
+        link: "",
+        description: "",
+        images: [],
+      },
+      {
+        text: "At least 19 Palestinians have been killed in the West Bank over the past 24 hours, according to Palestinian news agency Wafa. In all, at least 183 Palestinians have been killed in the West Bank since October 7.",
+        link: "https://www.aljazeera.com/news/2023/11/9/deadly-assault-on-jenin-refugee-camp-as-west-bank-raids-intensify",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-11"),
+    title: "Day 36",
+    events: [
+      {
+        text: "Netanyahu rejects growing calls for a cease-fire",
+        link: "https://apnews.com/article/israel-hamas-war-news-11-11-2023-d4d272416107c02e63dabd9548395026",
+        description: "",
+        images: [],
+      },
+      {
+        text: "About 300,000 attend pro-Palestinian rally in London, according to police",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-11-23/h_159b816b6c244e0bbec033aacdfd83cf",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli attacks target Rafah as tens of thousands flee to south Gaza",
+        link: "https://www.aljazeera.com/gallery/2023/11/11/israeli-strikes-on-rafah-continue-as-tens-of-thousands-flee-to-south-gaza",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Gaza’s largest hospital has come under attack by Israeli forces as they battle Palestinian militants.",
+        link: "https://news.un.org/en/story/2023/11/1143482",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Senior UN officials said on Saturday there could be no justification for any “acts of war” in or around any healthcare facilities, amidst reports that ",
+        link: "",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-12"),
+    title: "Day 37",
+    events: [
+      {
+        text: "Israeli strikes in Gaza kill at least 13, destroy al-Shifa’s cardiac ward",
+        link: "https://www.aljazeera.com/news/2023/11/12/israeli-strikes-in-gaza-kill-at-least-13-destroy-al-shifas-cancer-ward",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Operating rooms are completely out of service at Gaza's largest hospital, director says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-12-23/index.html",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli army conducts raids deeper in Gaza City, military spokesperson says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-12-23/h_385cb12d0daa8d7b0ca7c5928cf8c785",
+        description: "",
+        images: [],
+      },
+      {
+        text: `Gaza's second largest hospital "no longer operational," says Palestine Red Crescent`,
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-12-23/h_44945b7072181bb4394024a6bdc7a45c",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-13"),
+    title: "Day 38",
+    events: [
+      {
+        text: "More than 3,250 people missing or under rubble: Gaza Health Ministry",
+        link: "https://aje.io/jui07c?update=2483586",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Newborns taken out of incubators wrapped in foil to keep them alive at Gaza’s largest hospital, director says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-13-23/h_96df882b97c86dfd6ba9d018170d29a2",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Doctors refuse to leave at-risk patients at Al-Shifa Hospital after IDF evacuation order",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-13-23/h_0f32276f06b18c2e5eb5844a47357439",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israel kills more than 30 in new Jabalia strike – Wafa",
+        link: "https://aje.io/jui07c?update=2484000",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Responders cannot reach people under rubble in Jabalia refugee camp",
+        link: "https://aje.io/jui07c?update=2484020",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-14"),
+    title: "Day 39",
+    events: [
+      {
+        text: "Israel says it has launched an operation inside Gaza hospital",
+        link: "https://apnews.com/article/israel-hamas-war-live-updates-11-14-2023-6c346be5bc9246902792a228ccf4ecff",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Gaza City’s only operational hospital has 2 operating rooms and 3 surgeons for over 500 patients, doctor says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-14-23/h_e57cfb5a87a6d2be9e283f9ea42fd5fb",
+        description: "",
+        images: [],
+      },
+      {
+        text: `Israel shows alleged Hamas "armory" under Gaza children’s hospital. Local health officials dismiss the claims`,
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-14-23/h_6720e87ff849088293805dc89e9355f4",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Surge in Israeli forces killing West Bank Palestinians",
+        link: "https://www.france24.com/en/live-news/20231114-surge-in-israeli-forces-killing-west-bank-palestinians",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+  {
+    date: new Date("2023-11-15"),
+    title: "Day 40",
+    events: [
+      {
+        text: "Internet, phone networks collapse in Gaza, threatening to worsen humanitarian crisis",
+        link: "https://abcnews.go.com/International/wireStory/israel-signals-wider-operations-southern-gaza-search-hospital-104935465",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Israeli opposition leader calls on Netanyahu to resign",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-15-23/h_a0b1f9ef5b4bc972834f0f018f7d59ee",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Hamas claims Gaza's largest hospital is now under the control of Israeli forces",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-15-23/h_3db6e220f80350e0afb9837e9acc7635",
+        description: "",
+        images: [],
+      },
+      {
+        text: "Eleven Palestinians were arrested in Israeli raids across the West Bank",
+        link: "https://www.aljazeera.com/news/2023/11/15/israel-hamas-war-list-of-key-events-day-40",
+        description: "",
+        images: [],
+      },
+    ],
+  },
+];

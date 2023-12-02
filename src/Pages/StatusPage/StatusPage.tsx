@@ -104,7 +104,7 @@ const StatusPage: React.FC = () => {
 			     historyData={historyData}
 			     recentData={recentData} />
 	  <Banner
-	    title={`Last Updated ${lastUpdated}`}
+	    title={`Last Updated on the ${lastUpdated}`}
 	    color={"grey"}
 	    bgColor={"transparent"}
 	    styleObj={{ fontSize: "1rem" }}

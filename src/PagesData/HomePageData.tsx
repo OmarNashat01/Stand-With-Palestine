@@ -56,6 +56,26 @@ const homeData = {
       isLocalVideo: false,
       onClick1: './timeline/historic'
     },
+
+    recentTimelineEndSection: {
+      imagePath: "https://www.aljazeera.com/wp-content/uploads/2023/12/346P4H2-highres-1701417296.jpg?resize=1170%2C780&quality=80",
+      extraImagePath: "https://cdnuploads.aa.com.tr/uploads/Contents/2023/12/01/thumbs_b_c_a46b58748b653f2f17f5fe5ae35deabb.jpg?v=121358",
+      isLocalVideo: false,
+      isYouTube: false,
+      overlayColor: "rgba(0, 0, 0, 0.6)",
+      blur: "blur(3px)",
+      bulleted: '',
+      title: "Hundreds Killed as Israel Resumes Attacks on Gaza",
+      subTitle: "1st Dec. 2023",
+      text: 
+      `Israel’s attacks erupted again, as airstrikes started striking Gaza minutes after a weeklong truce with Hamas expired. Israel recalled its negotiators from Qatar because of what it described as a dead end in the talks.`,
+      buttonText1: "Check Conflict Timeline ▶",
+      buttonText2: "Read More",
+      reverse: true,
+      onClick1: './timeline/recent',
+      onClick2: 'https://apnews.com/article/israel-hamas-war-news-12-1-2023-c944c736efdf8993c7a17cf683d6e364',
+      violent: true
+    },
   
     recentTimelineCrimeSection: {
       imagePath: "./HomePage/gaza-carry.jpeg",

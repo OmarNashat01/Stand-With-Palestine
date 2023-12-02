@@ -16,6 +16,7 @@ import Footer from "./components/Footer/Footer";
 import { useLocation } from "react-router-dom";
 import NotFoundPage from "./components/NotFound/NotFound";
 import { init, saveSet } from "./utils";
+import HistoricTimelinePage from "./Pages/TimelinePage/HistoricTimelinePage";
 
 function App() {
   const [showModal, setShowModal] = useState(false); // eye modal
@@ -104,10 +105,10 @@ function App() {
             <Route path="/lies" element={<LiesPage />} />
             <Route path="/status" element={<StatusPage />} />
             <Route path="/support" element={<SupportPage />} />
-            {/* <Route
+            <Route
               path="/timeline/historic"
               element={<HistoricTimelinePage />}
-            /> */}
+            /> 
             <Route path="/timeline/recent" element={<RecentTimelinePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>

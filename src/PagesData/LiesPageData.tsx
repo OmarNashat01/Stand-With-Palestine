@@ -1,7 +1,7 @@
 export const liesData = [
   {
     "special": false,
-    "source": "Israeli Prime Minister's Office, U.S. President",
+    "source": "Netanyahu's Office, U.S. President",
     "title": "Hamas Beheaded 40 Babies",
     "modalContent": "",
     "modalTextItems": [
@@ -26,7 +26,7 @@ export const liesData = [
   },  
   {
     "special": false,
-    "source": "Israeli Prime Minister's Office",
+    "source": "Netanyahu's Office",
     "title": "Claiming Fake Suffering in Palestine",
     "modalContent": "",
     "modalTextItems": [
@@ -114,3 +114,18 @@ export const liesData = [
     ]
   },  
 ];
+
+
+export const faqData = {
+  title: "FAQ (How it works)",
+  rows: [
+    {
+      title: "1. Are these all absolutely confirmed to be lies? ",
+      content: "Not necessarily but most likely. There is an inherent dependence on the sources cited for each fact stated to expose any of the lies."
+    },
+    {
+      title: "2. Are these all the lies?",
+      content: "Certainly not; the search engine exists for a reason. This is the initial release of the website and many pages, including this, are still work in progress."
+    },
+  ]
+}

@@ -3,7 +3,10 @@ import React, { useEffect, useState } from "react";
 import GradientHero from "../../components/Simple/GradientHero";
 import SearchInput from "../../components/Simple/SearchInput";
 import LiesList from "../../components/LieSections/LiesList";
-import { liesData } from "../../PagesData/LiesPageData";
+import { liesData, faqData } from "../../PagesData/LiesPageData";
+// @ts-ignore
+import Faq from 'react-faq-component';
+import Banner from "../../components/Simple/Banner";
 
 const LiesPage: React.FC = () => {
   const [filteredLies, setFilteredLies] = useState([]);
@@ -35,7 +38,8 @@ const LiesPage: React.FC = () => {
         placeHolder="Search by lie or related information..."
       />
     <LiesList liesData={filteredLies}/>
-
+    <Banner title="Frequently Asked Questions" styleObj={{ color: 'white' }} />
+    <Faq data={faqData} />
     </div>
   );
 };

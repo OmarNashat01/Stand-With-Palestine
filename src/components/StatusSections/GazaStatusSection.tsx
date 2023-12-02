@@ -152,7 +152,7 @@ interface GazaStatusSectionProps {
         <div className="missing grid-item missing-group">
           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
             <TbUserQuestion className="icon" />
-            <h1 className="normal-h1">Total missing</h1>
+            <h1 className="normal-h1">Missing</h1>
           </div>
           <AnimatedNumber value={gazaDict["missing"]} className="number-h1" />
         </div>
@@ -161,8 +161,9 @@ interface GazaStatusSectionProps {
             src="./StatusPage/missing-kids-women.svg"
             className="icon"
             style={{ maxWidth: "100px" }}
+            alt=""
           />
-          <h1 className="mini-h1">Children and Women</h1>
+          <h1 className="mini-h1">Others</h1>
           <AnimatedNumber
             value={gazaDict["missingKidsAndWomen"]}
             className="number-h1-mini"

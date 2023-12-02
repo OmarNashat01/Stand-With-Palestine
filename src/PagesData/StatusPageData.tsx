@@ -29,16 +29,15 @@ class PCBSData {
     }
 };
 
-function parseDate(date: string) {
-    const [day, month, year] = date.split("/").map((str) => Number.parseInt(str));
+function parseDate(date: string): Date {
+    const dateParts = date.split('/');
+    const day = parseInt(dateParts[0], 10);
+    const month = parseInt(dateParts[1], 10);
+    const year = parseInt(dateParts[2], 10);
+
     return new Date(year, month, day);
 }
 
-function formatDate(date: Date) {
-    // TODO: I'm not sure if PCBS follows dd/mm/YYYY or another format.
-    // So on the first of December, will the date be 1/12/2023, or 01/12/2023?
-    return `${date.getDay()}/${date.getMonth()}/${date.getFullYear()}`
-}
 
 function getMostRecentDay(data: PCBSData) {
     const dates = Array.from(data.allDays.keys());
@@ -57,6 +56,9 @@ function getMostRecentDay(data: PCBSData) {
 
 	})[0];
 
+    const formatDate = (date: Date): string => {
+	return `${date.getDay()}/${date.getMonth()}/${date.getFullYear()}`
+    };
     const yesterdayStr = formatDate(new Date(new Date().setDate(new Date().getDate()-1)));
 
     if(yesterdayStr in dates) {
@@ -217,6 +219,38 @@ function getHomeData(dayData: DayData) {
     };
 }
 
+function formatLastUpdatedDate(latestDate: string): string {
+    const getDaySuffix = (day: number) => {
+	if (day >= 11 && day <= 13) {
+	    return 'th';
+	}
+
+	switch (day % 10) {
+	    case 1:
+		return 'st';
+	    case 2:
+		return 'nd';
+	    case 3:
+		return 'rd';
+	    default:
+		return 'th';
+	}
+    };
+
+    const formatDate = (date: Date) => {
+	const options: any = { month: 'long'};
+	const monthStr = date.toLocaleString('default', options);
+
+	const daySuffix = getDaySuffix(date.getDate());
+	const formattedDateString = `${date.getDate()}${daySuffix} of ${monthStr}, ${date.getFullYear()}`;
+
+	return formattedDateString;
+    };
+
+    return formatDate(parseDate(latestDate));
+
+}
+
 export async function readPcbsData() { 
     const response = await fetch('./pcbs_data.json', {
       headers: {
@@ -241,7 +275,7 @@ export async function readPcbsData() {
     const deathRatiosData = getDeathRatios(latestData!);
     const homeData = getHomeData(latestData!);
 
-    const lastUpdated = latestDate;
+    const lastUpdated = formatLastUpdatedDate(latestDate);
 
     return [gazaDict, gazaDictToday, westBankDict, westBankDictToday, infraDict, deathRatiosData, homeData, lastUpdated];
 }

@@ -47,6 +47,7 @@ interface CrimesListProps {
                 showStatus={false}
                 showThumbs={false}
                 dynamicHeight={true}
+                swipeable={false}
               >
                 {crime.media.map((media:any, mediaIndex:any) => (
                   <MediaInput

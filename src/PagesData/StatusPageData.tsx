@@ -35,7 +35,7 @@ function parseDate(date: string): Date {
     const month = parseInt(dateParts[1], 10);
     const year = parseInt(dateParts[2], 10);
 
-    return new Date(year, month, day);
+    return new Date(year, month - 1, day);
 }
 
 

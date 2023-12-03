@@ -66,6 +66,12 @@ const StatusPage: React.FC = () => {
 	    title="Israeli Onslaught on Palestine in Numbers Since 7th Oct. 2023"
 	    styleObj={{ color: "white" }}
 	  />
+	<Banner
+	    title={`Last Updated on the ${lastUpdated}`}
+	    color={"grey"}
+	    bgColor={"transparent"}
+	    styleObj={{ fontSize: "1rem" }}
+	  />
 	  {selectedRegion == "Gaza" && (
 	    <GazaStatusSection
 	      gazaDict={gazaDict}
@@ -103,12 +109,7 @@ const StatusPage: React.FC = () => {
 			     homeData={homeData}
 			     historyData={historyData}
 			     recentData={recentData} />
-	  <Banner
-	    title={`Last Updated on the ${lastUpdated}`}
-	    color={"grey"}
-	    bgColor={"transparent"}
-	    styleObj={{ fontSize: "1rem" }}
-	  />
+
 	  <Banner
 	    title="Frequently Asked Questions"
 	    styleObj={{ color: "white" }}

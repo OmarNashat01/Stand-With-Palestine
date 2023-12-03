@@ -62,7 +62,7 @@ const MapSection: React.FC<MapSectionProps> = ({
             className={"today-only " + (isSelectedToday ? "selected" : "greyed") }
             onClick={() => saveSet(setIsSelectedToday, "isSelectedToday", !isSelectedToday)}
           >
-            Today Only
+            Recent Only
           </button>
         </div>
       </div>

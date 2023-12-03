@@ -34,3 +34,5 @@ jobs:
           git add public/pcbs_data.json
           git commit -m "Update pcbs_data"
           git push
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

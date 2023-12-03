@@ -39,9 +39,9 @@ function parseDate(date: string): Date {
 }
 
 
-function getMostRecentDay(data: PCBSData) {
+function getTheTwoMostRecentDays(data: PCBSData) {
     const dates = Array.from(data.allDays.keys());
-    const mostRecentStr = dates
+    const [mostRecent, secondMostRecent] = dates
 	.sort((d1, d2) => {
 	    const date1 = parseDate(d1).valueOf();
 	    const date2 = parseDate(d2).valueOf();
@@ -54,20 +54,9 @@ function getMostRecentDay(data: PCBSData) {
 		return 0;
 	    }
 
-	})[0];
+	}).slice(0, 2);
 
-    const formatDate = (date: Date): string => {
-	return `${date.getDay()}/${date.getMonth()}/${date.getFullYear()}`
-    };
-    const yesterdayStr = formatDate(new Date(new Date().setDate(new Date().getDate()-1)));
-
-    if(yesterdayStr in dates) {
-	return [mostRecentStr, yesterdayStr];
-    }
-
-    // If we don't have the previous day, then no changes since yesterday.
-    // Hence, all fields should be zeroed (thing - thing = 0).
-    return [mostRecentStr, mostRecentStr];
+    return [mostRecent, secondMostRecent];
 }
 
 function getGazaData(dayData: DayData | undefined) {
@@ -149,7 +138,7 @@ function computeDictDelta(dayDict: any, prevDayDict: any) {
 	if(typeof(dayDict[key]) == "object") {
 	    deltaDict[key] = computeDictDelta(dayDict[key], prevDayDict[key]);
 	} else if(typeof(dayDict[key]) == "number" && typeof(prevDayDict[key]) == "number") {
-	    deltaDict[key] = dayDict[key] - prevDayDict[key];
+	    deltaDict[key] = Math.max(dayDict[key] - prevDayDict[key], 0); 	// Disallow negatives
 	} else {
 	    deltaDict[key] = dayDict[key];
 	}
@@ -259,17 +248,17 @@ export async function readPcbsData() {
       }
     });
     const pcbsData = new PCBSData(await response.json());
-    const [latestDate, beforeLatestDate] = getMostRecentDay(pcbsData);
+    const [latestDate, beforeLatestDate] = getTheTwoMostRecentDays(pcbsData);
     const [latestData, beforeLatestData] = [ pcbsData.allDays.get(latestDate), pcbsData.allDays.get(beforeLatestDate) ];
 
     const gazaDict = getGazaData(latestData);
     const prevDayGazaDict = getGazaData(beforeLatestData);
-    const gazaDictToday = computeDictDelta(gazaDict!, prevDayGazaDict);
+    const gazaDictRecent = computeDictDelta(gazaDict!, prevDayGazaDict);
+    console.log(gazaDictRecent);
 
     const westBankDict = getWestBankData(latestData);
     const prevDayWestBankDict = getWestBankData(beforeLatestData);
-    const westBankDictToday = computeDictDelta(westBankDict, prevDayWestBankDict);
-
+    const westBankDictRecent = computeDictDelta(westBankDict, prevDayWestBankDict);
 
     const infraDict = getInfraData(latestData!);
     const deathRatiosData = getDeathRatios(latestData!);
@@ -277,7 +266,7 @@ export async function readPcbsData() {
 
     const lastUpdated = formatLastUpdatedDate(latestDate);
 
-    return [gazaDict, gazaDictToday, westBankDict, westBankDictToday, infraDict, deathRatiosData, homeData, lastUpdated];
+    return [gazaDict, gazaDictRecent, westBankDict, westBankDictRecent, infraDict, deathRatiosData, homeData, lastUpdated];
 }
 
 export const historyData = {

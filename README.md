@@ -1,42 +1,70 @@
-# Contributing to Crimes Website
+# Getting Started with Create React App
 
-First off, thanks for taking the time to contribute! ❤️
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved.
+## Available Scripts
 
-## Table of Contents
+In the project directory, you can run:
 
-- [Cloning](#Cloning)
-- [Committing](#Committing)
-- [Branching](#Branching)
-- [Styleguides](#styleguides)
+### `npm start`
 
-## Clone and install
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-> git clone https://github.com/HazemAbdo/crimes_website.git crimes_website
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-> npm install
+### `npm test`
 
-## Committing
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-> git add .
+### `npm run build`
 
-> cz (please answer commitizen questions to make a meaningful commit)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-> solve any formatting or linting warnings or errors
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-> Push your changes on your branch
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Branching
+### `npm run eject`
 
-> From main branch -> git checkout -b "component_or_screen_name"
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-> After finsihing make a pull request to merge the branch with the main branch
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-> Delete your branch after it got merged with the main
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Styleguides
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-* Follow this [figma design](https://www.figma.com/file/IksiFejF2VxhtOXspBfOG1/Untitled?node-id=0%3A1&mode=dev)
-* Use [CSS modules](https://nextjs.org/docs/app/building-your-application/styling/css-modules) but make files as .scss
-* app/global.css for whole app proprities
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

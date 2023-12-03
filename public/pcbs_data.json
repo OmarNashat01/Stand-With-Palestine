@@ -1,0 +1,158 @@
+{
+    "23/11/2023": {
+        "martyr_data": {
+            "total_gaza": 14854,
+            "kids_gaza": 6150,
+            "women_gaza": 4000,
+            "total_west": 228,
+            "elderly_gaza": 682,
+            "medical": 207,
+            "press": 65,
+            "educational": 127,
+            "un": 108,
+            "kids_west": 56,
+            "civil_defence": 36,
+            "missing_kids_women": 4700,
+            "missing": 7000
+        },
+        "injured_data": {
+            "total_gaza": 36000,
+            "total_west": 2850,
+            "kids_gaza": 6168,
+            "kids_west": 364
+        },
+        "building_data": {
+            "damaged_housing_units": 234000,
+            "out_of_service_hospital": 26,
+            "destroyed_buildings": 25010,
+            "destroyed_housing_units": 46000,
+            "damaged_hospital": 25,
+            "destroyed_church": 3,
+            "destroyed_mosque": 88,
+            "destroyed_government_headquarters": 103,
+            "media": 14580,
+            "destroyed_school": 67,
+            "partially_destroyed_school": 200,
+            "destroyed_ambulances": 56
+        },
+        "displaced": 1650000,
+        "detained_west": 3130
+    },
+    "26/11/2023": {
+        "martyr_data": {
+            "total_gaza": 14854,
+            "kids_gaza": 6150,
+            "women_gaza": 4000,
+            "total_west": 239,
+            "elderly_gaza": 682,
+            "medical": 207,
+            "press": 65,
+            "educational": 127,
+            "un": 108,
+            "kids_west": 56,
+            "civil_defence": 36,
+            "missing_kids_women": 4700,
+            "missing": 7000
+        },
+        "injured_data": {
+            "total_gaza": 36000,
+            "total_west": 2900,
+            "kids_gaza": 6168,
+            "kids_west": 364
+        },
+        "building_data": {
+            "damaged_housing_units": 234000,
+            "out_of_service_hospital": 26,
+            "destroyed_buildings": 25010,
+            "destroyed_housing_units": 46000,
+            "damaged_hospital": 25,
+            "destroyed_church": 3,
+            "destroyed_mosque": 88,
+            "destroyed_government_headquarters": 103,
+            "media": 14580,
+            "destroyed_school": 67,
+            "partially_destroyed_school": 200,
+            "destroyed_ambulances": 56
+        },
+        "displaced": 1650000,
+        "detained_west": 3200
+    },
+    "01/12/2023": {
+        "martyr_data": {
+            "total_gaza": 15178,
+            "kids_gaza": 6150,
+            "women_gaza": 4000,
+            "total_west": 250,
+            "elderly_gaza": 682,
+            "medical": 207,
+            "press": 73,
+            "educational": 127,
+            "un": 112,
+            "kids_west": 63,
+            "civil_defence": 26,
+            "missing_kids_women": 4700,
+            "missing": 6500
+        },
+        "injured_data": {
+            "total_gaza": 37000,
+            "total_west": 3178,
+            "kids_gaza": 6168,
+            "kids_west": 509
+        },
+        "building_data": {
+            "damaged_housing_units": 250000,
+            "out_of_service_hospital": 26,
+            "destroyed_buildings": 25010,
+            "destroyed_housing_units": 50000,
+            "damaged_hospital": 25,
+            "destroyed_church": 3,
+            "destroyed_mosque": 88,
+            "destroyed_government_headquarters": 103,
+            "media": 14580,
+            "destroyed_school": 67,
+            "partially_destroyed_school": 200,
+            "destroyed_ambulances": 56
+        },
+        "displaced": 1650000,
+        "detained_west": 3400
+    },
+    "03/12/2023": {
+        "martyr_data": {
+            "total_gaza": 15523,
+            "kids_gaza": 6600,
+            "women_gaza": 4300,
+            "total_west": 254,
+            "elderly_gaza": 682,
+            "medical": 280,
+            "press": 77,
+            "educational": 127,
+            "un": 112,
+            "kids_west": 64,
+            "civil_defence": 26,
+            "missing_kids_women": 4700,
+            "missing": 7500
+        },
+        "injured_data": {
+            "total_gaza": 41316,
+            "total_west": 3270,
+            "kids_gaza": 6168,
+            "kids_west": 516
+        },
+        "building_data": {
+            "damaged_housing_units": 250000,
+            "out_of_service_hospital": 26,
+            "destroyed_buildings": 25010,
+            "destroyed_housing_units": 50000,
+            "damaged_hospital": 25,
+            "destroyed_church": 3,
+            "destroyed_mosque": 95,
+            "destroyed_government_headquarters": 103,
+            "media": 14580,
+            "destroyed_school": 67,
+            "partially_destroyed_school": 203,
+            "destroyed_ambulances": 56
+        },
+        "displaced": 1650000,
+        "detained_west": 3480
+    }
+}

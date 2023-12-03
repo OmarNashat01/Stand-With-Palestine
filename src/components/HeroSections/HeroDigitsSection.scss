@@ -1,0 +1,115 @@
+// HeroDigitsSection.scss
+@import '../../variables';
+
+.hero-section {
+    background-color:transparent; // Set your desired background color
+    text-align: center;
+    margin-bottom: 2rem;
+
+    .hero-content {
+      display: flex;
+      justify-content: space-around;
+      @media only screen and (max-width: 800px) { flex-direction: column; }
+
+      align-items: center;
+      margin: 0 auto;
+  
+      .image-container {
+        flex: 1;
+        width: 100%;
+        height: 50vh;
+        @media only screen and (max-width: 800px) { flex: 0 1 auto; }
+        background-size: cover; 
+        background-repeat: no-repeat; 
+      }
+  
+      .text-wrapper {
+        flex:1;
+        display: grid;
+        grid-template-columns: repeat(2, 6fr); 
+        grid-template-rows: repeat(2, 1fr);   
+
+   
+        gap: 1rem;           
+        @media only screen and (max-width: 600px) {
+          padding: 1rem;
+        }
+
+        @keyframes gradientAnimation {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+      .text-container {
+        min-width: 250px;
+        @media only screen and (max-width: 600px) {
+          min-width: 160px;
+        }
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5); /* 3D-like shadow */
+        cursor: pointer;
+        text-align: center;
+        margin: auto;
+        padding: 0.4rem;
+        background: radial-gradient(#1a1a1a, #2b2b2b);
+        background-size: 200% 200%; /* Increase the size for the gradient animation */
+        animation: gradientAnimation 3s infinite;
+        border-radius: 1rem;
+        @media only screen and (max-width: 600px) {
+          padding: 0.4rem;
+        } 
+        h1 {
+          font-size: 2.5rem;
+          color: $primary-color-light;
+          text-align: center;
+          text-decoration: underline;
+          @media only screen and (max-width: 600px) {
+          font-size: 1.6rem;
+        }
+        }
+  
+        p {
+          font-size: 1.2rem;
+          text-align: center;
+          color: #e8e8e8; // Set your desired text color
+          margin-bottom: 30px;
+          @media only screen and (max-width: 600px) {
+          font-size: 0.8rem;
+        }
+        }
+      }
+      .button-container{
+        grid-column: span 2;
+      .button {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        
+        @media only screen and (max-width: 600px) {
+          font-size: 1.0rem;
+        }
+        background-color:  rgba($primary-color-light, 0.5);
+        border: 3px solid $primary-color-light;
+        color: #fff;
+        font-family: 'Poppins', 'Roboto'; 
+        margin: 0rem 2rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        transition: transform 0.3s ease-in-out; /* Adjust the duration (0.5s) and timing function (ease-in-out) as needed */
+
+        &:hover {
+          background-color:  $primary-color-light;
+          transform: scale(1.03);
+        }
+      }}
+    }
+    }
+  }
+  

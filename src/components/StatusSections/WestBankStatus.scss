@@ -1,0 +1,193 @@
+@import '../../variables';
+
+
+.westbank-parent {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 0.5fr repeat(3, 0.5fr);
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+  min-height: 730px;
+  margin: 1rem;
+  grid-template-areas:
+    "map map killed killed killed killed injured injured injured injured"
+    "map map killed-kids killed-kids killed-adults killed-adults injured-kids injured-kids injured-adults injured-adults"
+    "map map killed-kids killed-kids killed-adults killed-adults injured-kids injured-kids injured-adults injured-adults"
+    "map-text-wrapper map-text-wrapper detained detained detained detained detained detained detained detained";
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 0.5fr repeat(3, 0.5fr);
+    grid-template-areas:
+      "map map killed killed injured injured "
+      "map map killed-kids killed-adults injured-kids injured-adults"
+      "map map killed-kids killed-adults injured-kids injured-adults"
+      "map-text-wrapper map-text-wrapper detained detained detained detained"
+  }
+
+  
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.5fr repeat(6, 0.1fr);
+    grid-template-areas:
+      "map-text-wrapper map-text-wrapper map-text-wrapper map-text-wrapper"
+      "killed killed killed killed "
+      "killed-kids killed-kids killed-adults killed-adults"
+      "injured injured injured injured"
+      "injured-kids injured-kids injured-adults injured-adults"
+      "detained detained detained detained"
+  }
+
+  .grid-item {
+    cursor: pointer;
+    text-align: left;
+    padding: 1rem;
+    border: 0.0px solid #dedede51;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .icon {
+      color: #fffaf0;
+      font-size: 3.0rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0.4rem;
+    }
+
+    .icon-color {
+      color: #fffaf0;
+      font-size: 2.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0.4rem;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .number-h1 {
+      font-size: 2.5rem;
+      color: $primary-color-light;
+      text-align: center;
+    }
+
+    .number-h1-mini {
+      font-size: 1.5rem;
+      color: $primary-color-light;
+      text-align: center;
+    }
+
+    .normal-h1 {
+      color: #fffaf0;
+    }
+
+    .mini-h1 {
+      font-size: 1.1rem;
+      color: #fffaf0;
+      text-align: center;
+    }
+
+  }
+
+  .map-group {
+    background: radial-gradient(#1f1f1f, #141414);
+  }
+
+  .killed-group {
+    background: radial-gradient(#1f1f1f, #141414);
+
+  }
+
+  .injured-group {
+    background: radial-gradient(#1f1f1f, #141414);
+
+  }
+
+  .misc-group {
+    background: radial-gradient(#1f1f1f, #141414);
+
+  }
+
+  .map {
+    grid-area: map;
+
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+
+  .map-text-wrapper {
+    grid-area: map-text-wrapper;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    .region-buttons-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+    min-height: 120px;
+    button {
+      border-radius: 2rem;
+      background-color: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.38);
+      color: white;
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .selected {
+      background-color: $primary-color;
+      border: 1px solid $primary-color;
+    }
+    .greyed {
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: rgba(255, 255, 255, 0.18);
+    }
+    .today-only {
+      width: 100%;
+      @media (max-width: 800px) {
+        display: none;
+      }
+    }
+  }
+
+
+  .killed {
+    grid-area: killed;
+  }
+
+  .injured {
+    grid-area: injured;
+  }
+
+  .killed-kids {
+    grid-area: killed-kids;
+  }
+
+  .killed-adults {
+    grid-area: killed-adults;
+  }
+
+  .injured-kids {
+    grid-area: injured-kids;
+  }
+
+  .injured-adults {
+    grid-area: injured-adults;
+  }
+
+  .detained {
+    grid-area: detained;
+  }
+
+}

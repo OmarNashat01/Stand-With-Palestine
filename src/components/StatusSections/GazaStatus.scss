@@ -1,0 +1,295 @@
+@import '../../variables';
+
+
+.gaza-parent {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 0.5fr repeat(3, 0.5fr);
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+  min-height: 730px;
+  margin: 1rem;
+  grid-template-areas:
+    "map map killed killed killed killed injured injured missing missing"
+    "map map kids-killed women-killed elderly-killed men-killed kids-injured others-injured kids-women-missing others-missing"
+    "map map killed-medical killed-un killed-edu killed-press hospitals hospitals funds funds"
+    "map-text-wrapper map-text-wrapper displaced displaced displaced displaced electricity water fuel internet";
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 0.5fr repeat(7, 0.5fr);
+    grid-template-areas:
+      "map map killed killed killed killed "
+      "map map kids-killed women-killed elderly-killed men-killed"
+      "map map killed-medical killed-un killed-edu killed-press"
+      "map-text-wrapper map-text-wrapper displaced displaced displaced displaced"
+      "injured injured injured missing missing missing"
+      "kids-injured kids-injured others-injured kids-women-missing kids-women-missing others-missing"
+      "hospitals hospitals hospitals funds funds funds"
+      "electricity water water fuel fuel internet"
+  }
+
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.5fr repeat(11, 0.1fr);
+    grid-template-areas:
+      "map-text-wrapper map-text-wrapper map-text-wrapper map-text-wrapper"
+      "killed killed killed killed "
+      "kids-killed women-killed elderly-killed men-killed"
+      "killed-medical killed-un killed-edu killed-press"
+      "displaced displaced displaced displaced"
+      "injured injured injured injured "
+      "kids-injured kids-injured others-injured others-injured"
+      "missing missing missing missing"
+      "kids-women-missing kids-women-missing others-missing others-missing"
+      "hospitals hospitals funds funds"
+      "electricity water fuel internet"
+  }
+
+
+
+  .grid-item {
+
+    cursor: pointer;
+    text-align: left;
+    padding: 1rem;
+    @media (max-width: 800px) {
+      padding: 0.3rem;
+    }
+    border: 0.0px solid #dedede51;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .icon {
+      color: #fffaf0;
+      font-size: 3.0rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0.4rem;
+      @media (max-width: 800px) {
+        font-size: 2.1rem;
+      }
+    }
+
+    .icon-color {
+      color: #fffaf0;
+      font-size: 2.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0.4rem;
+      @media (max-width: 800px) {
+        font-size: 2.0rem;
+      }
+    }
+
+    h1 {
+      text-align: center;
+      
+    }
+
+    .number-h1 {
+      font-size: 2.5rem;
+      color: $primary-color-light;
+      text-align: center;
+      @media (max-width: 800px) {
+        font-size: 1.7rem;
+      }
+    }
+
+    .number-h1-mini {
+      font-size: 1.5rem;
+      color: $primary-color-light;
+      text-align: center;
+      @media (max-width: 800px) {
+        font-size: 1.1rem;
+      }
+    }
+
+    .normal-h1 {
+      color: #fffaf0;
+      @media (max-width: 800px) {
+        font-size: 1.7rem;
+      }
+    }
+
+    .mini-h1 {
+      font-size: 1.1rem;
+      color: #fffaf0;
+      text-align: center;
+      @media (max-width: 800px) {
+        font-size: 0.9rem;
+      }
+    }
+
+  }
+
+  .map-group {
+    background: radial-gradient(#1f1f1f, #141414);
+  }
+
+  .killed-group {
+    background: radial-gradient(#1f1f1f, #141414);
+
+  }
+
+  .injured-group {
+    background: radial-gradient(#1f1f1f, #141414);
+
+  }
+
+  .missing-group {
+    background: radial-gradient(#1f1f1f, #141414);
+
+  }
+
+  .status-group {
+    background: radial-gradient(#1f1f1f, #141414);
+
+  }
+
+  .misc-group {
+    background: radial-gradient(#1f1f1f, #141414);
+
+  }
+
+  .map {
+    grid-area: map;
+
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+
+  .map-text-wrapper {
+    grid-area: map-text-wrapper;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    .region-buttons-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+    min-height: 120px;
+
+    button {
+      border-radius: 2rem;
+      background-color: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.38);
+      color: white;
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .selected {
+      background-color: $primary-color;
+      border: 1px solid $primary-color;
+    }
+    .greyed {
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: rgba(255, 255, 255, 0.18);
+    }
+    .today-only {
+      width: 100%;
+      @media (max-width: 800px) {
+        display: none;
+      }
+    }
+  }
+
+  .killed {
+    grid-area: killed;
+  }
+
+  .kids-killed {
+    grid-area: kids-killed;
+  }
+
+  .killed-medical {
+    grid-area: killed-medical;
+  }
+
+  .women-killed {
+    grid-area: women-killed;
+  }
+
+  .killed-un {
+    grid-area: killed-un;
+  }
+
+  .elderly-killed {
+    grid-area: elderly-killed;
+  }
+
+  .killed-edu {
+    grid-area: killed-edu;
+  }
+
+  .men-killed {
+    grid-area: men-killed;
+  }
+
+  .killed-press {
+    grid-area: killed-press;
+  }
+
+  .injured {
+    grid-area: injured;
+  }
+
+  .kids-injured {
+    grid-area: kids-injured;
+  }
+
+  .others-injured {
+    grid-area: others-injured;
+  }
+
+  .missing {
+    grid-area: missing;
+  }
+
+  .kids-women-missing {
+    grid-area: kids-women-missing;
+  }
+
+  .others-missing {
+    grid-area: others-missing;
+  }
+
+  .hospitals {
+    grid-area: hospitals;
+  }
+
+  .funds {
+    grid-area: funds;
+  }
+
+  .displaced {
+    grid-area: displaced;
+  }
+
+  .electricity {
+    grid-area: electricity;
+  }
+
+  .water {
+    grid-area: water;
+  }
+
+  .fuel {
+    grid-area: fuel;
+  }
+
+  .internet {
+    grid-area: internet;
+  }
+}

@@ -2,7 +2,8 @@ name: Fetch PCBS data
 
 on:
   schedule:
-    - cron: "0 23 * * *" # Run daily at midnight
+      - cron: '*/5 * * * *'
+    # - cron: "0 23 * * *" # Run daily at midnight
 
 jobs:
   run:

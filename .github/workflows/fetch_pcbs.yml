@@ -29,10 +29,10 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add public/pcbs_data.json
-          git commit -m "Update pcbs_data"
-          git push
+          git config --global user.name '${{ github.actor }}'
+          git config --global user.email '${{ github.actor}}@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add .
+          git commit -m "Update pcbs_data" && git push || echo "Nothing to commit"
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

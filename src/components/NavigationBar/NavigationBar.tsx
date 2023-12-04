@@ -42,7 +42,7 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
            <img src='\logo.png' width='30' alt='flag'></img>
           </div>
           <Link to="./">
-          <div className='logo-text'>Stand with Palestine</div>
+          <div className='logo-text'>Stand With Palestine</div>
           </Link>
         </div>
       </div>

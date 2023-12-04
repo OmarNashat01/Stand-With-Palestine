@@ -337,22 +337,22 @@ export const faqData = {
   rows: [
     {
       title: "1. What Are The Sources of the Numbers Above? ",
-      content: "These numbers are updated daily with data published on the Palestinian Central Bureau of Statistics (PCBS) website. The bureau is independent from the government; however, most if not all humanatirian metrics are first recorded by the ministry of health in an office at Al-Shifa hospital. Note that the numbers for the cumulative sum of adult and child martyrs were sourced from the daily coverage of AlJazeera."
+      content: "These numbers are updated daily with data published on the Palestinian Central Bureau of Statistics (PCBS) website. The bureau is independent from the government; however, most if not all humanatirian metrics are first recorded by the ministry of health in an office at Al-Shifa hospital. Note that the numbers for the graph of adult and child martyrs were sourced from the daily coverage of AlJazeera."
     },
     {
-      title: "1. What is 'Recent Only'? ",
+      title: "2. What is 'Recent Only'? ",
       content: "This page is updated every day at 11:00 PM UTC from the PCBS. Most of the time 'Recent Only' will mean 'Today Only' provided that PCBS did not miss an update yesterday; this usually holds unless a truce or pause is going on."
     },
     {
-      title: "2. Should I Trust the Numbers Given by the Ministry Given That It's \"Hamas-Controlled\"?",
+      title: "3. Should I Trust the Numbers Given by the Ministry Given That It's \"Hamas-Controlled\"?",
       content: "Despite being administered by Hamas, employees in the health ministry insist that Hamas does not dictate any figures. Data from all hospitals and morgues is collected in a format with name, ID number, date of hospital entry, type of injury, condition and is then reported to the main office at Al Shifa hospital. The health ministry in the West Bank also double checks the results. More importantly, in previous wars, the ministry’s counts have held up to U.N. scrutiny, independent investigations and even Israel’s tallies. Michael Ryan, of the World Health Organization’s said \"The numbers may not be perfectly accurate on a minute-to-minute basis, but they largely reflect the level of death and injury \""
     },
     {
-      title: "3. What Lies Behind These Numbers?",
+      title: "4. What Lies Behind These Numbers?",
       content: "Excruciating pain. Palestinians are killed by incinerating in bomb fire and/or entire buildings fall on them. "
     },
     {
-      title: "4. What Happened to The Missing People in Gaza?",
+      title: "5. What Happened to The Missing People in Gaza?",
       content: "It takes extremely significant effort to look for one of your relatives under rubble, only to find that they are dead, possibly with missing body parts. In some cases, it is impossible to move the rubble or dig by hand to find you relative. These are believed to be most of the missing cases. This is worse than being killed because in Islam, Muslims should buried facing Mecca after cleaning and praying rituals. "
     }]
 }

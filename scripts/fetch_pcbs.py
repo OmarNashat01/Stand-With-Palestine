@@ -2,6 +2,7 @@ import re
 import os
 import json
 import urllib.request
+import time
 
 from bs4 import BeautifulSoup
 from typing import Dict
@@ -165,41 +166,51 @@ if __name__ == '__main__':
     argparser.add_argument("output_path")
     args = argparser.parse_args()
 
-    date = get_date()
-    martyr_data = get_martyr_data()
-    injured_data = get_injuired_data()
-    detainees_displaced_data = get_detainees_displaced_data()
-    destroyed_building_data = get_destroyed_building_data()
+    for i in range(100):
+        try:
+            date = get_date()
+            martyr_data = get_martyr_data()
+            injured_data = get_injuired_data()
+            detainees_displaced_data = get_detainees_displaced_data()
+            destroyed_building_data = get_destroyed_building_data()
 
-    day_data = {
-        "martyr_data": martyr_data,
-        "injured_data": injured_data,
-        "building_data": destroyed_building_data,
-        **detainees_displaced_data
-    }
+            day_data = {
+                "martyr_data": martyr_data,
+                "injured_data": injured_data,
+                "building_data": destroyed_building_data,
+                **detainees_displaced_data
+            }
 
-    JSON_FILE_NAME = args.output_path
-    if not os.path.exists(JSON_FILE_NAME):
-        print(f"{JSON_FILE_NAME} not found, will create it it...")
+            JSON_FILE_NAME = args.output_path
+            if not os.path.exists(JSON_FILE_NAME):
+                print(f"{JSON_FILE_NAME} not found, will create it it...")
 
-        # Just create an empty file
-        with open(JSON_FILE_NAME, "w+") as f:
-            f.write("{}")
+                # Just create an empty file
+                with open(JSON_FILE_NAME, "w+") as f:
+                    f.write("{}")
 
-    # Read whatever's inside, as well as allow for writing
-    json_file = None
-    with open(JSON_FILE_NAME, "r") as f:
-        # If the file is empty, create an empty dict. Otherwise, read and parse it
-        f_text = f.read()
-        json_file = {} if (len(f_text) == 0) else json.loads(f_text)
+            # Read whatever's inside, as well as allow for writing
+            json_file = None
+            with open(JSON_FILE_NAME, "r") as f:
+                # If the file is empty, create an empty dict. Otherwise, read and parse it
+                f_text = f.read()
+                json_file = {} if (len(f_text) == 0) else json.loads(f_text)
 
-        if (date in json_file):
-            print(
-                f"Data for day {date} already exists! Will not record fetched data."
-            )
-            exit(1)
+                if (date in json_file):
+                    print(
+                        f"Data for day {date} already exists! Will not record fetched data."
+                    )
+                    exit(1)
 
-    with open(JSON_FILE_NAME, "w") as f:
-        json_file[date] = day_data
-        f.write(json.dumps(json_file, indent=4))
-        print(f"Data for {date} added to {JSON_FILE_NAME}")
+            with open(JSON_FILE_NAME, "w") as f:
+                json_file[date] = day_data
+                f.write(json.dumps(json_file, indent=4))
+                print(f"Data for {date} added to {JSON_FILE_NAME}")
+            
+            exit(0)
+        except urllib.error.URLError:
+            print(f"[{i+1}/100] Failed to connect to PCBS, sleeping for 0.5 seconds...")
+            time.sleep(0.5)
+
+    print("Failed to connect to PCBS for 100 times (50 seconds), aborting....")
+    exit(1)

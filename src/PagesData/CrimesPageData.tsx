@@ -202,9 +202,9 @@ export const crimesDict = [
         },
       ],
       media: [
-        { path: "./CrimesPage/mosque-laugh.mp4", mode: "video", violence: false, crop: true },
-        { path: "./CrimesPage/mosque-adhan.mp4", mode:"video", violence: false, crop: true },
+        { path: "./CrimesPage/mosque.mp4", mode: "video", violence: false, crop: true },
         { path: "./CrimesPage/church.mp4", mode: "video", violence: false, crop: true },
+        { path: "./CrimesPage/mosque-adhan.mp4", mode:"video", violence: false, crop: true },
         { path: "./CrimesPage/gaza-mosque-pic.jpeg", mode: "img", violence: false, crop: true },
       ],
       paragraphLeft: "",
@@ -421,10 +421,10 @@ export const crimesDict = [
         },
         {
           quote: `
-          Individual or mass forcible transfers, as well as deportations of protected persons from occupied territory to the territory of the Occupying Power or to that of any other country, occupied or not, are prohibited, regardless of their motive.          `,
+          The Occupying Power shall not deport or transfer parts of its own civilian population into the territory it occupies.`,
           quote_ref: `Geneva Convention Relative to the Protection of Civilian
           Persons in Time of War (Fourth Geneva Convention). (1949).
-          Article 55. Ratified by Israel.`,
+          Article 49. Ratified by Israel.`,
         },
       ],
       media: [

@@ -1,26 +1,26 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { supportPageData, supportActionData } from '../../PagesData/SupportPageData'
 import OrgCard from "../../components/donations/orgCard";
 import { Carousel as ResponsiveCarousel } from "react-responsive-carousel";
 
 import HeroButton from "../../components/Simple/HeroButton";
 import GradientHero from "../../components/Simple/GradientHero";
+import SearchInput from "../../components/Simple/SearchInput";
 import Banner from "../../components/Simple/Banner";
-import HeroWideSection from "../../components/HeroSections/HeroWideSection";
 
 import "react-multi-carousel/lib/styles.css";
 import './SupportPage.scss'
 
 const SupportPage: React.FC = () => {
   const [selectedOrg, setSelectedOrg] = React.useState(4);
-  const [selectedOption, setSelectedOption] = React.useState(1);
+  const [selectedOption, setSelectedOption] = React.useState(2);
 
   const orgCardsRef = useRef(null);
   useEffect(() => {
     if (orgCardsRef.current) {
       // Calculate 50% of the scroll width
       //@ts-ignore
-      let scrollPosition = orgCardsRef.current.scrollWidth * 0.235;
+      let scrollPosition = orgCardsRef.current.scrollWidth * 0.215;
       if (window.innerWidth < 700) {
         //@ts-ignore
         scrollPosition = orgCardsRef.current.scrollWidth * 0.345;
@@ -31,6 +31,28 @@ const SupportPage: React.FC = () => {
       orgCardsRef.current.scrollLeft = scrollPosition;
     }
   }, []);
+
+  const orgCardsRef1 = useRef(null);
+  useEffect(() => {
+    if (orgCardsRef1.current) {
+      // Calculate 50% of the scroll width
+      //@ts-ignore
+      let scrollPosition = orgCardsRef1.current.scrollWidth * 0.245;
+      if (window.innerWidth < 700) {
+        //@ts-ignore
+        scrollPosition = orgCardsRef1.current.scrollWidth * 0.245;
+      }
+
+      // Set the scrollLeft property to the calculated value
+      //@ts-ignore
+      orgCardsRef1.current.scrollLeft = scrollPosition;
+    }
+  }, []);
+
+  const [filteredSupportData, setFilteredSupportData] = useState(supportPageData);
+  const handleSearch = (filteredSupportData: any) => {
+    setFilteredSupportData(filteredSupportData);
+  };
 
   return (
     <div
@@ -43,8 +65,13 @@ const SupportPage: React.FC = () => {
     >
       <GradientHero title={"SUPPORT PALESTINE"} subTitle1="They Need Your Help" subTitle2="There Are Many Ways We Can Help Make Things Better" special={true} />
       <Banner title={"You Could Help Prevent Someone From Dying in the Hospital or From Starving to Death"} styleObj={{ color: 'white', backgroundColor: 'transparent', boxShadow: 'none' }} />
+      <SearchInput
+        listItems={supportPageData}
+        onSearch={handleSearch}
+        placeHolder="Search for charities and donors..."
+      />
       <div style={{ paddingBottom: "2%", paddingTop: "2%" }} className="org-cards" ref={orgCardsRef}>
-        {supportPageData.map((item, index) => {
+        {filteredSupportData.map((item:any, index:any) => {
           return (
             <div className="card-item">
               <OrgCard
@@ -86,7 +113,7 @@ const SupportPage: React.FC = () => {
         </div>
       </div>
       <Banner title={"Or You Could Help End This Massacre Altogether"} styleObj={{ color: 'white', backgroundColor: 'transparent', boxShadow: 'none' }} />
-      <div className="org-cards-s" style={{ justifyContent: 'center', overflow: 'hidden' }} >
+      <div className="org-cards" ref={orgCardsRef1} style={{justifyContent: 'center'}}>
         {supportActionData.map((item, index) => {
           return (
             <div className="card-item" >

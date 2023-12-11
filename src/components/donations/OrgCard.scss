@@ -61,16 +61,28 @@
     }
 
     .small {
+        //max-width: 130px;
+        .card-body {
+            width: 100%;
+            min-width: 120px !important;
+        max-width: 120px !important;
+        }
+        .title {
+            font-size: 1.0rem !important;
+            font-weight: 600;
+            border-bottom: none;
+            text-align: center;
+        }
         @media only screen and (max-width: 768px){
             
             padding: 0.01rem 0.1rem !important;
             .card-body {
                 width: 100%;
-                min-width: 80px !important;
-            max-width: 80px !important;
+                min-width: 110px !important;
+            max-width: 110px !important;
             }
             .title {
-                font-size: 0.7rem !important;
+                font-size: 0.8rem !important;
                 font-weight: 600;
                 border-bottom: none;
                 text-align: center;

@@ -159,6 +159,14 @@ export const supportActionData = [
         link: "https://act.uscpr.org/a/callforgaza"
     },
     {
+        "organization": "Go To Protests",
+        "description": "Expressing solidarity with Palestine through participation in protests, marches, rallies, and vigils encourages both ordinary citizens and policymakers to give greater attention and gravity to the ongoing massacre.",
+        "trucksImages": [
+            "./HomePage/paly.jpeg",
+        ],
+        link: "https://uscpr.org/oct-2023-protests/"
+    },
+    {
         "organization": "Spread The Word",
         "description": "Amplify the voices of those shining a light on the human rights abuses being committed by the IDF against the people of Gaza; otherwise, no one will know anything to stop them. Don't hesitate to share this website and engage in debates to make clear of the truth. ",
         "trucksImages": [
@@ -167,11 +175,19 @@ export const supportActionData = [
         link: `https://twitter.com/intent/tweet?url=${link}&text=${text}`
     },
     {
-        "organization": "Go To Protests",
-        "description": "Expressing solidarity with Palestine through participation in protests, marches, rallies, and vigils encourages both ordinary citizens and policymakers to give greater attention and gravity to the ongoing massacre.",
+        "organization": "Boycott",
+        "description": "You could contribute in restoring peace to Palestine by pressuring Israel to comply with international humanitarian law by boycotting products that support the ongoing genocide.",
         "trucksImages": [
-            "./HomePage/paly.jpeg",
+            "./SupportPage/boycott.jpeg",
         ],
-        link: "https://uscpr.org/oct-2023-protests/"
+        link: "https://boycott.thewitness.news/"
+    },
+    {
+        "organization": "Pray",
+        "description": "Pray for those starving, suffering and dying in Gaza. Pray that peace could be bestowed upon their land once again and that they could be brought back to their homes safely.",
+        "trucksImages": [
+            "./SupportPage/pray.jpeg",
+        ],
+        link: "https://www.islamic-relief.org.uk/giving/appeals/palestine/pray-for-palestine/#:~:text=O%20Allah%2C%20help%20and%20protect,in%20this%20time%20of%20crisis."
     },
 ]

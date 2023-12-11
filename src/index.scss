@@ -10,8 +10,11 @@
 iframe#webpack-dev-server-client-overlay{display:none!important}
 
 
+
 // setting fonts and background
 body {
+  // remove blue tap highlight
+  -webkit-tap-highlight-color: transparent;
   font-family: 'Poppins', 'Roboto'; 
   background-color: #0d0d0d ;
   overflow-x: hidden;

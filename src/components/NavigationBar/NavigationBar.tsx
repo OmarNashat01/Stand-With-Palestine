@@ -9,6 +9,8 @@ import { GiWhiteBook } from 'react-icons/gi';
 import { AiFillHeart } from 'react-icons/ai';
 import { PiTelevisionSimpleFill } from 'react-icons/pi';
 import { GiTargetShot } from 'react-icons/gi';
+import { Zoom } from "react-swift-reveal";
+
 // scss
 import './NavigationBar.scss';
 
@@ -32,10 +34,10 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
 
 
   return (
-    <div className={`navbar-container ${(showMobNav) ? 'hidenext': ''}`}>
+    <div className={`navbar-container ${(showMobNav) ? 'hidenext': ''} ${(location.pathname === '/') ? 'navbar-container-home':''}`}>
       <div className="logo">
-        <div className='menu-icon'>
-          <FaBars className="menu-icon" onClick={toggleMenu} />
+        <div className='menu-icon'  onClick={toggleMenu}>
+          <FaBars className="menu-icon" />
         </div>
         <div className='logo-container'>
           <div className='logo-icon'>

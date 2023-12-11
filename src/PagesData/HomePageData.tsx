@@ -129,10 +129,10 @@ const homeData = {
   
     genocideSection: {
       imagePath: "",
-      extraImagePath: "./HomePage/NTN.webp",
+      extraImagePath: "./HomePage/genocide.mp4",
       overlayColor: "rgba(0, 0, 0, 0.6)",
       blur: "blur(3px)",
-      title: "Israel is Potentially Committing Genocide in Gaza",
+      title: "Israel is Committing Genocide in Gaza",
       subTitle: "",
       text: 
       `Intended killing members of a nation, or causing serious bodily or mental harm is genocide by definition.|
@@ -145,7 +145,7 @@ const homeData = {
       buttonText1: "Check Israeli War Crimes ▶",
       buttonText2: "",
       isYouTube: false,
-      isLocalVideo: false,
+      isLocalVideo: true,
       reverse: false,
       onClick1: "./crimes"
     },

@@ -2,7 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
 
+.navbar-container-home {
+  @media screen and (max-width: 768px) {
+    height: auto;
+    position: absolute !important;
+    z-index: 999 !important;
+    width: 100%;
+  }
 
+}
 .navbar-container {
   display: flex;
   flex-direction: column;
@@ -12,10 +20,11 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: $text-color;
-  height: 20vh;
+  max-height: 20vh;
 
   @media screen and (max-width: 768px) {
     height: auto;
+    width: 100%;
 
   }
 
@@ -36,12 +45,18 @@
       width: 100%;
       padding: 1rem;
     }
+    @media screen and (max-width: 370px) {
+      width: 100%;
+      padding: 0.8rem;
+    }
 
     .logo-container {
       display: flex;
       align-items: center;
       margin: auto;
-
+      @media screen and (max-width: 700px) {
+        margin: 0rem;
+      }
       .logo-icon {
         margin-right: 10px;
         display: flex;
@@ -93,15 +108,16 @@
     .nav-item {
       margin: 0 15px;
 
-      @media screen and (max-width: 1200px) {
-        margin: 0 1px !important;
-      }
-
       cursor: pointer;
       font-weight: 500;
       font-size: 1.1rem;
       border-radius: 1rem;
       display: flex;
+      @media screen and (max-width: 1200px) {
+        margin: 10px 1px !important;
+        border-radius: 0rem;
+        font-size: 1.3rem;
+      }
 
       &:hover {
         background-color: $primary-color;
@@ -214,7 +230,7 @@
     .navbar {
       .nav-list {
         display: none;
-        padding-left: 1.5rem;
+        padding-left: 1.1rem;
         align-items: start;
       }
 

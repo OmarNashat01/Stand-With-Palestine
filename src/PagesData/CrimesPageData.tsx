@@ -238,7 +238,7 @@ export const crimesDict = [
       ],
       paragraphLeft: "",
       paragraphRight:
-        `As of the 27th of November 2023, over <span style="color:#ed2f2f">60</span> schools in Gaza have been been destroyed. This includes the murder of over <span style="color:#ed2f2f">120</span> academic staff and numerous children. `,
+        `As of the 27th of November 2023, over <span style="color:#ed2f2f">60</span> schools in Gaza have been destroyed. This includes the murder of over <span style="color:#ed2f2f">120</span> academic staff and numerous children. `,
       onClickFunc: "destruction-schools-crime",
     },
     {

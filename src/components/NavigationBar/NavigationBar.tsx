@@ -57,7 +57,7 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
             <Link to="/status"><GiTargetShot style={{ margin: '-1px', paddingRight: '0.1rem' }} /> Status</Link>
           </li>
           <li  className={`nav-item ${location.pathname.includes('timeline')? 'selected' : ''}`}>
-          <Link to="/timeline/recent"><GiTargetShot style={{ margin: '-1px', paddingRight: '0.1rem' }} />Timeline</Link>
+          <Link to="/timeline/recent"><BiSolidTimeFive style={{ margin: '-1px', paddingRight: '0.1rem' }} />Timeline</Link>
             {/* <span className={`${location.pathname.includes('timeline')? 'selected' : ''}`}><BiSolidTimeFive style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Timeline</span>
             <ul className="dropdown-list">
               <li className={`nav-item`}>

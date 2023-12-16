@@ -39,7 +39,28 @@ interface CrimesListProps {
             </div>
             <div className="splitter"></div>
             <div className="crime-item">
-              <h1>{crime.title}</h1>
+              <Link to={`/blogs/${crime.onClickFunc}`}>
+              <HeroButton
+                type="red"
+                content={"Consequences and Instances ▶"}
+                styleObj={{
+                  marginLeft: "0",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  fontSize: "1.2rem",
+                }}
+                respClass={true}
+              />
+              </Link>
+              <p>
+                {crime.paragraphRight.split("<br/><br/>").map((line:any, index:any) => (
+                    <div
+                      key={index}
+                      dangerouslySetInnerHTML={{ __html: line }}
+                    />
+                  ))}  
+              </p>
               <Carousel
                 interval={50000}
                 autoPlay
@@ -59,28 +80,7 @@ interface CrimesListProps {
                   />
                 ))}
               </Carousel>
-              <p>
-                {crime.paragraphRight.split("<br/><br/>").map((line:any, index:any) => (
-                    <div
-                      key={index}
-                      dangerouslySetInnerHTML={{ __html: line }}
-                    />
-                  ))}  
-              </p>
-              <Link to={`/blogs/${crime.onClickFunc}`}>
-              <HeroButton
-                type="red"
-                content={"Consequences and Instances ▶"}
-                styleObj={{
-                  marginLeft: "0",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  fontSize: "1.2rem",
-                }}
-                respClass={true}
-              />
-              </Link>
+              <h1>{crime.title}</h1>
             </div>
           </div>
         </Fade>

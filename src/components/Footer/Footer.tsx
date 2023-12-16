@@ -9,8 +9,9 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
   const navigate = useNavigate();
-  const link = "standwithpalestine.com";
-  const text = "Learn more about the latest news, the status of Gaza, Israeli war crimes, and misinformation about the ongoing massacre in Gaza. Support Palestine!";
+  const link = "stand-with-palestine.org";
+  const text =
+    "Learn more about the latest news, the status of Gaza, Israeli war crimes, and misinformation about the ongoing massacre in Gaza. Support Palestine!";
   return (
     <div className="real-footer">
       <footer>
@@ -62,9 +63,6 @@ const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
           <div className="footer-menu">
             <ul className="f-menu">
               <li>
-                <a onClick={() => navigate("./support")}>Support</a>
-              </li>
-              <li>
                 <a onClick={() => navigate("./")}>Home</a>
               </li>
               <li>
@@ -79,8 +77,14 @@ const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
               <li>
                 <a onClick={() => navigate("./blogs")}>Blogs</a>
               </li>
+              <li>
+                <a onClick={() => navigate("./support")}>Support</a>
+              </li>
             </ul>
           </div>
+          <p >
+              <a href="mailto:support@stand-with-palestine.org">Got Feedback? Contact Us</a>
+            </p>
         </div>
       </footer>
     </div>

@@ -19,7 +19,7 @@ const InterviewSection: FC<InterviewSectionProps> = ({ section }) => {
             <div className="section-header">
                 <Markdown
                     className="markdown-container"
-                    style={{ padding: 0 }}
+                    style={{ padding: 0, textAlign: 'center' }}
                     markdownText={section.summary}
                 />
             </div>

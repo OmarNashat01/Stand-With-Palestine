@@ -31,13 +31,19 @@
             margin: 0.5rem 0;
             max-width: 60%;
             font-size: 0.9rem;
+            @media screen and (max-width: 680px) {
+                max-width: 90%;
+                font-size: 0.8rem; 
+            }
+                
+            
             border-radius: 10px;
             position: relative;
             z-index: 1;
 
             &.left {
                 margin-right: auto;
-                background-color: $primary-color-light;
+                background-color: #363636;
 
                 &::before {
                     content: '';
@@ -48,7 +54,7 @@
                     top: 0;
                     z-index: -1;
                     border: 32px solid;
-                    border-color: $primary-color-light transparent transparent transparent;
+                    border-color: #363636 transparent transparent transparent;
                 }
             }
 

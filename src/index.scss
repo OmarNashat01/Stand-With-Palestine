@@ -166,6 +166,10 @@ a {
   }
 }
 
+.markdown-container blockquote p {
+  text-align: center;
+}
+
 .blog-page,
 .interview-page {
   @media only screen and (max-width: 760px) {

@@ -5,6 +5,8 @@ import GradientHero from "../../components/Simple/GradientHero";
 import { Interview } from "../../types/Interview";
 import InterviewSection from "../../components/InterviewSection/InterviewSection";
 import Markdown from "../../components/Simple/Markdown";
+//@ts-ignore
+import yaml from "js-yaml";
 
 const InterviewPage: React.FC = () => {
     const [interview, setInterview] = useState<Interview | null>(null);
@@ -18,15 +20,22 @@ const InterviewPage: React.FC = () => {
         if (!id) return;
 
         const selectedInterview = blogs.find(
-            (interview) => interview.blogPath === `/BlogsPage/${id}.json`
+            (interview) => interview.blogPath === `/BlogsPage/${id}.yaml`
         );
 
         if (selectedInterview !== undefined) {
             setTitle(selectedInterview.name);
             setSubTitle(selectedInterview.subTitle);
             fetch(selectedInterview.blogPath)
-                .then((res) => res.json())
-                .then((text) => setInterview(text as Interview));
+                .then((res) => res.text())
+                .then((yamlText) => {
+                    const interviewData = yaml.load(yamlText) as Interview;
+                    setInterview(interviewData);
+                })
+                .catch((error) => {
+                    console.error("Error loading YAML:", error);
+                    //navigate("/404");
+                });
         } else {
             navigate("/404");
         }

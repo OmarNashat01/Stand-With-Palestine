@@ -15,7 +15,7 @@ export const blogs: Blog[] = [
         name: "Test Interview",
         subTitle: "This is a test interview.",
         imagePath: "/BlogsPage/bassem.png",
-        blogPath: "/BlogsPage/test-interview.json", // path in public folder
+        blogPath: "/BlogsPage/test-interview.yaml", // path in public folder
         summary:
             "This is a test interview for the interview page with the new UI.",
     },

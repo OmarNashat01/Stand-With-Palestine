@@ -4,7 +4,7 @@ import Card from "../../components/Simple/Card";
 import Banner from "../../components/Simple/Banner";
 
 function getBlogUrl(blogPath: string): string {
-    return blogPath.split("/BlogsPage/")[1].replace(".md", "");
+    return blogPath.split("/BlogsPage/")[1].replace(/\.(md|json)/, "");
 }
 
 const BlogsListPage: React.FC = () => {
@@ -37,7 +37,10 @@ const BlogsListPage: React.FC = () => {
                         imagePath={blog.imagePath}
                         title={blog.name}
                         summary={blog.summary}
-                        link={`/blogs/${getBlogUrl(blog.blogPath)}`}
+                        type={blog.type}
+                        link={`/blogs/${blog.type}s/${getBlogUrl(
+                            blog.blogPath
+                        )}`}
                     />
                 ))}
             </div>

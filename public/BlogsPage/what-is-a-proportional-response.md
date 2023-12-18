@@ -41,7 +41,7 @@ We didn't go drop a nuke on Pakistan. We didn't go destroy 6,000 residential bui
 
 Is it more dangerous for the Special Forces? Of course, that's the point of Special Forces, to try to find the hostages.”
 
-![image90](../../BlogsPage/What%20is%20a%20Proportional%20Response/Untitled%201.png)
+![image90](../../BlogsPage/sat.png)
 
 ### The Ongoing Conflict
 

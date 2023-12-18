@@ -110,8 +110,11 @@ a {
   padding: 2rem 8rem;
   @media only screen and (max-width: 760px) {
     padding: 2rem 3rem;
-
   }
+  em {
+    color: darken(#fff, 40%)
+  }
+
   margin: auto;
   color: $text-color;
 

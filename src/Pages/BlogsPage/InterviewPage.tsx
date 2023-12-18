@@ -20,7 +20,7 @@ const InterviewPage: React.FC = () => {
         if (!id) return;
 
         const selectedInterview = blogs.find(
-            (interview) => interview.blogPath === `/BlogsPage/${id}.yaml`
+            (interview) => interview.blogPath === `/BlogsPage/${id}.json`
         );
 
         if (selectedInterview !== undefined) {

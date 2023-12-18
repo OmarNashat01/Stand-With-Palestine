@@ -1,18 +1,16 @@
-<div align="center">
-<iframe src="https://www.youtube.com/embed/4idQbwsvtUo" frameborder="0" allowfullscreen></iframe>
+<div align='center'>
+<iframe src='https://www.youtube.com/embed/4idQbwsvtUo' frameborder='0' allowfullscreen></iframe>
 </div>
 
+<h3 style='text-align: center'> Background </h3>
 
-## Background
+<p style='text-align: center'>
+Bassem Yousef is an Egyptian doctor, comedian, satirist, and television host. His wife is from Gaza and her family lives there. He used to host his own show in Egypt, “Al-Bernameg” which could be viewed as an analogue to'The Daily Show with Jon Stewart' in the United States.
+</p>
 
-Bassem Yousef is an Egyptian doctor, comedian, satirist, and television host. His wife is from Gaza and her family lives there. He used to host his own show in Egypt, “Al-Bernameg” which could be viewed as an analogue to"The Daily Show with Jon Stewart" in the United States.
-
-## I. Double Standards
-
-### Exposing Double Standards with Dark Humor
+## (1) Exposing Double Standards with Dark Humor
 
 > In this Bassem uses dark humor to project the reality of how many human beings disgracefully think of other **purely innocent** human beings, just because they are “Palestinians”.
-> 
 
 **Piers:**
 
@@ -42,10 +40,9 @@ I really try to get to her every time, but she uses our kids as human shields. I
 
 Again, I understand the humor, but to be serious, Bassem, about this tonight.
 
-### An Existential Proof for the Mentality Above
+## (2) An Existential Proof for the Mentality Above
 
 > Bassem continues using dark humor to expose how insane is a solution by [Ben Shapiro](https://en.wikipedia.org/wiki/Ben_Shapiro) is to counter the Oct. 7th attack.
-> 
 
 **Bassem:**
 
@@ -71,10 +68,9 @@ He didn't use the phrase sons of [ __ ] with me. Let me play to you what he actu
 
 Go back to your interview.
 
-### An Attempt to Counter the Particular Proof
+## (3) An Attempt to Counter the Particular Proof
 
 > Piers attempts to nullify Bassem’s account of what Ben has said in his show. In reality, Ben has said that or something similar on [his own show](https://angrywhitemen.org/2023/10/09/ben-shapiro-israel-should-annex-the-gaza-strip-because-palestinians-are-incapable-of-self-governance/).
-> 
 
 **Piers:**
 
@@ -90,12 +86,10 @@ He didn't. That was another interview. But let me play what he said to me here:
 
 Now, that is substantively different from what you said.
 
-## II. Questioning Proportionality
 
-### Questioning Proportionality using Neglected Chapters of History
+## (4) Questioning Proportionality using Neglected Chapters of History
 
 > Bassem demonstrates that far more Palestinians have been dying amid this conflict to show that there has never been a proportionate response.
-> 
 
 **Bassem:**
 
@@ -105,7 +99,7 @@ The question is, what is a proportionate response?
 
 Because it has been different from one year to another. 
 
-<img src="https://i.imgur.com/f6aT9J7.png" alt="as"/>
+<img src='https://i.imgur.com/f6aT9J7.png' alt='as'/>
 
 So, if you look at this graph, for example, this is the death of Israelis and Palestinians, and it's changing from one year to year. It's like fluctuating like crypto. 
 
@@ -121,16 +115,15 @@ Well, it's not me. I'm not on either side.
 
 **Bassem:**
 
-No, when I say "you guys," I say, like the people on the other side of that. I know that you don't think like that, Piers. You're one of the good guys. 
+No, when I say 'you guys,' I say, like the people on the other side of that. I know that you don't think like that, Piers. You're one of the good guys. 
 
 But let me tell you something. I can't remember what happened in 2014, and there was no music festival. But there must be something. I mean, they must do something. It is their fault (Palestinians). It has to be something. I mean, in 2018, 300 Palestinians died, who's counting, you know? 
 
 So, the thing is, what my question is, let's find what the exchange rate for human life is today so we can expect the future death of Palestinians, and we'll be happy to it.
 
-### Citing Hamas to Justify Disproportionality
+## (5) Citing Hamas to Justify Disproportionality
 
 > Piers attempts to justify such disproportionality by recalling his evil was what Hamas did.
-> 
 
 **Piers:**
 
@@ -158,10 +151,9 @@ I mean, I can do it because I can, you know. But the thing is, you know what? I 
 
 What would this world look like? Let's give this world a name, and let's name this world the West Bank.
 
-### Disproportionality Exists Even when Hamas Does Not
+## (6) Disproportionality Exists Even when Hamas Does Not
 
 > Bassem counters by showing that even in places where Hamas does not exist (the west bank), disproportionality corresponding to mass killing of innocent Palestinians exists.
-> 
 
 Hamas has absolutely no control in the West Bank, and since the beginning of this through August, 37 Palestinian kids were killed; no music festival, no paragliding, no Hamas. 
 
@@ -185,10 +177,9 @@ This has to be fair because if you want to only hear your opinion, I can just co
 
 No, absolutely I want a nuanced conversation. I wasn't aware I was interrupting you.
 
-## III. The Irony of Warnings and Human Shields
+## (7) The Irony of Warnings and Human Shields
 
 > Bassem reveals how ironic it is to justify the killing of innocent beings by stating that they are warned beforehand or used as a shield.
-> 
 
 **Bassem:**
 
@@ -220,10 +211,9 @@ Yes
 
 it's fine, yeah, you kill some to save some and then kill some more, yeah, I agree.
 
-## IV. Proving that Disproportionate Responses Do Not Work
+## (8) Proving that Disproportionate Responses Do Not Work
 
 > Bassem uses history again to show that Israel has been using “disproportionate responses” for years and they have never solved the problem.
-> 
 
 **Piers:**
 
@@ -245,10 +235,9 @@ If Israel did it solve the solution, did it solve the problem, did it work befor
 
 I mean, like this is only the last 15 years. I mean because it's too many papers, I just got this. But what, how will this will be different? And the thing is, I am so glad in the introduction that you mentioned the Iraq War. I applaud you, Piers, for saying that because you were honest about it. 
 
-## V. Lies have Deadly Consequences
+## (9) Lies have Deadly Consequences
 
 > Bassem demonstrates how false media can further cause the loss of more innocent lives. He uses the Illinois man who killed a Muslim child after hearing about Hamas and beheaded babies.
-> 
 
 You said that spreading lies like weapons of mass destruction make people look at those people as less of humans and they would accept the death of a million Iraqi, whether by sanctions or by invasion, right? 
 
@@ -296,10 +285,9 @@ Because of that propaganda (decapitated babies), Mr. Morgan, that guy in Illinoi
 
 It took you 8 years to change one word from Jewish to Muslim and then you transferred your guilt to us and took away our land. That deal sucks, man.
 
-## VI. Israelian Oppression and Western Support is the Root Problem
+## (10) Israelian Oppression and Western Support is the Root Problem
 
 > Bassem reiterates that the root problem is long-term Israelian oppression; it can be viewed as why it’s natural for Palestinians to sympathize with Hamas.
-> 
 
 **Piers:**
 
@@ -311,7 +299,7 @@ Well, first of all, you need to change the perception. Nikki Haley, the American
 
 Now if you already decided someone is good, he can do no evil, and if you decided that someone is evil, it's good to kill them. Killing them is good. You see, it is not like something new.
 
-I mean, I look at history, and I see, I'm sorry to say, and I'm sorry to say this, but westerners have always dealt like this with indigenous people. You first treated them like savages, you know, Native Americans First Nation Aboriginal: "They're savages, kill all the savages." And then when they're almost extinct, you start feeling sorry for them, you know, like animals.
+I mean, I look at history, and I see, I'm sorry to say, and I'm sorry to say this, but westerners have always dealt like this with indigenous people. You first treated them like savages, you know, Native Americans First Nation Aboriginal: 'They're savages, kill all the savages.' And then when they're almost extinct, you start feeling sorry for them, you know, like animals.
 
 So maybe the solution is that we kill as many Palestinians as possible, so the few of them that remain do not bother you. And maybe for another years, become a tree hugger and...
 
@@ -419,12 +407,10 @@ Nelson Mandela? Nelson Mandela actually criticized Israel for being a horrible s
 
 My point is how he responded to a country that was so divided is a template for how you get to peace, isn't it?
 
-## VII. Analogies and Perspectives
 
-### An Analogy with ISIS
+## (11) An Analogy with ISIS
 
 > Bassem attempts to make an analogy between ISIS and Israel.
-> 
 
 **Bassem:**
 
@@ -469,10 +455,9 @@ The comparison, which is more suitable, is ISIS and Hamas.
 
 They are both nihilistic terrorist groups intent on killing as many Jewish people and others as they can possibly kill, and you can't get to peace with people like that.
 
-### Israeli Citizen Perspective
+## (12) Israeli Citizen Perspective
 
 > Bassem exposes that another root problem in this issue is the current Israelian governance.
-> 
 
 **Bassem:**
 
@@ -494,16 +479,15 @@ I heard a rumor in the Kibbutz that you're doing that as an excuse to carpet bom
 
 And then I watched an interview with Danny Ayalon. He was your Chief advisor; he was also the Israeli ambassador to the United States. You know what he said, Mr. Prime Minister? 
 
-He said that the solution for those Palestinians is to go into a vast land of Sinai and live in 10 cities "temporarily," huh, temporary wink wink until we build Gaza again and then we invite you back.
+He said that the solution for those Palestinians is to go into a vast land of Sinai and live in 10 cities 'temporarily,' huh, temporary wink wink until we build Gaza again and then we invite you back.
 
 [__] We've seen this movie before. 
 
 So when I saw this, I couldn't explain to my fellows in the Kibbutz how come our Israeli government is trading human lives for another piece of land. 
 
-### American Citizen Perspective
+## (13) American Citizen Perspective
 
 > Bassem criticizes the U.S. unreasonable support for Israel
-> 
 
 So as an Israeli citizen, I need to hold my Israeli government accountable, and as an American citizen, I want to know all of this money that we are giving to Israel. 
 
@@ -511,12 +495,11 @@ We are giving them $4 billion every year.
 
 Joe Biden said it's the best investment America ever made. 
 
-Well, if I am in the place of Joe Biden, I would go down and whisper in the ears of Netanyahu and tell him, "I hate bad investments; they haunt me," you know, like Littlefinger in Game of Thrones.
+Well, if I am in the place of Joe Biden, I would go down and whisper in the ears of Netanyahu and tell him, 'I hate bad investments; they haunt me,' you know, like Littlefinger in Game of Thrones.
 
-### A Hidden Perspective on Israel
+## (14) A Hidden Perspective on Israel
 
 > Bassem compares what he believes Israel really is to what it portrays itself to be.
-> 
 
 But the thing is, Israel always victimizes itself, and I have never seen a victim putting their oppressor under siege 24/7. 
 
@@ -542,12 +525,10 @@ I understand the passion behind that, so let's not get too bogged down about the
 
 I apologize to the viewers. I apologize to the viewers for my language and the sight of dead civilians.
 
-## VIII. Justifying the Killing of Innocent Civilians
 
-### Can Disregard Moral Equivalency
+## (15) Can Disregard Moral Equivalency
 
 > Jeremy, Ben Shapiro’s friend, attempts to respond to Bassem by stating that it’s indecent to talk about moral equivalency (i.e., compare death counts) and that it can be justified due the 7 Oct. attack and that this is a “war”.
-> 
 
 **Piers:**
 
@@ -597,12 +578,11 @@ You know we can talk about the history of the Israeli conflict. I'm not a profes
 
 I'm not here to discuss the history of the Israeli-Palestinian conflict, but we all saw what happened on October 7th. And the idea that Israel was not going to react severely to that, or that Israel should not react severely to that, is ludicrous. 
 
-Should be a moderating voice that Ben Shapiro should be saying, "No, Israel should not respond in this situation." That's nonsense.
+Should be a moderating voice that Ben Shapiro should be saying, 'No, Israel should not respond in this situation.' That's nonsense.
 
-### It’s a War; It’s Normal
+## (16) It’s a War; It’s Normal
 
 > Jeremy, Ben Shapiro’s friend, continues by stating that a proportionate response would be for Israel to repeat what Hamas did to Palestine which no one would want and that this is similar to how the U.S. countered the terrorists of 9/11.
-> 
 
 **Piers:**
 
@@ -638,10 +618,9 @@ America had every right, morally, to go in and destroy the Taliban and destroy a
 
 The war was not won.
 
-### Attempting a Contradiction
+## (17) Attempting a Contradiction
 
 > Piers argues that what the U.S. did to Iraq, in response of 9/11, was in fact, terrible so it would not make sense if Israel is trying to do the same.
-> 
 
 **Piers:**
 
@@ -719,14 +698,13 @@ Okay, bye.
 
 But listen, I'd like to talk to you again, and thank you for joining the program.
 
-## IX. A Final Reminder of Evil History
+## (18) A Final Reminder of Evil History
 
 > Bassem finishes of by reminding everyone of what Israel is doing to Palestine now and what it has been doing for a long time.
-> 
 
 **Bassem:**
 
-<img src="https://i.imgur.com/Qblfvc7.png" alt="sd"/>
+<img src='https://i.imgur.com/Qblfvc7.png' alt='sd'/>
 
 I appreciate it. 
 

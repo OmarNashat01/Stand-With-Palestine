@@ -1,15 +1,11 @@
-<div align="center">
-<iframe  src="https://www.youtube.com/embed/YRFKkmsDpuw" frameborder="0" allowfullscreen></iframe>
-</div>
+<div align='center'>
+<iframe  src='https://www.youtube.com/embed/YRFKkmsDpuw' frameborder='0' allowfullscreen></iframe></div>
+<h3 align='center'> Background </h3>
+ <p style='text-align:center'>Cenk Uygur is a Turkish-American political commentator, lawyer, and media personality. He is best known as the co-founder and host of 'The Young Turks' (TYT), an online news and commentary show. TYT was launched in 2002 and has since grown into one of the most popular and influential progressive news and opinion platforms on the internet. </p>
 
-## Background
-
-Cenk Uygur is a Turkish-American political commentator, lawyer, and media personality. He is best known as the co-founder and host of "The Young Turks" (TYT), an online news and commentary show. TYT was launched in 2002 and has since grown into one of the most popular and influential progressive news and opinion platforms on the internet.
-
-## I. Double Standards & Bigotry
+## (1) Double Standards & Bigotry
 
 > Cenk starts by exposing the persisting double standards against Palestinians and Muslims and how Israel’s response is purely bigotry in the rational sense.
-> 
 
 **Piers:**
 Cenk, great to have you on the program. Thank you very much indeed for joining me. 
@@ -18,7 +14,7 @@ I've been following your tweets with interest.
 
 This week, you've been getting increasingly angry, I think it'd be fair to say. 
 
-You said, "I'm now enormously frustrated by the U.S. and Israeli government's barbaric acts in Gaza. I will not be shy in sharing that opinion on Piers Morgan show today." 
+You said, 'I'm now enormously frustrated by the U.S. and Israeli government's barbaric acts in Gaza. I will not be shy in sharing that opinion on Piers Morgan show today.' 
 
 Why are you so frustrated?
 
@@ -39,16 +35,15 @@ We say that everyone in the world can defend themselves, can have their own stat
 
 And the reasoning behind that is that Palestinians are what? The idea is that they are savages and that Muslims are too violent and cannot control themselves, so they must be occupied for 56 brutal, disgusting years. 
 
-So I've had enough of the bigotry against Muslims and Palestinians, and I need you to speak out against that instead of covering every outrageous, atrocious action of the right-wing government of Israel and going, "Oh, it's anti-Semitism." 
+So I've had enough of the bigotry against Muslims and Palestinians, and I need you to speak out against that instead of covering every outrageous, atrocious action of the right-wing government of Israel and going, 'Oh, it's anti-Semitism.' 
 
-## II. Nullifying Anti-Semitism Claims
+## (2) Nullifying Anti-Semitism Claims
 
 > Cenk continues by highlighting that this has nothing to do with anti-Semitism, which is another global problem. It’s rational for anyone (e.g., Palestinians) not to sympathize with their oppressors.
-> 
 
 No, when there is global anti-Semitism, there's anti-Semitism here in this country. Two synagogues were shot up in Pittsburgh and in Southern California. 
 
-We fight against that all the time. But then, whenever Israel is criticized, you people go, "Oh no, it's anti-Semitism." 
+We fight against that all the time. But then, whenever Israel is criticized, you people go, 'Oh no, it's anti-Semitism.' 
 
 No, there's real anti-Semitism. Instead of attacking that, all you guys ever do is hide behind the veil of anti-Semitism. 
 
@@ -57,16 +52,15 @@ Do you know why Palestinians might not like Israelis? Because they've been oppre
 **Piers:**
 I hear you, and let me respond. 
 
-A, I'm not "you guys." I don't think I fit into any neat fit on this issue at all. 
+A, I'm not 'you guys.' I don't think I fit into any neat fit on this issue at all. 
 
 B, I've actually covered the story, I think, more fairly than most people. I've had many pro-Palestinian voices. I've given a huge platform for. They've been getting enormous audiences from Bassam Yousef to others, and I've done that quite deliberately because I think these voices are important to be heard, including yours. 
 
 I certainly wasn't accusing you, by the way, or your organization of anti-Semitism. 
 
-## III. Condemning Hamas
+## (3) Condemning Hamas
 
 > As Piers starts the subject of Hamas and the barbaric actions that they have done, Cenk agrees with him and states that he is even more made because it is a reason for the bigotry against Muslims.
-> 
 
 I just think I have found it, as somebody who's always identified as liberal myself, very dispiriting to see people who call themselves liberals whose instant response, it seemed to me, to one of the worst terror attacks we've ever seen, was to immediately side with the place where these attacks have been launched from. 
 
@@ -89,10 +83,9 @@ But on top of that, they've ruined the Palestinian cause. They've burned the mor
 
 So, screw Hamas and their barbarism. 
 
-## IV. Condemning Israel’s Response
+## (4) Condemning Israel’s Response
 
 > Cenk demonstrates how illicit and terror-like has Israel’s response to Hamas been.
-> 
 
 Okay, now, in terms of a proper reaction, yes, you need to get those hostages out. 
 
@@ -106,10 +99,9 @@ The parents, I just read on CNN, are writing the names of the kids on their calv
 
 Imagine writing the name of your child on their legs so that you could find them in the rubble after Israel or any government drops a bomb on them. 
 
-## V. Unseen Reality of Bombs
+## (5) Unseen Reality of Bombs
 
 > Cenk sheds light on how terrible it is for someone to die from a bomb. It’s equivalent to incinerating people alive… the other option could be having the person’s brain explode or more slowly dying below tons of mass after having it drop on you.
-> 
 
 I need the West to understand something: bombs kill people. And do you know how they kill people? They incinerate them alive, or their heads explode. 
 
@@ -133,10 +125,9 @@ But it seems to me that Israel could, if it's not careful, be being lured into a
 
 And I hope that is not the case. 
 
-## VI. Establishing a Proportionate Response
+## (6) Establishing a Proportionate Response
 
 > Cenk proposes a response that would have been far more proportional and relates it to a mission that took place successfully in reality.
-> 
 
 But I'm curious, how do you get rid of Hamas if you don't do it the way Israel is currently doing it, albeit with horrific collateral damage in the face of thousands of innocent Palestinians being caught up in the bombing.
 
@@ -149,12 +140,9 @@ We didn't go drop a nuke on Pakistan. We didn't go destroy 6,000 residential bui
 
 Is it more dangerous for the Special Forces? Of course, that's the point of Special Forces, to try to find the hostages. 
 
-## VII. Israel’s Response is a Failure
-
-### In Terms of Hostages
+## (7) Israel’s Response is a Failure in Terms of Hostages
 
 > Cenk demonstrates that, even when viewed from an Israeli standpoint, Israel's response achieves the opposite of its intended goal towards hostages.
-> 
 
 Does it look like Israel is trying to find the hostages? If I have a family member that's a hostage, I'm disgusted by what Netanyahu is doing. 
 
@@ -170,10 +158,9 @@ So, my way is not pleasant either. It involves a lot of folks dying on both side
 
 But go find Hamas. Go find the hostages. 
 
-### Because it is Terrorism
+## (8) Israel’s Response is a Failure Because it is Terrorism
 
 > Cenk establishes that what Israel has been doing satisfies the definition of terrorism.
-> 
 
 Go rescue them instead of indiscriminately killing. After killing, let's be honest, when you drop a bomb and a kid's head explodes, and a grandmother is incinerated, that is terrorism. 
 
@@ -185,10 +172,9 @@ Think about how unrealistic that is.
 
 Think about why his method has a 0% chance of working. 
 
-### Because Palestinians Can’t do Anything
+## (9) Israel’s Response is a Failure Because Palestinians Can’t do Anything
 
 > Cenk establishes that if the response still fails if it is supposed to make Palestinians turn against Hamas.
-> 
 
 How are the Palestinians supposed to rise up against Hamas? How would they prove they're against Hamas? 
 
@@ -200,19 +186,17 @@ They're already crying uncle, but it's never enough for the bloodthirsty Netanya
 
 No, more death of Palestinians, more babies killed. That's what his answer is.
 
-## VIII. Comment on the U.S. Response
+## (10) Comment on the U.S. Response
 
 > Cenk comments on how current governance of the U.S. uses money to worsen the situation while not even accomplishing that efficiently.
-> 
 
 The United States of America, I'm running for president here. There's no way in the world I would allow this, sending $105 billion. 
 
 And it doesn't even go to Israel, Ukraine, or Taiwan. It goes to the defense contractors that bribe these greedy American politicians and get most of that money. 
 
-## IX. Long-term Solution is the Two-State Solution
+## (11) Long-term Solution is the Two-State Solution
 
 > Cenk proposes that a long-term solution is a two-state solution where borders guarantee no further conflicts.
-> 
 
 So, the long-term answer is the 1967 borders and the biggest walls you've ever seen in your entire life. And no one's allowed to cross on either side, but the Palestinians get their state. It is unconscionable for them not to get their state. 
 
@@ -222,10 +206,9 @@ We have to have a two-state solution immediately.
 
 If 56 years of occupation and brutalizing these people is not enough, is 57 years going to be enough? Is 156 years going to be enough? I'm asking Israel, not out of hate, but out of love. 
 
-## X. Jews Should Not be Happy
+## (12) Jews Should Not be Happy
 
 > Cenk emphasizes that what Israel does makes it even worse for the reputation of Jews around the world.
-> 
 
 So many of my friends that I grew up with are Jewish. 
 

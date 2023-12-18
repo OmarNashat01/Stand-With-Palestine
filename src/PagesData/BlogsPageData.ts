@@ -12,40 +12,30 @@ export const blogs: Blog[] = [
     {
         showBlog: true,
         type: "interview",
-        name: "Test Interview",
-        subTitle: "This is a test interview.",
-        imagePath: "/BlogsPage/bassem.png",
-        blogPath: "/BlogsPage/test-interview.yaml", // path in public folder
-        summary:
-            "This is a test interview for the interview page with the new UI.",
-    },
-    {
-        showBlog: true,
-        type: "article",
         name: "Cenk Ugyr X Piers Morgan Interview",
         subTitle: "Antisemitism ≠ Pro-Palestine",
         imagePath: "/BlogsPage/cenk.png",
-        blogPath: "/BlogsPage/piers-cenk-interview.md", // path in public folder
+        blogPath: "/BlogsPage/piers-cenk-interview.json", // path in public folder
         summary:
             "In this interview, Cenk Ugyr, co-founder and host of The Young Turks, discusses the Israeli-Palestinian conflict with Piers Morgan.",
     },
     {
         showBlog: true,
-        type: "article",
+        type: "interview",
         name: "Bassem Yousef X Piers Morgan Interview",
         subTitle: "Dark Comedy Can Save Lives",
         imagePath: "/BlogsPage/bassem.png",
-        blogPath: "/BlogsPage/piers-bassem-interview.md", // path in public folder
+        blogPath: "/BlogsPage/piers-bassem-interview.json", // path in public folder
         summary:
             "In this interview, Bassem Yousef, an Egyptian comedian and satirist, engages in a conversation with Piers Morgan about the recent events in Gaza.",
     },
     {
         showBlog: true,
-        type: "article",
+        type: "interview",
         name: "Yuval Harari X Piers Morgan Interview",
         subTitle: "Israeli Government is a Root Problem",
         imagePath: "/BlogsPage/harari.png",
-        blogPath: "/BlogsPage/piers-harari-interview.md",
+        blogPath: "/BlogsPage/piers-harari-interview.json",
         summary:
             "Yuval Harari, an Israeli professor and author, discusses the ongoing conflict with Piers Morgan.",
     },

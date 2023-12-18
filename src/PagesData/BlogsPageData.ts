@@ -56,7 +56,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Imposing an Exhaustive Blockade on Gaza",
-        blogPath: "/BlogsPage/blockade-crime.md",
+        blogPath: "/BlogsPage/crime-blockade.md",
     },
     {
         showBlog: false,
@@ -65,7 +65,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Using Illegal Incendiary Weapons in Attacks",
-        blogPath: "/BlogsPage/weapon-crime.md",
+        blogPath: "/BlogsPage/crime-weapon.md",
     },
     {
         showBlog: false,
@@ -74,7 +74,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Forcible Transfer of Civilians in North Gaza",
-        blogPath: "/BlogsPage/force-transfer-north-crime.md",
+        blogPath: "/BlogsPage/crime-force-transfer-north.md",
     },
     {
         showBlog: false,
@@ -83,7 +83,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Forcible Transfer of Civilians in South Gaza",
-        blogPath: "/BlogsPage/force-transfer-south-crime.md",
+        blogPath: "/BlogsPage/crime-force-transfer-south.md",
     },
     {
         showBlog: false,
@@ -92,7 +92,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Murder and Severe Injury of Innocent Civilians",
-        blogPath: "/BlogsPage/innocent-murder-crime.md",
+        blogPath: "/BlogsPage/crime-innocent-murder.md",
     },
     {
         showBlog: false,
@@ -101,7 +101,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Mass Destruction of Civilian Objects",
-        blogPath: "/BlogsPage/destruction-civilian-objects-crime.md",
+        blogPath: "/BlogsPage/crime-destruction-civilian-objects.md",
     },
     {
         showBlog: false,
@@ -110,7 +110,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Destruction of Holy Places of Worship",
-        blogPath: "/BlogsPage/destruction-holy-places-crime.md",
+        blogPath: "/BlogsPage/crime-destruction-holy-places.md",
     },
     {
         showBlog: false,
@@ -119,7 +119,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Destruction of Schools and Universities",
-        blogPath: "/BlogsPage/destruction-schools-crime.md",
+        blogPath: "/BlogsPage/crime-destruction-schools.md",
     },
     {
         showBlog: false,
@@ -128,7 +128,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Damage or Destruction of Medical Facilities",
-        blogPath: "/BlogsPage/destruction-medical-crime.md",
+        blogPath: "/BlogsPage/crime-destruction-medical.md",
     },
     {
         showBlog: false,
@@ -137,7 +137,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Destruction of Food and Water Supplies",
-        blogPath: "/BlogsPage/destruction-food-crime.md",
+        blogPath: "/BlogsPage/crime-destruction-food.md",
     },
     {
         showBlog: false,
@@ -146,7 +146,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Murder of Journalists",
-        blogPath: "/BlogsPage/murder-journalists-crime.md",
+        blogPath: "/BlogsPage/crime-murder-journalists.md",
     },
     {
         showBlog: false,
@@ -155,7 +155,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Murder of Surrenderers",
-        blogPath: "/BlogsPage/murder-surrenders-crime.md",
+        blogPath: "/BlogsPage/crime-murder-surrenders.md",
     },
     {
         showBlog: false,
@@ -164,7 +164,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Arbitrary Detention of Civilians and Home Raids",
-        blogPath: "/BlogsPage/arbitrary-detention-crime.md",
+        blogPath: "/BlogsPage/crime-arbitrary-detention.md",
     },
     {
         showBlog: false,
@@ -173,7 +173,7 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Torture and Sexual Abuse of Detainees",
-        blogPath: "/BlogsPage/torture-crime.md",
+        blogPath: "/BlogsPage/crime-torture.md",
     },
     {
         showBlog: false,
@@ -182,6 +182,6 @@ export const blogs: Blog[] = [
         summary: "",
         imagePath: "",
         name: "Illegal Settlements in the west bank",
-        blogPath: "/BlogsPage/illegal-settlements-crime.md",
+        blogPath: "/BlogsPage/crime-illegal-settlements.md",
     },
 ];

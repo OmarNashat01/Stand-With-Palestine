@@ -48,7 +48,7 @@ const CrimesList: React.FC<CrimesListProps> = ({ crimesDict }) => {
                         </div>
                         <div className="splitter"></div>
                         <div className="crime-item">
-                            <Link to={`/blogs/articles/${crime.onClickFunc}`}>
+                            <Link target="_blank" rel="noopener noreferrer" to={`/blogs/articles/${crime.onClickFunc}`}>
                                 <HeroButton
                                     type="red"
                                     content={"Consequences and Instances ▶"}

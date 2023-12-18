@@ -242,7 +242,7 @@ const homeData = {
       reverse: true,
       bulleted: '',
       isLocalVideo: false,
-      onClick1: './blogs/piers-bassem-interview',
+      onClick1: './blogs/interviews/piers-bassem-interview',
       onClick2: './blogs'
     },
   
@@ -264,7 +264,7 @@ const homeData = {
       reverse: true,
       bulleted: '',
       isLocalVideo: false,
-      onClick1: './blogs/piers-cenk-interview',
+      onClick1: './blogs/interviews/piers-cenk-interview',
       onClick2: './blogs'
     },
 

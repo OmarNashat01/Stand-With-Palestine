@@ -26,7 +26,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         "On the 9th of October 2023, Israel has imposed a total blockade on Gaza, allowing no electricity, no water, no food and no gas. This had catastrophic consequences on innocent civilians.",
-      onClickFunc: "blockade-crime",
+      onClickFunc: "crime-blockade",
     },
     {
       title: "Using Illegal Incendiary Weapons in Attacks",
@@ -54,7 +54,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         "The Euro-Med Human Rights Monitor has established that since the 7th of October, Israel has launched beyond one thousand strikes using white phosphorous which is extremely harmful to humans.",
-      onClickFunc: "weapon-crime",
+      onClickFunc: "crime-weapon",
     },
     {
       title: "Forcible Transfer of Civilians in North Gaza",
@@ -87,7 +87,7 @@ export const crimesDict = [
       paragraphRight:
         `On the 14th of October 2023 Israeli ordered the evacuation of over one million civilians living in north Gaza. 
         Israel still proceeded by bombing civilians during their transfer along a route it designated as safe and murdered thousands in the south using air strikes. `,
-      onClickFunc: "force-transfer-north-crime",
+      onClickFunc: "crime-force-transfer-north",
     },
     {
       title: "Forcible Transfer of Civilians in South Gaza",
@@ -119,7 +119,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `On the 17th of Nov. 2023, citizens in Khan Younis, the largest city in southern Gaza which hosts hundreds of thousands who fled northern Gaza in October received orders from the Israeli military to evacuate the city and head to known shelters.`,
-      onClickFunc: "force-transfer-south-crime",
+      onClickFunc: "crime-force-transfer-south",
     },
     {
       title: "Murder and Severe Injury of Innocent Civilians",
@@ -152,7 +152,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `As of the 27th of November 2023, Over <span style="color:#ed2f2f">15,000</span> have been murdered and over <span style="color:#ed2f2f">38,000</span> have been injured in Palestine. The means by which they are murdered are mostly incineration and having buildings collapse on top of them using air strikes. Over <span style="color:#ed2f2f">70%</span> of those murdered are children and women that are trivially innocent. `,
-      onClickFunc: "innocent-murder-crime",
+      onClickFunc: "crime-innocent-murder",
     },
     {
       title: "Mass Destruction of Civilian Objects",
@@ -178,7 +178,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `As of the 27th of November 2023, nearly <span style="color:#ed2f2f">50%</span> of all homes in Gaza have been damaged or destroyed. The attacks are indiscriminate; it cannot be the case that Hamas, which constitutes less than 2.5% of Gaza occupies 50% of the houses in Gaza.`,
-      onClickFunc: "destruction-civilian-objects-crime",
+      onClickFunc: "crime-destruction-civilian-objects",
     },
     {
       title: "Destruction of Holy Places of Worship",
@@ -210,7 +210,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `As of the 27th of November 2023, over <span style="color:#ed2f2f">80</span> mosques in Gaza have been razed to the ground. `,
-      onClickFunc: "destruction-holy-places-crime",
+      onClickFunc: "crime-destruction-holy-places",
     },
     {
       title: "Destruction of Schools and Universities",
@@ -239,7 +239,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `As of the 27th of November 2023, over <span style="color:#ed2f2f">60</span> schools in Gaza have been destroyed. This includes the murder of over <span style="color:#ed2f2f">120</span> academic staff and numerous children. `,
-      onClickFunc: "destruction-schools-crime",
+      onClickFunc: "crime-destruction-schools",
     },
     {
       title: "Damage or Destruction of Medical Facilities",
@@ -273,7 +273,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `There are numerous reports for damaging hospitals, destroying objects at its vicnity and destroying ambulances. Hospitals are also nearing collapse due to the lack of fuel and other necessities.`,
-      onClickFunc: "destruction-medical-crime",
+      onClickFunc: "crime-destruction-medical",
     },
     {
       title: "Destruction of Food and Water Supplies",
@@ -303,7 +303,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `All bakeries in northern Gaza have been forced to close due to shortages of vital supplies. There are various reports on directly and indirectly targeted bakeries, food markets and water reserves.`,
-      onClickFunc: "destruction-food-crime",
+      onClickFunc: "crime-destruction-food",
     },
     {
       title: "Murder of Journalists",
@@ -324,7 +324,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `As of the 27th of November, over <span style="color:#ed2f2f">60</span> journalists have been killed. Some have been obliterated along with their whole families.`,
-      onClickFunc: "murder-journalists-crime",
+      onClickFunc: "crime-murder-journalists",
     },
     {
       title: "Murder of Surrenderers",
@@ -346,7 +346,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `The IDF released a video showing Israeli soldiers murdering surrendering, likely unarmed, Palestinians.`,
-      onClickFunc: "murder-surrenders-crime",
+      onClickFunc: "crime-murder-surrenders",
     },
     {
       title: "Arbitrary Detention of Civilians and Home Raids",
@@ -374,7 +374,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `As of the 27th of November, over <span style="color:#ed2f2f">3000</span> individuals have been detained from the West Bank since the 7th of October, many of which have been detained with no charge or trial.`,
-      onClickFunc: "arbitrary-detention-crime",
+      onClickFunc: "crime-arbitrary-detention",
     },
     {
       title: "Torture and Sexual Abuse of Detainees",
@@ -405,7 +405,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `Videos reported to be from IDF soldiers depict the torture and humilation that they inflict upon detainees in the West Bank.`,
-      onClickFunc: "torture-crime",
+      onClickFunc: "crime-torture",
     },
     {
       title: "Illegal Settlements in the west bank",
@@ -434,7 +434,7 @@ export const crimesDict = [
       paragraphLeft: "",
       paragraphRight:
         `Israel continues endorsing Israeli settlements in the Palestinian West Bank. This has been ongoing since long before the 7th of Oct. Attack.`,
-      onClickFunc: "illegal-settlements-crime",
+      onClickFunc: "crime-illegal-settlements",
     },
   ];
 

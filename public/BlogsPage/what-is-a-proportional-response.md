@@ -1,0 +1,48 @@
+To understand proportionality, we first need to understand distinction. Proportionality and distinction are two principles under international humanitarian law governing the legal use of force in an armed conflict. In essence, the principle of distinction aims to prevent civilian casualties whenever feasible, while the principle of proportionality aims to minimize such casualties when complete prevention is not achievable. Ideally applying both of these principles leads to minimizing the number of civilian causalities in an armed conflict.
+
+![image90](../../BlogsPage/What%20is%20a%20Proportional%20Response/Untitled.png)
+
+### Innocent civilians
+
+The international humanitarian law prohibits attacks where the objective is to target civilians. This is codified in various provisions of international humanitarian law; for instance, Article 51 of the Protocol Additional to the Geneva Conventions of 12 August 1949 mentions that *“The civilian population as such, as well as individual civilians, shall not be the object of attack…unless and for such time as they take a direct part in hostilities.”* This implies that combatants in an armed conflict may attack each other or other related targets but must spare civilians. Doing otherwise is a violation of this article and hence, a violation of international humanitarian law which according to the Rome Statute, constitutes a crime against humanity or a war crime, depending on its severity.
+
+### Distinction
+
+The principle of distinction is codified in Article 48 of the Protocol Additional to the Geneva Conventions of 12 August 1949. It states that *“The Parties to the conflict shall at all times distinguish between the civilian population and combatants.”* In other words, it enforces that the source of an attack must dedicate effort to ascertain that the target being attacked is a military target and not the civilian population. This further implies that indiscriminate attacks are prohibited which is also explicitly codified in Article 51 of the protocol:
+
+“*Indiscriminate attacks are prohibited. Indiscriminate attacks are:*
+
+*(a) those which are not directed at a specific military objective;*
+
+*(b) those which employ a method or means of combat which cannot be directed at a specific military objective; or*
+
+*(c) those which employ a method or means of combat the effects of which cannot be limited as required by this Protocol;*”
+
+### Proportionality
+
+Article 51 of the Protocol Additional to the Geneva Conventions of 12 August 1949 prohibits launching attacks where civilians are the object; however, it could also be the case that an attack is targeted at a military objective (e.g., a building from which rockets are launched) and that civilians are also close to that military objective (e.g., living in the building). This article does not prohibit such an attack as the attack is directed towards a military objective. The principle of proportionality attempts to handle this case, it **allows such attack if and only if** incidental loss of civilian life, injury to civilians, and damage to civilian objects **are proportionate** (i.e., not excessive) to the **military advantage sought** (i.e., the military objective). For instance, if a rocket launch site constantly kills ten enemy individuals per day and the enemy targets that site and kills five civilians along the way, the attack may not be considered a violation of IHL. Meanwhile, if it nukes the whole area, destroying the launch site and thousands of civilians around, then it would likely be a war crime. In this sense, the principle of proportionality is not assessed based on the number of casualties on different sides in a conflict; it rather applies to each attack launched from one side to the other. Each of such attacks must have a military objective, and the civilian loss due to the attack must not be disproportionate or excessive relative to that objective.
+
+The principle of proportionality is codified in various provisions of international humanitarian law; for instance, Article 51 of the Protocol Additional to the Geneva Conventions of 12 August 1949 extends the definition of “indiscriminate attacks” (which are prohibited under that article) to also include *“an attack which may be expected to cause incidental loss of civilian life, injury to civilians, damage to civilian objects, or a combination thereof, which **would be excessive** in relation to the concrete and direct military advantage anticipated.”* 
+
+It becomes obvious that the issue with this principle is that it doesn’t provide any straightforward criteria to determine that an attack is “disproportionate” or “excessive”. In another provision of IHL (the Rome Statute), “excessive” is replaced with “clearly excessive” to avoid cases where it’s hard to judge. By this, proportionality requires an assessment of:
+(i) the *civilian life, injury to civilians, damage to civilian objects, or a combination thereof;*
+(ii) the anticipated military advantage;
+(iii) and whether (i) was "clearly excessive" in relation to (ii); the attack should not be launched if it is.
+
+Furthermore, in the court, there may be many ways to prove that an attack violated this principle by being excessive. Specifically, by proving that the same military objective could have been achieved while causing much less severe damage to civilians. For instance, one could prove that more precise or lower-intensity weapons could have been used but were neglected by the military, or that civilians could have been warned in advance to minimize casualties, the assessment done by the military to judge proportionality may be obviously flawed or the military did not do any proportionality assessment to begin with.
+
+You may be here seeking a real example answer for Piers Morgan’s question on what constitutes a proportionate response to the 7th of Oct. attack. One plausible answer was by [Cenk Ugyr](https://en.wikipedia.org/wiki/Cenk_Uygur) where he mentions:
+
+“So, let me give you a short-term answer, a long-term answer, and a lot of people are not going to like these, but these are realistic ways to minimize civilian casualties.
+
+You do what America did with the Osama Bin Laden raid.
+
+We didn't go drop a nuke on Pakistan. We didn't go destroy 6,000 residential buildings in the middle of Pakistan. We sent in Special Forces.
+
+Is it more dangerous for the Special Forces? Of course, that's the point of Special Forces, to try to find the hostages.”
+
+![image90](../../BlogsPage/What%20is%20a%20Proportional%20Response/Untitled%201.png)
+
+### The Ongoing Conflict
+
+The issue with conflicts such as the ongoing one between Israel and Palestine, is that Israel seems to have issues with distinction in the first place, and even in rare cases where there is distinction, there are likely issues with proportionality (i.e., civilian casualties are not minimized). As of November 2023, [over fifty percent](https://www.aljazeera.com/news/2023/11/10/israeli-bombardments-damage-more-than-half-of-gazas-housing-units) of housing units in Gaza have been destroyed or damaged. It is [cited that](https://www.dni.gov/nctc/ftos/hamas_fto.html) 20,000 to 25,000 Hamas members which is about one percent of the population in Gaza. There is a catastrophic distinction problem because even under the false and crude assumption that Israel is targeting all of them and that they are not in tunnels, it is impossible that one percent of the population occupies fifty percent of Gaza. This is further evidenced by the fact that the [IDF uses a software](https://www.livemint.com/ai/israelhamas-war-how-ai-helps-israel-army-select-bombing-targets-in-gaza-11701528705126.html) that they call “Hasbora” to choose targets for them. Indiscriminate attacks on the civilian population make Israel's operations tantamount to genocide on GAZA.

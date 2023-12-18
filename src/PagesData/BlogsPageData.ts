@@ -40,6 +40,16 @@ export const blogs: Blog[] = [
             "Yuval Harari, an Israeli professor and author, discusses the ongoing conflict with Piers Morgan.",
     },
     {
+        showBlog: true,
+        type: "article",
+        name: "What is a Proportionate Response?",
+        subTitle: "Important Concepts of the IHL",
+        imagePath: "/BlogsPage/sat.png",
+        blogPath: "/BlogsPage/what-is-a-proportional-response.md",
+        summary:
+            "What does proportionality mean? And how does it relate to the principle of distinction?.",
+    },
+    {
         showBlog: false,
         type: "article",
         subTitle: "Israeli War Crimes",

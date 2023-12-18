@@ -1,11 +1,10 @@
-<div align="center">
-<iframe src="https://www.youtube.com/embed/SpIIjzS2BIo" frameborder="0" allowfullscreen></iframe>
+<div align='center'>
+<iframe src='https://www.youtube.com/embed/SpIIjzS2BIo' frameborder='0' allowfullscreen></iframe>
 </div>
 
-## I. Impact of Oct. 7 Attack
+## (1) Impact of Oct. 7 Attack
 
 > Yuval describes the impact of the attack on his family and Israelis in general.
-> 
 
 **Piers:** 
 
@@ -25,10 +24,9 @@ My aunt and uncle, who are 100 years old and 90 years old, hid in their house as
 
 They somehow survived, and they, along with tens of thousands of other Israelis from the border region, are now refugees inside Israel. 
 
-## II. Disarming Hamas is a Proportionate Response
+## (2) Disarming Hamas is a Proportionate Response
 
 > Yuval claims that a proportionate response must aim to disarm Hamas as they have been a significant impediment to the peace process.
-> 
 
 **Piers:** 
 
@@ -64,10 +62,9 @@ At the same time, Israel should remain committed to international law and to the
 
 There will not be a peace just by disarming Hamas; we also need to give a future to the Palestinians in the Gaza Strip and in the West Bank so that they can live dignified lives in their homeland.
 
-## III. A Proportionate Response Protects Civilians
+## (3) A Proportionate Response Protects Civilians
 
 > Yuval establishes that for a response to be proportionate it should exert a lot of effort in protecting civilians and avoiding what can make future peace impossible.
-> 
 
 **Piers:** 
 
@@ -97,10 +94,9 @@ Again, I don't know if this is feasible. I don't know exactly.
 
 This is not my expertise, but certainly, if Israel wins the war against Hamas without providing for an alternative future for the Palestinian civilian population, we will only get something even worse than Hamas a few years down the line.
 
-## IV. Does Going Back to the Past Help?
+## (4) Does Going Back to the Past Help?
 
 > Yuval presents the idea that it’s complex to study what happened in the past and doing so does not help so much solve persistent issues.
-> 
 
 **Piers:** 
 
@@ -150,10 +146,9 @@ No, we need some level of justice, of course, but there is never a possibility o
 
 If you pursue absolute justice, you will only perpetuate war indefinitely. 
 
-## V. Israelian Governance is a Root Problem
+## (5) Israelian Governance is a Root Problem
 
 > Both Piers and Yuval agree that a root problem in making this operation fail in terms of proportionality and allowing peace, is the Israeli governance.
-> 
 
 **Piers:** 
 
@@ -179,7 +174,7 @@ The very word elite became a kind of curse word as if there is something wrong i
 
 Ideally, if Netanyahu really cared about the state of Israel, he should have just taken responsibility for the disaster and resigned and allowed the Israeli people to come together at this very difficult time. 
 
-Alternatively, if he thinks he's the only one that can manage this crisis, he should have said, "Okay, I'm calling an election in six months. I'm not running myself in the elections so nobody can suspect that I'm managing this war in a particular way for my personal interest. I'm stepping down; I'm just staying until the election, and then I will resign and take responsibility for what has happened." 
+Alternatively, if he thinks he's the only one that can manage this crisis, he should have said, 'Okay, I'm calling an election in six months. I'm not running myself in the elections so nobody can suspect that I'm managing this war in a particular way for my personal interest. I'm stepping down; I'm just staying until the election, and then I will resign and take responsibility for what has happened.' 
 
 He's not doing that. 
 
@@ -195,10 +190,9 @@ He was perfectly okay for all these years.
 
 I, at the present moment, Israel has so many problems ahead of us, but it would have made Israel's position much stronger if at the present moment, we had a different, more trustworthy, more responsible leadership.
 
-## VI. A “Best-Case” Scenario That May Not Possible
+## (6) A “Best-Case” Scenario That May Not Possible
 
 > Piers asks Yuval to present a best-case scenario for how this could end, the issue is that it may not be at all possible in the first place.
-> 
 
 **Piers:** 
 

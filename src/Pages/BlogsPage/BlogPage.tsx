@@ -1,14 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { blogs } from "../../PagesData/BlogsPageData";
 import Markdown from "../../components/Simple/Markdown";
 import GradientHero from "../../components/Simple/GradientHero";
-import { useNavigate } from "react-router-dom";
-
-function getBlogByPath(blogPath: string) {
-    const foundBlog = blogs.find((blog) => blog.blogPath === blogPath);
-    return foundBlog;
-}
 
 const BlogPage: React.FC = () => {
     const [blog, setBlog] = useState("");
@@ -21,9 +15,11 @@ const BlogPage: React.FC = () => {
     useEffect(() => {
         if (!id) return;
 
-        const selectedBlog = getBlogByPath(`/BlogsPage/${id}.md`);
+        const selectedBlog = blogs.find(
+            (blog) => blog.blogPath === `/BlogsPage/${id}.md`
+        );
 
-        if (selectedBlog != undefined) {
+        if (selectedBlog !== undefined) {
             setTitle(selectedBlog.name);
             setSubTitle(selectedBlog.subTitle);
             fetch(selectedBlog.blogPath)
@@ -32,7 +28,7 @@ const BlogPage: React.FC = () => {
         } else {
             navigate("/404");
         }
-    }, []);
+    }, [id, navigate]);
 
     return (
         <div
@@ -54,7 +50,7 @@ const BlogPage: React.FC = () => {
                 circular={true}
                 fontSize={"2.7rem"}
             />
-            <Markdown markdownText={blog} />
+            <Markdown className="markdown-container" markdownText={blog} />
         </div>
     );
 };

@@ -2,15 +2,16 @@ import React, { FC } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
-import "./Markdown.scss";
 
 interface MarkdownProps {
+    className?: string;
+    style?: React.CSSProperties;
     markdownText: string;
 }
 
-const Markdown: FC<MarkdownProps> = ({ markdownText }) => {
+const Markdown: FC<MarkdownProps> = ({ className, style, markdownText }) => {
     return (
-        <div className="markdown-container">
+        <div className={className} style={style}>
             <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeRaw]}

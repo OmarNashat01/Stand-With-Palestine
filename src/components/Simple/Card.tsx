@@ -6,10 +6,11 @@ interface CardProps {
     imagePath: string;
     title: string;
     summary: string;
+    type: string;
     link: string;
 }
 
-const Card: FC<CardProps> = ({ imagePath, title, summary, link }) => {
+const Card: FC<CardProps> = ({ imagePath, title, summary, type, link }) => {
     return (
         <div className="card-og">
             <Link to={link}>
@@ -25,7 +26,10 @@ const Card: FC<CardProps> = ({ imagePath, title, summary, link }) => {
                     </div>
                 </Link>
                 <div className="card-footer">
-                    <Link to={link}>Learn more &gt;</Link>
+                    <Link to={link}>
+                        Learn more &gt;
+                        <p className="type">{type}</p>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -8,7 +8,6 @@ import GradientHero from "../../components/Simple/GradientHero";
 import SearchInput from "../../components/Simple/SearchInput";
 import Banner from "../../components/Simple/Banner";
 
-import "react-multi-carousel/lib/styles.css";
 import './SupportPage.scss'
 
 const SupportPage: React.FC = () => {

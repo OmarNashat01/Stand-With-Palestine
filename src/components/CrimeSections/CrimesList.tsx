@@ -1,7 +1,6 @@
 import React from "react";
 import HeroButton from "../../components/Simple/HeroButton";
 import { Fade } from "react-swift-reveal";
-import { useNavigate } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import MediaInput from "../Simple/MediaInput";
 import "./CrimesList.scss";

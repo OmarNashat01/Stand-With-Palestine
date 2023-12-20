@@ -9,7 +9,7 @@
 
   .btn {
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px 30px;
     text-align: center;
     text-decoration: none;
@@ -45,12 +45,21 @@
 
 
 
+.card-crime {
+  min-height: 300px !important;
+  @media (max-width: 800px) {
+    min-height: 350px !important;
+
+  }
+}
+
 .card {
   color: #fff;
   padding: 4rem 2rem;
   position: relative;
   border-radius: 10px;
   min-height: 250px;
+  
 
   overflow: hidden;
   background: linear-gradient(45deg, #1f1f1f, #141414);
@@ -89,8 +98,20 @@
     left: 10px;
     margin-top: 2rem;
   }
+  &__footer_right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 2rem;
+  }
 }
 
+.card--overlay--wide-crime {
+  min-height: 250px !important;
+  @media (max-width: 800px) {
+    min-height: 300px !important;
+   }
+}
 .card--overlay--wide {
   min-height: 200px;
   @media (max-width: 800px) {
@@ -149,7 +170,7 @@
 
     &__title {
       padding-top: 0.75rem;
-      max-width: 60%;
+      max-width: 65%;
     }
   }
 

@@ -73,17 +73,8 @@ export const blogs: Blog[] = [
         subTitle: "Israeli War Crimes",
         summary: "",
         imagePath: "",
-        name: "Forcible Transfer of Civilians in North Gaza",
+        name: "Forcible Transfer of Civilians in Gaza",
         blogPath: "/BlogsPage/crime-force-transfer-north.md",
-    },
-    {
-        showBlog: false,
-        type: "article",
-        subTitle: "Israeli War Crimes",
-        summary: "",
-        imagePath: "",
-        name: "Forcible Transfer of Civilians in South Gaza",
-        blogPath: "/BlogsPage/crime-force-transfer-south.md",
     },
     {
         showBlog: false,

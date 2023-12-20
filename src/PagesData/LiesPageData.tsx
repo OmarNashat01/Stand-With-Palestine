@@ -76,6 +76,30 @@ export const liesData = [
   {
     "special": false,
     "source": "Israeli Foreign Ministry, IDF.",
+    "title": "Allegations of Hamas Rape on 7th Oct.",
+    "modalContent": "",
+    "modalTextItems": [
+      " The allegations that Hamas engaged in mass rape were fabricated from the very beginning:",
+      "   The Los Angeles Times initially claimed that Hamas raped women in an article published on October 7th, but later <a href='https://www.anews.com.tr/world/2023/10/12/the-los-angeles-times-retracts-rape-allegations-against-palestinian-group-hamas'>retracted these claims</a> due to a complete lack of substantiation.",
+      "   On October 10th, <a href='https://forward.com/news/564318/sexual-assault-rape-proof-hamas-idf-israel-gaza/'>an Israeli journalist</a> was told by the IOF that they have no evidence of this, and the journalist then traced the allegations back to people who didn't even allegedly witness it.",
+      " Regarding the recent allegations, it has been shown that Israel <a href='https://www.timesofisrael.com/amid-war-and-urgent-need-to-id-bodies-evidence-of-hamass-october-7-rapes-slips-away/'>collected zero forensic evidence</a> of rape.",
+      " CNN published a propaganda piece on November 18th that supposedly proved that mass rape occurred using witness testimonies.",
+      "   However, <a href='https://mondoweiss.net/2023/12/cnn-report-claiming-sexual-violence-on-october-7-relied-on-non-credible-witnesses-some-with-undisclosed-ties-to-israeli-govt/'>an investigation by Mondoweiss</a> found that every single one of these witnesses severely lacks credibility, many with strong ties to the Israeli government.",
+      " The BBC also made the accusations of rape. Their key source was May Golan, who is a <a href='https://twitter.com/MintPressNews/status/1732145128868065765'>\"proud racist\"</a> and is a far-right Israeli politician. She is not credible under any circumstances.",
+      " The Israeli government pushed <a href='https://twitter.com/MaxBlumenthal/status/1724688009293873502'>a fake photo</a> which they claimed was a rape victim from the music festival, but was actually the body of a defiled female Kurdish fighter and was taken long before October 7th.",
+      " <a href='https://misbar.com/en/factcheck/2023/11/30/no-medical-reports-confirm-rape-of-captive-maya-regev-by-hamas'>An Israeli journalist</a> claimed that medical reports showed that a released hostage was raped, but they don't show this, it is complete disinformation.",
+      " Confessions from captured Hamas fighters have supposedly proven that they raped women.",
+      "   Israel's interrogation tactics are widely <a href='https://www.hrw.org/reports/pdfs/i/israel/israel923.pdf'>considered inhumane</a>, so brutal that even Israeli journalists consider them <a href='https://www.timesofisrael.com/high-profile-cases-shine-harsh-light-on-israels-draconian-interrogation-tactics/'>\"draconian.\"</a>",
+      "   There have been <a href='https://www.un.org/unispal/document/auto-insert-200003/'>many detainees</a> who said that their confessions were coerced, and most convictions were based on confessions made before legal representation was available.",
+      " There are testimonies from Israeli women who survived October 7th that said that Hamas treated them well, and made zero allegations of rape.",
+      "   <a href='https://twitter.com/RamAbdu/status/1711649368758005782'>One Israeli woman</a> who survived a kibbutz attack stated that she and her children were completely unharmed by Hamas.",
+      "   <a href='https://electronicintifada.net/content/israeli-forces-shot-their-own-civilians-kibbutz-survivor-says/38861'>Another Israeli woman</a> affirmed this by saying that they were treated humanely by Hamas.",
+      "   <a href='https://www.trtworld.com/middle-east/israeli-mothers-letter-to-hamas-thank-you-for-extraordinary-humanity-16005866'>An Israeli mother</a>, who is a released hostage, wrote a letter thanking Hamas for their \"extraordinary humanity.\" None of these testimonies suggest rape occurred.",
+    ]
+  },  
+  {
+    "special": false,
+    "source": "Israeli Foreign Ministry, IDF.",
     "title": "Sniped Medic Was Human Shield",
     "modalContent": "",
     "modalTextItems": [
@@ -90,7 +114,7 @@ export const liesData = [
     "special": false,
     "source": "IDF",
     "title": "Safe Route to South Gaza",
-    "modalContent": "",
+    "modalContent": "By Hantalyte",
     "modalTextItems": [
       "During the 2023 Israel-Hamas war, the Israel Defense Forces ordered all communities north of the Wadi Gaza, including Gaza City, to evacuate southward. The initial announcement gave people 24 hours to leave northern Gaza 'for their safety and protection' — an impossible demand that even the <a href='https://www.jpost.com/breaking-news/article-768075'>Israeli army spokesperson</a> has admitted cannot be implemented in one day.",
       "The order resulted in hundreds of thousands of residents of northern Gaza evacuating south. (<a href='https://www.npr.org/2023/11/16/1213400196/israeli-military-gaza-updates-evacuations'>NPR</a>, <a href='https://amnesty.ca/human-rights-news/appalling-gaza-evacuation-order-must-be-rescinded-by-israel-immediately/'>Amnesty International</a>)",
@@ -110,10 +134,46 @@ export const liesData = [
       ,
       "The IDF denied being the source of the blast and claimed that it was a rocket misfired by militant groups in Gaza."
       ,
-      "It it is not known for absolute certainty that Israel is the source of the blast; however, multiple investigations show that the evidence IDF used to prove otherwise <a href='https://www.dw.com/en/gaza-hospital-blast-what-investigations-have-revealed-so-far/a-67237447'>are most likely false.</a>",
+      "It it is not known for absolute certainty that Israel is the source of the blast; however, multiple investigations show that the evidence IDF used to prove otherwise <a href='https://www.dw.com/en/gaza-hospital-blast-what-investigations-have-revealed-so-far/a-67237447'> is most likely false.</a>",
+    ]
+  },  
+  {
+    "special": false,
+    "source": "Thought",
+    "title": "All Civilians Killed on the 7th of October Were Killed by Hamas",
+    "modalContent": "",
+    "modalTextItems": [
+      "Israeli civilian witnesses, Israeli military participants and Israeli military analysts have testified that Israel took part in killing Israeli civilians on the 7th of October",
+      "For instance, Kibbutz Be’eir is the largest kibbutz in the area. 100 people were killed on Oct.7.",
+      "Yasmin Porat, a Kibbutz Be’eri survivor, <a href='https://www.youtube.com/watch?v=rTQcjyhPOIk'>said that</a> during gun battles with Palestinians, Israeli special forces “undoubtedly” killed numerous Israelis. “They eliminated everyone, including the hostages,” she said.",
+      "It it is not known for absolute certainty that Israel is the source of the blast; however, multiple investigations show that the evidence IDF used to prove otherwise <a href='https://www.dw.com/en/gaza-hospital-blast-what-investigations-have-revealed-so-far/a-67237447'> is most likely false.</a>",
+      "Porat recalled, “They did not abuse us. We were treated very humanely… No one treated us violently. … The objective was to kidnap us to Gaza, not to murder us.”",
+      "Haaretz  writes on Oct. 10 that  the <a href='https://www.haaretz.co.il/news/politics/2023-10-20/ty-article-magazine/.premium/0000018b-499a-dc3c-a5df-ddbaab290000'>army admitted “shelling”</a> the homes of Israelis who had been taken captive. ",
+      "In an Nov. 15 <a href='https://www.haaretz.co.il/digital/podcast/weekly/2023-11-09/ty-article-podcast/0000018b-b3a5-d3c1-a39b-bfe55acb0000?utm_source=App_Share&utm_medium=iOS_Native'>Haaratz interview</a>, Israeli Air Force (reserve) Col. Nof Erez, spoke about Israel’s fleet of Apache attack helicopters opening fire on multiple places along the border fence with Gaza to prevent Hamas from taking the captives back, killing both Hamas fighters and Israelis.",
+      "This could be explained by a controversial protocol that Israel was possibly implementing which favor's the death over the kidnapping of civilians. It's called the Hannibal Directive."
+    ]
+  },  
+  {
+    "special": false,
+    "source": "IDF",
+    "title": "Murder of Shireen Abu Akleh",
+    "modalContent": "",
+    "modalTextItems": [
+      "On May 11, 2022, at 7:04 AM, Al-Jazeera reported that Israeli forces had shot their correspondent, Shireen Abu Akleh, during her coverage of a military raid on the West Bank city of Jenin. (<a href='https://en.wikipedia.org/wiki/Killing_of_Shireen_Abu_Akleh#cite_note-%D9%85%D9%88%D9%82%D8%B9_%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B1_%D8%B9%D9%86_%D8%B4%D9%8A%D8%B1%D9%8A%D9%86_2022-121:~:text=At%20precisely%207%3A04%C2%A0am%20on%20Wednesday%2C%2011%20May%202022%2C%20Al%20Jazeera%2C%20the%20organization%20in%20which%20she%20was%20employed%2C%20announced%20the%20injury%20of%20their%20correspondent%20Shireen%20Abu%20Akleh.%20She%20was%20shot%20by%20Israeli%20defence%20forces%20while%20covering%20their%20incursion%20and%20raid%20on%20Jenin%20camp.'>Wikipedia</a>, <a href='https://www.theguardian.com/world/ng-interactive/2023/mar/21/the-killing-of-shireen-abu-akleh-what-one-morning-in-the-west-bank-reveals-about-the-occupation#:~:text=Jenin%20is%20a,also%20been%20shot.'>TheGuardian</a>)",
+      "Subsequent video footage following the incident unequivocally depicted Shireen wearing a blue press vest prominently labeled with the word 'Press.' (<a href='https://www.theguardian.com/world/ng-interactive/2023/mar/21/the-killing-of-shireen-abu-akleh-what-one-morning-in-the-west-bank-reveals-about-the-occupation#:~:text=Hanaysha%20and%20Abu%20Akleh%20are%20both%20wearing%20helmets%20and%20bulletproof%20vests%20clearly%20marked%20%E2%80%98Press%E2%80%99.'>TheGuardian</a>, <a href='https://www.haaretz.com/israel-news/2022-05-11/ty-article/one-journalist-dead-another-wounded-during-idf-raid-in-jenin/00000180-d632-d452-a1fa-d7ff854c0000#:~:text=Samodi%2C%20working%20for,the%20word%20%E2%80%9CPRESS.%E2%80%9D'>Haaretz</a>)",
+      "At 8:43 AM, the Israeli foreign ministry responded via Twitter, asserting that Palestinian terrorists, in the act of indiscriminate firing, were likely responsible for hitting Shireen Abu Aqla. The ministry provided a video featuring a Palestinian fighter claiming an injury to a soldier and the ministry then asserted that no IDF soldier was harmed in Jenin. This claim raises skepticism due to Shireen's clearly identifiable press vest—which will be noticeable to the Palestinian fighters—and the absence of evidence supporting the assertion that no IDF soldier was injured. (<a href='https://twitter.com/IsraelMFA/status/1524279111547596805'>Twitter</a>)",
+      "Prime Minister Naftali Bennett, at 10:10 AM, expressed a significant likelihood that armed Palestinians, firing recklessly, caused Shireen's unfortunate death. He presented a video with arguments similar to those of the Israeli foreign ministry, without introducing any new evidence or data, demonstrating a lack of professionalism and a failure to reference any ongoing investigation appropriate to the situation. (<a href='https://twitter.com/naftalibennett/status/1524300920959508484'>Twitter</a>)",
+      "Despite an additional statement from IDF spokesman Ran Kochav denying the involvement of Israeli forces, no compelling evidence has been presented to support this claim. (<a href='https://www.haaretz.com/israel-news/2022-05-11/ty-article/one-journalist-dead-another-wounded-during-idf-raid-in-jenin/00000180-d632-d452-a1fa-d7ff854c0000#:~:text=%22I%20don%27t%20think%20we%20killed%20her%2C%22%20Ran%20Kochav%2C%20a%20spokesman%20for%20the%20Israel%20Defense%20Forces%2C%20told%20Kan%20public%20broadcaster.'>Haaretz</a>)",
+      "Defense Minister Benny Gantz also stated that an initial military investigation found no indication of Israeli forces firing at journalists.  (<a href='https://www.haaretz.com/israel-news/2022-05-11/ty-article/one-journalist-dead-another-wounded-during-idf-raid-in-jenin/00000180-d632-d452-a1fa-d7ff854c0000#:~:text=Defense%20Minister%20Benny%20Gantz%20said%20an%20initial%20investigation%20by%20the%20military%20found%20no%20indication%20that%20the%20Israeli%20forces%20fired%20at%20the%20journalists.'>Haaretz</a>)",
+      "Subsequent investigations by reputable media outlets (such as the Wall Street Journal and CNN) and human rights organizations concluded that Shireen Abu Akleh was not in the line of fire from Palestinian gunmen and was likely shot by an Israeli soldier intentionally. (<a href='https://en.wikipedia.org/wiki/Killing_of_Shireen_Abu_Akleh#cite_note-%D9%85%D9%88%D9%82%D8%B9_%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B1_%D8%B9%D9%86_%D8%B4%D9%8A%D8%B1%D9%8A%D9%86_2022-121:~:text=parents..%5B38%5D-,Investigation,-Journalistic%20investigations</a>)",
+      "CNN presented a separate investigation suggesting that Shireen Abu Akleh was deliberately targeted by Israeli forces rather than being a victim of an accidental shooting. (<a href='https://edition.cnn.com/2022/05/24/middleeast/shireen-abu-akleh-jenin-killing-investigation-cmd-intl/index.html'>CNN</a>)",
+      "The Office of the United Nations High Commissioner for Human Rights released its findings, indicating that Shireen Abu Akleh was killed by a bullet fired from the direction of Israeli forces, asserting a violation of international human rights law and an intentional or reckless violation of Shireen's right to life. (<a href='https://www.un.org/unispal/wp-content/uploads/2023/10/N2326071.pdf'>UN</a>, <a href='https://en.wikipedia.org/wiki/Killing_of_Shireen_Abu_Akleh#cite_note-%D9%85%D9%88%D9%82%D8%B9_%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B1_%D8%B9%D9%86_%D8%B4%D9%8A%D8%B1%D9%8A%D9%86_2022-121:~:text=The%20international%20organizations%20investigation</a>)",
+      "In September 2022, the Israeli military acknowledged that Shireen Abu Akleh was likely killed by Israeli fire, but no charges were filed against the soldiers involved. (<a href='https://edition.cnn.com/2022/09/05/middleeast/idf-shireen-abu-akleh-investigation-intl/index.html'>CNN</a>)",
+      "Additional resource (Investigation documentary by Al-Jazeera, link: <a href='https://www.youtube.com/watch?v=SXy9SUDqUHk'>YouTube</a>)"
     ]
   },  
 ];
+
 
 
 export const faqData = {
@@ -129,3 +189,5 @@ export const faqData = {
     },
   ]
 }
+
+

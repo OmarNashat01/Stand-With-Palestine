@@ -9,7 +9,6 @@ import { GiWhiteBook } from 'react-icons/gi';
 import { AiFillHeart } from 'react-icons/ai';
 import { PiTelevisionSimpleFill } from 'react-icons/pi';
 import { GiTargetShot } from 'react-icons/gi';
-import { Zoom } from "react-swift-reveal";
 
 // scss
 import './NavigationBar.scss';

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 // @ts-ignore
 import GradientHero from "../../components/Simple/GradientHero";
 import SearchInput from "../../components/Simple/SearchInput";
-import LiesList from "../../components/LieSections/LiesList";
+import LiesList from "../../components/Simple/ItemGrid";
 import { liesData, faqData } from "../../PagesData/LiesPageData";
 // @ts-ignore
 import Faq from 'react-faq-component';
@@ -37,7 +37,7 @@ const LiesPage: React.FC = () => {
         onSearch={handleSearch}
         placeHolder="Search by lie or related information..."
       />
-    <LiesList liesData={filteredLies}/>
+    <LiesList dictData={filteredLies}/>
     <Banner title="Frequently Asked Questions" styleObj={{ color: 'white' }} />
     <Faq data={faqData} />
     </div>

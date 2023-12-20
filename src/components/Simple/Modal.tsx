@@ -3,6 +3,7 @@ import "rc-slider/assets/index.css";
 import HeroButton from "./HeroButton";
 import "./Modal.scss";
 import "rc-slider/assets/index.css";
+import Markdown from "../Simple/Markdown";
 
 interface ModalProps {
   showModal: boolean;
@@ -50,7 +51,7 @@ const Modal: FC<ModalProps> = ({
         <div className="modal">
           <div className="modal_content" ref={modalRef}>
             <h1>{title}</h1>
-            {textContent!="" && <p>{textContent}</p>}
+            {textContent !== "" && <Markdown className="markdown-crime" style={{fontSize: '0.9rem'}} markdownText={textContent} />}
             <ul>
               {listTextItems.map((item, index) => (
                 <li key={index} dangerouslySetInnerHTML={{ __html: item }}  />

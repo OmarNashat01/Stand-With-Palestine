@@ -106,6 +106,19 @@ a {
   animation: bounce 1s infinite;
 }
 
+.markdown-crime {
+  p {
+    font-size: 0.94rem !important;
+    line-height: 160%;
+    @media only screen and (max-width: 760px) {
+      font-size: 0.85rem !important;
+    }
+  }
+  a {
+    text-decoration: underline;
+  }
+}
+
 .markdown-container {
   padding: 2rem 8rem;
   @media only screen and (max-width: 760px) {

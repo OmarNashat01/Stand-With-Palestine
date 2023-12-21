@@ -3,7 +3,7 @@ const homeData = {
       circular: true,
       imagePath: "./HomePage/gaza-ouch.webp",
       overlayColor: "rgba(0, 0, 0, 0.35)",
-      title: "9/11 is a Daily Reality in Palestine",
+      title: "Genocide is a Daily Reality in Palestine",
       subTitle: "Tens of Thousands of Innocents are being Brutally Murdered or Severely Injured",
       subTitle2: 
       `They painfully die incinerated by bombs, possibly mutilated, entire buildings fall on them or 

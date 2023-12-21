@@ -25,7 +25,7 @@ const homeData = {
   
     statusSection: {
       imagePath: './HomePage/gaza-child-sad.webp',
-      numbers: [6000, 4000, 38000, "~1.65M"],
+      numbers: [8000, 6000, 50000, "~1.65M"],
       texts: ["Children Killed", "Woman Killed", "People in Pain", "People Displaced"],
       onClick: "./status",
       violent: true
@@ -47,15 +47,18 @@ const homeData = {
       text: 
       `Gaza has been under an illegal and violent blockade for 16 years.| 
        Israel occupies and continues to construct illegal settlements in the West Bank.| 
-       Over 9000 Palestinians have been killed prior to this conflict since 2000, and over 4000 were imprisoned.`,
+       Over 9000 Palestinians have been killed prior to this conflict since 2000, and over 4000 were imprisoned.|
+       70% of Gaza residents are refugees that were expelled from their homes in Palestine by Israel in 1948.
+       `,
       bulleted: "ordered",
-      buttonText1: "Check Historic Timeline ▶",
+      buttonText1: "Check Prior Crimes ▶",
       buttonText2: "",
       reverse: true,
       isYouTube: false,
       isLocalVideo: false,
-      onClick1: './timeline/historic'
+      onClick1: './crimes'
     },
+
 
     recentTimelineEndSection: {
       imagePath: "https://www.aljazeera.com/wp-content/uploads/2023/12/346P4H2-highres-1701417296.jpg?resize=1170%2C780&quality=80",
@@ -74,6 +77,26 @@ const homeData = {
       reverse: true,
       onClick1: './timeline/recent',
       onClick2: 'https://apnews.com/article/israel-hamas-war-news-12-1-2023-c944c736efdf8993c7a17cf683d6e364',
+      violent: true
+    },
+
+    recentTimelineVetoSection: {
+      imagePath: "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/08-12-2023-UN-Photo-SC-meeting-Gaza.jpg/image1170x530cropped.jpg",
+      extraImagePath: "https://static.timesofisrael.com/www/uploads/2023/12/347B2Q3-Preview.jpg",
+      isLocalVideo: false,
+      isYouTube: false,
+      overlayColor: "rgba(0, 0, 0, 0.6)",
+      blur: "blur(3px)",
+      bulleted: '',
+      title: "The US Vetoes Resolution That Called For Cease Fire in Gaza",
+      subTitle: "8th Dec. 2023",
+      text: 
+      `The US vetoed a resolution put forward by the United Arab Emirates and backed by over 90 Member States. There were 13 votes in favour and the United Kingdom abstained.`,
+      buttonText1: "Check Conflict Timeline ▶",
+      buttonText2: "Read More",
+      reverse: true,
+      onClick1: './timeline/recent',
+      onClick2: 'https://news.un.org/en/story/2023/12/1144562',
       violent: true
     },
   

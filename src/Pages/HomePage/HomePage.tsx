@@ -5,10 +5,12 @@ import HeroDigitsSection from '../../components/HeroSections/HeroDigitsSection';
 import HeroWideSection from '../../components/HeroSections/HeroWideSection';
 import HeroSliderImage from '../../components/HeroSections/HeroSliderImage';
 import HeroGridVideo from '../../components/HeroSections/HeroGridVideo';
+import HeroButton from '../../components/Simple/HeroButton';
 // Homepage Secondary Subcomponents
 import Banner from '../../components/Simple/Banner';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 
 // Homepage Data
 import homeData from '../../PagesData/HomePageData'
@@ -28,6 +30,7 @@ const HomePage = () => {
       <Banner {...homeData.timelineBanner} />
       <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true}>
         <HeroWideSectionExtra {...homeData.historicTimelineSection}/>
+        <HeroWideSectionExtra {...homeData.recentTimelineVetoSection}/>
         <HeroWideSectionExtra {...homeData.recentTimelineEndSection}/>
         <HeroWideSectionExtra {...homeData.recentTimelineCrimeSection}/>
         <HeroWideSectionExtra {...homeData.recentTimelineDiplomaticSection}/>
@@ -48,7 +51,9 @@ const HomePage = () => {
         <HeroGridVideo {...homeData.intenseGridSection1} />
         {/* <HeroGridVideo {...homeData.intenseGridSection2} /> */}
       </Carousel >
-
+      <div style={{display:'flex', justifyContent:'center'}}>
+      <HeroButton content="I Can See More  ▶" type="red" styleObj={{minWidth:'250px'}} onClickFunc={()=>window.open("https://gaza23.com",  '_blank')}/>
+      </div>
       {/* Blogs Section*/}
       <Banner {...homeData.blogBanner} />
       <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false}>

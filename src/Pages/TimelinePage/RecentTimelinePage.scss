@@ -16,9 +16,9 @@
     --pointer-width: 1rem;
     --pointer-min-offset: 5rem;
     --card-background: #4d4d4d;
-    --card-radius: 0.1rem;
+    --card-radius: 0.3rem;
     --card-shadow: unset;
-    --card-padding: 1rem;
+    --card-padding: 1.5rem;
     --card-offset: 1rem;
     @media only screen and (max-width: 800px) {
       --card-padding: 0.25rem;
@@ -34,6 +34,7 @@
         background: -webkit-linear-gradient(#d60a0a, red);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        padding: 0.4rem;
       }
       li {
         text-align: start;
@@ -95,11 +96,16 @@
 
 .timeline-card {
   background: radial-gradient(#1f1f1f, #141414) !important;
-  border-top-right-radius: 2rem;
-  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
   margin-right: 3rem;
+  padding: 0.5rem;
   @media only screen and (max-width: 800px) {
     margin-right: 0.5rem;
+  }
+
+  p {
+    padding: 0.3rem;
   }
 }
 

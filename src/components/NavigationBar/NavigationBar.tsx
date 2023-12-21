@@ -76,6 +76,7 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
           <li className={`nav-item ${location.pathname.includes('/blogs') ? 'selected' : ''}`}>
             <Link to="/blogs"><GiWhiteBook style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Blogs</Link>
           </li>
+          
           <li className={`nav-item ${location.pathname === '/support' ? 'selected-support' : ''}`}>
             <Link to="/support"><AiFillHeart style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Support</Link>
           </li>

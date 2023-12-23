@@ -60,7 +60,7 @@ interface WestBankStatusSectionProps {
         </div>
         <div className="killed-adults killed-group grid-item">
         <img src="./StatusPage/Mat_elder.svg" className="icon" style={{ maxWidth: "110px" }}/>
-          <h1 className="mini-h1">Elderly</h1>
+          <h1 className="mini-h1">Adults</h1>
           <AnimatedNumber
             value={westBankDict["killedAdults"]}
             className="number-h1-mini"

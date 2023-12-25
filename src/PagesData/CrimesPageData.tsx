@@ -377,7 +377,7 @@ export const crimesDict = [
       onClickFunc: "crime-torture",
     },
     {
-      title: "Illegal Settlements in the west bank",
+      title: "Illegal Settlements in the West Bank",
       quotes: [
         {
           quote: `

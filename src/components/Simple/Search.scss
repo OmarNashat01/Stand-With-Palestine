@@ -32,7 +32,7 @@
     color: white;
     background: none;
     font-family: Poppins;
-    background-color: rgba(29, 29, 29, 0.5);
+    background-color: rgba(49, 49, 49, 0.5);
     height: 50px;
     padding: 0.8rem;
     @media (max-width: 800px) {
@@ -49,6 +49,15 @@
     position: relative;
     right: 30px;
     cursor: pointer;
+  }
+
+}
+
+
+.search-item {
+
+  &:hover {
+    background-color: #5d5d5d;
   }
 
 }

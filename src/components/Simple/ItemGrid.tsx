@@ -48,6 +48,7 @@ const ItemGrid: React.FC<ItemGridProps> = ({dictData, crime=false, massacre=fals
           <div key={batchIndex} className="batch cards">
             {itemData.slice(batchIndex * chunkSize, (batchIndex + 1) * chunkSize).map((item:any, index:number) => (
               <article
+              id={`${item.title.replace(/\s+/g, "-")}`}
                 key={batchIndex * chunkSize + index}
                 className={` ${(item.special)? "special" : ""} card ${crime&&!massacre ? "card-crime" :""} card--overlay ${longDivs.includes(batchIndex * chunkSize + index) ? 'card--overlay--wide' : ''} ${longDivs.includes(batchIndex * chunkSize + index)&&crime&&!massacre ? 'card--overlay--wide-crime' :''} post-${index + 1}`}
                 >

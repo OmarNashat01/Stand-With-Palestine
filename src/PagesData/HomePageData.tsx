@@ -246,7 +246,27 @@ const homeData = {
       bgColor:"",
       color:""
     },
-  
+
+    interviewSection0: {
+      imagePath: "https://i.cbc.ca/1.7068752.1703804797!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/israel-palestinians.jpg",
+      extraImagePath: "./BlogsPage/sat.png",
+      isYouTube: false,
+      overlayColor: "rgba(0, 0, 0, 0.4)",
+      blur: "blur(3px)",
+      title: "What is a Proportionate Response?",
+      subTitle: '',
+      text: 
+      `In this article you will understand what proportionality means as defined in the international humanitarian law and how it relates to the principle of distinction. 
+      You will also be able to derive why Israel's response to the 7th of Oct. attack is not proportionate.`,
+      buttonText1: "Read Blog ▶",
+      buttonText2: "More Blogs ▶",
+      reverse: true,
+      bulleted: '',
+      isLocalVideo: false,
+      onClick1: './blogs/articles/what-is-a-proportional-response',
+      onClick2: './blogs'
+    },
+    
     interviewSection1: {
       imagePath: "./HomePage/piers.webp",
       extraImagePath: "https://www.youtube.com/embed/4idQbwsvtUo?si=buoWlnAi7KOMcyyB\"",

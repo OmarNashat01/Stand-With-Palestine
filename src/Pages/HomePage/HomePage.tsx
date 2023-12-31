@@ -57,6 +57,7 @@ const HomePage = () => {
       {/* Blogs Section*/}
       <Banner {...homeData.blogBanner} />
       <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false}>
+        <HeroWideSectionExtra {...homeData.interviewSection0} />
         <HeroWideSectionExtra {...homeData.interviewSection1} />
         <HeroWideSectionExtra {...homeData.interviewSection2} />
       </Carousel>

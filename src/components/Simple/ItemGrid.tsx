@@ -9,10 +9,11 @@ interface  ItemGridProps{
   dictData: any;
   crime?:boolean;
   massacre?:boolean;
+  background?:string;
 }
 
 
-const ItemGrid: React.FC<ItemGridProps> = ({dictData, crime=false, massacre=false}) => {
+const ItemGrid: React.FC<ItemGridProps> = ({dictData, crime=false, massacre=false, background='transparent'}) => {
   const [showModal, setShowModal] = useState(false);
   const [modalTitle, setModalTitle ]= useState("");
   const [modalContent, setModalContent] = useState("");
@@ -33,7 +34,7 @@ const ItemGrid: React.FC<ItemGridProps> = ({dictData, crime=false, massacre=fals
   }
 
   return (
-    <div className="wrapper-lies">
+    <div className="wrapper-lies" style={{  background: background    }}>
       <div className="">
         <Modal
           showModal={showModal}

@@ -1707,7 +1707,7 @@ export const oldCrimesDict = [
       },
       {
         title: "3. Are all of these certainly war crimes committed by Israel?",
-        content: "These are all likely war crimes committed by Israel since the 7th of October, 2023. It takes lawyers and lengthy investigations to prove that or vice versa."
+        content: "These are all likely war crimes committed by Israel since the 7th of October, 2023 and before. It takes lawyers and lengthy investigations to prove that or vice versa."
       }]
   }
 

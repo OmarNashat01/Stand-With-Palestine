@@ -132,6 +132,7 @@ const CrimesPage: React.FC = () => {
           dictData={chosenOldCrimes}
           crime
           massacre={activeTab === "Massacres"}
+          background="rgb(21, 21, 21)"
         />
       )}
       {activeTab === "Ongoing" && <CrimesList crimesDict={crimesDict} />}

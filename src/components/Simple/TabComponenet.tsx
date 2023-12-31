@@ -36,9 +36,12 @@ const TabComponent: React.FC<TabComponentProps> = ({ activeTab, setActiveTab, ta
         style={{
           color: activeTab===tab ? 'white':'grey',
           padding: '0.3rem 1.2rem',
-          backgroundColor: activeTab === tab ? 'red' : 'transparent',
-          borderRadius: '25px',
-          border: activeTab === tab ? '1px solid red' : '1px solid grey',
+          backgroundColor: activeTab === tab ? '#151515' : 'transparent',
+          borderRadius: (screenWidth>900) ? '15px 15px 0 0' :'25px',
+          borderTop: activeTab === tab ? '1px solid #151515' : '0.5px solid  #2f2f2f',
+          borderLeft: activeTab === tab ? '1px solid #151515' : '0.5px solid  #2f2f2f',
+          borderRight: activeTab === tab ? '1px solid #151515' : '0.5px solid  #2f2f2f',
+          borderBottom: (screenWidth<900) ? activeTab === tab ? '1px solid #151515' : '0.5px solid  #2f2f2f' : '',
           cursor: 'pointer',
           fontSize:'0.9rem',
         }}
@@ -49,7 +52,7 @@ const TabComponent: React.FC<TabComponentProps> = ({ activeTab, setActiveTab, ta
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'row', margin: '1.5rem 0rem 1.0rem 0rem', justifyContent: 'center', gap: (screenWidth>900)?'3rem':'0.5rem', flexWrap:'wrap' }}>
+    <div style={{ display: 'flex', flexDirection: 'row', margin: (screenWidth>900) ?'1.5rem 0rem 0.0rem 0rem':'1.5rem 0rem 1.5rem 0rem', justifyContent: 'center', gap: (screenWidth>900)?'3rem':'0.5rem', flexWrap:'wrap' }}>
       {renderTabs()}
     </div>
   );

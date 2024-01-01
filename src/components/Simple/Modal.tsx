@@ -8,7 +8,7 @@ import { RxCross2 } from "react-icons/rx";
 import TabComponent from "../../components/Simple/TabComponenet";
 
 interface ModalProps {
-  searchMode: boolean;
+  searchMode?: boolean;
   showModal: boolean;
   setShowModal: (show: boolean) => void;
   Component?: any;

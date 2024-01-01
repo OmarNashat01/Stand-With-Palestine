@@ -30,7 +30,7 @@
       color: white;
       padding: 20px;
       border-radius: 8px;
-      max-width: 60%;
+      max-width: 900px;
       max-height: 80%;
 
       overflow: auto;
@@ -49,14 +49,15 @@
       }
 
       ul {
-        margin: 0.5rem 1rem;
-        padding: 1rem;
+        margin: 0rem 0.3rem;
+        padding: 1.5rem;
+        border-radius: 0.8rem;
         font-size: 1.2rem;
         font-size: 0.9rem;  
         @media only screen and (max-width: 900px) {
           font-size: 0.8rem;  
-          margin: 0.5rem 0.5rem;
-          padding: 0.5rem;      
+          margin: 0rem 0.3rem;
+          padding: 1rem;      
         } 
         color:rgb(170, 169, 169);
         a {
@@ -82,11 +83,22 @@
       }
     }
   }
+
+  .iframe {
+    width: 800px;
+    height: 450px;
+  }
   
+
   // Media query for responsiveness
   @media (max-width: 600px) {
     .modal .modal_content {
       max-width: 90%;
     }
+    .iframe {
+      width: 100%;
+      height: 100%;
+    }
+    
   }
   

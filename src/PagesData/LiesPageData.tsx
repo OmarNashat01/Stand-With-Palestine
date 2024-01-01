@@ -3,6 +3,7 @@ export const liesData = [
     "special": false,
     "source": "Netanyahu's Office, U.S. President",
     "title": "Hamas Beheaded 40 Babies",
+    "videos": ["https://www.youtube.com/embed/0el9wiOBmmM?si=YUs-RnXkFd4SSxpB"],
     "modalContent": "",
     "modalTextItems": [
       "In the aftermath of the 7th of October operation by Hamas, a disturbing narrative emerged, claiming the beheading of 40 babies with the Israeli Prime Minister's office initially asserting the beheading of 40 babies during the operation (<a href='https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-10-11-23/h_a63b0fd57f2df717147ea8e26a2f758c' target='_blank'>CNN</a>).",
@@ -95,6 +96,7 @@ export const liesData = [
       "   <a href='https://twitter.com/RamAbdu/status/1711649368758005782'>One Israeli woman</a> who survived a kibbutz attack stated that she and her children were completely unharmed by Hamas.",
       "   <a href='https://electronicintifada.net/content/israeli-forces-shot-their-own-civilians-kibbutz-survivor-says/38861'>Another Israeli woman</a> affirmed this by saying that they were treated humanely by Hamas.",
       "   <a href='https://www.trtworld.com/middle-east/israeli-mothers-letter-to-hamas-thank-you-for-extraordinary-humanity-16005866'>An Israeli mother</a>, who is a released hostage, wrote a letter thanking Hamas for their \"extraordinary humanity.\" None of these testimonies suggest rape occurred.",
+      "Proof by Hantalyte"
     ]
   },  
   {
@@ -114,7 +116,7 @@ export const liesData = [
     "special": false,
     "source": "IDF",
     "title": "Safe Route to South Gaza",
-    "modalContent": "By Hantalyte",
+    "modalContent": "",
     "modalTextItems": [
       "During the 2023 Israel-Hamas war, the Israel Defense Forces ordered all communities north of the Wadi Gaza, including Gaza City, to evacuate southward. The initial announcement gave people 24 hours to leave northern Gaza 'for their safety and protection' — an impossible demand that even the <a href='https://www.jpost.com/breaking-news/article-768075'>Israeli army spokesperson</a> has admitted cannot be implemented in one day.",
       "The order resulted in hundreds of thousands of residents of northern Gaza evacuating south. (<a href='https://www.npr.org/2023/11/16/1213400196/israeli-military-gaza-updates-evacuations'>NPR</a>, <a href='https://amnesty.ca/human-rights-news/appalling-gaza-evacuation-order-must-be-rescinded-by-israel-immediately/'>Amnesty International</a>)",

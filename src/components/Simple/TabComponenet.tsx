@@ -4,10 +4,14 @@ interface TabComponentProps {
   activeTab: string;
   setActiveTab: (tab: string) => void;
   tabs: string[];
+  tabUI?:boolean;
+  smallGap?:boolean; 
+  leftAlign?:boolean;
+  manyTabs?:boolean;
 
 }
 
-const TabComponent: React.FC<TabComponentProps> = ({ activeTab, setActiveTab, tabs }) => {
+const TabComponent: React.FC<TabComponentProps> = ({ activeTab, setActiveTab, tabs, tabUI=true, smallGap=false, leftAlign=false, manyTabs=true }) => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
     useEffect(() => {
@@ -37,11 +41,11 @@ const TabComponent: React.FC<TabComponentProps> = ({ activeTab, setActiveTab, ta
           color: activeTab===tab ? 'white':'grey',
           padding: '0.3rem 1.2rem',
           backgroundColor: activeTab === tab ? '#151515' : 'transparent',
-          borderRadius: (screenWidth>900) ? '15px 15px 0 0' :'25px',
+          borderRadius: (!manyTabs || (screenWidth>900 && tabUI)) ? '15px 15px 0 0' :'25px',
           borderTop: activeTab === tab ? '1px solid #151515' : '0.5px solid  #2f2f2f',
           borderLeft: activeTab === tab ? '1px solid #151515' : '0.5px solid  #2f2f2f',
           borderRight: activeTab === tab ? '1px solid #151515' : '0.5px solid  #2f2f2f',
-          borderBottom: (screenWidth<900) ? activeTab === tab ? '1px solid #151515' : '0.5px solid  #2f2f2f' : '',
+          borderBottom: ((screenWidth<900 && manyTabs) || !tabUI ) ? activeTab === tab ? '1px solid #151515' : '0.5px solid  #2f2f2f' : '',
           cursor: 'pointer',
           fontSize:'0.9rem',
         }}
@@ -52,7 +56,7 @@ const TabComponent: React.FC<TabComponentProps> = ({ activeTab, setActiveTab, ta
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'row', margin: (screenWidth>900) ?'1.5rem 0rem 0.0rem 0rem':'1.5rem 0rem 1.5rem 0rem', justifyContent: 'center', gap: (screenWidth>900)?'3rem':'0.5rem', flexWrap:'wrap' }}>
+    <div style={{ display: 'flex', flexDirection: 'row', margin: (!manyTabs || screenWidth>900) ?'1.5rem 1rem 0.0rem 1rem':'1.5rem 1rem 1.5rem 1rem', justifyContent: (leftAlign) ? 'flex-start' :'center', gap: (screenWidth>900 && !smallGap)?'3rem':'0.5rem', flexWrap:'wrap' }}>
       {renderTabs()}
     </div>
   );

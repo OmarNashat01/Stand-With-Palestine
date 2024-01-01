@@ -111,6 +111,7 @@ const CrimesPage: React.FC = () => {
         <IoSearchCircle size={45} color="#ff0000" />
       </div>
       <Modal
+        searchMode={true}
         showModal={showModal}
         setShowModal={setShowModal}
         Component={SearchInput}

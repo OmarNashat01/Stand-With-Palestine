@@ -18,6 +18,7 @@ const ItemGrid: React.FC<ItemGridProps> = ({dictData, crime=false, massacre=fals
   const [modalTitle, setModalTitle ]= useState("");
   const [modalContent, setModalContent] = useState("");
   const [modalTextItems, setModalTextItems] = useState(["done"]);
+  const [modalVideos, setModalVideos] = useState([]);
   const chunkSize = 6; // Set the batch size
   const longDivs = [0,5,6,11,12,17,18,23,24,29,30,35,36,41,42,47,48, 53,54,59,60,65,66,71,72,77,78,83,84,89,90,95,96,101,102,107];
   const [itemData, setItemData] = useState(dictData);
@@ -31,6 +32,7 @@ const ItemGrid: React.FC<ItemGridProps> = ({dictData, crime=false, massacre=fals
 
   const modalLogic = (item:any) => {
     setModalTitle(item.title); setModalContent(item.modalContent); setModalTextItems(item.modalTextItems); setShowModal(true);
+    setModalVideos(item.videos);
   }
 
   return (
@@ -43,6 +45,7 @@ const ItemGrid: React.FC<ItemGridProps> = ({dictData, crime=false, massacre=fals
           textContent={modalContent}
           listTextItems={modalTextItems}
           buttonText={"Back"}
+          videos={modalVideos!==undefined ? modalVideos : []}
         />
         {[...Array(Math.ceil(itemData.length / chunkSize))].map((_, batchIndex) => (
           <Fade key={batchIndex}>

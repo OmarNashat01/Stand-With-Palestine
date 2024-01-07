@@ -173,7 +173,30 @@ export const liesData = [
       "In September 2022, the Israeli military acknowledged that Shireen Abu Akleh was likely killed by Israeli fire, but no charges were filed against the soldiers involved. (<a href='https://edition.cnn.com/2022/09/05/middleeast/idf-shireen-abu-akleh-investigation-intl/index.html'>CNN</a>)",
       "Additional resource (Investigation documentary by Al-Jazeera, link: <a href='https://www.youtube.com/watch?v=SXy9SUDqUHk'>YouTube</a>)"
     ]
-  },  
+  },
+  {
+    "special": false,
+    "source": "IDF, Sara Netanyahu, Israeli officials",
+    "title": "Pregnant hostage in Al-Rantisi hospital",
+    "modalContent": `<ul>
+    <li>The narrative commenced with the Israeli Defense Forces (IDF) making an entrance into Al-Rantisi Hospital, as depicted in a video disseminated via the official YouTube channel representing the Israel Defense Forces. The video featured Daniel Hagari, the head of the IDF Spokesperson&#39;s Unit, who asserted the discovery of women&#39;s clothing, diapers, and a baby bottle within a facility inside the hospital. (<a href="https://www.youtube.com/watch?v=rLp84A6TBJ0">Youtube</a>)</li>
+    <li>The specific segment highlighting this discovery was subsequently isolated and shared on Daniel Hagari&#39;s official account X account. (<a href="https://twitter.com/IDFSpokesperson/status/1724164040304234555">Twitter</a>)</li>
+    <li>Following that, Israeli officials officially cleared that one of the hostages abducted during Hamas&#39;s October 7 offensive is believed to have given birth while in captivity. (<a href="https://www.timesofisrael.com/woman-abducted-to-gaza-on-oct-7-has-likely-given-birth-in-captivity-officials/#:~:text=Israeli%20officials%20on%20Monday%20cleared%20for%20publication%20that%20one%20of%20the%20hostages%20kidnapped%20during%20Hamas%E2%80%99s%20October%207">Times of Israel</a>, <a href="https://www.atmag.co.il/%d7%97%d7%98%d7%95%d7%a4%d7%94-%d7%99%d7%9c%d7%93%d7%94-%d7%aa%d7%99%d7%a0%d7%95%d7%a7-%d7%91%d7%a9%d7%91%d7%99-%d7%97%d7%9e%d7%90%d7%a1-%d7%91%d7%a2%d7%96%d7%94/">Atmag</a>)</li>
+    <li>This information gained widespread attention, with leaked images of the purported woman, identified as Natvari Mulkan, a farm worker from Thailand. (<a href="https://www.atmag.co.il/%d7%94%d7%90%d7%9d-%d7%a1%d7%99%d7%a4%d7%95%d7%a8-%d7%94%d7%9c%d7%99%d7%93%d7%94-%d7%91%d7%a9%d7%91%d7%99-%d7%94%d7%95%d7%90-%d7%a4%d7%99%d7%99%d7%a7/">Atmag</a>)</li>
+    <li>The situation was escalated to a point where Benjamin Netanyahu’s wife Sara Netanyahu, sent a letter to the US first lady Jill Biden, asking for help to release the hostages, with emphases on the alleged women that gave birth while being hostage. (<a href="https://www.gov.il/en/departments/news/spoke-letter151123">Israeli government</a>)</li>
+    <li>The Israeli &#39;AT&#39; magazine, following an investigation, debunked this narrative. (<a href="https://www.atmag.co.il/%d7%94%d7%90%d7%9d-%d7%a1%d7%99%d7%a4%d7%95%d7%a8-%d7%94%d7%9c%d7%99%d7%93%d7%94-%d7%91%d7%a9%d7%91%d7%99-%d7%94%d7%95%d7%90-%d7%a4%d7%99%d7%99%d7%a7/">Atmag</a>)<ul>
+    <li>The magazine interviewed Natvari Mulkan&#39;s mother and the company she worked for, both asserting that the alleged individual was not pregnant, and the information circulating about her was entirely fabricated. (<a href="https://www.atmag.co.il/%d7%94%d7%90%d7%9d-%d7%a1%d7%99%d7%a4%d7%95%d7%a8-%d7%94%d7%9c%d7%99%d7%93%d7%94-%d7%91%d7%a9%d7%91%d7%99-%d7%94%d7%95%d7%90-%d7%a4%d7%99%d7%99%d7%a7/">Atmag</a>)</li>
+    <li>The Hotline for Refugees and Migrants, in collaboration with Kav LaOved (an Israeli non-profit dedicated to safeguarding the rights of vulnerable workers) and an aid organization for agricultural workers, issued a plea to journalists to refrain from spreading baseless rumors about Natvari Mulkan, emphasizing that the claims regarding her kidnapping and giving birth in captivity were unsubstantiated. (<a href="https://www.atmag.co.il/%d7%94%d7%90%d7%9d-%d7%a1%d7%99%d7%a4%d7%95%d7%a8-%d7%94%d7%9c%d7%99%d7%93%d7%94-%d7%91%d7%a9%d7%91%d7%99-%d7%94%d7%95%d7%90-%d7%a4%d7%99%d7%99%d7%a7/">Atmag</a>)</li>
+    <li>The Defense Ministry spokeswoman declined to discuss the abduction issue, redirecting inquiries to the IDF Spokesperson or the National Insurance Institute Spokesperson&#39;s Office. (<a href="https://www.atmag.co.il/%d7%94%d7%90%d7%9d-%d7%a1%d7%99%d7%a4%d7%95%d7%a8-%d7%94%d7%9c%d7%99%d7%93%d7%94-%d7%91%d7%a9%d7%91%d7%99-%d7%94%d7%95%d7%90-%d7%a4%d7%99%d7%99%d7%a7/">Atmag</a>)</li>
+    <li>The Headquarters for the Care of Abducted and Missing Families declined to comment or provide any information on the matter. (<a href="https://www.atmag.co.il/%d7%94%d7%90%d7%9d-%d7%a1%d7%99%d7%a4%d7%95%d7%a8-%d7%94%d7%9c%d7%99%d7%93%d7%94-%d7%91%d7%a9%d7%91%d7%99-%d7%94%d7%95%d7%90-%d7%a4%d7%99%d7%99%d7%a7/">Atmag</a>)</li>
+    <li>The National Insurance Institute&#39;s spokesperson stated, based on their knowledge, that there was no evidence of any abducted woman, whether Israeli or foreign, giving birth in captivity. (<a href="https://www.atmag.co.il/%d7%94%d7%90%d7%9d-%d7%a1%d7%99%d7%a4%d7%95%d7%a8-%d7%94%d7%9c%d7%99%d7%93%d7%94-%d7%91%d7%a9%d7%91%d7%99-%d7%94%d7%95%d7%90-%d7%a4%d7%99%d7%99%d7%a7/">Atmag</a>)</li>
+    </ul>
+    </li>
+    <li>The article concluded that the entire narrative surrounding the alleged pregnancies and births in captivity is likely unfounded and fabricated. (<a href="https://www.atmag.co.il/%d7%94%d7%90%d7%9d-%d7%a1%d7%99%d7%a4%d7%95%d7%a8-%d7%94%d7%9c%d7%99%d7%93%d7%94-%d7%91%d7%a9%d7%91%d7%99-%d7%94%d7%95%d7%90-%d7%a4%d7%99%d7%99%d7%a7/">Atmag</a>)</li>
+    </ul>
+    `,
+    "modalText": []
+  },
 ];
 
 

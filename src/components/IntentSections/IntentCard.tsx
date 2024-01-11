@@ -32,7 +32,6 @@ export  const IntentCard: React.FC<IntentCardProps> = ({
         regex,
         '<span style="color: #ed2f2f">$1</span>'
       );
-      console.log(formattedText);
       return formattedText;
     }
   

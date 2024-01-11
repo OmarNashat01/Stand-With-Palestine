@@ -254,7 +254,6 @@ export async function readPcbsData() {
     const gazaDict = getGazaData(latestData);
     const prevDayGazaDict = getGazaData(beforeLatestData);
     const gazaDictRecent = computeDictDelta(gazaDict!, prevDayGazaDict);
-    console.log(gazaDictRecent);
 
     const westBankDict = getWestBankData(latestData);
     const prevDayWestBankDict = getWestBankData(beforeLatestData);

@@ -10,15 +10,21 @@ interface SearchInputProps {
   showList?:boolean;
   modifiedList?:any;
   onClickFunc?: () => void;
+  defaultSearchTerm?:string;
+  excludeList?:any;
 }
 
-const SearchInput: React.FC<SearchInputProps> = ({ listItems, onSearch, placeHolder, showList=false, modifiedList=[], onClickFunc=()=>{}}) => {
-  const [searchTerm, setSearchTerm] = useState<string>('');
+const SearchInput: React.FC<SearchInputProps> = ({ listItems, onSearch, placeHolder, showList=false, modifiedList=[], onClickFunc=()=>{},
+defaultSearchTerm="", excludeList=[]
+}) => {
+  const [searchTerm, setSearchTerm] = useState<string>(defaultSearchTerm);
 
   const handleSearch = () => {
-    const filtered = listItems.filter((item) =>
-      JSON.stringify(item).toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const filtered = listItems.filter((item) => {
+      const itemString = JSON.stringify(item).toLowerCase();
+      const searchTermLower = searchTerm.toLowerCase();
+      return itemString.includes(searchTermLower) && !excludeList.some((exclude:any) => itemString.includes(exclude.toLowerCase()));
+    });
     onSearch(filtered);
   };
 

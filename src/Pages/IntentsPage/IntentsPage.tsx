@@ -24,6 +24,7 @@ const IntentsPage: React.FC = () => {
   const [activeTab, setActiveTab] = React.useState(
     "Elites With Command Responsibility"
   );
+  const [activeAuthorTab, setActiveAuthorTab] = React.useState("All");
 
   const handleSearchIntents = (filteredIntents: any) => {
     setFilteredIntents(filteredIntents);
@@ -31,7 +32,39 @@ const IntentsPage: React.FC = () => {
   const handleSearchWeakIntents = (filteredWeakIntents: any) => {
     setFilteredWeakIntents(filteredWeakIntents);
   };
-  
+
+  const [screenWidth, setScreenWidth] = React.useState(window.innerWidth);
+
+  React.useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    // Add event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Remove event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
+  const [defSearch, setDefSearch] = React.useState("");
+  const [key, setKey] = React.useState(0);
+  const [execludeList, setExecludeList] = React.useState<string[]>([]);
+  React.useEffect(()=>{
+    if(activeAuthorTab !== "All" && activeAuthorTab !== "Others") {
+      setDefSearch(activeAuthorTab)
+    }
+    else {
+      setDefSearch("")
+    }
+    setExecludeList((activeAuthorTab === "Others") ? ["Benjamin Netanyahu", "Isaac Herzog", "Yoav Gallant", "Itmar Ben-Gvir", "Bezalel Smotrich", "Nissim Vaturi"] : [])
+
+    setKey(key+1);
+
+  },[activeAuthorTab])
 
   return (
     <div
@@ -51,11 +84,14 @@ const IntentsPage: React.FC = () => {
         bloody
       />
       <SearchInput
+        key={key}
         listItems={activeTab === tabs[0] ? intents : weakIntents}
         onSearch={
           activeTab === tabs[0] ? handleSearchIntents : handleSearchWeakIntents
         }
         placeHolder="Search for genocidal intents..."
+        defaultSearchTerm={defSearch}
+        excludeList={execludeList}
       />
       <TabComponent
         activeTab={activeTab}
@@ -71,7 +107,20 @@ const IntentsPage: React.FC = () => {
         No intents match this search criteria...
       </div>}
       {/* Mapping through the intents array to render IntentCard components */}
+
+        <div style={{backgroundColor: '#151515', paddingTop:'1rem'}}>
+        {activeTab===tabs[0] && <TabComponent
+        activeTab={activeAuthorTab}
+        setActiveTab={(tab) => {
+          setActiveAuthorTab(tab);
+        }}
+        tabUI={false}
+        tabs={["All", "Benjamin Netanyahu", "Isaac Herzog", "Yoav Gallant", "Itmar Ben-Gvir", "Bezalel Smotrich", "Nissim Vaturi", "Others" ]}
+        redSelected={true}
+        smallGap={true}
+      />}
       <div className="intents-container">
+      
         {(activeTab === tabs[0] ? filteredIntents : filteredWeakIntents).map(
           (intent: any, index: any) => (
             <>
@@ -88,6 +137,8 @@ const IntentsPage: React.FC = () => {
           )
         )}
       </div>
+      </div>
+
       <Banner
         title="Frequently Asked Questions"
         styleObj={{ color: "white" }}

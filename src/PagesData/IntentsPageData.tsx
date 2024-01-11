@@ -183,7 +183,7 @@ export const intents = [
     },
     {
       quote: "Oh lord of the world, let there be [lice to itch them]",
-      author: "Itmar BenGvir MK",
+      author: "Itmar Ben-Gvir MK",
       role: "Minister of National Security",
       date: "22/11/2023",
       link: "https://x.com/MiddleEastEye/status/1727127091525640267?s=20",

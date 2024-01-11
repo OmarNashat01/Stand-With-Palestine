@@ -25,7 +25,7 @@ const homeData = {
   
     statusSection: {
       imagePath: './HomePage/gaza-child-sad.webp',
-      numbers: [8000, 6000, 50000, "~1.65M"],
+      numbers: [10000, 7000, 58000, "~2M"],
       texts: ["Children Killed", "Woman Killed", "People in Pain", "People Displaced"],
       onClick: "./status",
       violent: true
@@ -165,12 +165,13 @@ const homeData = {
        Prime Minister said regarding the state of Gaza post-war #We must have security control. I insist upon it#.
        `,
       bulleted: "unordered",
-      buttonText1: "Check Israeli War Crimes ▶",
-      buttonText2: "",
+      buttonText1: "Israeli Intents ▶",
       isYouTube: false,
       isLocalVideo: true,
       reverse: false,
-      onClick1: "./crimes"
+      buttonText2: "Israeli War Crimes ▶",
+      onClick1: "./intents",
+      onClick2: "./crimes"
     },
   
     warCrimesLiesSection: {
@@ -248,7 +249,7 @@ const homeData = {
     },
 
     interviewSection0: {
-      imagePath: "https://i.cbc.ca/1.7068752.1703804797!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/israel-palestinians.jpg",
+      imagePath: "https://i.abcnewsfe.com/a/f5c052fb-41d7-45c5-aa81-cb3cdbf3f375/gaza-destruction-bodies-gty-jt-240110_1704914963686_hpMain.jpg",
       extraImagePath: "./BlogsPage/sat.png",
       isYouTube: false,
       overlayColor: "rgba(0, 0, 0, 0.4)",

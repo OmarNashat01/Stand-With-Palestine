@@ -1,8 +1,3 @@
-# Arbitrary Detention
-
-Demonstrated: Needs Review
-Assignee: Essam Wisam Fouad
-
 ### International Humanitarian Law
 
 Article 8 of the Universal Declaration of Human Rights states that “No one shall be subjected to arbitrary arrest, detention or exile.” In Article 8 of the Rome Statute, “Enforced disappearance of persons” is considered a crime against humanity when done in a system of widespread way. Arbitrary detention is [defined as](https://web.archive.org/web/20070717235004/http://www0.un.org/cyberschoolbus/humanrights/declaration/9.asp) the arrest or detention of a person while there is no likelihood or evidence that violated the law by committing a crime. It is typically achieved by administrative detention, which occurs when an individual is arrested without any charge or trial. In this case, it is only not arbitrary if there is proof that or likelihood that they broke the law.

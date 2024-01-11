@@ -2,7 +2,7 @@ export const crimeHeroDict = {title: "ISRAEL'S WAR CRIMES", subTitle1: "Even War
 
 export const crimesDict = [
     {
-      title: "Imposing an Exhaustive Blockadeeees on Gaza",
+      title: "Imposing an Exhaustive Blockade on Gaza",
       quotes: [
         {
           quote: ` No protected person may be punished for an offence he or she has

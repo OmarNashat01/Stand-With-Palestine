@@ -5,13 +5,14 @@ interface GradientHeroProps {
     title: string;
     subTitle1:string;
     subTitle2:string;
+    subTitle3?:string;
     fontSize?:string;
     bloody?:boolean;
     circular?:boolean;
     special?:boolean;
   }
   
-  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, bloody=false, fontSize='4rem', circular=false, special=false}) => {
+  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, subTitle3='', bloody=false, fontSize='4rem', circular=false, special=false}) => {
 
     return (
       <div
@@ -53,6 +54,13 @@ interface GradientHeroProps {
       >
         {subTitle2}
       </h3>
+      <h4
+       style={{
+        textAlign: "center",
+        paddingBottom: "0.5rem",
+        fontWeight: "0.8rem",
+      }}
+      >{subTitle3}</h4>
     </div>
     )
   }

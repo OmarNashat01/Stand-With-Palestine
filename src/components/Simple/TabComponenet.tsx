@@ -38,6 +38,7 @@ const TabComponent: React.FC<TabComponentProps> = ({ activeTab, setActiveTab, ta
         key={tab}
         onClick={() => handleTabClick(tab)}
         style={{
+          textAlign: 'center',
           color: activeTab===tab ? 'white':'grey',
           padding: '0.3rem 1.2rem',
           backgroundColor: activeTab === tab ? '#151515' : 'transparent',

@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FaQuoteLeft } from "react-icons/fa";
 // icons
 import { FaBars } from 'react-icons/fa';
 import { GoHomeFill } from 'react-icons/go';
@@ -73,10 +74,12 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
           <li className={`nav-item ${location.pathname === '/lies' ? 'selected' : ''}`}>
             <Link to="/lies"><PiTelevisionSimpleFill style={{ margin: '-3px', paddingRight: '0.1rem' }} /> Lies</Link>
           </li>
+          <li className={`nav-item ${location.pathname === '/intents' ? 'selected' : ''}`}>
+            <Link to="/intents"><FaQuoteLeft style={{ margin: '-3px', paddingRight: '0.1rem' }} /> Intents</Link>
+          </li>
           <li className={`nav-item ${location.pathname.includes('/blogs') ? 'selected' : ''}`}>
             <Link to="/blogs"><GiWhiteBook style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Blogs</Link>
           </li>
-          
           <li className={`nav-item ${location.pathname === '/support' ? 'selected-support' : ''}`}>
             <Link to="/support"><AiFillHeart style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Support</Link>
           </li>

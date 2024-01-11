@@ -7,6 +7,7 @@ import BlogPage from "./Pages/BlogsPage/BlogPage";
 import InterviewPage from "./Pages/BlogsPage/InterviewPage";
 import CrimesPage from "./Pages/CrimesPage/CrimesPage";
 import LiesPage from "./Pages/LiesPage/LiesPage";
+import IntentsPage from "./Pages/IntentsPage/IntentsPage";
 import StatusPage from "./Pages/StatusPage/StatusPage";
 import SupportPage from "./Pages/SupportPage/SupportPage";
 // import HistoricTimelinePage from "./Pages/TimelinePage/HistoricTimelinePage";
@@ -115,6 +116,7 @@ function App() {
                         />
                         <Route path="/crimes" element={<CrimesPage />} />
                         <Route path="/lies" element={<LiesPage />} />
+                        <Route path="/intents" element={<IntentsPage />} />
                         <Route path="/status" element={<StatusPage />} />
                         <Route path="/support" element={<SupportPage />} />
                         <Route

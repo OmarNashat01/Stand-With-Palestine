@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import '../../variables';
+
+
+.intents-container {
+	background-color: #151515;
+	column-count: 4;
+  height: auto;
+	@media only screen and (max-width: 1200px) {
+		column-count: 3;
+	}
+	@media only screen and (max-width: 600px) {
+		gap: 0.3rem;
+		column-count: 2;
+		padding: 2rem 0.5rem 2rem;
+	}
+	//break-inside: avoid;
+	gap: 0.5rem;
+	padding: 3rem 3rem 1rem;
+	
+}

@@ -137,6 +137,10 @@ const IntentsPage: React.FC = () => {
           )
         )}
       </div>
+      <p style={{ textAlign:'center', padding: '1.6rem', fontSize:'0.9rem', color:'#55555'}}>
+        Credits go to <a href="https://twitter.com/KintsugiMuslim">@KintsugiMuslim</a> on Twitter for collecting these instances.
+      </p>
+
       </div>
 
       <Banner

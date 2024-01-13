@@ -229,7 +229,7 @@ interface GazaStatusSectionProps {
             atLeast={false}
           />
           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
-            <h1 className="normal-h1">Displaced From Home</h1>
+            <h1 className="normal-h1">Displaced<span className="from-home"> From Home</span></h1>
             <FaPersonWalkingLuggage className="icon" />
           </div>
         </div>

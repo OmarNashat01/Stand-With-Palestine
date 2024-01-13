@@ -99,6 +99,7 @@
       @media (max-width: 800px) {
         font-size: 1.7rem;
       }
+      
     }
 
     .number-h1-mini {
@@ -114,6 +115,11 @@
       color: #fffaf0;
       @media (max-width: 800px) {
         font-size: 1.7rem;
+      }
+      .from-home {
+        @media (max-width: 800px) {
+          display: none;
+        }
       }
     }
 

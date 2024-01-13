@@ -10,9 +10,26 @@ interface GradientHeroProps {
     bloody?:boolean;
     circular?:boolean;
     special?:boolean;
+    blog?:boolean;
   }
   
-  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, subTitle3='', bloody=false, fontSize='4rem', circular=false, special=false}) => {
+  const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, subTitle3='', bloody=false, fontSize='4rem', circular=false, special=false, blog=false}) => {
+
+    const [screenWidth, setScreenWidth] = React.useState(window.innerWidth);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setScreenWidth(window.innerWidth);
+      };
+  
+      // Add event listener for window resize
+      window.addEventListener('resize', handleResize);
+  
+      // Remove event listener on component unmount
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
 
     return (
       <div
@@ -26,14 +43,16 @@ interface GradientHeroProps {
       }}
     >
       <h1
+        className={(bloody)?"dead-dude":(special) ? "special-dude":"dude"}
         style={{
           textAlign: "center",
           fontSize: fontSize,
           paddingBottom: "0.5rem",
+          lineHeight: (screenWidth<800 && blog)? '1' : ''
         }}
-        className={(bloody)?"dead-dude":(special) ? "special-dude":"dude"}
       >
-        {title}
+        <span style={{fontSize: (screenWidth<800 && blog)? '1.6rem' : '',
+      }}>{title}</span>
       </h1>
       <h2
         style={{

@@ -1,1 +1,11 @@
-This document is a work in progress. Instances of the crime, commentary of the videos and consequences will be included. Note that instances of this crime are too numerous to be collected in one document.
+As of January 24, 2024, approximately **24,000 lives** have been lost, with **60,000 individuals** injured, and **7,000 reported missing** (expected to be under rubble). This implies that over the course of the 100 days since the commencement of Israel's campaign, an average of **310 people** are killed and **600 are injured** every singled day. This grim reality is exacerbated by a Israel's deliberate strategy of enforcing a blockade, destroying food supplies, and employing illegal chemical weapons, as observed in other documented crimes. Take note as well that being killed by having an entire building fall on you or getting incinerated by a bomb is one of the most brutal ways to die.
+
+<div align="center">
+<video src="../../CrimesPage/murder.mp4" controls style="max-width: 90%"/>
+</div>
+
+What makes the matter worst is that **80% of those killed** are children, women and elderly which are all certainly innocent. It even cannot be argued that all men targeted are Hamas targets because Hamas is an extremely small fraction of the population (less than 2% as reported [here](https://www.dni.gov/nctc/ftos/hamas_fto.html)). Meanwhile, Israeli bombing has **targeted over 70% of Palestinian homes**, according to the [Jerusalem Post](https://www.jpost.com/israel-hamas-war/article-780086). The law specifies that *Intentionally directing attacks against the civilian population as such or against individual civilians not taking direct part in hostilities;* is a war crime which must have occurred (using just mathematical intuition) given the scale of the damage compared to the actual target.
+
+This article would have been among the longest ones of the internet if it were to document each instance of murder by Israel; remember it's over 300 just murders a day! An extremely large footage corresponding to these actions is documented at [Gaza23](https://gaza23.com/) which also includes [numerous stories](https://gaza23.com/stories) of innocent civilians killed by Israeli forces. 
+
+Remember, these are innocent civilians just like you and me.

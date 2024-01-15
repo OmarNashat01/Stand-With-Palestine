@@ -132,7 +132,7 @@ export const crimesDict = [
           <br/><br/>
           (b) Other serious violations of the laws and customs... namely, any of the following acts:<br/><br/>
           (ii) Intentionally directing attacks against civilian objects, that is, objects which are not military objectives;<br/><br/>
-          (iv) Intentionally launching an attack in the knowledge that such attack will cause incidental loss of life or injury to civilians or damage to civilian objects or widespread, long-term and severe damage to the natural environment which would be clearly excessive in relation to the concrete and direct overall military advantage anticipated;
+          (iv) Intentionally launching an attack in the knowledge that such attack will cause incidental loss of life or injury to civilians or damage to civilian objects or widespread, long-term and severe damage to the natural environment which would be clearly excessive in relation to the concrete and direct overall military advantage anticipated;<br/><br/>
           (v) Attacking or bombarding, by whatever means, towns, villages, dwellings or buildings which are undefended and which are not military objectives;
           `,
           quote_ref: `Rome Statute of the International Criminal Court. (1998). Article 8.`,
@@ -146,7 +146,7 @@ export const crimesDict = [
       ],
       paragraphLeft: "",
       paragraphRight:
-        `As of the 27th of November 2023, nearly <span style="color:#ed2f2f">50%</span> of all homes in Gaza have been damaged or destroyed. The attacks are indiscriminate; it cannot be the case that Hamas, which constitutes less than 2.5% of Gaza occupies 50% of the houses in Gaza.`,
+        `As of the 14th of January 2023, nearly <span style="color:#ed2f2f">70%</span> of all homes in Gaza have been damaged or destroyed. The attacks are indiscriminate; it cannot be the case that Hamas, which constitutes less than 2 of Gaza's population occupies 70% of the houses in Gaza.`,
       onClickFunc: "crime-destruction-civilian-objects",
     },
     {

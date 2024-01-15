@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# Stand With Palestine 
+![SWP-Logo](https://github.com/PalestinianVoices/Stand-With-Palestine/assets/49572294/1076c7a8-effc-4617-8b32-25f9b9920fd3)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Stand-With-Palestine is an initiative (realized in the form of a website) aimed at uncovering Israeli war crimes, disinformation, and genocidal intent, while also providing resources for pro-Palestinians to support their cause and stay up-to-date with the ongoing conflict. 
 
-## Available Scripts
+**In pursuit of these goals, our mission lies in fulfilling four objectives:**
 
-In the project directory, you can run:
+- Documenting the ongoing genocide as well as older war crimes committed by Israel—we will never forget;
+- Keeping people up to date with the status of Gaza and recent news related to the conflict—we will always remember;
+- Offer various avenues for people to support Palestine—we will never stop sharing;
+- Open the eyes of people in the west to the reality of what's going on in Gaza while exposing Israeli propaganda to nurture more of their support towards Palestine—stand with Palestine;
 
-### `npm start`
+## 🇵🇸 Navigation Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Visit the website at [Stand-With-Palestine.org](Stand-With-Palestine.org)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<table>
+  <tr>
+    <th>Page</th>
+    <td>Home</td>
+    <td>Status</td>
+    <td>Timeline</td>
+    <td>Support</td>
+  </tr>
+  <tr>
+    <th>Purpose</th>
+    <td>Tell a compelling story about the reality of Israel's campaign against Gaza</td>
+    <td>Convey the current state of Israeli aggresion in numbers and statistics</td>
+    <td>Keep people up-to-date with recent developments in the conflict</td>
+    <td>Provide various means to support Palestine</td>
+  </tr>
+</table>
 
-### `npm test`
+<table>
+  <tr>
+    <th>Page</th>
+    <td>Crimes</td>
+    <td>Lies</td>
+    <td>Intents</td>
+    <td>Blogs</td>
+  </tr>
+  <tr>
+    <th>Purpose</th>
+    <td>Record the ongoing and historical criminal record of Israel</td>
+    <td>Refute various instances of Israeli disinformation and propaganda</td>
+    <td>Provide evidence that Israel's campaign is rooted in genocidal intent</td>
+    <td>Provide transcribed interviews and blogs to enhance understanding of the conflict</td>
+  </tr>
+</table>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1223" alt="image" src="https://github.com/PalestinianVoices/Stand-With-Palestine/assets/49572294/9686dc63-866d-4ee5-99f1-20d321f6922b">
 
-### `npm run build`
+Feedback is welcome, appreciated and considered; please don't hesitate to convey your thoughts by emailing Support@Stand-With-Palestine.org or by joining our liaise TFP [Discord Channel](https://techforpalestine.org/discord-invite).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🤝🏻 Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Folder Structure:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+── public                             
+│   ├── BlogsPage
+│   ├── CrimesPage
+│   ├── HomePage
+│   └── ...
+├── src
+│   ├── App.tsx
+│   ├── components                   
+│   │   ├── CrimeSections
+│   │   ├── StatusSections
+│   │   ├── ...
+│   │   └── Simple                   
+│   │       ├── Banner.tsx
+│   │       └── ...                   
+│   ├── Pages                       
+│   │   ├── BlogsPage
+│   │   ├── CrimesPage
+│   │   ├── HomePage
+│   │   └── ...
+│   ├── PagesData                   
+│   │   ├── BlogsPageData.ts
+│   │   ├── CrimesPageData.tsx
+│   │   ├── HomePageData.tsx
+│   │   └── ...
+└── index.tsx
+```
+<table>
+  <tr>
+    <th>Directoy</th>
+    <td>public</td>
+    <td>src/Pages</td>
+    <td>src/components</td>
+    <td>src/components/simple</td>
+    <td>src/PagesData</td>
+  </tr>
+  <tr>
+    <th>Purpose</th>
+    <td>Has media and markdown files used in multiple pages in the website</td>
+    <td>Has the subcomponents of each page in the website</td>
+    <td>Has simple subcomponents used in multiple pages</td>
+    <td>Has the page component of each page in the website</td>
+    <td>Has the data to be displayed in each page in the website in JSON format.</td>
+  </tr>
+</table>
 
-### `npm run eject`
+All the data is originally organized, collected and/or created on [this Notion](https://bitter-makemake-e46.notion.site/Crimes-Radar-764af76f065b45019bd5f4bd205f7961).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Running the Project:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm install` then `npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Please propose any contributions through the TFP liaise [Discord channel](https://techforpalestine.org/discord-invite) (and/or Github issues) before you work on a PR.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

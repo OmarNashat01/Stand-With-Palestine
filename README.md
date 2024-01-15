@@ -94,7 +94,7 @@ Feedback is welcome, appreciated and considered; please don't hesitate to convey
   </tr>
   <tr>
     <th>Purpose</th>
-    <td>Has media and markdown files used in multiple pages in the website</td>
+    <td>Has media and markdown used in multiple pages in the website</td>
     <td>Has the subcomponents of each page in the website</td>
     <td>Has simple subcomponents used in multiple pages</td>
     <td>Has the page component of each page in the website</td>
@@ -109,6 +109,33 @@ All the data is originally organized, collected and/or created on [this Notion](
 `npm install` then `npm start`
 
 Please propose any contributions through the TFP liaise [Discord channel](https://techforpalestine.org/discord-invite) (and/or Github issues) before you work on a PR.
+
+## 👥 Collaborators
+
+**Active Collaborators**
+<table>
+  <tr>
+    <td><a href="https://github.com/EssamWisam"><img src="https://github.com/EssamWisam.png" width="90px;"/><br /></a></td>
+    <td><a href="https://github.com/Muhammad-saad-2000"><img src="https://github.com/Muhammad-saad-2000.png" width="90px;"/><br /></a></td>
+    <td><a href="https://github.com/KnockerPulsar"><img src="https://github.com/KnockerPulsar.png" width="90px;"/><br /></a></td>
+    <td><a href="https://github.com/Halahamdy22"><img src="https://github.com/Halahamdy22.png" width="90px;"/><br /></a></td>
+    <td><a href="https://github.com/ziad-atef"><img src="https://github.com/ziad-atef.png" width="90px;"/><br /></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/EssamWisam">Essam Wisam</a></td>
+    <td><a href="https://github.com/Muhammad-saad-2000">Mohamed Saad</a></td>
+    <td><a href="https://github.com/KnockerPulsar">Tarek Yasser</a></td>
+    <td><a href="https://github.com/Halahamdy22">Hala Hamdy</a></td>
+    <td><a href="https://github.com/ziad-atef">Ziad Atef</a></td>
+  </tr>
+</table>
+
+Special thanks go to [Abdullah Adel](https://github.com/abdullahalshawafi) as well as [Ahmed Khaled](https://github.com/AhmedKhaled590), [Hazem Abdo](https://github.com/HazemAbdo), and [Yahia](https://github.com/yahia3200) for their contributions in development. 
+
+Heartfelt acknowledgment are also extended to  [Hossam Saeed](https://github.com/hoskillua), [Donia Esawi](https://github.com/DoniaEsawi) and [Ahmed Jamal](https://github.com/AhmadJamal01) for contributing early in the website's design.
+
+<h1 align="center"> 🇵🇸 Stand With Palestine 🇵🇸 </h1>
+
 
 
 

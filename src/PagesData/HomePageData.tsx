@@ -11,7 +11,7 @@ const homeData = {
       buttonText1: "Learn More ▼",
       buttonText2: "Support ♥",
       showDay: true,
-      minHeight: "80vh",
+      minHeight: "max(80vh, 600px)",
       blur: "blur(0px)",
       onClick1: "first-banner",
       onClick2: "./support"

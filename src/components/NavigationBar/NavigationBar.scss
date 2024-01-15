@@ -21,6 +21,9 @@
   padding-bottom: 1rem;
   color: $text-color;
   max-height: 20vh;
+  @media screen and (min-width: 1000px) {
+    max-height: max(34vh, 600px);
+  }
 
   @media screen and (max-width: 768px) {
     height: auto;

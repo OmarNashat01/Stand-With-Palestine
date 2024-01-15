@@ -119,6 +119,9 @@ a {
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Nunito+Sans:opsz@6..12&display=swap');
+
+
 .markdown-container {
   padding: 2rem 8rem;
   @media only screen and (max-width: 760px) {
@@ -174,7 +177,8 @@ a {
 
   p {
     color: #f1f1f1;
-    font-family: 'Raleway';
+    font-family:  'Mulish';
+
     line-height: 1.7rem;
     text-align: justify;
   }

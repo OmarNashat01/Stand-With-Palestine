@@ -36,7 +36,11 @@
             "destroyed_ambulances": 56
         },
         "displaced": 1650000,
-        "detained_west": 3130
+        "detained_data": {
+            "west": 3130,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "26/11/2023": {
         "martyr_data": {
@@ -75,7 +79,11 @@
             "destroyed_ambulances": 56
         },
         "displaced": 1650000,
-        "detained_west": 3200
+        "detained_data": {
+            "west": 3200,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "01/12/2023": {
         "martyr_data": {
@@ -114,7 +122,11 @@
             "destroyed_ambulances": 56
         },
         "displaced": 1650000,
-        "detained_west": 3400
+        "detained_data": {
+            "west": 3400,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "03/12/2023": {
         "martyr_data": {
@@ -153,7 +165,11 @@
             "destroyed_ambulances": 56
         },
         "displaced": 1650000,
-        "detained_west": 3480
+        "detained_data": {
+            "west": 3480,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "05/12/2023": {
         "martyr_data": {
@@ -192,7 +208,11 @@
             "destroyed_ambulances": 56
         },
         "displaced": 1650000,
-        "detained_west": 3580
+        "detained_data": {
+            "west": 3580,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "07/12/2023": {
         "martyr_data": {
@@ -231,7 +251,11 @@
             "destroyed_ambulances": 56
         },
         "displaced": 1650000,
-        "detained_west": 3670
+        "detained_data": {
+            "west": 3670,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "08/12/2023": {
         "martyr_data": {
@@ -270,7 +294,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 3680
+        "detained_data": {
+            "west": 3680,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "09/12/2023": {
         "martyr_data": {
@@ -309,7 +337,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 3700
+        "detained_data": {
+            "west": 3700,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "10/12/2023": {
         "martyr_data": {
@@ -348,7 +380,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 3700
+        "detained_data": {
+            "west": 3700,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "12/12/2023": {
         "martyr_data": {
@@ -387,7 +423,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 3760
+        "detained_data": {
+            "west": 3760,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "13/12/2023": {
         "martyr_data": {
@@ -426,7 +466,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 4000
+        "detained_data": {
+            "west": 4000,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "14/12/2023": {
         "martyr_data": {
@@ -465,7 +509,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 4400
+        "detained_data": {
+            "west": 4400,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "17/12/2023": {
         "martyr_data": {
@@ -504,7 +552,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 4540
+        "detained_data": {
+            "west": 4540,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "18/12/2023": {
         "martyr_data": {
@@ -543,7 +595,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 4575
+        "detained_data": {
+            "west": 4575,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "19/12/2023": {
         "martyr_data": {
@@ -582,7 +638,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 4605
+        "detained_data": {
+            "west": 4605,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "20/12/2023": {
         "martyr_data": {
@@ -621,7 +681,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 4630
+        "detained_data": {
+            "west": 4630,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "22/12/2023": {
         "martyr_data": {
@@ -660,7 +724,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1650000,
-        "detained_west": 4655
+        "detained_data": {
+            "west": 4655,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "23/12/2023": {
         "martyr_data": {
@@ -699,7 +767,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1900000,
-        "detained_west": 7285
+        "detained_data": {
+            "west": 7285,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "24/12/2023": {
         "martyr_data": {
@@ -738,7 +810,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1900000,
-        "detained_west": 7295
+        "detained_data": {
+            "west": 7295,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "26/12/2023": {
         "martyr_data": {
@@ -777,7 +853,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1900000,
-        "detained_west": 7385
+        "detained_data": {
+            "west": 7385,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "27/12/2023": {
         "martyr_data": {
@@ -816,7 +896,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1900000,
-        "detained_west": 7395
+        "detained_data": {
+            "west": 7395,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "29/12/2023": {
         "martyr_data": {
@@ -855,7 +939,11 @@
             "destroyed_ambulances": 59
         },
         "displaced": 1900000,
-        "detained_west": 7420
+        "detained_data": {
+            "west": 7420,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "30/12/2023": {
         "martyr_data": {
@@ -894,7 +982,11 @@
             "destroyed_ambulances": 104
         },
         "displaced": 1900000,
-        "detained_west": 7420
+        "detained_data": {
+            "west": 7420,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "31/12/2023": {
         "martyr_data": {
@@ -933,7 +1025,11 @@
             "destroyed_ambulances": 104
         },
         "displaced": 1900000,
-        "detained_west": 7476
+        "detained_data": {
+            "west": 7476,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "01/01/2024": {
         "martyr_data": {
@@ -972,7 +1068,11 @@
             "destroyed_ambulances": 104
         },
         "displaced": 1900000,
-        "detained_west": 7510
+        "detained_data": {
+            "west": 7510,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "02/01/2024": {
         "martyr_data": {
@@ -1011,7 +1111,11 @@
             "destroyed_ambulances": 104
         },
         "displaced": 1900000,
-        "detained_west": 7536
+        "detained_data": {
+            "west": 7536,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "03/01/2024": {
         "martyr_data": {
@@ -1050,7 +1154,11 @@
             "destroyed_ambulances": 104
         },
         "displaced": 1900000,
-        "detained_west": 8100
+        "detained_data": {
+            "west": 8100,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "04/01/2024": {
         "martyr_data": {
@@ -1089,7 +1197,11 @@
             "destroyed_ambulances": 121
         },
         "displaced": 1900000,
-        "detained_west": 8630
+        "detained_data": {
+            "west": 8630,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "05/01/2024": {
         "martyr_data": {
@@ -1128,7 +1240,11 @@
             "destroyed_ambulances": 121
         },
         "displaced": 1900000,
-        "detained_west": 8660
+        "detained_data": {
+            "west": 8660,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "06/01/2024": {
         "martyr_data": {
@@ -1167,7 +1283,11 @@
             "destroyed_ambulances": 121
         },
         "displaced": 2000000,
-        "detained_west": 8660
+        "detained_data": {
+            "west": 8660,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "07/01/2024": {
         "martyr_data": {
@@ -1206,7 +1326,11 @@
             "destroyed_ambulances": 121
         },
         "displaced": 2000000,
-        "detained_west": 8680
+        "detained_data": {
+            "west": 8680,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "08/01/2024": {
         "martyr_data": {
@@ -1245,7 +1369,11 @@
             "destroyed_ambulances": 121
         },
         "displaced": 2000000,
-        "detained_west": 8730
+        "detained_data": {
+            "west": 8730,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "10/01/2024": {
         "martyr_data": {
@@ -1284,7 +1412,11 @@
             "destroyed_ambulances": 121
         },
         "displaced": 2000000,
-        "detained_west": 8780
+        "detained_data": {
+            "west": 8780,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "11/01/2024": {
         "martyr_data": {
@@ -1323,7 +1455,11 @@
             "destroyed_ambulances": 121
         },
         "displaced": 2000000,
-        "detained_west": 8810
+        "detained_data": {
+            "west": 8810,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "12/01/2024": {
         "martyr_data": {
@@ -1362,7 +1498,11 @@
             "destroyed_ambulances": 121
         },
         "displaced": 2000000,
-        "detained_west": 8822
+        "detained_data": {
+            "west": 8822,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "13/01/2024": {
         "martyr_data": {
@@ -1401,7 +1541,11 @@
             "destroyed_ambulances": 121
         },
         "displaced": 2000000,
-        "detained_west": 8835
+        "detained_data": {
+            "west": 8835,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "14/01/2024": {
         "martyr_data": {
@@ -1440,7 +1584,11 @@
             "destroyed_ambulances": 121
         },
         "displaced": 2000000,
-        "detained_west": 8875
+        "detained_data": {
+            "west": 8875,
+            "gaza": null
+        },
+        "version": "1.0"
     },
     "15/01/2024": {
         "martyr_data": {
@@ -1479,7 +1627,54 @@
             "destroyed_ambulances": 121
         },
         "displaced": 2000000,
-        "detained_west": 8930
+        "detained_data": {
+            "west": 8930,
+            "gaza": null
+        },
+        "version": "1.0"
+    },
+    "16/01/2024": {
+        "martyr_data": {
+            "total_gaza": 24258,
+            "kids_gaza": 12345,
+            "women_gaza": 7100,
+            "total_west": 355,
+            "elderly_gaza": 1049,
+            "medical": 337,
+            "press": 117,
+            "educational": 209,
+            "un": 148,
+            "kids_west": 95,
+            "civil_defence": 45,
+            "missing_kids_women": 4700,
+            "missing": 7000
+        },
+        "injured_data": {
+            "total_gaza": 61154,
+            "total_west": 4212,
+            "kids_gaza": 6168,
+            "kids_west": 637
+        },
+        "building_data": {
+            "damaged_housing_units": 290000,
+            "out_of_service_hospital": 30,
+            "destroyed_buildings": 25010,
+            "destroyed_housing_units": 69300,
+            "damaged_hospital": 25,
+            "destroyed_church": 3,
+            "destroyed_mosque": 145,
+            "destroyed_government_headquarters": 138,
+            "media": 14580,
+            "destroyed_school": 95,
+            "partially_destroyed_school": 295,
+            "destroyed_ambulances": 121
+        },
+        "detained_data": {
+            "west": 5980,
+            "gaza": 3000
+        },
+        "version": "1.1",
+        "displaced": 2000000
     }
 }
 

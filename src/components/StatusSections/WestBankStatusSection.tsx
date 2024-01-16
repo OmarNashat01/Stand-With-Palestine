@@ -94,7 +94,7 @@ interface WestBankStatusSectionProps {
             <h1 className="normal-h1">Detained</h1>
           </div>
           <AnimatedNumber
-            value={westBankDict["detained_west"]}
+            value={westBankDict["detained"]}
             className="number-h1"
           />
         </div>

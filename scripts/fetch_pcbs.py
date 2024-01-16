@@ -130,11 +130,20 @@ def get_date() -> str:
         return date
 
 
-def get_detainees_displaced_data() -> Dict[str, int]:
+def get_displaced_data() -> Dict[str, int]:
     DATA_URL = "https://www.pcbs.gov.ps/default.aspx"
-    html_elements_to_keys = {"Nazeh": "displaced", "aseer": "detained_west"}
+    html_elements_to_keys = {"Nazeh": "displaced"}
 
-    print("Fetching detainee data...")
+    print("Fetching displaced data...")
+    return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
+
+def get_detained_data() -> Dict[str, int]:
+    DATA_URL = "https://www.pcbs.gov.ps/site/lang__en/1409/Default.aspx"
+
+    # Note that these elements are not displayed, but are still present in the HTML data.
+    html_elements_to_keys = {"AseerWB": "west", "AseerGaza": "gaza"}
+
+    print("Fetching detained data...")
     return get_counter_anim_numbers(DATA_URL, html_elements_to_keys)
 
 
@@ -171,14 +180,17 @@ if __name__ == '__main__':
             date = get_date()
             martyr_data = get_martyr_data()
             injured_data = get_injuired_data()
-            detainees_displaced_data = get_detainees_displaced_data()
+            displaced_data = get_displaced_data()
             destroyed_building_data = get_destroyed_building_data()
+            detained_data = get_detained_data()
 
             day_data = {
                 "martyr_data": martyr_data,
                 "injured_data": injured_data,
                 "building_data": destroyed_building_data,
-                **detainees_displaced_data
+                "detained_data": detained_data,
+                "version": "1.1",
+                **displaced_data
             }
 
             JSON_FILE_NAME = args.output_path
@@ -206,7 +218,7 @@ if __name__ == '__main__':
                 json_file[date] = day_data
                 f.write(json.dumps(json_file, indent=4))
                 print(f"Data for {date} added to {JSON_FILE_NAME}")
-            
+
             exit(0)
         except urllib.error.URLError:
             print(f"[{i+1}/100] Failed to connect to PCBS, sleeping for 0.5 seconds...")

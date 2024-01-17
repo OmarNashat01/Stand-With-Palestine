@@ -92,8 +92,6 @@ function getGazaData(dayData: DayData | undefined) {
 		return {};
 	}
 
-	console.log(dayData)
-
 	const gMart = dayData?.martyr_data;
 	const gInj = dayData?.injured_data;
 	return {

@@ -212,7 +212,7 @@ if __name__ == '__main__':
                     print(
                         f"Data for day {date} already exists! Will not record fetched data."
                     )
-                    exit(1)
+                    exit(0)
 
             with open(JSON_FILE_NAME, "w") as f:
                 json_file[date] = day_data

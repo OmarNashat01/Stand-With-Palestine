@@ -1295,4 +1295,2748 @@ export const dailyNews = [
       },
     ],
   },
+  {
+    date: "November 16, 2023",
+    title: "Day 41",
+    events: [
+      {
+        text: "\"The children are starving,\" Al-Shifa director says, describing desperate conditions inside Gaza hospital",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-16-23#h_d39a5fdc499438168aed8cbb0d1bd5ca",
+        description: "",
+        images: []
+      },
+      {
+        text: "Lack of supplies is forcing staff at Al-Shifa Hospital to make \"harrowing\" decisions, director says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-16-23#h_28b854c3bd3eb0d07b3ab08fa15af572",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gazans facing \"immediate possibility of starvation\" as food production collapses, UN organization says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-16-23#h_1a8cd5baeb0b1d880f2602cd2293d8d0",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN Human Rights chief warns widespread disease and hunger are \u201cinevitable\u201d in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-16-23#h_6af3c5a54def4a7fb4308a1595ecaaf3",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN says more aid workers have been killed in Gaza than in any conflict in the agency\u2019s history",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-16-23#h_ef4bcd53434f92dbe3849790e799e42e",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Carnage in Gaza cannot be allowed to continue,\" UN humanitarian chief says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-16-23#h_bbdbb15295e562fff2ebf9f866cda82f",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN Security Council adopts resolution calling for series of humanitarian pauses in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-16-23#h_2d8b017f5dcebef81a6d0e8433e31588",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 17, 2023",
+    title: "Day 42",
+    events: [
+      {
+        text: "\"The children are starving,\" Al-Shifa director says, describing desperate conditions inside Gaza hospital.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-17-23/h_b75cb28edbeaea149393e6a13a3ab317",
+        description: "",
+        images: []
+      },
+      {
+        text: "Majority of Gaza's hospitals and clinics have shut down, Palestinian health ministry in Ramallah says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-17-23/h_25952c541ca4d434d1c00b1290de0276",
+        description: "",
+        images: []
+      },
+      {
+        text: "Majority of ICU patients at Gaza's largest hospital have died, Al-Shifa doctor says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-17-23/h_97fe902b6b49d81f27362059314b87e9",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gazans facing \"immediate possibility of starvation\" as food production collapses, UN organization says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-17-23/h_03f59f2a23cd114685021bdca57106f0",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN official calls on Israel to stop using water as \"weapon of war\".",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-17-23/h_265cc7263161b2bd424890a5eb3fe5e7",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN experts warn of \"genocide in the making\" in Gaza. Israel condemns the statement.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-17-23/h_5f54936fa763f69532c73c0613a541a6",
+        description: "",
+        images: []
+      },
+      {
+        text: "Disabled Palestinians in Gaza face struggle for survival.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-17-23/h_9277a59d46f5fe0f0519f0ed5e908778",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 18, 2023",
+    title: "Day 43",
+    events: [
+      {
+        text: "Another blast at a UN school in Gaza leaves dozens dead, video shows. Here\u2019s what you should know.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_e579bacc176aa8d150cd02e7e2dfa0ab",
+        description: "",
+        images: []
+      },
+      {
+        text: "Video shows dozens of bodies after blast at UN school in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_40f4a8b142d02952c8c004488b6f470c",
+        description: "",
+        images: []
+      },
+      {
+        text: "Six doctors will stay on at Al-Shifa hospital with 120 patients too vulnerable to evacuate.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_44513d97c1ca4f96d9b7738ccbea4379",
+        description: "",
+        images: []
+      },
+      {
+        text: "New images show extent of overcrowding at Gaza's Indonesian Hospital.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_a51698475066d22e81ef4d6a16c551ed",
+        description: "",
+        images: []
+      },
+      {
+        text: "Majority of Gaza's hospitals and clinics have shut down, Palestinian health ministry in Ramallah says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_802407bd060ef5fae1f50237d337e26c",
+        description: "",
+        images: []
+      },
+      {
+        text: "First plane carrying children from Gaza with urgent medical needs arrives in UAE.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_cd8efca233da47fe6f5b4cfcfb74ad1e",
+        description: "",
+        images: []
+      },
+      {
+        text: "More than 360 people now believed to have been killed at October 7\u00a0music festival, Israeli media reports.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_73cb0b2ad2a985805e30e1f278f1f819",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 19, 2023",
+    title: "Day 44",
+    events: [
+      {
+        text: "Doctors say newborns evacuated from Al-Shifa Hospital in Gaza are all fighting serious infections.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-19-23/h_1d026e2de495b7fd35bd21735f2b986c",
+        description: "",
+        images: []
+      },
+      {
+        text: "White House looking into devastating blast at UN-run school and shelter in northern Gaza, official says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-19-23/h_4484d5d297b9ef753bfc5adb24cf3ed8",
+        description: "",
+        images: []
+      },
+      {
+        text: "31 neo-natal babies evacuated from Al-Shifa hospital, Red Crescent says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-19-23/h_9b1cc87be01328cc79f780472250bbfa",
+        description: "",
+        images: []
+      },
+      {
+        text: "Another blast at a UN school in Gaza leaves dozens dead, video shows. Here\u2019s what you should know.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-19-23/h_c14ab97ae071ce010f7f7b1be43531f0",
+        description: "",
+        images: []
+      },
+      {
+        text: "WHO led a \"very high risk\" UN mission to Gaza\u2019s Al-Shifa Hospital on Saturday.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-19-23/h_aab10ee770da70c6b9f1c1884d843cef",
+        description: "",
+        images: []
+      },
+      {
+        text: "CNN speaks to Palestinian families fleeing northern Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-19-23/h_2f52d748bfbfc6a2fa6a6e8d6cfb92f3",
+        description: "",
+        images: []
+      },
+      {
+        text: "Video shows dozens of bodies after blast at UN school in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-19-23/h_5ac5ce79a8908358204e1f533759c08c",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 20, 2023",
+    title: "Day 45",
+    events: [
+      {
+        text: "Israeli artillery fire on Gaza's Indonesian Hospital kills 12, Hamas-run health ministry says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-20-23/h_c241536286d70240ea232cc84a7e4543",
+        description: "",
+        images: []
+      },
+      {
+        text: "Doctors Without Borders says its clinic in Gaza City came under fire during street fighting.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-20-23/h_8b24728a793ed77931d3031bf2357886",
+        description: "",
+        images: []
+      },
+      {
+        text: "World Health Organization \"appalled\" by attack on Indonesia Hospital in Gaza, director-general says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-20-23/h_6d83b7b0714edbc4f0786c29fed4c72b",
+        description: "",
+        images: []
+      },
+      {
+        text: "28 premature babies moved from Gaza to Egypt, World Health Organization says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-20-23/h_5277abaf5d15b225853fd7d85b372c1d",
+        description: "",
+        images: []
+      },
+      {
+        text: "Mother of infant recounts evacuation from Al-Shifa\u00a0for life-saving treatment in Egypt.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-20-23/h_b0ae141173877838ed67ed54a56161d7",
+        description: "",
+        images: []
+      },
+      {
+        text: "Heavy rainfall is creating \"unliveable\" conditions in Gaza's shelters, UN says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-20-23/h_47d06db4b875e2d29e9a8bc66f90e3b1",
+        description: "",
+        images: []
+      },
+      {
+        text: "Doctors say newborns evacuated from Al-Shifa Hospital in Gaza are all fighting serious infections.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-20-23/h_b7b942292344d2d24949506d22696c22",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 21, 2023",
+    title: "Day 46",
+    events: [
+      {
+        text: "Injured students rushed to Gaza hospital after hit on UN-run school in Bureij refugee camp.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-21-23/h_9b6d83e30a385197ad516e45f2240b54",
+        description: "",
+        images: []
+      },
+      {
+        text: "Indonesian Hospital in Gaza transformed from medical center to \"mass grave,\" says Hamas-controlled Ministry spokesperson.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-21-23/h_a6e2e7eedea9b07142decfc547832b8a",
+        description: "",
+        images: []
+      },
+      {
+        text: "50 journalists have been killed in Israel-Hamas war, Committee to Protect Journalists says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-21-23/h_934ee12a4ac700608360cbc52c86c6fb",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN secretary-general describes deaths of civilians in Gaza as \u201cunparalleled and unprecedented\u201d.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-21-23/h_9555066d04b41d089acd403513f4838c",
+        description: "",
+        images: []
+      },
+      {
+        text: "7 million people displaced in Gaza as UN agency warns of increased spread of disease.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-21-23/h_d3f48febe6aa9d49ec4fcb27281524e8",
+        description: "",
+        images: []
+      },
+      {
+        text: "Satellite data indicates up to 50% of buildings in northern Gaza have been damaged in 6 weeks of war.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-21-23/h_fd66e2b3fbd34a04416b9b0721140602",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli military says it has pushed further into tunnel under Al-Shifa Hospital complex.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-21-23/h_91159257ec7b026cbb13ca4dfe4318a5",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 22, 2023",
+    title: "Day 47",
+    events: [
+      {
+        text: "Gaza is the world\u2019s \"most dangerous place\" for children, UNICEF chief says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-22-23/h_6b422f2abd54d7a1e3c9c9321c1dd103",
+        description: "",
+        images: []
+      },
+      {
+        text: "At least 53 journalists killed in Israel-Hamas conflict since October 7, Committee to Protect Journalists says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-22-23/h_ad704e2df9aecc019b94c746cfddcd38",
+        description: "",
+        images: []
+      },
+      {
+        text: "More than 280 injured patients have been evacuated to Egypt since October",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-22-23/h_cc2b3a7bd74d86a65ab49fc7ef6f44da",
+        description: "",
+        images: []
+      },
+      {
+        text: "7 million people displaced in Gaza as UN agency warns of increased spread of disease.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-22-23/h_75b69ac53d0e91a61f55dbd35e47ba83",
+        description: "",
+        images: []
+      },
+      {
+        text: "Satellite data indicates up to 50% of buildings in northern Gaza have been damaged in 6 weeks of war.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-22-23/h_a846c16fc62d06fab58526796dedcdc2",
+        description: "",
+        images: []
+      },
+      {
+        text: "Norwegian Refugee Council says a 4-day pause in fighting \"not enough\" to facilitate aid operations in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-22-23/h_a93ef5fcd846fe471e33c8c0d0d91c18",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN calls for ceasefire but would welcome shorter pause in fighting to get more aid into Gaza, relief chief says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-22-23/h_a85239fb0f7eb92a1b33d03327baa335",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 23, 2023",
+    title: "Day 48",
+    events: [
+      {
+        text: "More than 14,800 people killed in Gaza, Hamas health authorities say",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-was-gaza-news-11-23-23/h_fbc7c3c7ab6dfc48d0e80cbd1c513d3c",
+        description: "",
+        images: []
+      },
+      {
+        text: "Hundreds of patients forced to flee Indonesian Hospital, says Hamas-run Health Ministry in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-was-gaza-news-11-23-23/h_67f4280c73b8db305c23cd358b15a2ab",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza is the world\u2019s \"most dangerous place\" for children, UNICEF chief says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-was-gaza-news-11-23-23/h_bfc372ca5b810b6b3c58faaa1081f975",
+        description: "",
+        images: []
+      },
+      {
+        text: "IDF arrests Al-Shifa Hospital director, Hamas-run Gaza Ministry of Health says",
+        link: null,
+        description: "",
+        images: []
+      },
+      {
+        text: "Doctors hope truce could help facilitate proper evacuation as heavy strikes hit northern Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-was-gaza-news-11-23-23/h_783f806b266127a1b8876f04b93e7413",
+        description: "",
+        images: []
+      },
+      {
+        text: "Al-Shifa Hospital director reportedly arrested by IDF while evacuating. Here's the latest",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-was-gaza-news-11-23-23/h_9694fdf30874f8b8b4929c2e8e70b1c9",
+        description: "",
+        images: []
+      },
+      {
+        text: "Hamas-run Gaza Ministry of Health suspends cooperation with WHO on Al-Shifa evacuations",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-was-gaza-news-11-23-23/h_bfc37e81c255e8155a14ae087e5f4114",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 24, 2023",
+    title: "Day 49",
+    events: [
+      {
+        text: "More than 14,800 people killed in Gaza, Hamas health authorities say.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-24-23/h_ad47e00e8f07f2d90087460dff637e50",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"The people of Gaza are tired,\" say Palestinians in the shattered enclave ahead of truce.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-24-23/h_4ce808885ee4070d8a58a6443c4df1ba",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel expects at least 2 more months of fighting against Hamas, defense minister says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-24-23/h_33a8546130053608df3f01c4b6dc9e33",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"This is a drop of joy in a sea of sadness.\" Well-wishers gather outside hospital as freed hostages arrive.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-24-23/h_e87130d620fba5dc5dafc8b5bcdcb072",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Where's Mum?\" Israel's welfare ministry issues guidance on caring for released child hostages.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-24-23/h_b787d527ffeb34760f70a5945dfaadc4",
+        description: "",
+        images: []
+      },
+      {
+        text: "Professionals will need to tell released hostages about what happened to their families soon, Israel says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-24-23/h_b90744a721fcbeb59d253a17d8b46638",
+        description: "",
+        images: []
+      },
+      {
+        text: "Northern Gaza remains a \"dangerous war zone,\" Israeli military says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-24-23/h_95cbf871be1136f1cf7ba147cdb759a7",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 25, 2023",
+    title: "Day 50",
+    events: [
+      {
+        text: "17 injured Palestinians have entered Egypt, official says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-25-23/h_dc15281327f1667857c3f8c7a14688d0",
+        description: "",
+        images: []
+      },
+      {
+        text: "Director of Al-Shifa Hospital is still being detained,\u00a0Israeli forces confirm.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-25-23/h_d016674363c54add1df87496e1edd645",
+        description: "",
+        images: []
+      },
+      {
+        text: "Director of Al-Shifa hospital remains detained by Israeli forces, WHO\u00a0says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-25-23/h_0619a361123618eca3e44366b6b2a896",
+        description: "",
+        images: []
+      },
+      {
+        text: "A 9-year-old whose father thought she had died on October 7 was among the hostages released Saturday.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-25-23/h_867b93c7fc6f0e7f94d7276aa0ab77f5",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN\u00a0patrol vehicle damaged by gunfire from Israeli military in southern Lebanon, peacekeeping force says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-25-23/h_a3d961c1eebf555efae7ada35c329e55",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"The fight still isn\u2019t over\":\u00a0Family\u00a0of male Israeli\u00a0hostages make fresh plea for their release.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-25-23/h_44358bd5276b7cd380720b1de119d856",
+        description: "",
+        images: []
+      },
+      {
+        text: "20 Thai nationals still in Hamas captivity, says Thailand's Foreign Ministry.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-25-23/h_a022fcd8ed02930db113f20b9b1b1cfb",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 26, 2023",
+    title: "Day 51",
+    events: [
+      {
+        text: "Eight Palestinians killed by Israeli fire in West Bank over past 24 hours, says Health Ministry",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-26-23/h_32098e21f1f4ae991a96bd509cec230d",
+        description: "",
+        images: []
+      },
+      {
+        text: "A UN vehicle was damaged by Israeli fire Saturday in southern Lebanon, peacekeeping force says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-26-23/h_b9aa00870f3461039033bad61e7534dd",
+        description: "",
+        images: []
+      },
+      {
+        text: "Aid trucks still \u201cdrop in the ocean\u201d of Gaza\u2019s humanitarian needs, UN agency says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-26-23/h_2aa5070bed17be5476a2df4d3b544c36",
+        description: "",
+        images: []
+      },
+      {
+        text: "Some of the freed hostages went days with little food, their families say",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-26-23/h_6403f9b9233abaa3c4d952ee79faf3f4",
+        description: "",
+        images: []
+      },
+      {
+        text: "Young girl whose father thought she had died on October 7 was among the hostages released Saturday",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-26-23/h_4d18ecb3deffde82abece4e5de3cbc0d",
+        description: "",
+        images: []
+      },
+      {
+        text: "Sister of\u00a0Thai freed hostage\u00a0says \"he\u00a0was taken care of very well\"",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-26-23/h_af17a45e6b5f0347892b098f8e0729c8",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 27, 2023",
+    title: "Day 52",
+    events: [
+      {
+        text: "Surgeon estimates as many as 900 children have had limbs amputated in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-27-23#h_3764be100b17881c1cfe695c5b52f61e",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza municipality warns of flooding risk from overfilled industrial lake.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-27-23#h_11a250a81ed2ca54badf12796007639e",
+        description: "",
+        images: []
+      },
+      {
+        text: "Some of the freed hostages went days with little food, families say.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-27-23#h_234c8b044c318b5eb0b2940166da822a",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"There was no reason to separate them,\" says relative of 13-year-old hostage released without mother.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-27-23#h_01169a561c2392f775b3ad605416fe12",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli woman released by Hamas knew her daughter and husband had been killed on October 7, brother says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-27-23#h_d82925971fdce0d6fcc9c261fa6af382",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"This is the first time since seven weeks we were able to walk safely in the streets,\" aid worker in Gaza says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-27-23#h_b5fd59150cd1ea12c1a0d58439f6b818",
+        description: "",
+        images: []
+      },
+      {
+        text: "Three Thai nationals released from Gaza on Sunday, foreign ministry confirms.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-27-23#h_160617d628dee806026b95c372598237",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 28, 2023",
+    title: "Day 53",
+    events: [
+      {
+        text: "2 Palestinians died after Jenin hospital was blocked by Israeli forces, charity care agency official says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-28-23/h_36774bbab7571ae6326ba1c418a67ed8",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli forces arrest injured man in ambulance in West Bank, Palestine Red Crescent Society says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-28-23/h_298955856df47d208249d2c27c28a089",
+        description: "",
+        images: []
+      },
+      {
+        text: "Grandfather grieves 3-year-old granddaughter killed as she slept in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-28-23/h_3310a6fb75b6ad07732b743c09778e31",
+        description: "",
+        images: []
+      },
+      {
+        text: "More Gazans could die from disease than bombardments in future if health infrastructure not restored, WHO says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-28-23/h_dcd1c1203fa376dfdba9eb51008636e6",
+        description: "",
+        images: []
+      },
+      {
+        text: "Teenage siblings freed from Hamas captivity, only to learn their mother had been murdered.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-28-23/h_6aa626f46fb35d0f7d828d1236c8103a",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel confirms death of hostage Ravid Katz in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-28-23/h_8e52faa30f7eeb3432d4ffccbee372df",
+        description: "",
+        images: []
+      },
+      {
+        text: "Relatives of 10-month-old baby taken hostage say he isn't on Tuesday's release list.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-28-23/h_0dc38f677c9d2d1c0101e160168b8992",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 29, 2023",
+    title: "Day 54",
+    events: [
+      {
+        text: "2 children killed by Israeli military in West Bank, Palestinian Ministry of Health says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-29-23/h_4a94e2ff373634e1ffc6b0967d403350",
+        description: "",
+        images: []
+      },
+      {
+        text: "Northern Gaza's health care system faces crisis, health ministry says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-29-23/h_c6a26ad33d9389166c1715128377dd7c",
+        description: "",
+        images: []
+      },
+      {
+        text: "Level of aid entering Gaza \"remains completely inadequate,\" UN chief says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-29-23/h_b178d02a8fa8855e90726d4ca623a12e",
+        description: "",
+        images: []
+      },
+      {
+        text: "Thousands of displaced Gazans at heightened risk of diseases, WHO director-general says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-29-23/h_dea692022504ba7cf8bda3a250b410fc",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Every day that he is staying there is a real, real danger to his life,\" says family of 10-month-old hostage",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-29-23/h_bf5136c274d8a2772b8bbba086acad9f",
+        description: "",
+        images: []
+      },
+      {
+        text: "2 Palestinians died after Jenin hospital was blocked by Israeli forces, charity care agency official says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-29-23/h_07bc4589fb4f1e067b6874913679dd15",
+        description: "",
+        images: []
+      },
+      {
+        text: "Grandfather grieves 3-year-old granddaughter killed as she slept in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-29-23/h_e760d8be57aa7536e972c4b5896948a0",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "November 30, 2023",
+    title: "Day 55",
+    events: [
+      {
+        text: "About 46,000 homes have been destroyed in Gaza since conflict began, according to UN.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-30-23#h_c762ee5a22907d2440a57dc48a0212d7",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli hospital chief says former child hostages have \"a long way to go\" on their path to full rehabilitation.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-30-23#h_ce6f87f6d56562da31c43e7fda32ad11",
+        description: "",
+        images: []
+      },
+      {
+        text: "Northern Gaza's health care system faces crisis, health ministry says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-30-23#h_2312f7abad7d411f90a0c1cac9f07727",
+        description: "",
+        images: []
+      },
+      {
+        text: "Level of aid entering Gaza \"remains completely inadequate,\" UN chief says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-30-23#h_8732f7b3a2baeef1fab49a2642275a35",
+        description: "",
+        images: []
+      },
+      {
+        text: "Containers carrying fuel and cooking gas transferred to UN organizations in Gaza, Israel says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-30-23#h_5c696d9be94e2a01deecdfdee20f472b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Over 2,700 trucks carrying aid have entered Gaza from Egypt since October 21, Egyptian official says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-30-23#h_52f2607e297f399f9a6b2cca74ecd379",
+        description: "",
+        images: []
+      },
+      {
+        text: "Jordanian military drops parachutes with relief supplies into Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-30-23#h_df09654093018d99e2c43c0cd63fa01a",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 01, 2023",
+    title: "Day 56",
+    events: [
+      {
+        text: "Hamas burned children held in captivity, says uncle of freed Israeli teens",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-1-23/h_a860be90fe6e17b7ba68505eb1856bbb",
+        description: "",
+        images: []
+      },
+      {
+        text: "Palestinian journalist killed by Israeli airstrikes in Gaza, says Turkish news agency",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-1-23/h_c7d47904154e67ce2271db69b1dee00f",
+        description: "",
+        images: []
+      },
+      {
+        text: "32 people killed in Gaza by Israeli strikes Friday, Hamas-controlled ministry spokesperson says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-1-23/h_fc08b85ba7317769569985060cdde334",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN chief expresses deep regret at war resuming in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-1-23/h_58b9b2a99d57e66d32130cb5c3aa387a",
+        description: "",
+        images: []
+      },
+      {
+        text: "Resumption of fighting in Gaza is \"catastrophic,\" UN human rights chief says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-1-23/h_477266e0d29587b1a21da14a0aad7340",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Nightmare\" returns for civilians caught in renewed fighting, Red Cross director-general says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-1-23/h_4a3680819048a25cb9e3ca940982ccb0",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN relief chief urges renewed humanitarian ceasefire in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-1-23/h_fec3216a5fbf14f8ebfe674f22753782",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 02, 2023",
+    title: "Day 57",
+    events: [
+      {
+        text: "Dozens feared dead after apparent strike destroys Gaza refugee camp building.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-2-23/h_ee6e9446a1ce8b81d3276c15e28faa42",
+        description: "",
+        images: []
+      },
+      {
+        text: "Wounded civilians are \"lying on the floor\" in hospitals after fighting resumes, Hamas-run ministry says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-2-23/h_cb35c576ae97ec8b516b506fbf02564c",
+        description: "",
+        images: []
+      },
+      {
+        text: "Deaths of 3 Israeli hostages in Gaza confirmed by their families.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-2-23/h_61e248ea2d0b9491d2bf62002f1439a5",
+        description: "",
+        images: []
+      },
+      {
+        text: "At least 61 journalists killed in Israel-Hamas conflict, says Committee to Protect Journalists.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-2-23/h_4982763e81fb96d504f77435181cb2ab",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli bombing in Gaza kills prominent Palestinian scientist, ministry says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-2-23/h_3285243f368e923c5d0524cd1ad2a927",
+        description: "",
+        images: []
+      },
+      {
+        text: "Aid trucks going into Gaza carried body bags and blankets, according to Egyptian Red Crescent.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-2-23/h_2eb49d934b7bbafa02221c4777b08012",
+        description: "",
+        images: []
+      },
+      {
+        text: "Canadian pop star The Weeknd is providing for 4 million emergency meals in Gaza, UN says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-2-23/h_e73b7984b464b612f5a7143480a79f1b",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 03, 2023",
+    title: "Day 58",
+    events: [
+      {
+        text: "Palestinian student shot in Burlington now paralyzed, mother tells CNN.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-3-23#h_41e1e080ee71d363604952fec74e4bbb",
+        description: "",
+        images: []
+      },
+      {
+        text: "US urges greater civilian protection in Gaza as Israel launches overnight strikes.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-3-23#h_0e7405e6ce7376a915ddb587132b089d",
+        description: "",
+        images: []
+      },
+      {
+        text: "Over 15,000 Palestinians have been killed by Israeli attacks in Gaza since October 7, Hamas-run ministry says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-3-23#h_272625e164376a67a2cef3c52ec6746a",
+        description: "",
+        images: []
+      },
+      {
+        text: "IDF orders people to evacuate more areas in southern Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-3-23#h_ce17a7c08cf62a2784ce6faadba6e5a1",
+        description: "",
+        images: []
+      },
+      {
+        text: "GOP senator rejects defense secretary's argument that more civilian casualties in Gaza could worsen insurgency.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-3-23#h_c8d0a0e83577f7270030ffd510a6b54e",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel targets Jabalya refugee camp again on Sunday.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-3-23#h_4e989c26215928802b67f941a36fba74",
+        description: "",
+        images: []
+      },
+      {
+        text: "US Defense Secretary calls protection of civilians \"imperative\" for Israel, as Palestinian death toll rises.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-3-23#h_f49b414180bf8b97d3081c9277b1669e",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 04, 2023",
+    title: "Day 59",
+    events: [
+      {
+        text: "Explosion near Kamal Adwan hospital in northern Gaza leaves 10 dead, doctor says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-12-4-2023/h_d3a9c89e21cd860e5d49537bf32f2c13",
+        description: "",
+        images: []
+      },
+      {
+        text: "Heavy Israeli strikes creates \"very serious\" situation around northern Gaza hospital, journalist says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-12-4-2023/h_23786ad7b1e537553b8348e47b0a4404",
+        description: "",
+        images: []
+      },
+      {
+        text: "Civilian death toll \"rapidly increasing,\" UN official says as Israel expands operations.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-12-4-2023/h_b218e57724b555457af0c677a12f8428",
+        description: "",
+        images: []
+      },
+      {
+        text: "Injured people flood hospitals in southern Gaza as IDF attacks intensify",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-12-4-2023/h_eaab52dff7776d80c609d399461d7ec8",
+        description: "",
+        images: []
+      },
+      {
+        text: "Hospital manager describes catastrophic situation at southern Gaza health center",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-12-4-2023/h_0d691fa09b3c42d1f87d683bd71a43d1",
+        description: "",
+        images: []
+      },
+      {
+        text: "More than 80% of Gazans have been displaced since Israel-Hamas war began, UN agency says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-12-4-2023/h_f0f32d117de7e4d5216a18c6591bb895",
+        description: "",
+        images: []
+      },
+      {
+        text: "In Gaza, disease could be even deadlier than airstrikes, WHO says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-12-4-2023/h_b3427b5cd605143b3c46dad13c69caf3",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 05, 2023",
+    title: "Day 60",
+    events: [
+      {
+        text: "19 more UN workers killed in Gaza, relief agency says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-05-23/h_11e58f9ce2508739ce6d08bc028b2067",
+        description: "",
+        images: []
+      },
+      {
+        text: "Top UN officials warn of \"apocalyptic\" situation in Gaza with \"nowhere safe to go.\" Here's the latest",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-05-23/h_f291846b26dc39b5b24e1d24c541640e",
+        description: "",
+        images: []
+      },
+      {
+        text: "Situation in Gaza becoming \"more apocalyptic,\" top UN relief official warns",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-05-23/h_e75adab877343731db6eb456928e10b2",
+        description: "",
+        images: []
+      },
+      {
+        text: "More than 80% of Gazans have been displaced since Israel's war with Hamas began, UN agency says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-05-23/h_7e655f5f7c2d1618e954272bc4d0bf1f",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gazans dig through rubble of collapsed buildings. They are no longer searching for loved ones, but food",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-05-23/h_d7234f7b606bad38f924424ee39131a0",
+        description: "",
+        images: []
+      },
+      {
+        text: "More than 100 bodies at Gaza's Kamal Adwan hospital, Hamas-controlled health ministry says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-05-23/h_c0f44249a801c76b87c3506b0faab4d7",
+        description: "",
+        images: []
+      },
+      {
+        text: "Southern Gaza ground operations likely to cut thousands off from health care, WHO warns",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-05-23/h_2cbaacd5bed5122b740d43a4bb6abd22",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 06, 2023",
+    title: "Day 61",
+    events: [
+      {
+        text: "Gaza's health system \"on its knees\" and nearing total collapse, WHO says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-06-23/h_981fab85900fdf90eb43ed0a56b711f9",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Everyone in Gaza is hungry,\" World Food Programme chief says amid severe food and water shortages in enclave",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-06-23/h_2e73a6bb2f8aedd10e55d73b9bc35303",
+        description: "",
+        images: []
+      },
+      {
+        text: "Palestine Red Crescent stopping ambulance operations in northern Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-06-23/h_9c7f0cdbed3f1a70c1ee25cf3dfbe5fa",
+        description: "",
+        images: []
+      },
+      {
+        text: "Supplies are \"critically low\" at central Gaza hospital, Doctors Without Borders says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-06-23/h_1cd83a189f824128f6871190b3d5f096",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN calls Gaza one of world's \"most dangerous\" places as refugee camp hit by alleged IDF strikes. Catch up here",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-06-23/h_91a121cfbc08e7a4e2bbcef20a856ef0",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza Strip is now \"one of the most dangerous places in the world,\" UN agency says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-06-23/h_c654b7e1a576256acc20a97b7bd00e83",
+        description: "",
+        images: []
+      },
+      {
+        text: "Reports of high casualties after Israel strikes refugee camp in northern Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-06-23/h_436f4c1f2788f8c57bf305bb8d017913",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 07, 2023",
+    title: "Day 62",
+    events: [
+      {
+        text: "18 family members of Gaza health ministry director-general killed in Israeli airstrike, agency says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-07-23/h_aa98273c9c3ef2557a4d46acb1065ede",
+        description: "",
+        images: []
+      },
+      {
+        text: "More killed than injured are now arriving at a Gaza hospital, Doctors Without Borders says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-07-23/h_da173148a24c4cf9e50d3d5d870e7e9c",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza's health system \"on its knees\" and nearing total collapse, WHO says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-07-23/h_ab1aa100b233c7b4775fca22fe0636a3",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Everyone in Gaza is hungry,\" World Food Programme chief says amid severe food and water shortages.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-07-23/h_4e065198549ff0b21adc275890bb9841",
+        description: "",
+        images: []
+      },
+      {
+        text: "Palestine Red Crescent Society says lack of fuel is crippling operations.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-07-23/h_70009c2bebc73f9907f81ae00caaf0b4",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza experiencing \"alarming levels\" of hunger, UN agency warns.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-07-23/h_6260b65181c72b408eb84611bf2b5441",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Our humanitarian program is no longer a functioning one\" in southern Gaza, UN aid chief says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-07-23/h_a141fed06e9d2200dfaa06d9860c71fb",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 08, 2023",
+    title: "Day 63",
+    events: [
+      {
+        text: "Infants found dead and decomposing in evacuated hospital ICU in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-08-23/h_734acae2b4b790541bf3a635dd341992",
+        description: "",
+        images: []
+      },
+      {
+        text: "Committee to Protect Journalists calls for accountability after attack that killed Reuters videographer",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-08-23/h_9897a9e1aafafa768b506c6fb58a9f3d",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli tank fire killed Reuters journalist in October attack, CNN analysis\u00a0suggests",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-08-23/h_ec32be8e591b964a3f4276b1affd995e",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN Security Council \"complicit in the ongoing slaughter\" in Gaza, Doctors Without Borders says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-08-23/h_380aeac241775a6caedbcb929fd94343",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN agency in Gaza is on the verge of collapse, commissioner-general says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-08-23/h_4d6e202f4c8ffe4d577223ad9e31cd88",
+        description: "",
+        images: []
+      },
+      {
+        text: "Fewer aid trucks entering Gaza, UN agency says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-08-23/h_66698e48cc3b72cc8de5ac2af2450551",
+        description: "",
+        images: []
+      },
+      {
+        text: "Images from Gaza show Israeli soldiers detaining dozens of men stripped to underwear",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-08-23/h_05d80cf9055db6791943ccbf4b36e9cd",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 09, 2023",
+    title: "Day 64",
+    events: [
+      {
+        text: "Shelling ongoing in the vicinity of Al-Amal Hospital in Khan Younis, aid agency says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-09-23/h_8a4e270dd39da70186e3f9c44c27bcd6",
+        description: "",
+        images: []
+      },
+      {
+        text: "Central Gaza hospital sees 71 fatalities arrive in 24 hours, says Hamas-controlled health ministry.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-09-23/h_73195adcee473e22bd22e57918d4b7f3",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli strikes that killed journalist in southern Lebanon appeared deliberate, fellow journalist says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-09-23/h_13a4e036954004c5629c94087787e7e4",
+        description: "",
+        images: []
+      },
+      {
+        text: "2 of the oldest mosques in Gaza City appear to have suffered severe damage.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-09-23/h_3301187ccf2c8e4b761effb05dddc733",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli military issues fresh appeal for civilians to leave areas of Khan Younis, where fighting rages.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-09-23/h_99ffcf8531316391e479caddeb184563",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli military tells Khan Younis residents to evacuate to area with few facilities on the coast.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-09-23/h_1c1592e4eb6ce30f1970595aa42fa831",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli hostage killed in Gaza, circumstances of death unclear.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-09-23/h_642ccd4269622b242493232de31a354d",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 10, 2023",
+    title: "Day 65",
+    events: [
+      {
+        text: "Palestinian news agency: Dozens killed in Jabalya refugee camp as Khan Younis hospitals face more pressure.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-10-23/h_c037663bbf770a1374c107405ab20077",
+        description: "",
+        images: []
+      },
+      {
+        text: "Doctors\u00a0without\u00a0Borders accuses\u00a0Israeli military of attacking marked evacuation convoy in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-10-23/h_4b7c4d594a60219b146ec47f9ac3ba8b",
+        description: "",
+        images: []
+      },
+      {
+        text: "WHO\u00a0chief says Gaza health care system is \"on its knees and collapsing\".",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-10-23/h_95cd00b465be3158c68b89b1d05a801a",
+        description: "",
+        images: []
+      },
+      {
+        text: "Qatar's PM says Gaza witnessing \"an unprecedented humanitarian disaster\".",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-10-23/h_539a58db6dd3b5897512705ec82fa8bf",
+        description: "",
+        images: []
+      },
+      {
+        text: "Khan Younis resident tells CNN he faces lack of safety, food and water amid ongoing Israeli ground operations.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-10-23/h_def2898d5b385350887e0501ce08ba57",
+        description: "",
+        images: []
+      },
+      {
+        text: "Dark smoke billows over Khan Younis skyline as Israel expands operations in southern Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-10-23/h_2e0f849bebfdd7a55aa43bc1fb7b45b6",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli military tells Khan Younis residents to evacuate to area with few facilities on the coast.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-10-23/h_d436973af1dfdfac43babc0509d9824f",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 11, 2023",
+    title: "Day 66",
+    events: [
+      {
+        text: "Kamal Adwan hospital in northern Gaza remains under siege, doctor says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-11-23/h_cecd8eb45a61b346b7aabef12627fef8",
+        description: "",
+        images: []
+      },
+      {
+        text: "Surgeon injured after being shot inside northern Gaza hospital, medical group says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-11-23/h_4c7ba7b0378526a57ce8b38ad8e13657",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN convoy that evacuated critically injured from Gaza City\u00a0delayed for hours at\u00a0IDF\u00a0checkpoint, OCHA says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-11-23/h_6f4dbb3edf063a71fdd138881cc8d87f",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN agency staff in Gaza feels \"abandoned\" after US vetoed ceasefire resolution.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-11-23/h_84aeea925d43622e26c26781bdbeeb13",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gazan professor and writer killed in airstrike, weeks after telling CNN he had \u201cnowhere else to go\u201d.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-11-23/h_a1755fcf8452531e089c9c5d8f3a204f",
+        description: "",
+        images: []
+      },
+      {
+        text: "Dozens killed in Israeli strikes as Gaza hospitals face more pressure, Palestinian news agency says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-11-23/h_692798852a2579fb028102c095530d86",
+        description: "",
+        images: []
+      },
+      {
+        text: "Video shows smoke over Khan Younis as Israeli forces expand operations in southern Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-11-23/h_275178e622cff26e7282008902f8dcac",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 12, 2023",
+    title: "Day 67",
+    events: [
+      {
+        text: "\"It can barely be described as living conditions anymore,\" aid official says of situation in Gaza hospital",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-12-23/h_f57d1903735f00ab905f158d13477a90",
+        description: "",
+        images: []
+      },
+      {
+        text: "Hamas-controlled health ministry claims Israeli troops are inside Gaza hospital and interrogating staff",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-12-23/h_84ce9a019b22c88af1e2016c5a52aa0b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Surgeon injured after being shot inside northern Gaza hospital, medical group says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-12-23/h_89ca42aee9eeb5b2a64ca3bb63cd432a",
+        description: "",
+        images: []
+      },
+      {
+        text: "More than 70 medical staff at northern Gaza hospital arrested by Israeli military, doctor says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-12-23/h_8508c1aab6fba68a6ccf2e038e049914",
+        description: "",
+        images: []
+      },
+      {
+        text: "Diseases including chicken pox, meningitis and other infections spread in Gaza, health ministry and WHO says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-12-23/h_e8e3af6c48c5576e8e585c1dc23fd48b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Wading through mud and puddles, displaced Gazans struggle to cope with harsh weather",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-12-23/h_43648a6013a7a7a3a03a388914add2d5",
+        description: "",
+        images: []
+      },
+      {
+        text: "One family's plight in Gaza: From work and a home to a tent and destitution",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-12-23/h_b2a8180bc4b801287cbddce492a0bee1",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 13, 2023",
+    title: "Day 68",
+    events: [
+      {
+        text: "Starvation, disease, and winter chill threaten the survival of displaced civilians in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-13-23/h_e84c6e0c617550ade549c9b10761cb61",
+        description: "",
+        images: []
+      },
+      {
+        text: "Doctor says Gaza hospital staff and patients subject to harsh treatment\u00a0by IDF",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-13-23/h_d8bff7435c70df95024fe201c5064e97",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza hospitals receive a high number of casualties Wednesday, medical staff say",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-13-23/h_930ed8f4accd2e258ee0a76a332367df",
+        description: "",
+        images: []
+      },
+      {
+        text: "WHO calls for protection of humanitarian workers in Gaza after medical workers detained at checkpoint",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-13-23/h_412c3848648e8b82d5c648b2e0a9cd4a",
+        description: "",
+        images: []
+      },
+      {
+        text: "More than 70 medical staff at northern Gaza hospital arrested by Israeli military, doctor says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-13-23/h_028d575f659ecd372fa510aca3767fcc",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN demands an immediate Gaza ceasefire. Here's what else you should know",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-13-23/h_d894b53996a84e8c7be800efa6ca4848",
+        description: "",
+        images: []
+      },
+      {
+        text: "Aid worker on Gaza crisis: \"It can barely be described as living conditions anymore\"",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-13-23/h_2294bc9f7a93735cf9655868c8969c57",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 14, 2023",
+    title: "Day 69",
+    events: [
+      {
+        text: "This 8-year-old's skull and leg were broken in a bombing in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-14-23/h_b529cbe431b9e40aad0325a27db1d9c8",
+        description: "",
+        images: []
+      },
+      {
+        text: "This Gaza hospital is seeing severe consequences of local health systems collapsing.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-14-23/h_51d55e63841b4f278811c1b09fb6f43b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Palestinian medical group says it has completely lost contact with its emergency operations room in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-14-23/h_2717b6c7ffc76f71b9b2711196f3e237",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"We are homeless now\": Gaza orphanage director describes fleeing south amid Israeli bombardment.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-14-23/h_f52898e3b4fdb20d64126d292f00d91d",
+        description: "",
+        images: []
+      },
+      {
+        text: "Doctor claims Israeli forces abused Gaza hospital staff and patients.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-14-23/h_9e5e07f3fdc3bb124877668a90836991",
+        description: "",
+        images: []
+      },
+      {
+        text: "US intelligence assessment finds nearly half of Israeli\u00a0munitions dropped on Gaza are imprecise \"dumb bombs\".",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-14-23/h_76b5644387aac38388da96ab2b1b8635",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli hostage in Gaza pronounced dead, prime minister's office says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-14-23/h_f3d6978b0205cb46cdd5eafb62c2d2d7",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 15, 2023",
+    title: "Day 70",
+    events: [
+      {
+        text: "Gaza is worse than a graveyard for children, UNICEF spokesperson says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-15-23/h_49688185619cd54f3af8558ba45920cd",
+        description: "",
+        images: []
+      },
+      {
+        text: "Al Jazeera cameraman killed by Israeli airstrike in southern Gaza, network says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-15-23/h_79b84f832d2c839909b3cd640dd71c79",
+        description: "",
+        images: []
+      },
+      {
+        text: "At least 17 people killed after a Gaza school and home were struck by artillery fire",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-15-23/h_8648eaf741e55defe2d624c26c756910",
+        description: "",
+        images: []
+      },
+      {
+        text: "This Gaza field hospital set up by UAE is seeing severe consequences of local health systems collapsing",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-15-23/h_5a6deac09f4c5b1a8e3ecede14275df0",
+        description: "",
+        images: []
+      },
+      {
+        text: "WHO concerned about Gaza's degrading health care system as health needs soar, regional director says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-15-23/h_15ef556189be0c8da2d5e8a9d3886aa8",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"We have the right to live\": Gazans face starvation, disease and winter chill",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-15-23/h_8f06be51d161608aa11e999602906de9",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli soldiers in Gaza burn\u00a0food, vandalize\u00a0a shop\u00a0and ransack\u00a0private homes, videos show",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-15-23/h_eca88eb4497b9d39e718be70b3d452c0",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 16, 2023",
+    title: "Day 71",
+    events: [
+      {
+        text: "IDF sniper kills 2 women inside Gaza church, according to Latin Patriarchate of Jerusalem.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-16-23/h_be9341a48d9e27443677c1e9a2215b20",
+        description: "",
+        images: []
+      },
+      {
+        text: "21 bodies brought into Khan Younis hospital, Gaza journalists report.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-16-23/h_d5c8ecc6e447a27f6d81e0f0a1a79894",
+        description: "",
+        images: []
+      },
+      {
+        text: "At least 14 dead in reported airstrike in northern Gaza, Hamas-controlled health ministry says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-16-23/h_2ca25921a2f993079a249bf6f59a30ff",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza is worse than a graveyard for children, UNICEF spokesperson says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-16-23/h_43e601c3577b060b041ee1adc33be304",
+        description: "",
+        images: []
+      },
+      {
+        text: "Al Jazeera cameraman killed by Israeli airstrike in southern Gaza, network says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-16-23/h_57060bcbd66ab4f3fc891746d2a4d3ce",
+        description: "",
+        images: []
+      },
+      {
+        text: "Al Jazeera to refer killing of cameraman in Gaza to International Criminal Court.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-16-23/h_25305b9232cb31d88381bf54c2998bb1",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN says 2023 the deadliest year for Palestinians in the West Bank since 2005, when its records began.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-16-23/h_b60eefa90fd1779f9b2b8cbf8d823c41",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 17, 2023",
+    title: "Day 72",
+    events: [
+      {
+        text: "Gaza health ministry\u00a0says 70% of Palestinians killed in the territory during the war are women and children.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-17-23/h_91ea8040c25ba0a9e234d3acea8c74c7",
+        description: "",
+        images: []
+      },
+      {
+        text: "Pope Francis says there are no terrorists in Gaza parish where church officials say IDF sniper killed 2 women.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-17-23/h_7c175f2176588a8589514810b7d3a9a8",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza under longest communication blackout since war began, Palestine Red Crescent Society says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-17-23/h_69b90bfa76bd3e42089a0b720848a132",
+        description: "",
+        images: []
+      },
+      {
+        text: "At least 24 dead in air strike in northern Gaza, Health Ministry says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-17-23/h_9972dcc9659b451b64230fb201c23ff4",
+        description: "",
+        images: []
+      },
+      {
+        text: "IDF sniper kills 2 women inside Gaza church, according to Latin Patriarchate of Jerusalem.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-17-23/h_eb472e27af40cc284d531ebd168e1ab3",
+        description: "",
+        images: []
+      },
+      {
+        text: "Al Jazeera cameraman death: IDF says it attempted to help get ambulance on site.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-17-23/h_9be344a6f912d9c1040c191f2f3141c1",
+        description: "",
+        images: []
+      },
+      {
+        text: "IDF did not have intelligence on hostages mistakenly killed.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-17-23/h_b8f09b168e17672bcbcd395643ec52e6",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 18, 2023",
+    title: "Day 73",
+    events: [
+      {
+        text: "Nearly 300 people in UNRWA shelters have been killed and more than 1,000 injured since October 7, OCHA says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-18-23/h_01d0dddfa6a895db3eb652899476cdc2",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN says Gaza has become most dangerous place in the world for journalists and their families.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-18-23/h_1230cd8bbdbe9e7071baf1dcdd5a1bc5",
+        description: "",
+        images: []
+      },
+      {
+        text: "Human Rights Watch accuses Israel of using starvation as a \"weapon of war\" in Gaza. Israel calls it a lie.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-18-23/h_0c83b3746fbc39927a3c57747efab78e",
+        description: "",
+        images: []
+      },
+      {
+        text: "At least 110\u00a0people\u00a0killed in Israeli attacks\u00a0on Jabalya over past day, Hamas-run health ministry says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-18-23/h_9865861e83ffb941670826e38b0cc8e4",
+        description: "",
+        images: []
+      },
+      {
+        text: "70% of Palestinians killed in Gaza are women and children, health ministry\u00a0says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-18-23/h_9668f8cd9d22abd65b52cc8eca3baccb",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza under longest communication blackout since war began, Palestine Red Crescent Society says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-18-23/h_1cb1ee2f640864aa435d67a8c594830a",
+        description: "",
+        images: []
+      },
+      {
+        text: "French consulate worker killed in Gaza following Israeli airstrike, foreign ministry says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-18-23/h_75fc984c67c6cda2d9e718e563f0ec24",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 19, 2023",
+    title: "Day 74",
+    events: [
+      {
+        text: "Children and families are \"not safe in hospitals\" in Gaza, UNICEF spokesperson says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-19-23/h_3554a722af2e5286ab0a4d3580d21758",
+        description: "",
+        images: []
+      },
+      {
+        text: "Al-Ahli Baptist Hospital in Gaza is now out of service, Palestinian Ministry of Health says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-19-23/h_a36742e137ed1562b3773b69b5de9262",
+        description: "",
+        images: []
+      },
+      {
+        text: "16 killed and more than 70 injured in airstrikes in Jabalya in northern Gaza, doctor says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-19-23/h_7b837ea2435ac322954124a890f496a8",
+        description: "",
+        images: []
+      },
+      {
+        text: "Nearly 300 people killed in UNRWA shelters and more than 1,000 injured since October 7, OCHA says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-19-23/h_238d06a26a8476dd7534bca8855e981d",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN says Gaza has become most dangerous place in the world for journalists and their families.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-19-23/h_a4c0a299d2874a6c3ac19031da05e784",
+        description: "",
+        images: []
+      },
+      {
+        text: "Catholic officials share images of damaged Gaza church complex following deadly shootings.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-19-23/h_e6f0b226499701c67c8661d74ba9272b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Christians sheltering in Gaza church face \"beyond desperate\" situation, says UK lawmaker.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-19-23/h_f8d12077744bc7bbbb187a28aae5f4f7",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 20, 2023",
+    title: "Day 75",
+    events: [
+      {
+        text: "Dozens killed in Jabalya area of northern Gaza, Hamas-run health ministry says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-20-23/h_e176665db7bf6217584fa980c794b6ae",
+        description: "",
+        images: []
+      },
+      {
+        text: "Several reportedly killed in series of explosions close to a hospital in southern Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-20-23/h_ae4fa74258d4b8be39634e3220c6803d",
+        description: "",
+        images: []
+      },
+      {
+        text: "Children in Gaza have \u201cbarely a drop to drink,\u201d UNICEF warns.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-20-23/h_549f75279bb092c43d649f5582534935",
+        description: "",
+        images: []
+      },
+      {
+        text: "Half of Gaza is starving, UN food agency says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-20-23/h_341b58654fb0b88da7a1329e718d4304",
+        description: "",
+        images: []
+      },
+      {
+        text: "Children and families are \"not safe in hospitals\" in Gaza, UNICEF says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-20-23/h_d6098ff4c68df5e3474086aa204159fc",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza residents face \"toxic\" combination of disease, hunger and lack of hygiene, WHO chief warns.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-20-23/h_b26e62019b6a777febaaef74926fa7cf",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli security agency investigating at least 2 Gaza hospital directors, source says.",
+        link: null,
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 21, 2023",
+    title: "Day 76",
+    events: [
+      {
+        text: "World Health Organization videos from inside 2 Gaza hospitals show extent of damage.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-12-21-23/h_bd86d753c5d35f94d34cec4cf79ae1b0",
+        description: "",
+        images: []
+      },
+      {
+        text: "WHO says no functioning hospitals in northern Gaza as death toll in enclave hits grim milestone.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-12-21-23/h_241f3f55c97e17789f973ea3b66dd220",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"No functional hospitals left\" in northern Gaza, WHO says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-12-21-23/h_d70736dbd6964b7c0537ceec9da9c81e",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza residents face \"toxic\" combination of disease, hunger, and lack of hygiene, WHO chief warns.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-12-21-23/h_ffdd744ec163183acd64dc5a3f7735de",
+        description: "",
+        images: []
+      },
+      {
+        text: "Dozens of journalists killed since October 7, advocacy group says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-12-21-23/h_bbbde6d653c71ede11b73162c9f16a93",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli military dog captured hostages' voices on camera days before they were killed by friendly fire.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-12-21-23/h_7073b5c817e15086f5f7de52302c7108",
+        description: "",
+        images: []
+      },
+      {
+        text: "Voices of hostages killed in Gaza by Israeli troops captured on IDF dog camera, spokesperson says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-12-21-23/h_0ea07f4f05c8a2301da437ebaf314433",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 22, 2023",
+    title: "Day 77",
+    events: [
+      {
+        text: "All children under age 5 in Gaza at high risk of preventable death due to food insecurity, UNICEF says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-22-23/h_9b68fffa30dae0ef5ea5d1685265de1a",
+        description: "",
+        images: []
+      },
+      {
+        text: "No functional hospitals left in northern Gaza, WHO says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-22-23/h_7436f571523560ba26b388b77a30187e",
+        description: "",
+        images: []
+      },
+      {
+        text: "Acute hunger crisis affecting entire population of Gaza, UN report says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-22-23/h_572f19c6f7170f48d216d6fceb73cef3",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel struck some areas it directed civilians to in Gaza, CNN analysis shows",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-22-23/h_568632de935b107f568f48b9718319b3",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza death toll surpasses 20,000, Hamas-controlled health ministry says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-22-23/h_9d70e1c9302cd2bf44c91d0ec7622fa3",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza faces increasing risk of famine, report by food security agency finds",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-22-23/h_1388cd738a4ca77c7f9219375274d382",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel dropped hundreds of 2,000-pound bombs on Gaza, analysis shows",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-22-23/h_45ccbdc05a0f666fff2b4c655133eab4",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 23, 2023",
+    title: "Day 78",
+    events: [
+      {
+        text: "At least 18 killed in Israeli strikes in central Gaza, hospital officials say.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-23-23/h_8b743afed868e3b65918743dba557aaa",
+        description: "",
+        images: []
+      },
+      {
+        text: "All children under age 5 in Gaza at high risk of preventable death due to food insecurity, UNICEF says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-23-23/h_dc7aa18cfcf853de25213810e04b7f9e",
+        description: "",
+        images: []
+      },
+      {
+        text: "Top official at UN agency says \"no place is safe\" in Gaza as Israel calls for new areas to evacuate.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-23-23/h_c9e1eb3992f4ae8d8c9f295bd9182de8",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN\u00a0Secretary General\u00a0pays tribute to 136 colleagues killed in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-23-23/h_6c232aaf0e3de2e7c129a44e611a2777",
+        description: "",
+        images: []
+      },
+      {
+        text: "Doctors accuse Israeli troops of atrocities at hospital Israel says was Hamas \"command center\".",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-23-23/h_af26470f74d6e820c40cd31f33d52a27",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN Security Council resolution is a \"step in the right direction,\" Palestinian envoy says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-23-23/h_53d992ded48db6d318236b9c15563707",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli military says it plans to expand into new areas of Gaza \u2014 with an emphasis on the south.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-23-23/h_122b44bfa3852082f5e69827f8b7ddc8",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 24, 2023",
+    title: "Day 79",
+    events: [
+      {
+        text: "Israeli attack kills at least 70 at Gaza refugee camp, Hamas-run ministry says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-24-23/h_7118e0783af22b18688c60dfd1a3e2cf",
+        description: "",
+        images: []
+      },
+      {
+        text: "166 people have died in Gaza in the last 24 hours, Hamas-controlled health ministry\u00a0says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-24-23/h_1e5ab8cc1f86371c5c3e8448245b68bd",
+        description: "",
+        images: []
+      },
+      {
+        text: "Doctors accuse Israeli troops of atrocities at hospital Israel says was Hamas \"command center\"",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-24-23/h_a401437ac73f7513b2a28c131ce16948",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli military says 10 soldiers killed on Saturday in one of the deadliest days for its forces of the war",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-24-23/h_6f7dce6948e4d5e72199ba6a651d52ac",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli forces are intensifying operations inside Gaza, Netanyahu says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-24-23/h_de7968848443c5a1be27cfef998338b4",
+        description: "",
+        images: []
+      },
+      {
+        text: "Video shows unrest in Gaza near Rafah crossing as relief aid turmoil continues",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-24-23/h_1ce1b3300e384003e5235e8f62745533",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel says it has expanded ground operation across northern and southern areas of Gaza Strip",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-24-23/h_7b968c9ba673a5b7eb22cdb676268f34",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 25, 2023",
+    title: "Day 80",
+    events: [
+      {
+        text: "At least 250 killed over the past 24 hours in central Gaza, Hamas-controlled health ministry says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-25-23/h_b9d96cd86ce19334a317006a6f9a8ffd",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli attack kills at least 70 at Gaza refugee camp, Hamas-run ministry says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-25-23/h_427a2e4820c69a605ccc0b1b74245fc6",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Massacre\" at Gaza refugee camp as pope denounces \"futile\" war in Christmas mass.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-25-23/h_107569fe7bf1e885de4e1e720d04ab5f",
+        description: "",
+        images: []
+      },
+      {
+        text: "Situation at flashpoint hospital reflects \"nightmare playing out across Gaza,\" WHO chief says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-25-23/h_37684f20ca4cb67a388d44df9c80cb9a",
+        description: "",
+        images: []
+      },
+      {
+        text: "Pope calls for ceasefire and release of hostages in Christmas Day message",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-25-23/h_9d7fb4b9e5cbc064ce26c85163717f53",
+        description: "",
+        images: []
+      },
+      {
+        text: "Christmas is effectively canceled in Bethlehem as war rages in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-25-23/h_d43dcae3447773155a5537de97ad31dd",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 26, 2023",
+    title: "Day 81",
+    events: [
+      {
+        text: "Israel is \"working to expel civilian population of Gaza,\" UN human rights expert says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-26-23/h_bb3fdfccf3fd26beaa37fb044cda1cd3",
+        description: "",
+        images: []
+      },
+      {
+        text: "IDF continues intense fighting in Gaza as Hamas-controlled health ministry says death toll continues to climb",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-26-23/h_d816626e4b1f8b5f2bcfd58358576d22",
+        description: "",
+        images: []
+      },
+      {
+        text: "Officials from the World Health Organization visited hospitals treating scores of victims",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-26-23/h_a67e48de033b9783bd6a221130ad295b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Internet and communications disrupted in Gaza, companies in the enclave say",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-26-23/h_20599a482858976490b29ca66abf93c9",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN appoints Netherlands deputy prime minister as special humanitarian coordinator for Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-26-23/h_c2e1f2df283b2d1d2536d9c6bb85f1fc",
+        description: "",
+        images: []
+      },
+      {
+        text: "Terminally ill mother of Israeli hostage asks Biden to help bring her daughter back",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-26-23/h_026f0e201576c07e606aa7d384478dbd",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 27, 2023",
+    title: "Day 82",
+    events: [
+      {
+        text: "Video appears to show Palestinian men and at least 2 children stripped and detained by IDF in Gaza stadium.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-27-23/h_9277360c47964b0b69892578a6fe23ea",
+        description: "",
+        images: []
+      },
+      {
+        text: "At least 20 killed near hospital in Khan Younis as Israeli military concentrates efforts in southern Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-27-23/h_b81f107c6188b5f585c86639ccc65f0b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Intense fighting in Gaza as death toll rises.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-27-23/h_b6982a3e2889f9fe43ed6945b85f1b88",
+        description: "",
+        images: []
+      },
+      {
+        text: "French president expresses \"deepest concern\" to Netanyahu on civilian death toll in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-27-23/h_0d7c0d0057f5456fb44548178f04e96d",
+        description: "",
+        images: []
+      },
+      {
+        text: "92 trucks carrying humanitarian aid and commercial goods entered Gaza Wednesday, Egyptian official says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-27-23/h_a6475457e3c2b98c89f01039d536ce0d",
+        description: "",
+        images: []
+      },
+      {
+        text: "IDF tells international community to \"find additional solutions\" to distribute aid in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-27-23/h_b36fdc523e5b8fd06c66d4eddca3fa9c",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel will stop automatically granting visas to UN workers.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-27-23/h_10b81cf2ba50d6192ae071df64c0d914",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 28, 2023",
+    title: "Day 83",
+    events: [
+      {
+        text: "21 killed in attack on Rafah, hospital director says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-28-23/h_c7c92fe3b606267b8d1785b56098e045",
+        description: "",
+        images: []
+      },
+      {
+        text: "31 were killed Wednesday near hospital in southern Gaza, medical group says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-28-23/h_7c78c19fa24e4765dcf65114bfc5b454",
+        description: "",
+        images: []
+      },
+      {
+        text: "This has been the deadliest year for children in occupied West Bank, UNICEF report says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-28-23/h_755dc695533a17f61a730eb78f30dbf0",
+        description: "",
+        images: []
+      },
+      {
+        text: "Video appears to show at least 2 children stripped and detained by IDF in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-28-23/h_b714f03b9d82e30823bde83cc4794b6c",
+        description: "",
+        images: []
+      },
+      {
+        text: "At least 20 killed near hospital in Khan Younis as Israeli forces focus efforts in southern Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-28-23/h_4718ff751a55c9521088d895c9c1b80b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Desperation grows in Gaza as thousands of civilians surround aid convoy for food. Catch up on the latest.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-28-23/h_08e3f49333fcfef54f4796aa8982d49b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Desperate civilians in Gaza climb over trucks and surround relief convoy for food, video shows.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-28-23/h_94ac7b2f9bd262a19f8b158c9cf4e588",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 29, 2023",
+    title: "Day 84",
+    events: [
+      {
+        text: "More than 300 people sheltering in UN shelters have been killed since Israel-Hamas war began, agency says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-29-23/h_992d966541b70d05bc7cc0d7d7e7cbae",
+        description: "",
+        images: []
+      },
+      {
+        text: "35 Palestinians killed in Israeli strikes on central Gaza overnight, hospital doctor tells CNN.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-29-23/h_edfb8fb1f8663d2ec8a4693ade35c8e4",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza desperation grows as thousands of civilians surround aid convoy for food. Here's the latest.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-29-23/h_0ab06d3ab3deb76b1915cc2dba5fbc2d",
+        description: "",
+        images: []
+      },
+      {
+        text: "Desperate civilians in Gaza climb over trucks and surround relief convoy for food, video shows.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-29-23/h_f5091b85ffdf43261568383a476bb475",
+        description: "",
+        images: []
+      },
+      {
+        text: "WHO is very concerned over spread of infectious diseases in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-29-23/h_2aa62cda379b687e184614aa56b0e268",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN aid agency in Gaza claims convoy came under fire from Israeli soldiers.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-29-23/h_0db62fd12b910a8dfe93fc302ac19d5d",
+        description: "",
+        images: []
+      },
+      {
+        text: "This has been the deadliest year for children in occupied West Bank, UNICEF report says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-29-23/h_e9ba80bca8c41f5a083b15f5bf0c87c0",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 30, 2023",
+    title: "Day 85",
+    events: [
+      {
+        text: "UN aid agency in Gaza claims convoy came under fire from Israeli soldiers.",
+        link: "https://www.cnn.com/europe/live-news/israel-hamas-war-gaza-news-12-30-23/h_0ba4a69001872ed295393784e5e36d8b",
+        description: "",
+        images: []
+      },
+      {
+        text: "More than 300 people sheltering in UN shelters have been killed since Israel-Hamas war began, agency says.",
+        link: "https://www.cnn.com/europe/live-news/israel-hamas-war-gaza-news-12-30-23/h_862f862254bd09f8928b544bc7ead6ff",
+        description: "",
+        images: []
+      },
+      {
+        text: "WHO is very concerned over spread of infectious diseases in Gaza.",
+        link: "https://www.cnn.com/europe/live-news/israel-hamas-war-gaza-news-12-30-23/h_c57c7736654843babeb6ae941a6d2118",
+        description: "",
+        images: []
+      },
+      {
+        text: "United Nations relief chief condemns firing on aid convoy in Gaza.",
+        link: "https://www.cnn.com/europe/live-news/israel-hamas-war-gaza-news-12-30-23/h_8d8fe9a96b6f65e0b7718b1aa85e6431",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gazans displaced to Rafah tell CNN of sky-high food prices and acute overcrowding.",
+        link: "https://www.cnn.com/europe/live-news/israel-hamas-war-gaza-news-12-30-23/h_dde85ae0b1db1be5ca40262453310a75",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli military acknowledges destroying Ottoman-era bathhouse while targeting Hamas in Gaza.",
+        link: "https://www.cnn.com/europe/live-news/israel-hamas-war-gaza-news-12-30-23/h_1318725df38c912e632fee014b84297d",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN alarm grows as more people move into the already most densely populated area of Gaza.",
+        link: "https://www.cnn.com/europe/live-news/israel-hamas-war-gaza-news-12-30-23/h_9e7cb79ebd6db490bf161f69b0f77f8a",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "December 31, 2023",
+    title: "Day 86",
+    events: [
+      {
+        text: "Israeli military acknowledges destroying Ottoman-era bathhouse while targeting Hamas in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-31-23/h_afe5f7907e95378edc157472e42f5258",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gazans displaced to Rafah tell CNN of sky-high food prices and acute overcrowding",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-31-23/h_2c30561545997f562199304be749ee30",
+        description: "",
+        images: []
+      },
+      {
+        text: "IDF confirms it fired warning shots near a UN aid convoy on Thursday",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-12-31-23/h_781675c36383484eded47dbb0314cd1b",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 01, 2024",
+    title: "Day 87",
+    events: [
+      {
+        text: "Hamas launches\u00a0rockets against Israel\u00a0moments into new year",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-01-24/h_98424014e5223641f5cd8b0f784321e7",
+        description: "",
+        images: []
+      },
+      {
+        text: "More than 160 aid trucks entered Gaza on Monday, Israeli authorities say",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-01-24/h_0b37fbd370bdd68139a11f2527355ffa",
+        description: "",
+        images: []
+      },
+      {
+        text: "Maersk says all crew safe after Houthi boats attacked merchant ship in Red Sea",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-01-24/h_c306b47f46c0de75b26fd982444c4b1c",
+        description: "",
+        images: []
+      },
+      {
+        text: "US sinks Houthi boats as fears grow that war in Gaza could escalate into wider conflict. Here's the latest",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-01-24/h_8fe029e788a50988f1c1d6a0e4febdf7",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 02, 2024",
+    title: "Day 88",
+    events: [
+      {
+        text: "Several people killed in bombardment of Palestinian Red Crescent Society Khan Younis headquarters, NGO says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-02-24/h_13e9762e165bd1806ed4de362ed419bd",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza death toll rises to more than 22,000, reports Hamas-run health ministry.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-02-24/h_fcfaadfbd464be92c06bf7039861c03a",
+        description: "",
+        images: []
+      },
+      {
+        text: "Respiratory and skin diseases continue to spread in Gaza amid humanitarian crisis.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-02-24/h_99f4df9a95ed78ff4dfa34aec02f4f47",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Dreams have been shattered.\" Displaced Palestinians describe fear, death and disease as war rages into",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-02-24/h_7599286f106744d255183e3bfac65257",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 03, 2024",
+    title: "Day 89",
+    events: [
+      {
+        text: "WHO chief condemns \"unconscionable\" bombardment of Palestinian Red Crescent hospital and headquarters.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-03-24/h_0b0c313b28b3ba1e749ef022fa233c9c",
+        description: "",
+        images: []
+      },
+      {
+        text: "People killed after intense artillery strikes near Khan Younis hospital, humanitarian group says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-03-24/h_11aa85e1f6321d92c664f1e5db5b36a1",
+        description: "",
+        images: []
+      },
+      {
+        text: "Displaced health worker in Rafah, southern Gaza, says he is haunted by \"frightening dreams and nightmares\".",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-03-24/h_7b423414c6198779052c9d947add4090",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Dreams have been shattered\": Displaced Palestinians describe fear, death and disease as war rages into",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-03-24/h_a673d52c6b98e4d9a3e9194de78fa412",
+        description: "",
+        images: []
+      },
+      {
+        text: "Water has been restored to some parts of central Gaza, municipality says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-03-24/h_3ea9c80905a7d6815385dd0f234c2d04",
+        description: "",
+        images: []
+      },
+      {
+        text: "Fresh cross-border exchanges occur between Israel and Hezbollah.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-03-24/h_6a2eb31aaefb52066d455a94e6c27d6e",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN force in Lebanon expresses concern over potential escalation after senior Hamas figure killed in Beirut.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-03-24/h_63d77e7a167ee94cd68235eae22fbe22",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 04, 2024",
+    title: "Day 90",
+    events: [
+      {
+        text: "\"No food, no water, very little medical supplies\": UN aid worker on devastating conditions in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-04-24/h_963a5b638c7b2d60cf0fd92fbb2bf854",
+        description: "",
+        images: []
+      },
+      {
+        text: "Children among 14 killed in strike on residence near Khan Younis, Gaza health ministry says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-04-24/h_9d462280f99f059319c5c3bd2c2d5e86",
+        description: "",
+        images: []
+      },
+      {
+        text: "Deadly artillery strikes near Khan Younis hospital, Red Crescent says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-04-24/h_6f9133f1d4046269cce20f1b4bcede21",
+        description: "",
+        images: []
+      },
+      {
+        text: "Palestinians forced to flee in central Gaza tell CNN they would \"prefer to go back home and die with dignity\"",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-04-24/h_801a4b3d44cb7c31b4a7a0c949b372e9",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel's \"results\" in protecting Gaza civilians don't match its stated intentions, US State Department says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-04-24/h_4a6f016ed36105b9d5282750d86b7b9e",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN human rights chief \"very disturbed\" by Israeli far-right ministers\u2019 call to resettle Gazans",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-04-24/h_baf3a98e601634e73db84e350e061850",
+        description: "",
+        images: []
+      },
+      {
+        text: "Saudi, EU countries denounce\u00a0comments by\u00a0far-right\u00a0Israeli\u00a0officials\u00a0on resettlement of Gazans",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-04-24/h_81d164c8e9a409321c733bbe91605c3d",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 05, 2024",
+    title: "Day 91",
+    events: [
+      {
+        text: "Gazans face the \"highest levels of food insecurity ever recorded,\" UN relief chief says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-05-24/h_f4eef0ee91e2d9107ae163c111cb160f",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"No food, no water, very little medical supplies\": UN aid worker on devastating conditions in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-05-24/h_293c2c016be6319c70d5e8c654f790d5",
+        description: "",
+        images: []
+      },
+      {
+        text: "Palestinians forced to flee in central Gaza tell CNN they lack access to food, electricity or water.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-05-24/h_2d8071299f5207915a9b3235813c1536",
+        description: "",
+        images: []
+      },
+      {
+        text: "Satellite imagery shows part of Rafah in southern Gaza becoming crowded with displaced people.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-05-24/h_1a52f4af19f7733a2884d225b89cd0ff",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel's \"results\" in protecting Gaza civilians don't match its stated intentions, US State Department says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-05-24/h_da7297e0adc17b80b368ebb64fbad7dc",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN human rights chief \"disturbed\" by Israeli far-right ministers' call to resettle Gazans.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-05-24/h_8b8609b9de01e597ef32acb8d62328b2",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel kills senior member of Palestinian Islamic Jihad in northern Gaza, military says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-05-24/h_879a904da3926579f36126c39c26dae8",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 06, 2024",
+    title: "Day 92",
+    events: [
+      {
+        text: "Scores killed in overnight attacks on Gaza, Hamas-controlled health ministry says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-06-24/h_6ca5260c9703967e3c1e0ea8b522293f",
+        description: "",
+        images: []
+      },
+      {
+        text: "Almost 90% of Gaza population displaced due to war on Hamas, UN agency says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-06-24/h_713469049b7c95b43ba14da43af126ce",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gazans face the \"highest levels of food insecurity ever recorded,\" UN relief chief says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-06-24/h_045717c04c50abc9b434df9ac460d11c",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel issues more evacuation warnings after another night of bombardment in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-06-24/h_fb259a00278e6ed920ab941accde5aae",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli government infighting spills into the open as devastation unfolds in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-06-24/h_9e5f4941c0f2067129f0b58619f1d651",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israeli drops new flyers telling Palestinians to evacuate central Gaza neighborhoods",
+        link: null,
+        description: "",
+        images: []
+      },
+      {
+        text: "IDF claims it has completed dismantling Hamas' command structure in northern Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-06-24/h_1b1cd53d5dc8ba0ee5ea7f3ddf5e0475",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 07, 2024",
+    title: "Day 93",
+    events: [
+      {
+        text: "More than 10 children lose one or both legs in Gaza every day, Save the Children says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-07-24#h_f7780543e6318b588bbf03cad522cea0",
+        description: "",
+        images: []
+      },
+      {
+        text: "Medical providers announce withdrawal from central Gaza hospital due to Israeli military activity.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-07-24#h_696f8d48bfb7b80277c889af1a5f3d2b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Al Jazeera Gaza bureau chief's son killed in apparent Israeli strike alongside fellow journalist, network says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-07-24#h_1452482b8610039283da1bba0d38242d",
+        description: "",
+        images: []
+      },
+      {
+        text: "Almost 90% of Gaza population displaced due to war on Hamas, UN agency says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-07-24#h_9b1cff338f075157a193a3e661d7e1c7",
+        description: "",
+        images: []
+      },
+      {
+        text: "3-year-old killed in Israeli police response to vehicle attack at checkpoint in West Bank, authorities say.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-07-24#h_5a58d677ccc7af61d6841a3df4a4301d",
+        description: "",
+        images: []
+      },
+      {
+        text: "Resettlement of Palestinians out of Gaza is \"absolutely not\" Israel's position, President Herzog says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-07-24#h_0b6f51455530b2e7f6bbfbb61e19f43b",
+        description: "",
+        images: []
+      },
+      {
+        text: "7 Palestinian men killed in airstrike in the West Bank.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-07-24#h_aeec773269237034a2231d96d096f8d3",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 08, 2024",
+    title: "Day 94",
+    events: [
+      {
+        text: "More than 10 children lose one or both legs in Gaza every day, Save the Children says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-08-24/h_7ca8993663ec698e485c58b55675ac5f",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN agency in Gaza says there have been 63 direct hits on its facilities since war began.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-08-24/h_ef45b32cc9804fa85c3042961633bf19",
+        description: "",
+        images: []
+      },
+      {
+        text: "Medical providers announce withdrawal from central Gaza hospital due to Israeli military activity.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-08-24/h_5580ffdab445962fc9b58d5ee6d3e8fd",
+        description: "",
+        images: []
+      },
+      {
+        text: "IDF admits it carried out strike that killed Al Jazeera journalists, says \"terrorist\" was target.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-08-24/h_5af24e0bf0e72c70e18d96f98ec6f4e9",
+        description: "",
+        images: []
+      },
+      {
+        text: "WHO chief says key Gaza hospital \"must remain functional\" after medical providers withdraw.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-08-24/h_423c49f3c1ff4a6cca1819edc7e8052b",
+        description: "",
+        images: []
+      },
+      {
+        text: "Conflict in Gaza has created \"an entire generation of orphans,\" says King of Jordan.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-08-24/h_ef892f9029c4fec9850ef439d1c993c3",
+        description: "",
+        images: []
+      },
+      {
+        text: "About 1 in 100 people in Gaza has been killed since October 7, Palestinian statistics show.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-08-24/h_1e962a4fad64c2814a917a672e963a28",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 09, 2024",
+    title: "Day 95",
+    events: [
+      {
+        text: "World Health Organization warns it \"cannot afford\" to lose hospitals in southern Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-09-24/h_d7c352de851a91c8a5f5f01a2159e02c",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza hospital reports dozens of deaths and injuries following overnight strikes.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-09-24/h_5a39f4bb4c68032d881004383f4aa397",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza hospital \"beyond worst thing\" ever seen, doctor says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-09-24/h_ad9ff3932b689c67cf21df52e55d967f",
+        description: "",
+        images: []
+      },
+      {
+        text: "One in 100 people in Gaza has been killed since October",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-09-24/h_21cd67d0e473825dced31dad80312b02",
+        description: "",
+        images: []
+      },
+      {
+        text: "Star of \"Fauda\" Netflix series badly injured during combat in Gaza.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-09-24/h_f4b5ccfc77808dca9e522be5cb6a29f5",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel claims responsibility for killing of Hezbollah commander in Lebanon, foreign minister says.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-09-24/h_89630c62f829ca4e1cb07117bac0f2b4",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel \"can copy-paste\" its Gaza assault in Lebanon if necessary, Israeli defense minister tells WSJ.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-09-24/h_58a26422956ad6aa57741c1aacae0734",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 10, 2024",
+    title: "Day 96",
+    events: [
+      {
+        text: "WHO director-general highlights health care challenges in Gaza due to lack of access to enclave",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-10-24/h_02b033481a195cac9102154d739a40ce",
+        description: "",
+        images: []
+      },
+      {
+        text: "US warns of consequences for Houthi attacks in Red Sea.",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-10-24/h_887a3bbfd2e62db46187cea2ee426aeb",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"It\'s a horrific situation across the board,\" says UN agency about food scarcity in Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-10-24/h_f4039646d0f504682bb78d6c59f03c2b",
+        description: "",
+        images: []
+      },
+      {
+        text: "\"Nothing had prepared me,\" British surgeon says about treating severely wounded children in central Gaza",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-10-24/h_99625fbeac5cdb2c910246d9e6c0257f",
+        description: "",
+        images: []
+      },
+      {
+        text: "Abbas rejects any proposals to relocate Palestinians from Gaza during meeting with Blinken",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-10-24/h_13a49cafb38eb0cd24033880ed178c73",
+        description: "",
+        images: []
+      },
+      {
+        text: "Blinken says Israel must move toward two-state solution if it wants Arab help on lasting security",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-10-24/h_ac18b2c48eb762b73ca4f2a6094e10b5",
+        description: "",
+        images: []
+      }
+
+    ]
+  },
+  {
+    date: "January 11, 2024",
+    title: "Day 97",
+    events: [
+      {
+        text: "WHO chief highlights health care challenges in Gaza due to lack of access to enclave",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-11-24/h_569e4db8c47242fa32277a2e081c3c4a",
+        description: "",
+        images: []
+      },
+      {
+        text: "Food situation in Gaza is \"horrific,\" WHO official says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-11-24/h_5ac0f973e4468cf61f59751090e253a1",
+        description: "",
+        images: []
+      },
+      {
+        text: "Dozens killed and injured in Israeli strikes in Gaza over past 24 hours, officials say",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-11-24/h_739a72b3a27cbcd722b11f6029d68345",
+        description: "",
+        images: []
+      },
+      {
+        text: "South Africa says existence of Palestinian people in Gaza is threatened unless court intervenes",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-11-24/h_7f9403a6c47cff9bba797dac30909cdc",
+        description: "",
+        images: []
+      },
+      {
+        text: "South African lawyer describes Gaza as \"moral failure\" and urges court to implement provisional measures",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-11-24/h_0470b79cae9bf1a30b0f153a3b5652f0",
+        description: "",
+        images: []
+      },
+      {
+        text: "South Africa cites evidence it says shows \u201cpattern of genocidal conduct\u201d by Israel",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-11-24/h_b22917d1c17b59b2be3c0c3265a2e82c",
+        description: "",
+        images: []
+      },
+      {
+        text: "South Africa criticizes \u201congoing Nakba of the Palestinian people\u201d in opening ICJ remarks",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-11-24/h_db0d42c0898e2d726f50dcf08bdd5d1e",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 12, 2024",
+    title: "Day 98",
+    events: [
+      {
+        text: "Scenes of \"utter horror\" in northern Gaza with corpses left on streets and people starving, UN says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-12-24/h_aaa59fb299361d3d37323f24f839d042",
+        description: "",
+        images: []
+      },
+      {
+        text: "Dozens killed and injured in Israeli strikes in Gaza over past 24 hours, officials say",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-12-24/h_1234b9035321d0d4e6ebf3ea4e5d0c75",
+        description: "",
+        images: []
+      },
+      {
+        text: "How the 2 largest hospitals in Gaza became battlegrounds",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-12-24/h_4b3c07475ea5d50fbc45f771f0be9662",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza is experiencing a near-total internet blackout, monitoring site reports",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-12-24/h_856118600317082e55479ae9c54a62ba",
+        description: "",
+        images: []
+      },
+      {
+        text: "South Africa accuses Israel of genocide and urges top UN court to halt Gaza war",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-12-24/h_45e19a962beab23169dc8baf28fb9c64",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel put forward its defense against accusations of genocide at the World Court. Catch up here",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-12-24/h_97a73d7f10d5991a7b84c74cb29a8665",
+        description: "",
+        images: []
+      },
+      {
+        text: "Israel slams ICJ case as a \"libel\" aiming to \"deny Israel the right to defend itself\"",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-12-24/h_5a8968f242c2d49651de4a2beb533b80",
+        description: "",
+        images: []
+      }
+    ]
+  },
+  {
+    date: "January 13, 2024",
+    title: "Day 99",
+    events: [
+      {
+        text: "Scenes of \"utter horror\" in northern Gaza with corpses left on streets and people starving, UN says",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-13-24/h_5e123eeae4e33886e4ccd2fb19be3ead",
+        description: "",
+        images: []
+      },
+      {
+        text: "UN envoy urges \"maximum restraint\" by all parties in Yemen",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-13-24/h_ddb347b6f91defd2fba34bd55d4f54b2",
+        description: "",
+        images: []
+      },
+      {
+        text: "Gaza health ministry publishes new death toll",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-13-24/h_9cbc0cf097280a1df6c365349d6a3ea8",
+        description: "",
+        images: []
+      },
+      {
+        text: "US launches more strikes on Houthis and UN reports \"utter horror\" in Gaza. Here's what to know",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-13-24/h_274099e26355d61ce88ae3a5347d6af0",
+        description: "",
+        images: []
+      },
+      {
+        text: "Netanyahu says border between Egypt and Gaza must be closed prior to war's end",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-13-24/h_bfcb46bc15dca30c99fd235ed22f869e",
+        description: "",
+        images: []
+      },
+      {
+        text: "Netanyahu says civilians displaced from northern Gaza will not be allowed back while war is ongoing",
+        link: "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-13-24/h_d5a8ca9a88504b0fcf25e064bda1a4e6",
+        description: "",
+        images: []
+      }
+    ]
+  }
+
 ];

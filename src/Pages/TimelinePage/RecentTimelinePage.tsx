@@ -7,7 +7,7 @@ import { dailyNews } from "../../PagesData/TimelinePageData";
 
 type Event = {
   text: string;
-  link?: string;
+  link?: string | null;
   description?:string;
   images?:string[];
 };
@@ -44,10 +44,10 @@ export function TimelineCard({
 
 const items: TimelineItemsProps = dailyNews.map((news, index) => ({
   key: `item-${index}`,
-  date: news.date,
+  date: new Date(news.date),
   children: ((index>1) ? <Zoom duration={300}><TimelineCard cardData={news} /></Zoom> : <TimelineCard cardData={news} />)
   ,
-}));
+})).reverse();
 
 const RecentTimelinePage: React.FC = () => {
   return (
@@ -56,6 +56,7 @@ const RecentTimelinePage: React.FC = () => {
         title="Major News Headlines Regarding Gaza Since Oct. 7"
         styleObj={{ color: "white" }}
       />
+                <p style={{color: '#7f7f7f', margin: 'auto', textAlign: 'center', marginBottom: '-5rem'}}> This page is updated every few days... </p>
       <Timeline
         items={items}
         formatDate={(date: Date) =>
@@ -67,7 +68,6 @@ const RecentTimelinePage: React.FC = () => {
         }
         positioning="left"
       />
-          <p style={{color: '#7f7f7f', margin: 'auto', textAlign: 'center', marginBottom: '-1rem'}}> This page is updated every few days... </p>
 
     </div>
   );

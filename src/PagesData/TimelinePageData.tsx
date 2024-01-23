@@ -4264,5 +4264,65 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "January 21, 2024",
+    "title": "Day 107",
+    "events": [
+      {
+        "text": "Israel gives far-right minister power to freeze Palestinian payments if even \"a single shekel\" reaches Gaza.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-21-24/h_d6bf24f095334e9913ed9d143d7bc56f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll in Gaza surpasses 25,000, Hamas-run Ministry of Health says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-21-24/h_0ed5ce16dff974f59e66908023fd08c1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Father of Palestinian American teen shot dead in West Bank blames US support of Israel for death.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-21-24/h_ef7b1206582aaf115ffbfa10fdbd2111",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 22, 2024",
+    "title": "Day 108",
+    "events": [
+      {
+        "text": "\"Israel is destroying Gaza\u2019s food system,\" says UN special rapporteur",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_37f1c25684eac92f931462d88075d7e9",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "About 80% of access to Al-Amal hospital in Khan Younis is obstructed, says Palestine Red Crescent",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_4ff5c2121db4fc886650f4dc457ff482",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Air pollution, waste, and sewage exacerbate dire civilian shelter conditions in southern Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_a592edb1b2845a17e17acbfb1c32448d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Medical facilities in Khan Younis battered during Israeli assault, Palestinian officials in Gaza say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_bdf53f72074a7ceceda82db2df121006",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Overcrowding, inadequate water, and poor sanitation are fueling Hepatitis A cases in Gaza, UN agency says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_af281cf5cbfb9884d1e0c77e1d1c5ce7",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

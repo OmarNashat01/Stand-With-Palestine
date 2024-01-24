@@ -50,6 +50,15 @@ export const blogs: Blog[] = [
             "What does proportionality mean? And how does it relate to the principle of distinction?.",
     },
     {
+        showBlog: true,
+        type: "article",
+        name: "Murder of Shireen Abu Akleh",
+        subTitle: "",
+        imagePath: "/BlogsPage/Shireen_Abu_Akleh.jpg",
+        blogPath: "/BlogsPage/murder-of-shireen-abu-akleh.md",
+        summary: "The story of how the IDF killed Shireen and got away with it.",
+    },
+    {
         showBlog: false,
         type: "article",
         subTitle: "Israeli War Crimes",

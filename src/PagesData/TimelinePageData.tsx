@@ -3897,7 +3897,6 @@ export const dailyNews = [
         description: "",
         images: []
       }
-
     ]
   },
   {
@@ -4037,6 +4036,293 @@ export const dailyNews = [
         images: []
       }
     ]
+  },
+  {
+    "date": "January 14, 2024",
+    "title": "Day 100",
+    "events": [
+      {
+        "text": "\"The rain seemed to follow us wherever we went\": Displaced Gazans describe hardships as winter bites",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-14-24/h_a8b1958c2455a6aef82e55c5d4aa72eb",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN agency says more commercial supplies must be allowed into Gaza to prevent famine",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-14-24/h_602b15387f1a24676d480aba68df8087",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Egypt says it fully controls its borders after Netanyahu calls for closure of Gaza-Egypt border crossing",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-14-24/h_96e79b53b970ecf46d7f11bb077bc80f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Netanyahu says civilians displaced from northern Gaza will not be allowed back while war is ongoing",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-14-24/h_19daa4febcd8e4941d3edbdd413eb6b6",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Thousands participate in Tel Aviv rally marking 100 days of war, according to organizer",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-14-24/h_430571b13d899934ca7a148dc5ebaa75",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 15, 2024",
+    "title": "Day 101",
+    "events": [
+      {
+        "text": "\"We cannot allow what has been happening in Gaza to continue,\" UN chief says, marking 100 days since October",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-15-24#h_67387d963daf09df135a19f90835e6bd",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hundreds of thousands are starving in Gaza as famine arrives at \"incredible speed,\" UN aid chief says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-15-24#h_e0aa54d23ca18e72261a9782fc628f61",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Strikes on Houthis \"one more terrible consequence\" of Gaza war, UN aid chief says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-15-24#h_599996e27a803b4e02cf35e521d3c951",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Negotiators strike deal to deliver medication to hostages held by Hamas",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-15-24#h_381b27d7f822a3add476595f01b177a8",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "How a Gazan doctor's call on live TV shocked Israelis to the core 15 years ago",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-15-24#h_436915e9839246263eeacd1c0db3154b",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 16, 2024",
+    "title": "Day 102",
+    "events": [
+      {
+        "text": "People flee largest hospital in Khan Younis as Israeli forces approach, doctors and journalists say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-16-24/h_c338137e4011f251501a2be9fbf66f47",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More than 10,500 children killed in Gaza since October, Hamas-run health ministry says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-16-24/h_c07e32595967af03df1e99191eb54eb1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza experiences near-total internet blackout for more than 96 hours, monitoring site reports",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-16-24/h_506d2a3814bc2bfadca41e93b9dee156",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN relief chief says famine has arrived in Gaza as regional hostilities rise. What you need to know",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-16-24/h_55e2ed758f26a4a3316f045d7e7a86b6",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 17, 2024",
+    "title": "Day 103",
+    "events": [
+      {
+        "text": "Gaza cemetery appears badly damaged after Israeli forces conduct operation in area",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-17-24/h_72d2c7f19afff30f290bde262f04e777",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli troops close in on Gaza hospital as displaced civilians flee. Here's what to know",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-17-24/h_ad0f32fc964af94f531caf6221e1ab83",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Displaced civilians flee Khan Younis hospital as Israeli forces move in, doctors and journalists say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-17-24/h_7c0bde86acf9339f3b71de9b021668e3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza experiencing record-long near-total internet blackout, internet monitoring site says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-17-24/h_045be6c3747fcf5ea2a7f909ce7975b7",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "After sparking panic, Israeli forces appear to have withdrawn from area around Khan Younis\u2019 largest hospital",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-17-24/h_abba7a38e97c3e377580ef5c5a5e1c1a",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 18, 2024",
+    "title": "Day 104",
+    "events": [
+      {
+        "text": "Obstetrician says she is \u201cashamed and shocked that we\u2019re doing this to fellow humans\u201d after Gaza visit",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-18-24/h_6720612169a07e053220d321d374da9b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mexico and Chile ask ICC to investigate possible crimes in Palestinian territories",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-18-24/h_ba2ef5fb9d89fda80cb51b3980b68c00",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel is now among the top six jailers of journalists, Committee to Protect Journalists says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-18-24/h_caf939f9473a01260fb263b8ec196651",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Near-total communications blackout reaches the one-week mark in Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-18-24/h_1e83ccc1a5997acf0e08c5e96a85b8bc",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 19, 2024",
+    "title": "Day 105",
+    "events": [
+      {
+        "text": "Nearly 3 times more people killed in Gaza during current conflict than in past 15 years, UN says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-19-24/h_fab042cd4babf55f6f9f9c3aa5e302f4",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Nearly 20,000 babies have been \"born into hell\" during war in Gaza, UNICEF says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-19-24/h_99958a8faa8c904bc8f8d84da8eda9d0",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Fierce fighting occurs around Khan Younis' largest hospital, according to Palestinian news agency",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-19-24/h_3f7c595f3d23aa3e7d662eb234effe1b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gazans report beatings and other mistreatment during Israeli detention, UN human rights official says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-19-24/h_7cebe9156452b7fbdb7026af197f5e52",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza has been in near-total telecommunications blackout for over a week, NetBlocks says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-19-24/h_70442e3a11bfed07417bb167f7c3ddd8",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 20, 2024",
+    "title": "Day 106",
+    "events": [
+      {
+        "text": "At least 16 cemeteries in Gaza have been desecrated by Israeli forces, satellite imagery and videos reveal.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-20-24/h_b91adf322a8ba32ecde20d8129916f0a",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "All universities in Gaza damaged or destroyed, Palestinian news agency says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-20-24/h_06d1fdd709d1c7ef793f4afc27df029e",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Jordan claims its field hospital in Gaza was deliberately targeted by Israeli forces.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-20-24/h_a144212b15404b2df155133e6b51e5be",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 21, 2024",
+    "title": "Day 107",
+    "events": [
+      {
+        "text": "Israel gives far-right minister power to freeze Palestinian payments if even \"a single shekel\" reaches Gaza.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-21-24/h_d6bf24f095334e9913ed9d143d7bc56f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll in Gaza surpasses 25,000, Hamas-run Ministry of Health says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-21-24/h_0ed5ce16dff974f59e66908023fd08c1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Father of Palestinian American teen shot dead in West Bank blames US support of Israel for death.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-21-24/h_ef7b1206582aaf115ffbfa10fdbd2111",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 22, 2024",
+    "title": "Day 108",
+    "events": [
+      {
+        "text": "\"Israel is destroying Gaza\u2019s food system,\" says UN special rapporteur",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_37f1c25684eac92f931462d88075d7e9",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "About 80% of access to Al-Amal hospital in Khan Younis is obstructed, says Palestine Red Crescent",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_4ff5c2121db4fc886650f4dc457ff482",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Air pollution, waste, and sewage exacerbate dire civilian shelter conditions in southern Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_a592edb1b2845a17e17acbfb1c32448d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Medical facilities in Khan Younis battered during Israeli assault, Palestinian officials in Gaza say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_bdf53f72074a7ceceda82db2df121006",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Overcrowding, inadequate water, and poor sanitation are fueling Hepatitis A cases in Gaza, UN agency says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-22-24/h_af281cf5cbfb9884d1e0c77e1d1c5ce7",
+        "description": "",
+        "images": []
+      }
+    ]
   }
-
 ];

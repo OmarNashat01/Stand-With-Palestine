@@ -108,7 +108,7 @@ All the data is originally organized, collected and/or created on [this Notion](
 
 `npm install` then `npm start`
 
-Please propose any contributions through the TFP liaise [Discord channel](https://techforpalestine.org/discord-invite) (and/or Github issues) before you work on a PR.
+Please propose any contributions through the TFP liaise [Discord channel](https://techforpalestine.org/discord-invite) (and/or Github issues) before you work on a PR. All PRs should be made to the dev branch.
 
 ## 👥 Collaborators
 

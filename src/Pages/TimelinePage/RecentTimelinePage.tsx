@@ -45,7 +45,7 @@ export function TimelineCard({
 const items: TimelineItemsProps = dailyNews.map((news, index) => ({
   key: `item-${index}`,
   date: new Date(news.date),
-  children: ((index>1) ? <Zoom duration={300}><TimelineCard cardData={news} /></Zoom> : <TimelineCard cardData={news} />)
+  children: ((index < dailyNews.length - 2) ? <Zoom duration={300}><TimelineCard cardData={news} /></Zoom> : <TimelineCard cardData={news} />)
   ,
 })).reverse();
 

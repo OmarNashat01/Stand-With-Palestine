@@ -49,7 +49,7 @@ export const crimesDict = [
       media: [
         { path: "./CrimesPage/whitepv.mp4", mode: "video", violence: false, crop: false },
         { path: "./CrimesPage/white-ph.png", mode: "img", violence: false, crop: false },
-        { path: "./CrimesPage/whitep.webp", mode: "img", violence: true, crop: false },
+        { path: "./CrimesPage/white-ph-effect.jpg", mode: "img", violence: true, crop: false },
       ],
       paragraphLeft: "",
       paragraphRight:

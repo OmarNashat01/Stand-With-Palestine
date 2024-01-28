@@ -12,12 +12,32 @@ export const blogs: Blog[] = [
     {
         showBlog: true,
         type: "interview",
+        name: "Flinkstein VS. Dershowitz Debate",
+        subTitle: "Proving the Genocide",
+        imagePath: "/BlogsPage/debate.jpeg",
+        blogPath: "/BlogsPage/piers-norman-interview.json", // path in public folder
+        summary:
+            "In this interview, Norman Flinkstein and Alan Dershowitz share their perspectives on the conflict.",
+    },
+    {
+        showBlog: true,
+        type: "interview",
         name: "Cenk Ugyr X Piers Morgan Interview",
         subTitle: "Antisemitism ≠ Pro-Palestine",
         imagePath: "/BlogsPage/cenk.png",
         blogPath: "/BlogsPage/piers-cenk-interview.json", // path in public folder
         summary:
             "In this interview, Cenk Ugyr, co-founder and host of The Young Turks, discusses the Israeli-Palestinian conflict with Piers Morgan.",
+    },
+    {
+        showBlog: true,
+        type: "article",
+        name: "What is a Proportionate Response?",
+        subTitle: "Important Concepts of the IHL",
+        imagePath: "/BlogsPage/sat.png",
+        blogPath: "/BlogsPage/what-is-a-proportional-response.md",
+        summary:
+            "What does proportionality mean? And how does it relate to the principle of distinction?.",
     },
     {
         showBlog: true,
@@ -38,16 +58,6 @@ export const blogs: Blog[] = [
         blogPath: "/BlogsPage/piers-harari-interview.json",
         summary:
             "Yuval Harari, an Israeli professor and author, discusses the ongoing conflict with Piers Morgan.",
-    },
-    {
-        showBlog: true,
-        type: "article",
-        name: "What is a Proportionate Response?",
-        subTitle: "Important Concepts of the IHL",
-        imagePath: "/BlogsPage/sat.png",
-        blogPath: "/BlogsPage/what-is-a-proportional-response.md",
-        summary:
-            "What does proportionality mean? And how does it relate to the principle of distinction?.",
     },
     {
         showBlog: false,

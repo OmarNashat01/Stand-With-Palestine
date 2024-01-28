@@ -4324,5 +4324,203 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "January 23, 2024",
+    "title": "Day 109",
+    "events": [
+      {
+        "text": "Doctors Without Borders says staff and patients are unable to leave hospital after IDF evacuation orders.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_00ba39af2e24fadfa24d1a7315d716cb",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Situation around Khan Younis hospitals is deteriorating amid intense shelling, UN says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_3655efc61b8f275266956e19656c4b50",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hundreds try to flee Khan Younis hospitals as Israeli military surrounds southern city.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_1c99a00593e1b11e80dbb54704fc22a7",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli strikes shake the ground at besieged Gaza hospital, aid group says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_9e362c633e5fcf5e7cc38556dcf44101",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Khan Younis medical facilities battered in Israeli assault, Palestinian officials say.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_18cd0b768e9eb10e5eae9c66adcd4e7d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Israel is destroying Gaza\u2019s food system,\" UN official says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_26d354f79694da10d82fb4c41e0dc844",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 24, 2024",
+    "title": "Day 110",
+    "events": [
+      {
+        "text": "Displaced Palestinians in central Gaza demand ceasefire: \"Our children have the right to live\"",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_348c5e1e8468adda3e8aa0e9f3bcab3d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "No medicine, no clothes and soaking rain: Displaced Gazans describe dire conditions",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_25fa77a5a839860eafd650009b15cd23",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN shelter in southern Gaza struck as health officials say Khan Younis hospitals are surrounded. Catch up here",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_f95194dcd9cdc6240adaeceb712c21d1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces are surrounding hospitals in Khan Younis, Palestinian health officials and paramedics say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_86704a57c75ca9f8392cb8e7cdb9bee5",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN agency says there are \"mass casualties\" after shelter struck amid intense fighting in Khan Younis",
+        "link": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_10cbef526b4913345486233cefcd52fb",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"We were expecting to die at any minute\": Gazans flee Khan Younis as Israel expands operations",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_327bc554d537105c4aa7ba0bfc7fb7e7",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 25, 2024",
+    "title": "Day 111",
+    "events": [
+      {
+        "text": "Shelling strikes crowd waiting for aid in Gaza, killing at least 20, Hamas-run health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_8f0039b919af339cff7b95f5d7accf24",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Mass casualties\" after Israeli tank fire hits UN shelter in Khan Younis, UN says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_8d441d20887b39c7b2e77fb5580f4e06",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll rises to 12 in shelling of UN shelter in Khan Younis, UNRWA director says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_ee19151be926e8eb29103d82db96feb7",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hundreds of injuries reported among crowd attacked while waiting for aid, Gaza Civil Defense official says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_42324b00ce7d7604eccde540a8ae8f35",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hospital in Khan Younis targeted again amid heavy fighting in area, Palestine Red Crescent Society says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_e8ffd1e151199773015b524e8fe5a030",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Cleaning wounds without anesthesia is part of the \"suffering beyond belief\" in Gaza, doctor tells CNN",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_b2c96a5dc1d8818a3a8f318e7de40d9f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Fewer than half of Gaza's hospitals are still partially functioning, according to the United Nations",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_65f1d559cb5b207fbd1cc57c4421e161",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 26, 2024",
+    "title": "Day 112",
+    "events": [
+      {
+        "text": "Vital medical services have collapsed at Gaza's largest remaining hospital, Doctors without Borders say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-26-24/h_802fafcc0f4e2797cef14aa0f12dcb07",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "On the ground: Gaza health officials say Israeli forces surround hospitals as witnesses claim civilians shot",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-26-24/h_9d1217c26024cd5aa46996debf45b11e",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "They were waving white flags. Then they were shot",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-26-24/h_45509a06812afc570f732878fca3b239",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian death toll surpasses 26,000, Hamas-run health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-26-24/h_366f0f472aa072787cbfdeca91f69aef",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 27, 2024",
+    "title": "Day 113",
+    "events": [
+      {
+        "text": "CNN video shows Palestinian detainees blindfolded and barefoot in Israel near Gaza border",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-27-24/h_c58faa65fb0a32df8ed945a92ad4a2ed",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hospital is running low on anesthesia and blood in southern Gaza, Hamas-run health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-27-24/h_484f23bc55db8824cc8acfcb13c1f713",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Vital medical services have collapsed at Gaza's largest remaining hospital, Doctors without Borders says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-27-24/h_0fe5b687df25d5595fffd8393e9d8cf3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestine\u00a0Red Crescent Society says hospital and its workers in southern Gaza are besieged by Israeli forces",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-27-24/h_d57676f64365c24431c938d9ecd0b08d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN warns of declining humanitarian access in Gaza as Israeli protesters block aid trucks from entering through Kerem Shalom",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-27-24/h_ffc76511b1827869a15ecea8ab9f71a4",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

@@ -53,7 +53,7 @@ export const blogs: Blog[] = [
         showBlog: true,
         type: "article",
         name: "Murder of Shireen Abu Akleh",
-        subTitle: "",
+        subTitle: "A Grave War Crime Commited by IDF in 2022",
         imagePath: "/BlogsPage/Shireen_Abu_Akleh.jpg",
         blogPath: "/BlogsPage/murder-of-shireen-abu-akleh.md",
         summary: "The story of how the IDF killed Shireen and got away with it.",

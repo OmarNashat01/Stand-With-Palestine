@@ -517,6 +517,48 @@ export const intents = [
     date: "18/11/2023",
     link: "https://x.com/JoshuaPHilll/status/1725720072641990675?s=20",
   },
+  {
+    quote: "Our enemy is not Hamas, it's not the rockets, our enemy is the Arabs in Gaza. As long as there are Arabs in Gaza, the State of Israel is under threat.",
+    author: "Michael Ben Ari",
+    role: "Israeli politician, and former member of the Knesset",
+    date: "28/12/2023",
+    link: "https://twitter.com/ireallyhateyou/status/1740364610438627821?s=20",
+  },
+  {
+    quote: "The name Gaza should be erased from streets and institutions",
+    author: "Eliyahu Rabivo",
+    role: "Israeli MK",
+    date: "11/11/2023",
+    link: "https://twitter.com/YehudaShaul/status/1739641267762389120",
+  },
+  {
+    quote: "Create such a huge pressure on Gaza, that Gaza will become an area where people cannot live. People cannot live, until Hamas is destroyed, which means that Israel not only stops to supply energy,diesel, water, food … as we did in the last twenty years but we should prevent any possible assistance byothers, and to create in Gaza such a terrible, unbearable situation, that can last weeks and months.",
+    author: "Gloria Eiland",
+    role: "Major General",
+    date: "12/10/2023",
+    link: "https://www.youtube.com/watch?v=CRHz0dZwF2Av",
+  },
+  {
+    quote: "Without hunger and thirst among the Gazan population, we will not be able to recruit collaborators, we will not be able to recruit intelligence, we will not be able to bribe people, with food, drink, medicine, in order to obtain intelligence",
+    author: "Tally Gotliv",
+    role: "Israeli MK ",
+    date: "23/10/2023",
+    link: "https://twitter.com/KnessetT/status/1716502486331113922?s=20",
+  },
+  {
+    quote: "Just as it is clear that the [Israeli] right wing was right, today everyone says it is clear ALL Gazans must be annihilated",
+    author: "Moshe Saada",
+    role: "Israeli MK",
+    date: "3/1/2024",
+    link: "https://twitter.com/muhammadshehad2/status/1742506591541146011?s=20",
+  },
+  {
+    quote: "We must take territory in the north of the Gaza Strip,occupy it, annex it, destroy the houses and echo the image of the victory of Jewish settlements on this place",
+    author: "Zvi Sukot",
+    role: "Israeli MK",
+    date: "3/1/2024",
+    link: "https://twitter.com/KnessetT/status/1742598811531247663?s=20",
+  },
   // Add more intents as needed
 ];
 export const weakIntents = [
@@ -867,6 +909,62 @@ export const weakIntents = [
     role: "",
     date: "12/11/2023",
     link: "https://e.walla.co.il/item/3622003"
+  },
+  {
+    quote: "More than 180 births every day, in the middle of the war: The UN is calling for a humanitarian ceasefire in Gaza.The Israeli army has now found explosive belts there - apparently adapted for children.",
+    author: "Der Spiegel",
+    role: "German newspaper",
+    date: "24/12/2023",
+    link: "https://twitter.com/derspiegel/status/1739026185252970849?s=20",
+  },
+  {
+    quote: "Cats are allowed to be fed in designated feeding areas only.Inspectors please keep it tidy",
+    author: "Yoav Eliassi",
+    role: "Rapper",
+    date: "25/12/2023",
+    link: "https://twitter.com/ireallyhateyou/status/1739374441090425214?s=20",
+  },
+  {
+    quote: "Hallelujah! They should be in rubble. The only hope for a worthwhile future in Gaza depends on the total elimination of its fetid past.",
+    author: "Abe Greenwald",
+    role: "Editor of Commentary magazine",
+    date: "26/12/2023",
+    link: "https://twitter.com/KintsugiMuslim/status/1740772816998596815?s=20",
+  },
+  {
+    quote: "“You ask me what I would do, and the answer is simply levelling the ground and to kill the largest number possible.Because the woman there is an enemy.The baby there is an enemy.",
+    author: "Eliyahu Yossian",
+    role: "Israeli analyst and veteran of Unit 8200",
+    date: "27/12/2023",
+    link: "https://twitter.com/intifada/status/1739858023382749313?s=20",
+  },
+  {
+    quote: "There’s now much discussion on what to do with Gaza. To erase them? What is going to be done? Drop an atom [bomb] on them? It’s an option,",
+    author: "Shmuel Eliyahu",
+    role: "Top Safed rabbi",
+    date: "14/11/2023",
+    link: "https://www.timesofisrael.com/rabbi-backs-remark-by-his-son-a-far-right-minister-that-nuking-gaza-is-an-option/",
+  },
+  {
+    quote: "An idea for the Israeli legislator: the October 7 law. All the Nazi Hamas terrorists who carried out the massacre should stand trial without representation, and would be executed within 24 hours on 7.10.24.",
+    author: "Hallel Bitton Rosen",
+    role: "Israeli Journalist",
+    date: "10/11/2023",
+    link: "https://twitter.com/YehudaShaul/status/1739641283591762014?s=20",
+  },
+  {
+    quote: "It will be impossible to win the war if we do not destroy UNRWA [the refugee body in charge of Palestinian welfare], andthis destruction must begin immediately",
+    author: "Nega Arbel",
+    role: "",
+    date: "4/1/2024",
+    link: "https://twitter.com/KnessetT/status/1742927265909129340?s=20",
+  },
+  {
+    quote: "I, if you ask me, am going for total annihilation, going to war, going to flatten the whole strip up to the Litani (river)",
+    author: "Benny Ben Muvhar",
+    role: "head of Mevo'ot HaHermon Regional Council",
+    date: "6/1/2024",
+    link: "https://twitter.com/ireallyhateyou/status/1743675535216017786?s=20",
   },
 ]
 

@@ -4522,5 +4522,245 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "January 28, 2024",
+    "title": "Day 114",
+    "events": [
+      {
+        "text": "She was fleeing with her grandson as he waved a white flag. Then she was shot",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-28-24/h_6cac7b2c7e20f4e70f2ef4b57dc43f20",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Heavy fighting continues\u00a0for seventh day\u00a0in the vicinity of hospitals in Khan Younis",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-28-24/h_063ec4c8e2ba5b13f09bf04b8ceb4c0b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN agency urges countries to reconsider funding suspensions",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-28-24/h_1d4b695f9ba46619eb0ce43cf4b63bb0",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 29, 2024",
+    "title": "Day 115",
+    "events": [
+      {
+        "text": "Every 10 minutes a baby is born in Gaza. Here's what it's like for new mothers trying to survive",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_001273c33e3f55c59ec8f25a2581ba73",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "7-year-old trapped in car in central Gaza after it was fired on, Palestine Red Crescent Society says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_389964944315b213f252e5475a9cb590",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 10 killed after Israeli shelling hit UN school in Gaza City, Palestinian news agency says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_ae2b849f24c107aa57df3f94c02f5672",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Vital medical services collapse at Nasser hospital in Khan Younis, MSF says, as fighting rages outside",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_25ba14cd4a4fe332ee89d6be36f965f1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "IDF orders evacuation around Al-Amal hospital in Khan Younis, says Palestine Red Crescent Society",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_dfd541cfe8e1eac00163fdb23a63d6c8",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Suspension of UN agency aid could be a \"death sentence,\" displaced Palestinians in central Gaza warn",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_8d2e8ab1639c837f3ea8059ff43fdae8",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 30, 2024",
+    "title": "Day 116",
+    "events": [
+      {
+        "text": "Israeli tanks are stationed in Khan Younis hospital complex and are \"firing live ammunition,\" aid group says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-30-24/h_9924a7402756d82479f2f636981369ae",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian aid group loses contact with team attempting to rescue 6-year-old girl trapped in car after attack.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-30-24/h_37d15e08983b09a61840730e0940d113",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinians are eating grass and drinking polluted water as famine looms across Gaza.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-30-24/h_8022cf465c376d2f0c839f43b725f16a",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "41% of the Gaza Strip has been put under evacuation orders since December, UN office says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-30-24/h_8383614b80584255636eb4a56521848d",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 31, 2024",
+    "title": "Day 117",
+    "events": [
+      {
+        "text": "Israeli aircraft and artillery target neighborhood in western Khan Younis, journalists in Gaza tell CNN",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_25c7aec1acbd760abbfd6d10a8815ed0",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza's Al-Shifa Hospital is \"barely functional\" and is sheltering about 50,000 people, aid organization says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_5c3dede875368c6deca1d5066cefc0b6",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Aid group says Israeli forces still on Khan Younis hospital grounds, preventing occupants from leaving",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_b204b1ac97e05c0f5b0d059229dad741",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Legal expert warns IDF may have violated international law during West Bank hospital raid",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_7f01b5a208b1e372cd64358d9638b139",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Patients, staff, and displaced people \"in constant fear\" as IDF ramps up offensive in Khan Younis",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_85933e6bb3291fa44fc5f22ef2fd247b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel struck a compound housing humanitarian workers in Gaza safe zone earlier this month, aid agencies say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_26723edbf764a0634f7e259f0ae8f03c",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 01, 2024",
+    "title": "Day 118",
+    "events": [
+      {
+        "text": "Belgian officials to summon Israeli ambassador after bombing of development agency's offices in Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-01-24/h_ef5ad074eda5c70cb7d2647ac8080873",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN agency in Gaza warns it may not be able to continue operations past end of the month. Catch up here",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-01-24/h_8346aec6c628c3f4125512688f5bfb12",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian journalist documents the destruction of an entire neighborhood in northern Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-01-24/h_3aba4f8564b05a253c91b46cd7240cbc",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "In photos: As Israel's war with Hamas rages on, a humanitarian crisis grips southern Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-01-24/h_764daf95c4975a7e60e3519a1b60fb06",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Netanyahu says UN agency dealing with Palestinian assistance should be replaced by other aid groups",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-01-24/h_a36b65d68840a7b73c072a752ddb6383",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 02, 2024",
+    "title": "Day 119",
+    "events": [
+      {
+        "text": "Palestine Red Crescent Society calls for humanitarian corridor to evacuate Khan Younis hospital.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-02-24#h_129245382fa3645cb0e4d193e83d7b60",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Almost all children in Gaza require mental health and psychological support, UNICEF says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-02-24#h_98998c850c6b35032d4f3a959d910f83",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Fate of 6-year-old girl and crew sent to rescue her in Gaza remains unknown, aid agency says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-02-24#h_d41ecd17e10f0eae34aa95eac14d037a",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More than 800 officials from across Europe and the US sign scathing criticism of Gaza policy.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-02-24#h_b5fa76d8365fa45a0a570f507ca827d2",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military eyes Rafah, where many displaced Gazans have sought refuge. Here\u2019s what you need to know.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-02-24#h_81ae3539e9dae8f82f48f21b3297a373",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 03, 2024",
+    "title": "Day 120",
+    "events": [
+      {
+        "text": "107 people killed in Gaza over past 24 hours, Hamas-controlled health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-03-24/h_024107fa1276539e41869202fcfbe377",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hamas and Islamic Jihad demand Israel fully ends aggression and withdraws from Gaza as part of hostage deal",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-03-24/h_1a75074544900a2fa7af1c06a9c3dc63",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN Security Council will meet Monday over US airstrikes",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-03-24/h_ea04aff7fd099d169d264823366c4d48",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Anti-government protests in Israel draw thousands",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-03-24/h_3b9af72fa0f0942977f3474c89ab7265",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

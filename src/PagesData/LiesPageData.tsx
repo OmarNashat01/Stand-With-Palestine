@@ -197,6 +197,29 @@ export const liesData = [
     `,
     "modalText": []
   },
+  {
+    "special": false,
+    "source": "Israeli government",
+    "title": "A man holding a rifle inside a hospital",
+    "modalContent": `<ul>
+    <li>A video circulated on social media on Nov 10, collecting over 9.5 million views on platform X. The video claiming to depict an individual with a rifle at Gaza&#39;s Indonesian Hospital,  which was held up as evidence that Hamas is using hospitals as bases for military activity. (<a href="https://twitter.com/Israel/status/1722909221618896943">Twitter</a>, <a href="https://www.forbes.com/sites/mattnovak/2023/11/10/viral-video-of-gun-at-gazas-indonesian-hospital-actually-a-baton/?sh=3d241b851db5">Forbes</a>)</li>
+    <li>Israel&#39;s official account on Twitter actively promoted the video, stating, &quot;Footage of Hamas terrorists inside the Indonesian hospital in Gaza.&quot; (<a href="https://twitter.com/Israel/status/1722909221618896943">Twitter</a>)</li>
+    <li>Upon closer examination, the video does not show a firearm; rather, it reveals an individual wielding what appears to be a police baton. (<a href="https://www.forbes.com/sites/mattnovak/2023/11/10/viral-video-of-gun-at-gazas-indonesian-hospital-actually-a-baton/?sh=3d241b851db5">Forbes</a>)</li>
+    </ul>
+    `,
+    "modalText": []
+  },
+  {
+    "special": false,
+    "source": "A spokesperson in the Israel prime minister's office",
+    "title": "Video of a dog inside a tunnel",
+    "modalContent": `<ul>
+    <li>The spokesperson to the Arab media in the Israel prime minister&#39;s office Ofir Gendelman posted a video on Twitter that allegedly shows an IDF attack dogs go after Hamas fighter (<a href="https://twitter.com/ofirgendelman/status/1720844002520396222">Twitter</a>)</li>
+    <li>However, a military correspondent from Ynet, a major Israeli news outlet, countered the claim on Twitter, suggesting that the video might not be from the current conflict in Gaza. The correspondent stated, “I don’t know which Israeli official source is distributing this video but it appears to be from a preliminary test I conducted from Operation Protective Edge or from training from previous years”, where “Operation Protective Edge” is the 2014 israeli attack on Gaza (<a href="https://twitter.com/yoavzitun/status/1720865736757776630">Twitter</a>)</li>
+    </ul>
+    `,
+    "modalText": []
+  }
 ];
 
 

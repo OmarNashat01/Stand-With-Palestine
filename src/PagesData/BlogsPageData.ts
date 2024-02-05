@@ -60,6 +60,15 @@ export const blogs: Blog[] = [
             "Yuval Harari, an Israeli professor and author, discusses the ongoing conflict with Piers Morgan.",
     },
     {
+        showBlog: true,
+        type: "article",
+        name: "Murder of Shireen Abu Akleh",
+        subTitle: "A Grave War Crime Commited by IDF in 2022",
+        imagePath: "/BlogsPage/Shireen_Abu_Akleh.jpg",
+        blogPath: "/BlogsPage/murder-of-shireen-abu-akleh.md",
+        summary: "The story of how the IDF killed Shireen and got away with it.",
+    },
+    {
         showBlog: false,
         type: "article",
         subTitle: "Israeli War Crimes",

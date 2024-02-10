@@ -4762,5 +4762,233 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "February 04, 2024",
+    "title": "Day 121",
+    "events": [
+      {
+        "text": "Israeli attacks killed 127 people in Gaza over the past 24 hours, Hamas-controlled Ministry of Health says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-04-24/h_a562d85516a222458125b61f0e54472c",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Dozens killed during 2 days of airstrikes in central and southern Gaza, local medical sources say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-04-24/h_e045e514388ff10eb57506a12017f357",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 05, 2024",
+    "title": "Day 122",
+    "events": [
+      {
+        "text": "About 8,000 displaced people evacuated Palestine Red Crescent Society headquarters and Al-Amal hospital.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-05-24/h_3b46204235a1a4342b4ee323a0cb9a33",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN relief agency says one of its aid truck was hit by Israeli fire.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-05-24/h_cb28c9762353d6b31a6dc2a6be971b11",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Scenes of wreckage emerge in Jabalya as IDF intensifies offensive in central and northern Gaza.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-05-24/h_63a5a0cbe77d0f83967818f4d2902fc1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Everyone is afraid\": Humanitarian worker cautions Israel's military push into Rafah.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-05-24/h_6cdabe39527fe65f4ace2c828f786b89",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza media office warns IDF ground offensive in Rafah would be \"disaster\" for displaced Palestinians.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-05-24/h_f2e93261230f76ddaef4a4dc0466b2f7",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 06, 2024",
+    "title": "Day 123",
+    "events": [
+      {
+        "text": "Khan Younis hospital complex under siege, Gaza health ministry says, as video shows small arms fire",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_b946d84bfc7c306a1310434c1a0bd4a7",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Calls for answers more than a week after rescuers went missing trying to save trapped 6-year-old girl",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_82385c6d31c10b11cec7f198157072db",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Tent city holding more than 1 million Palestinians is rapidly expanding, satellite images show",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_39ece1cd84adf75f86ad6a55fa70cc75",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Japanese trading giant Itochu to cut ties with Israeli defense firm over Gaza war",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_22e33f3b471a88574577c3ddaf99aa12",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Fighting intensifies in Gaza as aid workers caution expanded Israeli operation in Rafah. Catch up here",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_0f6db5e3bbc5cc6795b3f6fcef407ccd",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Intensive bombardment and strikes reported in Gaza City",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_29e39b8f8d986fc27732b3b88a3af90b",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 07, 2024",
+    "title": "Day 124",
+    "events": [
+      {
+        "text": "Civilians shot near hospital in Khan Younis, according to local reports and witnesses",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_91505e976daa17d669b9a641c99ead39",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Sharp increase in malnutrition among children in Gaza remains a \"significant concern,\" according to the UN",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_2191c23e8620f9ee766f513befc419f0",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN chief expresses concern over humanitarian crisis in Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_e515954f227a27043ec8823625ed489f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Blinken says he told Israeli leaders that the toll on Palestinian civilians in Gaza \"remains too high\"",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_5cdba3e14e44b3135e36f6e90fced54e",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Top Israeli general says there is no plan in place yet for how to minimize civilian deaths in Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_110a6345dd75a84cea18362abf260be3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"There won\u2019t be any hostages to release\" if Israel maintains plan to eliminate Hamas, former hostage says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_a8f0bf1e2b26d259e9be10540f4f6738",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Several Israel-based civil society groups and human rights organizations call for an immediate ceasefire in Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_1c56e0ff066aa2a88c3a1e11f1b27a8f",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 08, 2024",
+    "title": "Day 125",
+    "events": [
+      {
+        "text": "Israeli attacks leave 5 dead inside Gaza medical facilities, reports say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-08-24/h_bda6d734822361a756c51382857790b6",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 14 killed in Israeli airstrikes in Rafah, eyewitnesses say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-08-24/h_d2906507ecaec1d50fa1ef731ffdd00c",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "International alarm grows ahead of anticipated Israeli assault in Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-08-24/h_eb8ef22832c7cdd0bab4ca451460c85f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US says it wouldn't support Israeli military operations in Rafah without plan for civilians. Here's the latest",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-08-24/h_eb440b2f4b9f053829b7bff63a3a3c4c",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden says Israel's Gaza response \"has been over the top\"",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-08-24/h_e5308bab2ffbc66a9b0cdcd203fa2dc2",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 09, 2024",
+    "title": "Day 126",
+    "events": [
+      {
+        "text": "Israeli forces detain Palestine Red Crescent Society members and patients at Al-Amal Hospital, aid group says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_32309cb037c3de14f7559c6b1fc5e721",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mass evacuation in Rafah would have \"catastrophic consequences,\" human rights organization warns",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_581bdadd45a7adfc7cd81a723f71f3ac",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Deadly Israeli West Bank hospital raid may amount to war crime, UN experts say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_add8d2492ffa6dbc089933e666b3d566",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces search hospital in Khan Younis, says Palestine Red Crescent Society",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_387d02ead470f79f8f71529e35500750",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "NGOs warn Israeli ground offensive in Rafah could turn city into \"zone of bloodshed\"",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_237a7ab0a66a6b87cd3f03c341f2b258",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Half of UN requests to deliver aid in Gaza denied, UNRWA says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_d9e505f942f219a043a00e90b9924836",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden highlights Gaza civilians' plight as Israel eyes Rafah advance. Here's the latest",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_135af8bca511e834315c69e852c1849a",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

@@ -14,33 +14,42 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 
 // Homepage Data
 import homeData from '../../PagesData/HomePageData'
+import Head from '../../components/Simple/Head';
 
 const HomePage = () => {
 
   return (
     <div style={{ flex: 1, borderTopLeftRadius: '4rem', borderTopRightRadius: '4rem', backgroundColor: '#101010' }}>
       {/* Main Hero Section*/}
+      <Head
+        title="Stand With Palestine!"
+        description="Stand with palestine is a website that aims to provide information about the ongoing conflict in palestine and increase awareness about the atrocities committed by the israeli government and military."
+        keywords="Support Palestine, Stand With Palestine, Condemn Isreal, Isreali Crimes, Isreali War Crimes, Isreali Genocide, Conflict Status, Palestinian-Isreali Conflict, Isreali-Palestinian Conflict, Isreali-Palestinian War"
+        image=""
+        url=""
+      />
+
       <HeroWideSection {...homeData.mainHeroSection} />
-      
+
       {/* Status Section*/}
-      <Banner {...homeData.statusBanner} id="first-banner"/>
+      <Banner {...homeData.statusBanner} id="first-banner" />
       <HeroDigitsSection {...homeData.statusSection} />
 
       {/* Timeline Section*/}
       <Banner {...homeData.timelineBanner} />
       <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true}>
-        <HeroWideSectionExtra {...homeData.historicTimelineSection}/>
-        <HeroWideSectionExtra {...homeData.recentTimelineVetoSection}/>
-        <HeroWideSectionExtra {...homeData.recentTimelineEndSection}/>
-        <HeroWideSectionExtra {...homeData.recentTimelineCrimeSection}/>
-        <HeroWideSectionExtra {...homeData.recentTimelineDiplomaticSection}/>
+        <HeroWideSectionExtra {...homeData.historicTimelineSection} />
+        <HeroWideSectionExtra {...homeData.recentTimelineVetoSection} />
+        <HeroWideSectionExtra {...homeData.recentTimelineEndSection} />
+        <HeroWideSectionExtra {...homeData.recentTimelineCrimeSection} />
+        <HeroWideSectionExtra {...homeData.recentTimelineDiplomaticSection} />
       </Carousel>
 
       {/* War Lies and Crimes Section*/}
       <Banner {...homeData.warCrimeBanner} />
       <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true}>
-        <HeroWideSectionExtra {...homeData.genocideSection}/>
-        <HeroWideSectionExtra {...homeData.warCrimesLiesSection}/>
+        <HeroWideSectionExtra {...homeData.genocideSection} />
+        <HeroWideSectionExtra {...homeData.warCrimesLiesSection} />
         <HeroSliderImage {...homeData.beforeAfterSection} />
       </Carousel>
 
@@ -51,8 +60,8 @@ const HomePage = () => {
         <HeroGridVideo {...homeData.intenseGridSection1} />
         {/* <HeroGridVideo {...homeData.intenseGridSection2} /> */}
       </Carousel >
-      <div style={{display:'flex', justifyContent:'center'}}>
-      <HeroButton content="I Can See More  ▶" type="red" styleObj={{minWidth:'250px'}} onClickFunc={()=>window.open("https://gaza23.com",  '_blank')}/>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <HeroButton content="I Can See More  ▶" type="red" styleObj={{ minWidth: '250px' }} onClickFunc={() => window.open("https://gaza23.com", '_blank')} />
       </div>
       {/* Blogs Section*/}
       <Banner {...homeData.blogBanner} />

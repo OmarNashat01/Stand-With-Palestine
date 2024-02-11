@@ -9,6 +9,7 @@ import { IntentCard } from "../../components/IntentSections/IntentCard";
 // @ts-ignore
 import Faq from "react-faq-component";
 import Banner from "../../components/Simple/Banner";
+import Head from "../../components/Simple/Head";
 
 const IntentsPage: React.FC = () => {
   // Array of intents
@@ -53,8 +54,8 @@ const IntentsPage: React.FC = () => {
   const [defSearch, setDefSearch] = React.useState("");
   const [key, setKey] = React.useState(0);
   const [execludeList, setExecludeList] = React.useState<string[]>([]);
-  React.useEffect(()=>{
-    if(activeAuthorTab !== "All" && activeAuthorTab !== "Others") {
+  React.useEffect(() => {
+    if (activeAuthorTab !== "All" && activeAuthorTab !== "Others") {
       setDefSearch(activeAuthorTab)
     }
     else {
@@ -62,9 +63,9 @@ const IntentsPage: React.FC = () => {
     }
     setExecludeList((activeAuthorTab === "Others") ? ["Benjamin Netanyahu", "Isaac Herzog", "Yoav Gallant", "Itmar Ben-Gvir", "Bezalel Smotrich", "Nissim Vaturi"] : [])
 
-    setKey(key+1);
+    setKey(key + 1);
 
-  },[activeAuthorTab])
+  }, [activeAuthorTab])
 
   return (
     <div
@@ -75,6 +76,14 @@ const IntentsPage: React.FC = () => {
         backgroundColor: "#101010",
       }}
     >
+      <Head
+        title="Genocidal Intents"
+        description="The Definition of intent is rooted in intention. Here are some of the genocidal intents of the Israeli government and military."
+        keywords="Genocidal Intents, Genocidal Intent, Genocidal Intentions, Genocidal Intentions of the Israeli government, Genocidal Intentions of the Israeli military, Genocidal Intentions of the IDF, Genocidal Intentions of the Israeli Defense Forces, Genocidal Intentions of Elites with command responsibility, Genocidal Intentions of Elites without command responsibility"
+        image=""
+        url=""
+      />
+
       <GradientHero
         title={"Genocidal Intent"}
         subTitle1={"The Definition of Genocide is Rooted in Intention"}
@@ -108,22 +117,22 @@ const IntentsPage: React.FC = () => {
       </div>}
       {/* Mapping through the intents array to render IntentCard components */}
 
-        <div style={{backgroundColor: '#151515', paddingTop:'1rem'}}>
-        {activeTab===tabs[0] && <TabComponent
-        activeTab={activeAuthorTab}
-        setActiveTab={(tab) => {
-          setActiveAuthorTab(tab);
-        }}
-        tabUI={false}
-        tabs={["All", "Benjamin Netanyahu", "Isaac Herzog", "Yoav Gallant", "Itmar Ben-Gvir", "Bezalel Smotrich", "Nissim Vaturi", "Others" ]}
-        redSelected={true}
-        smallGap={true}
-      />}
-      <div className="intents-container">
-      
-        {(activeTab === tabs[0] ? filteredIntents : filteredWeakIntents).map(
-          (intent: any, index: any) => (
-            <>
+      <div style={{ backgroundColor: '#151515', paddingTop: '1rem' }}>
+        {activeTab === tabs[0] && <TabComponent
+          activeTab={activeAuthorTab}
+          setActiveTab={(tab) => {
+            setActiveAuthorTab(tab);
+          }}
+          tabUI={false}
+          tabs={["All", "Benjamin Netanyahu", "Isaac Herzog", "Yoav Gallant", "Itmar Ben-Gvir", "Bezalel Smotrich", "Nissim Vaturi", "Others"]}
+          redSelected={true}
+          smallGap={true}
+        />}
+        <div className="intents-container">
+
+          {(activeTab === tabs[0] ? filteredIntents : filteredWeakIntents).map(
+            (intent: any, index: any) => (
+              <>
                 <IntentCard
                   key={index}
                   quote={intent.quote}
@@ -133,13 +142,13 @@ const IntentsPage: React.FC = () => {
                   date={intent.date}
                   link={intent.link}
                 />
-            </>
-          )
-        )}
-      </div>
-      <p style={{ textAlign:'center', padding: '1.6rem', fontSize:'0.9rem', color:'#555555'}}>
-        Credits go to <a href="https://twitter.com/KintsugiMuslim/status/1746292969404076180">@KintsugiMuslim</a> on Twitter for collecting these instances.
-      </p>
+              </>
+            )
+          )}
+        </div>
+        <p style={{ textAlign: 'center', padding: '1.6rem', fontSize: '0.9rem', color: '#555555' }}>
+          Credits go to <a href="https://twitter.com/KintsugiMuslim/status/1746292969404076180">@KintsugiMuslim</a> on Twitter for collecting these instances.
+        </p>
 
       </div>
 

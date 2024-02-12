@@ -4990,5 +4990,125 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "February 10, 2024",
+    "title": "Day 127",
+    "events": [
+      {
+        "text": "5-year-old Palestinian girl found dead after being trapped in a car under Israeli fire.",
+        "link": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_1d673bb3e3167fd18923855306c40080",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli airstrikes and shelling targeting Rafah kill at least 25, reports say.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_edfbd6a9b58a1fe14bff5e043bc0ed38",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Unimaginable devastation seen inside Khan Younis, the southern Gaza city once a safe haven for the displaced.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_ac114e7bfb0a43fd9930fcb417425ee0",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 1 dead at Gaza\u2019s Nasser Hospital as IDF continues operations in Khan Younis.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_e33f552d46abc4f0b1ab3d1918ab569c",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Deadly Israeli West Bank hospital raid may amount to a war crime, UN experts say.",
+        "link": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_15811dd113af336004889b0af3ee5dc3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mass evacuation in Rafah would have \"catastrophic consequences,\" human rights organization warns.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_088468c5eba3284620e10d464aef99dc",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 11, 2024",
+    "title": "Day 128",
+    "events": [
+      {
+        "text": "More than 60 people killed in Israeli strikes on Rafah, Palestinian Red Crescent Society says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-11-24#h_7f0eb8cbe3f256416d5cdc7469d416af",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza residents describe \"total destruction\" and desperate conditions after Israeli operations\u00a0in the north",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-11-24#h_cb5b5369b7832b2d7f5298041c9b643e",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli airstrikes kill at least 5 police officers in Rafah, Palestinian police say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-11-24#h_f46c90527054af5b265a696fd796e404",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Qatar condemns Israel\u2019s plan to launch offensive in\u00a0Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-11-24#h_b0e9721bd02ffa5afa5d1b9bdd22144d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Saudi Arabia warns Israel of \"very serious repercussions\" for storming Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-11-24#h_5170e0330c6eb6e924e8955a51772713",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 12, 2024",
+    "title": "Day 129",
+    "events": [
+      {
+        "text": "Death toll rises to over 100 in Israeli airstrikes on Rafah, Palestine Red Crescent Society says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_d73ba87114722d5235b44dbf3dbdaca2",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hamas condemns Israel's \"horrific massacre\" of civilians in Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_b6b3dcfcea840fc7ed823b51f82032fc",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "IDF says it conducted operation in Rafah to extract hostages",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_70ffb26f90a0d7625a61432d68bd3c7b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden stresses to Netanyahu the need for \"credible\" plan to ensure safety of Rafah civilians",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_a6502b07c21c89b5b332d5b83a76aff9",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hamas says Israeli ground offensive in Rafah would destroy hostage negotiations",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_b0d5b80b8b107d44ad02112109e6b16d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Telling Israel not to enter Rafah is like telling us to lose the war, Prime Minister Netanyahu says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_aee916d4b3a9b213304f931ed1a07590",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

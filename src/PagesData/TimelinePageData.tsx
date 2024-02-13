@@ -5110,5 +5110,29 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "February 13, 2024",
+    "title": "Day 130",
+    "events": [
+      {
+        "text": "US calls on Israel to urgently investigate the death\u00a0of\u00a05-year-old Palestinian Hind Rajab",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_fa1c52a6a5709b91565c3a93bc12a9e3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden is growing more frustrated with Netanyahu as \"over the top\" Gaza campaign rages on, sources say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_4348188efba57a1b28dc68250509adaf",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian women describe 12-mile escape on foot from Gaza City",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_854f08d7972b01c5d9d9c56224d86643",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

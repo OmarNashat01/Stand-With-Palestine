@@ -12,7 +12,7 @@ Stand-With-Palestine is an initiative (realized in the form of a website) aimed 
 
 ## 🇵🇸 Navigation Structure
 
-Visit the website at [Stand-With-Palestine.org](Stand-With-Palestine.org)
+Visit the website at [Stand-With-Palestine.org](https://Stand-With-Palestine.org)
 
 <table>
   <tr>

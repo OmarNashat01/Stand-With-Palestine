@@ -5132,6 +5132,36 @@ export const dailyNews = [
         "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_854f08d7972b01c5d9d9c56224d86643",
         "description": "",
         "images": []
+      },
+      {
+        "text": "Military push into Rafah could lead to \"a slaughter,\" UN relief chief warns",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_bd3685712a889a32a476ca18976d2cc8",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel has become \"blinded by rage\" and risks unleashing a massacre in Rafah, Irish prime minister says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_0498e14d2f7195e5207110a8cd5c3461",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel orders Nasser medical complex to evacuate civilians seeking shelter, Hamas-run health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_e717fd91356aaa62a21acebacfa09be1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "12 members of the same family killed in strike in central Gaza, local hospital says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_dbf0de8068a0d5884454ea366a31970d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Al Jazeera says 2 journalists seriously injured in Israeli strike near Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_250b8f1f88212cf1369cf48a3132f4e6",
+        "description": "",
+        "images": []
       }
     ]
   }

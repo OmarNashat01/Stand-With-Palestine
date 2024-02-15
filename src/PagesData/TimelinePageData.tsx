@@ -5164,5 +5164,41 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "February 14, 2024",
+    "title": "Day 131",
+    "events": [
+      {
+        "text": "Israeli snipers shoot and kill civilians as they flee hospital in Gaza, according to eyewitness",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-14-24/h_0249f6110efe03ec758435902524efac",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctors Without Borders condemns Israel's evacuation order for Gaza's Nasser Hospital",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-14-24/h_5884d44cb706bba8df4545551488e3b3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli assault on Rafah would create humanitarian catastrophe, German foreign minister says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-14-24/h_dbfe7b586216971f990bb29e6f015b4f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Countless lives are hanging in the balance,\u201d says Red Cross official about escalating hostilities in Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-14-24/h_b78a78c02e763e1c018d33def1edf67b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO chief pleads with Israel to not enter Rafah, warning the outcome could be \"hell\"",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-14-24/h_9271554afce452959763eae55bc97b15",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

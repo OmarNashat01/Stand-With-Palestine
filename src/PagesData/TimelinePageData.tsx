@@ -5200,5 +5200,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "February 15, 2024",
+    "title": "Day 132",
+    "events": [
+      {
+        "text": "Committee to Protect Journalists reports highest journalist death toll since 2015, largely due to war in Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_52ba55fd55601a0446b1ac32536093a6",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN secretary-general condemns IDF raid of Khan Younis hospital",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_f97a9ad6bdccb68f47ca6f2dd71f874a",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 12 dead after Israeli airstrike on Nuseirat refugee camp in Gaza, Palestinian health officials say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_28ca593928f7247f36ae6fbd5b521013",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli snipers shoot and kill civilians as they flee hospital in Gaza, Palestinian medical sources say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_b368ca8e44234ae66b0d41e3e6643125",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military death toll in Gaza rises to 233",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_1570ae59a33145600140a279b1447ab6",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Aid worker says situation in Rafah is \"horrific and getting worse\" as Israel warns of a ground offensive",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_5ab4c977eb91f6dc485cf5175186c1a2",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 1 person killed in Israeli strike on Nasser Medical Complex, Gaza health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_b7c3cb0d11144881ac3bb81c5ae21755",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

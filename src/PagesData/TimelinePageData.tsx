@@ -5248,5 +5248,47 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "February 17, 2024",
+    "title": "Day 134",
+    "events": [
+      {
+        "text": "\"Large number\u201d of medical personnel, patients and displaced people remain trapped inside Nasser Medical Complex",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_38b36fb42884cb88111481a0632d5f62",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Displaced Palestinians fleeing Rafah after intensified Israeli airstrikes, say UN officials",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_c9d5a006cca01e3ca325969b870430be",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian surgeon inside Nasser Hospital warns \"all the ICU patients will die\" as Israeli raid continues",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_b5f693d274c44f70f73604aceab14de2",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden says he has told Netanyahu there should be temporary ceasefire to secure release of hostages",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_0e5ad06963a27c7af92482ce6a68227a",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "ICJ decides that situation in Gaza does not demand additional provisional measures",
+        "link": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_9057609537ddd3043b3ab63a92441ee2",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli war cabinet minister says fighting could continue during Ramadan",
+        "link": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_75218002e828d7ede571df939eae9b26",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

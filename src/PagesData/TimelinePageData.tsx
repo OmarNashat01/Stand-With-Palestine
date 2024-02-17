@@ -5250,45 +5250,45 @@ export const dailyNews = [
     ]
   },
   {
-    "date": "February 17, 2024",
-    "title": "Day 134",
+    "date": "February 16, 2024",
+    "title": "Day 133",
     "events": [
       {
-        "text": "\"Large number\u201d of medical personnel, patients and displaced people remain trapped inside Nasser Medical Complex",
-        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_38b36fb42884cb88111481a0632d5f62",
-        "description": "",
-        "images": []
-      },
-      {
-        "text": "Displaced Palestinians fleeing Rafah after intensified Israeli airstrikes, say UN officials",
-        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_c9d5a006cca01e3ca325969b870430be",
+        "text": "5 dead at Gaza's largest remaining hospital as Biden hopes for a temporary ceasefire. Catch up here",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_1951cb48d31b8031012b5eb487232b38",
         "description": "",
         "images": []
       },
       {
         "text": "Palestinian surgeon inside Nasser Hospital warns \"all the ICU patients will die\" as Israeli raid continues",
-        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_b5f693d274c44f70f73604aceab14de2",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_cc91d2597289e4e2f7a2c7a30a339b86",
         "description": "",
         "images": []
       },
       {
-        "text": "Biden says he has told Netanyahu there should be temporary ceasefire to secure release of hostages",
-        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_0e5ad06963a27c7af92482ce6a68227a",
+        "text": "5 dead after power loss at Nasser Hospital, Hamas-run health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_3e0a84a3c748f14644074aca6615eda0",
         "description": "",
         "images": []
       },
       {
-        "text": "ICJ decides that situation in Gaza does not demand additional provisional measures",
-        "link": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_9057609537ddd3043b3ab63a92441ee2",
+        "text": "84% of health facilities in Gaza affected by attacks, UNRWA says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_ee9e6c5e8488c052d87e026f54b22891",
         "description": "",
         "images": []
       },
       {
-        "text": "Israeli war cabinet minister says fighting could continue during Ramadan",
-        "link": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_75218002e828d7ede571df939eae9b26",
+        "text": "\"We\u2019re all going to be wiped out,\" displaced Palestinian woman in Rafah tells CNN",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_1cc39fa7c604c494636551243a95992b",
         "description": "",
         "images": []
-      }
+      },
+      {
+        "text": "WHO says it is coordinating with UN and Israel to access Nasser Hospital",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_6bf1b050d278637ee70a6ccd3aa1b0f9",
+        "description": "",
+        "images": []
+      },
     ]
-  }
+  },
 ];

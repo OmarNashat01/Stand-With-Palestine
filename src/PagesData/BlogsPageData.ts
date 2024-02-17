@@ -69,6 +69,15 @@ export const blogs: Blog[] = [
         summary: "The story of how the IDF killed Shireen and got away with it.",
     },
     {
+        showBlog: true,
+        type: "article",
+        name: "Why are Israelis Brainwashed",
+        subTitle: "Misinformation is the Root Problem",
+        imagePath: "/BlogsPage/Why Are Israelis Brainwashed/Untitled 2.png",
+        blogPath: "/BlogsPage/why-are-israelis-brainwashed.md",
+        summary: "Learn about why Israelis are able to tolerate or support oppression towards Palestinians"
+    },
+    {
         showBlog: false,
         type: "article",
         subTitle: "Israeli War Crimes",

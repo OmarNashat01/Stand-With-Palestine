@@ -5291,4 +5291,52 @@ export const dailyNews = [
       },
     ]
   },
+  {
+    "date": "February 17, 2024",
+    "title": "Day 134",
+    "events": [
+      {
+        "text": "More than a dozen killed in airstrikes on Rafah, according to hospital director",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_d5703632ab89c12357b9766a6219b92b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Over 40 dead from Israeli airstrikes in central Gaza, doctor says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_b6d83635bd97ee1fe2c1ed924829eb4c",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Large number\" of medical personnel, patients and displaced people remain trapped inside Nasser Hospital",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_38b36fb42884cb88111481a0632d5f62",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian women describe terror of 12-mile escape on foot from Gaza City",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_db240b44700d2d98d73b19ddb44318e5",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian surgeon inside Nasser Hospital warns \"all the ICU patients will die\" as Israeli raid continues",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_b5f693d274c44f70f73604aceab14de2",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Displaced Palestinians fleeing Rafah after intensified Israeli airstrikes, say UN officials",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_c9d5a006cca01e3ca325969b870430be",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden says he has told Netanyahu there should be temporary ceasefire to secure release of hostages",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_0e5ad06963a27c7af92482ce6a68227a",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
 ];

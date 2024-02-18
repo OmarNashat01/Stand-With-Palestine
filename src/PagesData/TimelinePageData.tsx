@@ -5339,4 +5339,40 @@ export const dailyNews = [
       }
     ]
   },
+  {
+    "date": "February 18, 2024",
+    "title": "Day 135",
+    "events": [
+      {
+        "text": "About 70 health care workers arrested in Israeli raid on Nasser Hospital, Gaza's health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_92ae596e408449474640ab1394cb9691",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza's largest remaining functioning medical facility is out of service after Israeli raid, WHO says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_7351f55406fef0e3f35702487618c5f5",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death\u00a0toll\u00a0from Israeli airstrikes in central Gaza rises\u00a0to\u00a0at\u00a0least\u00a068, hospital tells CNN",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_84c0d10086c5cf9340de5e028b8ef799",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More than a dozen killed in airstrikes on Rafah, according to hospital director",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_a44ebd44f190d4c9783d995cca914e26",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Large number\" of medical personnel, patients and displaced people remain trapped inside Nasser Hospital",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_e79b19ce5c5c38ebe83fb2442725a7f8",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
 ];

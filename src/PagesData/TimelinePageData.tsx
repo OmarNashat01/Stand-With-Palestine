@@ -5344,6 +5344,12 @@ export const dailyNews = [
     "title": "Day 135",
     "events": [
       {
+        "text": "Hospital reports more Palestinians killed, including children, in strikes on central Gaza city",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_1f44579f059780a0338cb6cb27db3f50",
+        "description": "",
+        "images": []
+      },
+      {
         "text": "About 70 health care workers arrested in Israeli raid on Nasser Hospital, Gaza's health ministry says",
         "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_92ae596e408449474640ab1394cb9691",
         "description": "",
@@ -5356,23 +5362,17 @@ export const dailyNews = [
         "images": []
       },
       {
-        "text": "Death\u00a0toll\u00a0from Israeli airstrikes in central Gaza rises\u00a0to\u00a0at\u00a0least\u00a068, hospital tells CNN",
-        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_84c0d10086c5cf9340de5e028b8ef799",
-        "description": "",
-        "images": []
-      },
-      {
         "text": "More than a dozen killed in airstrikes on Rafah, according to hospital director",
         "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_a44ebd44f190d4c9783d995cca914e26",
         "description": "",
         "images": []
       },
       {
-        "text": "\"Large number\" of medical personnel, patients and displaced people remain trapped inside Nasser Hospital",
-        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_e79b19ce5c5c38ebe83fb2442725a7f8",
+        "text": "Displaced Palestinians fleeing Rafah after intensified Israeli airstrikes, say UN officials",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_302772efe67366122296ab96ad558bda",
         "description": "",
         "images": []
       }
     ]
-  },
+  }
 ];

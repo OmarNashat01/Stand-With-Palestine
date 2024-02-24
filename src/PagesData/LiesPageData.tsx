@@ -224,6 +224,19 @@ export const liesData = [
     </ul>
     `,
     "modalText": []
+  },
+  {
+    "special": true,
+    "source": "IDF",
+    "title": "Weapons in hospitals",
+    "modalContent": `<ul>
+    <li>IDF released a video on Nov 15 at Al-Shifa hospital which they claim depicts the weaponry found in the hospital. (<a href="https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_1d70c190adde686e6a2b59e963499e82">CNN</a>)</li>
+    <li>Later, during a guided tour for western media outlets, the footage depicted more weaponry on spots previously shown to contain less, raising concerns about possible manipulation of the scene by the IDF. and rearranging items. (<a href="https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_1d70c190adde686e6a2b59e963499e82">CNN</a>)</li>
+    <li>It is worth to note that the BBC reporter stated that &quot;Our visit was tightly controlled; we had very limited time on the ground and were not able to speak to doctors or patients there&quot; (<a href="https://www.bbc.com/news/world-middle-east-67436154">BBC</a>)</li>
+    <li>IDF response: IDF claims the discrepancy is due to the discovery of more weaponry and assets throughout the day (<a href="https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_1d70c190adde686e6a2b59e963499e82">CNN</a>), which further supports the suspicion of scene manipulation (the weapons in fact weren’t found in those place and were placed there).</li>
+    </ul>
+    `,
+    "modalText": []
   }
 ];
 

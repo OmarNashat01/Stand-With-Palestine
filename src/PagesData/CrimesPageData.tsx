@@ -398,6 +398,7 @@ export const crimesDict = [
       ],
       media: [
         { path: "./CrimesPage/settlers.mp4", mode: "video", violence: false, crop: false },
+        { path: "./CrimesPage/demolish.mp4", mode: "video", violence: false, crop: false },
         { path: "./CrimesPage/westbankmap.png", mode: "img", violence: false, crop: false },
       ],
       paragraphLeft: "",

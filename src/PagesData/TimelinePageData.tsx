@@ -5374,5 +5374,503 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "February 19, 2024",
+    "title": "Day 136",
+    "events": [
+      {
+        "text": "Only three days of drinking water available at Khan Younis hospital: Red Crescent",
+        "link": "https://aje.io/9rxkm3?update=2719047",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO official urges \u2018proper medical evacuation\u2019 at Nasser Hospital",
+        "link": "https://aje.io/9rxkm3?update=2718972",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Steep rise\u2019 in malnutrition in Gaza reported",
+        "link": "https://aje.io/9rxkm3?update=2718992",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli raids on Lebanon hit civilian factories: Report",
+        "link": "https://aje.io/9rxkm3?update=2718745",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Multiple bombardments by Israeli forces near al-Amal Hospital: Red Crescent",
+        "link": "https://aje.io/9rxkm3?update=2718275",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 20, 2024",
+    "title": "Day 137",
+    "events": [
+      {
+        "text": "Journalists targeted by Israeli forces in Gaza City",
+        "link": "https://aje.io/blx5qm?update=2720744",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Charity says \u2018no respite for children\u2019 after US vetoes ceasefire resolution",
+        "link": "https://aje.io/blx5qm?update=2720926",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO completes second Gaza hospital evacuation amid ongoing raid",
+        "link": "https://aje.io/blx5qm?update=2720198",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hospital in Rafah overcrowded with orphans, premature babies",
+        "link": "https://aje.io/blx5qm?update=2720096",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 21, 2024",
+    "title": "Day 138",
+    "events": [
+      {
+        "text": "Israeli attacks kill 12 in Gaza, including journalist",
+        "link": "https://aje.io/ifxnyx?update=2724726",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctors Without Borders condemns Israeli attack on \u2018clearly marked\u2019 shelter",
+        "link": "https://aje.io/ifxnyx?update=2724836",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Human rights lawyer killed by Israeli shelling in Rafah",
+        "link": "https://aje.io/ifxnyx?update=2723937",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO says Gaza has become a \u2018death zone\u2019",
+        "link": "https://aje.io/ifxnyx?update=2724074",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli soldiers kill Palestinian child in occupied West Bank",
+        "link": "https://aje.io/ifxnyx?update=2724003",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Woman killed in Israeli shelling of Lebanese town Majdal Zoun",
+        "link": "https://aje.io/ifxnyx?update=2723095",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 22, 2024",
+    "title": "Day 139",
+    "events": [
+      {
+        "text": "Israeli forces re-invade Nasser Hospital: Health Ministry",
+        "link": "https://aje.io/t3kja8?update=2726782",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'Many in Gaza survive on just one meal a day, others find none': UNICEF",
+        "link": "https://aje.io/t3kja8?update=2726500",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attack kills doctor in Deir el-Balah",
+        "link": "https://aje.io/t3kja8?update=2726354",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Casualties reported in Israeli bombing of UNWRA building in Jabalia",
+        "link": "https://aje.io/t3kja8?update=2726146",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza\u2019s north faces famine, south continues to be bombed",
+        "link": "https://aje.io/t3kja8?update=2725647",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 23, 2024",
+    "title": "Day 140",
+    "events": [
+      {
+        "text": "At least 24 dead in Israeli strike on home in Deir el-Balah",
+        "link": "https://aje.io/i9wxuy?update=2728768",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Even in tents, Gazans are not safe\u2019",
+        "link": "https://aje.io/i9wxuy?update=2728302",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Tens of thousands facing health complications, famine: Gaza ministry",
+        "link": "https://aje.io/i9wxuy?update=2728342",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Beaten, stripped, used as human shield\u2019: Gaza victim recalls terror by Israeli forces",
+        "link": "https://aje.io/i9wxuy?update=2727955",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": " Mosque in Rafah flattened by Israeli air strike",
+        "link": "https://aje.io/i9wxuy?update=2727694",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN physician tells of dire conditions inside besieged Nasser Hospital",
+        "link": "https://aje.io/i9wxuy?update=2727766",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 24, 2024",
+    "title": "Day 141",
+    "events": [
+      {
+        "text": "\u2018For 8 years, we tried to have him\u2019: Family of baby killed in Israeli strike",
+        "link": "https://aje.io/8p17v5?update=2729731",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rafah bombing victims \u2018incinerated beyond recognition\u2019",
+        "link": "https://aje.io/8p17v5?update=2729734",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mostly women and children killed in overnight attacks",
+        "link": "https://aje.io/8p17v5?update=2729292",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Starvation as a \u2018weapon of war\u2019 in Gaza where aid agencies are at breaking point",
+        "link": "https://aje.io/8p17v5?update=2729191",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN experts say transfer of weapons to Israel violates humanitarian law",
+        "link": "https://aje.io/8p17v5?update=2729274",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 25, 2024",
+    "title": "Day 142",
+    "events": [
+      {
+        "text": "'Catastrohic conditions\u2019 at southern Gaza hospital",
+        "link": "https://aje.io/dsj94u?update=2732822",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Report of two-month-old baby dying in Gaza from hunger \u2018horrific\u2019: UNRWA",
+        "link": "https://aje.io/dsj94u?update=2732554",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA warns of diseases spreading due to unsanitary conditions in Gaza",
+        "link": "https://aje.io/dsj94u?update=2732069",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 26, 2024",
+    "title": "Day 143",
+    "events": [
+      {
+        "text": "\u2018Unless we invade them\u2019: Biden administration pressed on lax approach to Israel",
+        "link": "https://aje.io/him60l?update=2734705",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Boys recount eating \u2018bird and donkey food\u2019 every two days in Gaza City",
+        "link": "https://aje.io/him60l?update=2734133",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US airman dies after setting himself on fire in protest over Gaza \u2018genocide\u2019",
+        "link": "https://aje.io/him60l?update=2734156",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Four, including a child, killed north of Rafah in Israeli strike",
+        "link": "https://aje.io/him60l?update=2733275",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza authorities detail Israeli abuses since ICJ ruling",
+        "link": "https://aje.io/him60l?update=2734401",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 27, 2024",
+    "title": "Day 144",
+    "events": [
+      {
+        "text": "UN says quarter of Gaza\u2019s population \u2018one step away from famine\u2019",
+        "link": "https://aje.io/qi1psx?update=2736592",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "MSF says \u2018no signs\u2019 Israel is trying to alleviate suffering of civilians",
+        "link": "https://aje.io/qi1psx?update=2736409",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza Health Ministry warns of imminent mass deaths from famine",
+        "link": "https://aje.io/qi1psx?update=2736351",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO chief says al-Amal Hospital attacked 40 times in one month",
+        "link": "https://aje.io/qi1psx?update=2736202",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces stalled evacuation convoy, forced paramedics to strip: UN",
+        "link": "https://aje.io/qi1psx?update=2735742",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Nasser Hospital out of service as patients, staff await evacuation",
+        "link": "https://aje.io/qi1psx?update=2735522",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 28, 2024",
+    "title": "Day 145",
+    "events": [
+      {
+        "text": "Palestinian carrying bag of flour reportedly shot by Israeli troops",
+        "link": "https://aje.io/k5c04g?update=2738910",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA says one quarter of Gaza\u2019s wells have been destroyed",
+        "link": "https://aje.io/k5c04g?update=2738812",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Four children die of malnutrition: Gaza Health Ministry",
+        "link": "https://aje.io/k5c04g?update=2738621",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "In Gaza, water supply at only 7 percent of pre-October levels",
+        "link": "https://aje.io/k5c04g?update=2738257",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Journalist says family killed in Israeli bombardment in Gaza City",
+        "link": "https://aje.io/k5c04g?update=2738164",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 29, 2024",
+    "title": "Day 146",
+    "events": [
+      {
+        "text": "\u2018US cannot continue funding Netanyahu war machine\u2019: Bernie Sanders",
+        "link": "https://aje.io/gs2k6y?update=2741102",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Too many Palestinians died today\u2019: US on aid shooting",
+        "link": "https://aje.io/gs2k6y?update=2740943",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN chief condemns attack on \u2018desperate\u2019 Palestinian aid-seekers",
+        "link": "https://aje.io/gs2k6y?update=2740884",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll from Israeli attack on aid seekers rises to 112",
+        "link": "https://aje.io/gs2k6y?update=2740653",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 01, 2024",
+    "title": "Day 147",
+    "events": [
+      {
+        "text": "Child in Rafah among victims of latest Israeli strikes",
+        "link": "https://aje.io/6b1i2q?update=2743660",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN: Many victims of Gaza City attack have gunshot wounds",
+        "link": "https://aje.io/6b1i2q?update=2743614",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hamas: Seven captives killed in Israeli bombing of Gaza",
+        "link": "https://aje.io/6b1i2q?update=2743340",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "South Africa condemns Israel over deaths of Palestinians awaiting aid",
+        "link": "https://aje.io/6b1i2q?update=2743125",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 02, 2024",
+    "title": "Day 148",
+    "events": [
+      {
+        "text": "UNICEF chief says many children \u2018on the brink\u2019 of death from starvation in Gaza",
+        "link": "https://aje.io/hld8nn?update=2745033",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attack on displaced in tents \u2018outrageous\u2019: WHO chief",
+        "link": "https://aje.io/hld8nn?update=2744984",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll from aid-seekers attack rises to 118",
+        "link": "https://aje.io/hld8nn?update=2744882",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Eleven killed, 50 injured in Rafah strike on tent",
+        "link": "https://aje.io/hld8nn?update=2744523",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO: \u2018Sad threshold\u2019 as 10 children confirmed starved to death in Gaza",
+        "link": "https://aje.io/hld8nn?update=2743767",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 03, 2024",
+    "title": "Day 149",
+    "events": [
+      {
+        "text": "Death of children from malnutrition \u2018unlawful\u2019: Amnesty International chief",
+        "link": "https://aje.io/ibd315?update=2746612",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Child deaths we feared\u2019 in Gaza are here: UNICEF",
+        "link": "https://aje.io/ibd315?update=2746377",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least nine killed after Israeli air strike hits aid truck in Deir el-Balah",
+        "link": "https://aje.io/ibd315?update=2746020",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Health Ministry: 15 children died from lack of food, water in Kamal Adwan Hospital",
+        "link": "https://aje.io/ibd315?update=2745651",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN expert calls for sanctions against Israel as \u2018famine\u2019 may \u2018be already occurring\u2019 in Gaza",
+        "link": "https://aje.io/ibd315?update=2745344",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctor treating dehydrated, malnourished newborns appeals for help",
+        "link": "https://aje.io/ibd315?update=2745231",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

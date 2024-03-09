@@ -5872,5 +5872,233 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 04, 2024",
+    "title": "Day 150",
+    "events": [
+      {
+        "text": "Attack on Gaza healthcare facilities ongoing: Canadian doctor",
+        "link": "https://aje.io/m9v6oa?update=2749363",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Another Israeli attack on aid seekers in Gaza City",
+        "link": "https://aje.io/m9v6oa?update=2749341",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces kill three Palestinians in al-Amari camp since October 7",
+        "link": "https://aje.io/m9v6oa?update=2748639",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Look at Yazan\u2019: Mansour pleads for Gaza children at UNGA",
+        "link": "https://aje.io/m9v6oa?update=2748750",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 05, 2024",
+    "title": "Day 151",
+    "events": [
+      {
+        "text": "Palestinian teenager dies of wounds days after Israeli raid",
+        "link": "https://aje.io/lxyadi?update=2751487",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel denies entry of UK relief items to Gaza",
+        "link": "https://aje.io/lxyadi?update=2751396",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA: 17,000 children orphaned in Gaza",
+        "link": "https://aje.io/lxyadi?update=2751048",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli bombardment killed MSF UK board trustee, organisation says",
+        "link": "https://aje.io/lxyadi?update=2750962",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO warns of \u2018extreme\u2019 malnutrition in north Gaza",
+        "link": "https://aje.io/lxyadi?update=2750342",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNICEF: Children in Gaza are paying the highest price for this war",
+        "link": "https://aje.io/lxyadi?update=2750253",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 06, 2024",
+    "title": "Day 152",
+    "events": [
+      {
+        "text": "At least five killed in Israeli bombing of mosque in north Gaza",
+        "link": "https://aje.io/ebcwlv?update=2754442",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian journalist killed in strike on Deir el-Balah",
+        "link": "https://aje.io/ebcwlv?update=2754075",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Children are dying of malnutrition in Gaza",
+        "link": "https://aje.io/ebcwlv?update=2752855",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO chief calls on aid to enter Gaza as hunger spreads",
+        "link": "https://aje.io/ebcwlv?update=2753595",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll from malnutrition, dehydration rises to 18",
+        "link": "https://aje.io/ebcwlv?update=2753133",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 07, 2024",
+    "title": "Day 153",
+    "events": [
+      {
+        "text": "In Gaza, babies have no more nappies, milk, as Israeli bombing continues",
+        "link": "https://aje.io/o6i80z?update=2756878",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Some 60,000 pregnant women in Gaza face malnutrition, dehydration",
+        "link": "https://aje.io/o6i80z?update=2756802",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Veteran aid worker says Gaza crisis \u2018worst\u2019 of his career",
+        "link": "https://aje.io/o6i80z?update=2756498",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Children dying and fainting in the streets from hunger\u2019",
+        "link": "https://aje.io/o6i80z?update=2756127",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Thousands of children are on their own in Gaza",
+        "link": "https://aje.io/o6i80z?update=2755995",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 08, 2024",
+    "title": "Day 154",
+    "events": [
+      {
+        "text": "Three more children die of hunger at al-Shifa Hospital",
+        "link": "https://aje.io/bg1i94?update=2759119",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Deadly airdrop accident shows urgent need for ceasefire",
+        "link": "https://aje.io/bg1i94?update=2759088",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 9 killed in Israeli bombardment of homes in Rafah",
+        "link": "https://aje.io/bg1i94?update=2758695",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza government confirms five killed in aid airdrop accident",
+        "link": "https://aje.io/bg1i94?update=2758664",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN says 95 percent of pregnant, breast-feeding women in Gaza face \u2018severe\u2019 food poverty",
+        "link": "https://aje.io/bg1i94?update=2758343",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces beat, arrest worshippers around Al-Aqsa Mosque",
+        "link": "https://aje.io/bg1i94?update=2758258",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 09, 2024",
+    "title": "Day 155",
+    "events": [
+      {
+        "text": "Infant and 20-year-old Gaza woman die of starvation",
+        "link": "https://aje.io/zbuy5m?update=2761111",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 10 killed in Nuseirat camp after Israeli air strike hits residential block",
+        "link": "https://aje.io/zbuy5m?update=2760614",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Five months into war, 80 percent of Gaza homes \u2018uninhabitable\u2019",
+        "link": "https://aje.io/zbuy5m?update=2760436",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza war has \u2018ruptured any sense of a shared humanity\u2019: ICRC",
+        "link": "https://aje.io/zbuy5m?update=2760418",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces arrest 15 Palestinians in occupied West Bank over two days",
+        "link": "https://aje.io/zbuy5m?update=2760322",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli strikes kill 82 people in Gaza over past day",
+        "link": "https://aje.io/zbuy5m?update=2759958",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

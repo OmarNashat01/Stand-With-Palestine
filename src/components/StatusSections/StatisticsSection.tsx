@@ -197,7 +197,7 @@ interface StatisticsSectionProps {
                 },
                 title: {
                   display: true,
-                  text: "Cumulative Daily Fatalities Since the 1st of Dec.",
+                  text: "Cumulative Children Fatalities VS. Days Since 7th Oct.",
                   font: {
                     family: "Poppins",
                     size: 20,

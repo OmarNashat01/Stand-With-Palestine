@@ -6100,5 +6100,101 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 10, 2024",
+    "title": "Day 156",
+    "events": [
+      {
+        "text": "Al Jazeera\u2019s studio remembers slain Gaza children at start of Ramadan",
+        "link": "https://aje.io/tbkrop?update=2763800",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Exhausted medical personnel starving in northern Gaza",
+        "link": "https://aje.io/tbkrop?update=2763756",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Euro-Med Monitor: Gaza\u2019s elderly dying at rapid rates",
+        "link": "https://aje.io/tbkrop?update=2763738",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US NGO worker killed in Israeli attack",
+        "link": "https://aje.io/tbkrop?update=2761793",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Offices of a children\u2019s charity destroyed in Gaza",
+        "link": "https://aje.io/tbkrop?update=2761810",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Several killed, injured as Israel bombs home in Beit Lahiya",
+        "link": "https://aje.io/tbkrop?update=2761829",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Not a single inch is safe\u2019, says grandfather who survived Israeli attack on home",
+        "link": "https://aje.io/tbkrop?update=2761845",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 11, 2024",
+    "title": "Day 157",
+    "events": [
+      {
+        "text": "At least 21 Palestinian children have starved to death in Gaza",
+        "link": "https://aje.io/tsk5ik?update=2765847",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli air strike in southern Gaza kills family of human rights worker",
+        "link": "https://aje.io/tsk5ik?update=2765892",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 19 reported killed after Israel bombs residential homes in Rafah and Gaza City",
+        "link": "https://aje.io/tsk5ik?update=2765479",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Two more children in northern Gaza die from starvation",
+        "link": "https://aje.io/tsk5ik?update=2765123",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Director Jonathan Glazer condemns Israel\u2019s war on Gaza in Oscars speech",
+        "link": "https://aje.io/tsk5ik?update=2764912",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli air attack on Gaza City kills 10",
+        "link": "https://aje.io/tsk5ik?update=2764096",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel prevents Muslim worshippers from entering Al-Aqsa Mosque for Ramadan",
+        "link": "https://aje.io/tsk5ik?update=2764028",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

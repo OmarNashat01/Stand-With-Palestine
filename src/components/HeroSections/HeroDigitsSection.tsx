@@ -37,8 +37,7 @@ const HeroDigitsSection: React.FC<HeroDigitsSectionProps> = ({ imagePath, number
   return (
     <div className="hero-section" id="nums">
       <div className="hero-content">
-        <div className="image-container" style={{ backgroundImage: `url('${imagePath}')`, filter: ((violent) ? blurFilter():'')}}>
-        </div>
+        <div className="image-container" style={{ backgroundImage: `url('${imagePath}')`, filter: ((violent) ? blurFilter():'')}}></div>
         <div className="text-wrapper">
           <div className="text-container">
             {(typeof numbers[0]==="number") ? <AnimatedNumber value={numbers[0]} /> : <h1>{numbers[0]}</h1>}

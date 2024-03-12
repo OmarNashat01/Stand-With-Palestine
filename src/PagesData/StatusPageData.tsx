@@ -360,7 +360,7 @@ export const faqData = {
 		},
 		{
 			title: "2. What is 'Recent Only'? ",
-			content: "This page is updated every day at 11:00 PM UTC from the PCBS. Most of the time 'Recent Only' will mean 'Today Only' provided that PCBS did not miss an update yesterday; this usually holds unless a truce or pause is going on."
+			content: "This page is updated every day at 11:00 PM UTC from the PCBS. Most of the time 'Recent Only' will mean 'Today Only' provided that PCBS did not miss an update yesterday; otherwise, the numbers show the difference compared to the most recent previous update."
 		},
 		{
 			title: "3. Should I Trust the Numbers Given by the Ministry Given That It's \"Hamas-Controlled\"?",

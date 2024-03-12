@@ -25,7 +25,7 @@ const homeData = {
   
     statusSection: {
       imagePath: './HomePage/gaza-child-sad.webp',
-      numbers: [10000, 7000, 58000, "~2M"],
+      numbers: [13430, 8900, 72520, "~2M"],
       texts: ["Children Killed", "Woman Killed", "People in Pain", "People Displaced"],
       onClick: "./status",
       violent: true
@@ -38,9 +38,9 @@ const homeData = {
     },
   
     historicTimelineSection: {
-      imagePath: "./HomePage/aqsa.webp",
+      imagePath: "./HomePage/blockade.jpeg",
       extraImagePath: "./HomePage/PMap.png",
-      overlayColor: "rgba(0, 0, 0, 0.4)",
+      overlayColor: "rgba(0, 0, 0, 0.55)",
       blur: "blur(3px)",
       title: "Violence Did Not Begin with the Attacks from Hamas.",
       subTitle: "",
@@ -51,7 +51,7 @@ const homeData = {
        70% of Gaza residents are refugees that were expelled from their homes in Palestine by Israel in 1948.
        `,
       bulleted: "ordered",
-      buttonText1: "Check Prior Crimes ▶",
+      buttonText1: "Check Crime Record ▶",
       buttonText2: "",
       reverse: true,
       isYouTube: false,
@@ -61,7 +61,7 @@ const homeData = {
 
 
     recentTimelineEndSection: {
-      imagePath: "https://www.aljazeera.com/wp-content/uploads/2023/12/346P4H2-highres-1701417296.jpg?resize=1170%2C780&quality=80",
+      imagePath: "https://www.al-monitor.com/sites/default/files/styles/article_header/public/2023-10/c3544adf3c932f83c76ca2dedbd86cc0a8bab26d.jpg?h=69f2b9d0&itok=JJEYpj8L",
       extraImagePath: "https://cdnuploads.aa.com.tr/uploads/Contents/2023/12/01/thumbs_b_c_a46b58748b653f2f17f5fe5ae35deabb.jpg?v=121358",
       isLocalVideo: false,
       isYouTube: false,
@@ -72,13 +72,35 @@ const homeData = {
       subTitle: "1st Dec. 2023",
       text: 
       `Israel’s attacks erupted again, as airstrikes started striking Gaza minutes after a weeklong truce with Hamas expired. Israel recalled its negotiators from Qatar because of what it described as a dead end in the talks.`,
-      buttonText1: "Check Conflict Timeline ▶",
+      buttonText1: "Check Timeline ▶",
       buttonText2: "Read More",
       reverse: true,
       onClick1: './timeline/recent',
       onClick2: 'https://apnews.com/article/israel-hamas-war-news-12-1-2023-c944c736efdf8993c7a17cf683d6e364',
       violent: true
     },
+
+
+    recentTimelineVeto2Section: {
+      imagePath: "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/08-12-2023-UN-Photo-SC-meeting-Gaza.jpg/image1170x530cropped.jpg",
+      extraImagePath: "https://english.ahram.org.eg/Media/News/2024/2/20/41_2024-638440558223399705-339.jpg",
+      isLocalVideo: false,
+      isYouTube: false,
+      overlayColor: "rgba(0, 0, 0, 0.6)",
+      blur: "blur(3px)",
+      bulleted: '',
+      title: "US Vetoes Another Ceasefire Resolution for Gaza",
+      subTitle: "20th Feb. 2024",
+      text: 
+      `The UN Security Council met again in emergency session in New York on Gaza Tuesday, where the United States vetoed a resolution put forward on behalf of Arab States by Algeria demanding “an immediate humanitarian ceasefire that must be respected by all parties`,
+      buttonText1: "Check Timeline ▶",
+      buttonText2: "Read More",
+      reverse: true,
+      onClick1: './timeline/recent',
+      onClick2: 'https://news.un.org/en/story/2024/02/1146697',
+      violent: true
+    },
+  
 
     recentTimelineVetoSection: {
       imagePath: "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/08-12-2023-UN-Photo-SC-meeting-Gaza.jpg/image1170x530cropped.jpg",
@@ -92,7 +114,7 @@ const homeData = {
       subTitle: "8th Dec. 2023",
       text: 
       `The US vetoed a resolution put forward by the United Arab Emirates and backed by over 90 Member States. There were 13 votes in favour and the United Kingdom abstained.`,
-      buttonText1: "Check Conflict Timeline ▶",
+      buttonText1: "Check Timeline ▶",
       buttonText2: "Read More",
       reverse: true,
       onClick1: './timeline/recent',
@@ -115,7 +137,7 @@ const homeData = {
       Over 20/35 hospitals are out of service due to bombs or a lack of supplies; 
       remaining hospitals lacking anaesthetics perform surgical operations without numbing and patients scream.`,
       bulleted: "unordered",
-      buttonText1: "Check Conflict Timeline ▶",
+      buttonText1: "Check Timeline ▶",
       buttonText2: "Read More",
       reverse: true,
       onClick1: './timeline/recent',
@@ -135,7 +157,7 @@ const homeData = {
       response to the war with Hamas but also a partisan approach by new Speaker Mike Johnson that poses 
       a direct challenge to Democrats and President Joe Biden.`,
       bulleted: "",
-     buttonText1: "Check Conflict Timeline ▶",
+     buttonText1: "Check Timeline ▶",
       buttonText2: "Read More",
       reverse: true,
       isYouTube: false,
@@ -207,9 +229,9 @@ const homeData = {
     },
   
     intenseGridBanner: {
-      title: "This Isn't a Propaganda. See It With Your Own Eyes",
+      title: "This Is Real. See It With Your Own Eyes",
       bgColor:"",
-      color:""
+      color:"",
     },
   
     intenseGridSection1: {
@@ -249,7 +271,7 @@ const homeData = {
     },
 
     interviewSection0: {
-      imagePath: "https://i.abcnewsfe.com/a/f5c052fb-41d7-45c5-aa81-cb3cdbf3f375/gaza-destruction-bodies-gty-jt-240110_1704914963686_hpMain.jpg",
+      imagePath: "https://img.freepik.com/premium-photo/concept-justice-law-scales-blue-background-3d_505080-404.jpg",
       extraImagePath: "./BlogsPage/sat.png",
       isYouTube: false,
       overlayColor: "rgba(0, 0, 0, 0.4)",

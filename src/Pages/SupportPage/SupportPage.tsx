@@ -63,7 +63,7 @@ const SupportPage: React.FC = () => {
       }}
     >
       <GradientHero title={"SUPPORT PALESTINE"} subTitle1="They Need Your Help" subTitle2="There Are Many Ways We Can Help Make Things Better" special={true} />
-      <Banner title={"You Could Help Prevent Someone From Dying in the Hospital or From Starving to Death"} styleObj={{ color: 'white', backgroundColor: 'transparent', boxShadow: 'none' }} />
+      <Banner title={"You Could Help Prevent Someone From Dying in the Hospital or From Starving to Death"} color="white" bgColor="transparent" styleObj={{ boxShadow: 'none' }} />
       <SearchInput
         listItems={supportPageData}
         onSearch={handleSearch}
@@ -111,7 +111,7 @@ const SupportPage: React.FC = () => {
           </div>
         </div>
       </div>
-      <Banner title={"Or You Could Help End This Massacre Altogether"} styleObj={{ color: 'white', backgroundColor: 'transparent', boxShadow: 'none' }} />
+      <Banner title={"Or You Could Help End This Massacre Altogether"} color="white" bgColor="transparent" styleObj={{ boxShadow: 'none' }} />
       <div className="org-cards" ref={orgCardsRef1} style={{justifyContent: 'center'}}>
         {supportActionData.map((item, index) => {
           return (

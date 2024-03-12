@@ -11,7 +11,7 @@ interface BannerProps {
 
 const Banner: FC<BannerProps> = ({ title, styleObj={}, color='', bgColor='', id=""}) => {
     return (
-        <h3 className="banner" id={id} style={{ backgroundColor: bgColor, color: color, boxShadow: bgColor!=='' ? `3px 4px 8px ${bgColor}`: '', ...styleObj }}>{title}</h3>
+        <h3 className="banner" id={id} style={{ backgroundColor: bgColor, color: color, boxShadow: bgColor!=='' ? `3px 4px 8px ${bgColor}`: '', ...styleObj, background: bgColor }}>{title}</h3>
     );
 }
 

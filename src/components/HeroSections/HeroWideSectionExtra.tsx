@@ -69,7 +69,9 @@ const HeroWideSectionExtra: React.FC<HeroWideSectionExtraProps> = ({
             <HeroButton type="red" content={buttonText1} onClickFunc={() => navigate(onClick1)}/>
             {buttonText2 !== '' && 
             ((onClick2Mode == "external") ? 
-            <HeroButton type="red" content={buttonText2} onClickFunc={() => {window.location.href=onClick2}}/>
+            <HeroButton type="red" content={buttonText2} onClickFunc={() => {
+              window.open(onClick2, '_blank');
+            }}/>
             : <HeroButton type="red" content={buttonText2} onClickFunc={() => navigate(onClick2)}/>)
           }
           </div>

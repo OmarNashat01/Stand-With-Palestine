@@ -6198,6 +6198,54 @@ export const dailyNews = [
     ]
   },
   {
+    "date": "March 12, 2024",
+    "title": "Day 158",
+    "events": [
+      {
+        "text": "Palestinian child killed by Israeli bullets in occupied East Jerusalem",
+        "link": "https://aje.io/la84y5?update=2768828",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN: More children killed in four months of war on Gaza than in four years of global war",
+        "link": "https://aje.io/la84y5?update=2768649",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 17,000 children in Gaza separated from families",
+        "link": "https://aje.io/la84y5?update=2768655",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli strike on central Gaza cause casualties",
+        "link": "https://aje.io/la84y5?update=2768662",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza media office: More than 400 killed by Israeli fire while waiting for aid",
+        "link": "https://aje.io/la84y5?update=2767654",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Attacking aid seekers in Gaza is become new normal",
+        "link": "https://aje.io/la84y5?update=2767191",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attack kills 7 people waiting for aid in Gaza City",
+        "link": "https://aje.io/la84y5?update=2766698",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
     "date": "March 13, 2024",
     "title": "Day 159",
     "events": [
@@ -6208,7 +6256,7 @@ export const dailyNews = [
         "images": []
       },
       {
-        "text": "Israel attacking aid centres; war on Gaza \u2018has to stop\u2019: UN relief chief",
+        "text": "Israel attacking aid centres; war on Gaza has to stop: UN relief chief",
         "link": "https://aje.io/6mnkq4?update=2770812",
         "description": "",
         "images": []
@@ -6232,7 +6280,7 @@ export const dailyNews = [
         "images": []
       },
       {
-        "text": "EU foreign policy chief says Israel using starvation as \u2018weapon of war\u2019",
+        "text": "EU foreign policy chief says Israel using starvation as weapon of war",
         "link": "https://aje.io/6mnkq4?update=2769298",
         "description": "",
         "images": []

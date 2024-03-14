@@ -6196,5 +6196,47 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 13, 2024",
+    "title": "Day 159",
+    "events": [
+      {
+        "text": "UNRWA staff member killed, 22 wounded in Rafah warehouse strike",
+        "link": "https://aje.io/6mnkq4?update=2770639",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel attacking aid centres; war on Gaza \u2018has to stop\u2019: UN relief chief",
+        "link": "https://aje.io/6mnkq4?update=2770812",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: More children killed in Gaza than in four years of war worldwide",
+        "link": "https://aje.io/6mnkq4?update=2770113",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Several reported killed, injured in Israeli strike on UNRWA warehouse",
+        "link": "https://aje.io/6mnkq4?update=2770116",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Intense Israeli strikes continue on third day of Ramadan",
+        "link": "https://aje.io/6mnkq4?update=2769887",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "EU foreign policy chief says Israel using starvation as \u2018weapon of war\u2019",
+        "link": "https://aje.io/6mnkq4?update=2769298",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

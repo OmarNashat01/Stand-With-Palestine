@@ -6286,5 +6286,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 14, 2024",
+    "title": "Day 160",
+    "events": [
+      {
+        "text": "20 dead bodies from Israeli attack on Kuwait Roundabout at al-Shifa Hospital: Ministry",
+        "link": "https://aje.io/zqb527?update=2773369",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 11 dead, 100 injured in Israeli attack on aid seekers: Health Ministry",
+        "link": "https://aje.io/zqb527?update=2773320",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel again shoots aid seekers in Gaza City, killing at least 5",
+        "link": "https://aje.io/zqb527?update=2773270",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More than a dozen bodies recovered in southern Gaza: PRCS",
+        "link": "https://aje.io/zqb527?update=2772827",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Nine family members killed in attack on Bureij refugee camp",
+        "link": "https://aje.io/zqb527?update=2772486",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Several killed in attack on aid warehouse in Gaza\u2019s Nuseirat camp",
+        "link": "https://aje.io/zqb527?update=2772411",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Israel strikes UN warehouse in Rafah as famine looms in Gaza",
+        "link": "https://aje.io/zqb527?update=2771373",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

@@ -125,7 +125,7 @@ Please propose any contributions through the TFP liaise [Discord channel](https:
     <td><a href="https://github.com/EssamWisam">Essam Wisam</a></td>
     <td><a href="https://github.com/Muhammad-saad-2000">Mohamed Saad</a></td>
     <td><a href="https://github.com/KnockerPulsar">Tarek Yasser</a></td>
-    <td><a href="https://github.com/Halahamdy22">Hala Hamdy</a></td>
+    <td><a href="https://github.com/HalaHamdi">Hala Hamdy</a></td>
     <td><a href="https://github.com/ziad-atef">Ziad Atef</a></td>
   </tr>
 </table>

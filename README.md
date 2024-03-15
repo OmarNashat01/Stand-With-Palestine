@@ -118,7 +118,7 @@ Please propose any contributions through the TFP liaise [Discord channel](https:
     <td><a href="https://github.com/EssamWisam"><img src="https://github.com/EssamWisam.png" width="90px;"/><br /></a></td>
     <td><a href="https://github.com/Muhammad-saad-2000"><img src="https://github.com/Muhammad-saad-2000.png" width="90px;"/><br /></a></td>
     <td><a href="https://github.com/KnockerPulsar"><img src="https://github.com/KnockerPulsar.png" width="90px;"/><br /></a></td>
-    <td><a href="https://github.com/Halahamdy22"><img src="https://github.com/Halahamdy22.png" width="90px;"/><br /></a></td>
+    <td><a href="https://github.com/HalaHamdi"><img src="https://github.com/HalaHamdi.png" width="90px;"/><br /></a></td>
     <td><a href="https://github.com/ziad-atef"><img src="https://github.com/ziad-atef.png" width="90px;"/><br /></a></td>
   </tr>
   <tr>

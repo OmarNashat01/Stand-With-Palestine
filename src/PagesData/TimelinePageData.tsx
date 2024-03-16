@@ -6334,5 +6334,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+    {
+    "date": "March 15, 2024",
+    "title": "Day 161",
+    "events": [
+      {
+        "text": "Many missing after Israeli forces hit Gaza City building",
+        "link": "https://aje.io/3awuth?update=2775564",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'Costing children's lives': More from UNICEF report on infant deaths",
+        "link": "https://aje.io/3awuth?update=2775563",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'Nowhere to go': Germany tells Israel Rafah invasion unjustified",
+        "link": "https://aje.io/3awuth?update=2775549",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNICEF: 'Staggering escalation' in infant deaths in northern Gaza",
+        "link": "https://aje.io/3awuth?update=2775547",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctor says level of malnutrition for pregnant women 'truly horrific'",
+        "link": "https://aje.io/3awuth?update=2775542",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'Unconscionable': Attacks on aid-seekers 'cannot be allowed to continue'",
+        "link": "https://aje.io/3awuth?update=2775023",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 56 people killed in Israeli attacks on aid centres in 48 hours: Gaza government",
+        "link": "https://aje.io/3awuth?update=2774800",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

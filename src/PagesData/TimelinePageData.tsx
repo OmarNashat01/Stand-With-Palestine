@@ -6382,5 +6382,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+    {
+    "date": "March 16, 2024",
+    "title": "Day 162",
+    "events": [
+      {
+        "text": "Israeli air attack kills 36 family members in central Gaza",
+        "link": "https://aje.io/zju41v?update=2777577",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian medics save lives with limited resources",
+        "link": "https://aje.io/zju41v?update=2777153",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018This humanitarian catastrophe must not be allowed to worsen\u2019",
+        "link": "https://aje.io/zju41v?update=2776938",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Tactics of starvation\u2019: Belgian PM discusses Gaza in Qatar",
+        "link": "https://aje.io/zju41v?update=2776912",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Catastrophic\u2019 humanitarian situation in Gaza \u2018deteriorates by the minute\u2019: UNRWA",
+        "link": "https://aje.io/zju41v?update=2776490",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Children, pregnant women killed in Nuseirat attack: Gaza authorities",
+        "link": "https://aje.io/zju41v?update=2775747",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 36 killed after Israeli bombing of house in central Gaza: Health Ministry",
+        "link": "https://aje.io/zju41v?update=2775654",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

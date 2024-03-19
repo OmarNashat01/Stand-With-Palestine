@@ -6430,5 +6430,149 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 17, 2024",
+    "title": "Day 163",
+    "events": [
+      {
+        "text": "UNICEF chief: Gaza babies \u2018don\u2019t even have energy to cry\u2019",
+        "link": "https://aje.io/5fimki?update=2779602",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA: Palestinians in Gaza on verge of famine",
+        "link": "https://aje.io/5fimki?update=2779564",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Photos: Gaza\u2019s Al-Aqsa Hospital provides limited care to patients in need of dialysis",
+        "link": "https://aje.io/5fimki?update=2778882",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mental support groups for traumatised Palestinian children, medics",
+        "link": "https://aje.io/5fimki?update=2779768",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Fourteenth Palestinian prisoner dies in Israeli custody since October 7",
+        "link": "https://aje.io/5fimki?update=2778730",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Totally inappropriate\u2019: Netanyahu hits back at Chuck Schumer speech",
+        "link": "https://aje.io/5fimki?update=2778905",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli pattern of targeting families inside residential homes",
+        "link": "https://aje.io/5fimki?update=2778274",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 18, 2024",
+    "title": "Day 164",
+    "events": [
+      {
+        "text": "Child killed in central Gaza: Red Crescent",
+        "link": "https://aje.io/ckq1oq?update=2782247",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "International community \u2018should hang head in shame\u2019 for allowing Gaza famine",
+        "link": "https://aje.io/ckq1oq?update=2782012",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel\u2019s Smotrich says one response to EU sanctions: \u2018Entrenching\u2019 settlements",
+        "link": "https://aje.io/ckq1oq?update=2781987",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel says UNRWA chief visit \u2018not submitted by necessary processes\u2019",
+        "link": "https://aje.io/ckq1oq?update=2781790",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "MSF chief: Rafah offensive must not be allowed to happen",
+        "link": "https://aje.io/ckq1oq?update=2781576",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza government says Israel \u2018assassinates\u2019 Gaza aid coordination official during raid",
+        "link": "https://aje.io/ckq1oq?update=2781337",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli army says it kills 20 Palestinian fighters at al-Shifa Hospital",
+        "link": "https://aje.io/ckq1oq?update=2781276",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 19, 2024",
+    "title": "Day 165",
+    "events": [
+      {
+        "text": "Entire Gaza population now 100 percent severely food insecure",
+        "link": "https://aje.io/zij5ht?update=2784156",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 23 dead in Israeli attack on Gaza aid committee",
+        "link": "https://aje.io/zij5ht?update=2784165",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "British doctor describes \u2018deeply tragic\u2019 hospital cases in Gaza",
+        "link": "https://aje.io/zij5ht?update=2784074",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "New video challenges Israeli explanation for killing Gaza journalists",
+        "link": "https://aje.io/zij5ht?update=2783980",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hezbollah attacks Israeli positions near Lebanese border",
+        "link": "https://aje.io/zij5ht?update=2783928",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Thousands of shoes laid out as memorial to children killed in Gaza",
+        "link": "https://aje.io/zij5ht?update=2783756",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN says Israel\u2019s blocking of Gaza aid may be war crime",
+        "link": "https://aje.io/zij5ht?update=2783246",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

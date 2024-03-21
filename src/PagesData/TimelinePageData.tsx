@@ -6622,5 +6622,41 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 21, 2024",
+    "title": "Day 167",
+    "events": [
+      {
+        "text": "UNRWA says Gaza mothers having babies early, uncertain they will survive",
+        "link": "https://aje.io/fw14mj?update=2788384",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Many Palestinians \u2018executed extrajudicially\u2019 at al-Shifa Hospital",
+        "link": "https://aje.io/fw14mj?update=2788315",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO chief urges EU to avoid \u2018double standards\u2019 over Gaza and Ukraine",
+        "link": null,
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "One million children facing \u2018daily traumas\u2019 in Gaza",
+        "link": "https://aje.io/fw14mj?update=2788054",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Netanyahu tells US senators 28,000 people killed in Gaza",
+        "link": "https://aje.io/fw14mj?update=2786302",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

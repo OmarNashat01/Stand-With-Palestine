@@ -6574,5 +6574,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 20, 2024",
+    "title": "Day 166",
+    "events": [
+      {
+        "text": "Gaza people mourn dozens killed in Israeli strikes",
+        "link": "https://aje.io/nxg3jx?update=2786177",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Northern Gaza faces imminent famine",
+        "link": "https://aje.io/nxg3jx?update=2786169",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA chief: Hunger crisis in Gaza catastrophic",
+        "link": "https://aje.io/nxg3jx?update=2786098",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Starvation is stalking every doorway in Gaza",
+        "link": "https://aje.io/nxg3jx?update=2786076",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Constant struggle for Gaza mothers to keep children alive",
+        "link": "https://aje.io/nxg3jx?update=2785984",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Video shows moment Israel bombs house in Deir el-Balah",
+        "link": "https://aje.io/nxg3jx?update=2786090",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Bodies of al-Shifa evacuees still lying on the streets",
+        "link": "https://aje.io/nxg3jx?update=2785100",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

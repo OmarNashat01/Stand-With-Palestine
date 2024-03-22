@@ -6658,5 +6658,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 22, 2024",
+    "title": "Day 168",
+    "events": [
+      {
+        "text": "Ten people killed in attack on residential building in Gaza City",
+        "link": "https://aje.io/rvubaw?update=2789549",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli soldiers \u2018beat all the young men and arrested them\u2019 in al-Shifa Hospital",
+        "link": "https://aje.io/rvubaw?update=2789211",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US Congresswoman Tlaib: Israeli government using \u2018starvation as weapon of war\u2019",
+        "link": "https://aje.io/rvubaw?update=2789111",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN rapporteur: Israeli crimes in Gaza could keep ICC \u2018busy for the next five decades\u2019",
+        "link": "https://aje.io/rvubaw?update=2788938",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military bombs house near Rafah, killing 8: Report",
+        "link": "https://aje.io/rvubaw?update=2788918",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military bombs home in Khan Younis, killing 3: Report",
+        "link": "https://aje.io/rvubaw?update=2788896",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel\u2019s war on Gaza in numbers",
+        "link": "https://aje.io/rvubaw?update=2788879",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

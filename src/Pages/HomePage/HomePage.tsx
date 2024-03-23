@@ -31,6 +31,14 @@ const HomePage = () => {
 
       <HeroWideSection {...homeData.mainHeroSection} />
 
+      {/* Intense Section*/}
+      <Banner {...homeData.intenseGridBanner} />
+      <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false}>
+        {/* @ts-ignore */}
+        <HeroGridVideo {...homeData.intenseGridSection1} />
+        {/* <HeroGridVideo {...homeData.intenseGridSection2} /> */}
+      </Carousel >
+
       {/* Status Section*/}
       <Banner {...homeData.statusBanner} id="first-banner" />
       <HeroDigitsSection {...homeData.statusSection} />
@@ -39,6 +47,7 @@ const HomePage = () => {
       <Banner {...homeData.timelineBanner} />
       <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true}>
         <HeroWideSectionExtra {...homeData.historicTimelineSection} />
+        <HeroWideSectionExtra {...homeData.recentTimelineVeto2Section} />
         <HeroWideSectionExtra {...homeData.recentTimelineVetoSection} />
         <HeroWideSectionExtra {...homeData.recentTimelineEndSection} />
         <HeroWideSectionExtra {...homeData.recentTimelineCrimeSection} />
@@ -53,21 +62,13 @@ const HomePage = () => {
         <HeroSliderImage {...homeData.beforeAfterSection} />
       </Carousel>
 
-      {/* Intense Section*/}
-      <Banner {...homeData.intenseGridBanner} />
-      <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false}>
-        {/* @ts-ignore */}
-        <HeroGridVideo {...homeData.intenseGridSection1} />
-        {/* <HeroGridVideo {...homeData.intenseGridSection2} /> */}
-      </Carousel >
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <HeroButton content="I Can See More  ▶" type="red" styleObj={{ minWidth: '250px' }} onClickFunc={() => window.open("https://gaza23.com", '_blank')} />
-      </div>
+
+
       {/* Blogs Section*/}
       <Banner {...homeData.blogBanner} />
       <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false}>
-        <HeroWideSectionExtra {...homeData.interviewSection0} />
         <HeroWideSectionExtra {...homeData.interviewSection1} />
+        <HeroWideSectionExtra {...homeData.interviewSection0} />
         <HeroWideSectionExtra {...homeData.interviewSection2} />
       </Carousel>
 

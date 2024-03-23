@@ -82,9 +82,14 @@ const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
               </li>
             </ul>
           </div>
+          <div style={{display: "flex", flexDirection: "row"}}>
           <p >
-              <a href="mailto:support@stand-with-palestine.org">Got Feedback? Contact Us</a>
-            </p>
+              <a href="https://tally.so/r/mDNNKN">&nbsp;Collaborate &nbsp;&nbsp;</a>
+          </p>
+          <p >
+              <a href="mailto:support@stand-with-palestine.org">Contact Us</a>
+          </p>
+          </div>
         </div>
       </footer>
     </div>

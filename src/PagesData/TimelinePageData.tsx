@@ -4324,5 +4324,2387 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "January 23, 2024",
+    "title": "Day 109",
+    "events": [
+      {
+        "text": "Doctors Without Borders says staff and patients are unable to leave hospital after IDF evacuation orders.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_00ba39af2e24fadfa24d1a7315d716cb",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Situation around Khan Younis hospitals is deteriorating amid intense shelling, UN says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_3655efc61b8f275266956e19656c4b50",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hundreds try to flee Khan Younis hospitals as Israeli military surrounds southern city.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_1c99a00593e1b11e80dbb54704fc22a7",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli strikes shake the ground at besieged Gaza hospital, aid group says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_9e362c633e5fcf5e7cc38556dcf44101",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Khan Younis medical facilities battered in Israeli assault, Palestinian officials say.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_18cd0b768e9eb10e5eae9c66adcd4e7d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Israel is destroying Gaza\u2019s food system,\" UN official says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-23-24/h_26d354f79694da10d82fb4c41e0dc844",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 24, 2024",
+    "title": "Day 110",
+    "events": [
+      {
+        "text": "Displaced Palestinians in central Gaza demand ceasefire: \"Our children have the right to live\"",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_348c5e1e8468adda3e8aa0e9f3bcab3d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "No medicine, no clothes and soaking rain: Displaced Gazans describe dire conditions",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_25fa77a5a839860eafd650009b15cd23",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN shelter in southern Gaza struck as health officials say Khan Younis hospitals are surrounded. Catch up here",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_f95194dcd9cdc6240adaeceb712c21d1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces are surrounding hospitals in Khan Younis, Palestinian health officials and paramedics say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_86704a57c75ca9f8392cb8e7cdb9bee5",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN agency says there are \"mass casualties\" after shelter struck amid intense fighting in Khan Younis",
+        "link": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_10cbef526b4913345486233cefcd52fb",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"We were expecting to die at any minute\": Gazans flee Khan Younis as Israel expands operations",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-b-01-24-24/h_327bc554d537105c4aa7ba0bfc7fb7e7",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 25, 2024",
+    "title": "Day 111",
+    "events": [
+      {
+        "text": "Shelling strikes crowd waiting for aid in Gaza, killing at least 20, Hamas-run health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_8f0039b919af339cff7b95f5d7accf24",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Mass casualties\" after Israeli tank fire hits UN shelter in Khan Younis, UN says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_8d441d20887b39c7b2e77fb5580f4e06",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll rises to 12 in shelling of UN shelter in Khan Younis, UNRWA director says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_ee19151be926e8eb29103d82db96feb7",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hundreds of injuries reported among crowd attacked while waiting for aid, Gaza Civil Defense official says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_42324b00ce7d7604eccde540a8ae8f35",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hospital in Khan Younis targeted again amid heavy fighting in area, Palestine Red Crescent Society says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_e8ffd1e151199773015b524e8fe5a030",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Cleaning wounds without anesthesia is part of the \"suffering beyond belief\" in Gaza, doctor tells CNN",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_b2c96a5dc1d8818a3a8f318e7de40d9f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Fewer than half of Gaza's hospitals are still partially functioning, according to the United Nations",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-25-24/h_65f1d559cb5b207fbd1cc57c4421e161",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 26, 2024",
+    "title": "Day 112",
+    "events": [
+      {
+        "text": "Vital medical services have collapsed at Gaza's largest remaining hospital, Doctors without Borders say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-26-24/h_802fafcc0f4e2797cef14aa0f12dcb07",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "On the ground: Gaza health officials say Israeli forces surround hospitals as witnesses claim civilians shot",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-26-24/h_9d1217c26024cd5aa46996debf45b11e",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "They were waving white flags. Then they were shot",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-26-24/h_45509a06812afc570f732878fca3b239",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian death toll surpasses 26,000, Hamas-run health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-26-24/h_366f0f472aa072787cbfdeca91f69aef",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 27, 2024",
+    "title": "Day 113",
+    "events": [
+      {
+        "text": "CNN video shows Palestinian detainees blindfolded and barefoot in Israel near Gaza border",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-27-24/h_c58faa65fb0a32df8ed945a92ad4a2ed",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hospital is running low on anesthesia and blood in southern Gaza, Hamas-run health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-27-24/h_484f23bc55db8824cc8acfcb13c1f713",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Vital medical services have collapsed at Gaza's largest remaining hospital, Doctors without Borders says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-27-24/h_0fe5b687df25d5595fffd8393e9d8cf3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestine\u00a0Red Crescent Society says hospital and its workers in southern Gaza are besieged by Israeli forces",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-27-24/h_d57676f64365c24431c938d9ecd0b08d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN warns of declining humanitarian access in Gaza as Israeli protesters block aid trucks from entering through Kerem Shalom",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-27-24/h_ffc76511b1827869a15ecea8ab9f71a4",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 28, 2024",
+    "title": "Day 114",
+    "events": [
+      {
+        "text": "She was fleeing with her grandson as he waved a white flag. Then she was shot",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-28-24/h_6cac7b2c7e20f4e70f2ef4b57dc43f20",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Heavy fighting continues\u00a0for seventh day\u00a0in the vicinity of hospitals in Khan Younis",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-28-24/h_063ec4c8e2ba5b13f09bf04b8ceb4c0b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN agency urges countries to reconsider funding suspensions",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-28-24/h_1d4b695f9ba46619eb0ce43cf4b63bb0",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 29, 2024",
+    "title": "Day 115",
+    "events": [
+      {
+        "text": "Every 10 minutes a baby is born in Gaza. Here's what it's like for new mothers trying to survive",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_001273c33e3f55c59ec8f25a2581ba73",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "7-year-old trapped in car in central Gaza after it was fired on, Palestine Red Crescent Society says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_389964944315b213f252e5475a9cb590",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 10 killed after Israeli shelling hit UN school in Gaza City, Palestinian news agency says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_ae2b849f24c107aa57df3f94c02f5672",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Vital medical services collapse at Nasser hospital in Khan Younis, MSF says, as fighting rages outside",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_25ba14cd4a4fe332ee89d6be36f965f1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "IDF orders evacuation around Al-Amal hospital in Khan Younis, says Palestine Red Crescent Society",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_dfd541cfe8e1eac00163fdb23a63d6c8",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Suspension of UN agency aid could be a \"death sentence,\" displaced Palestinians in central Gaza warn",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-29-24#h_8d2e8ab1639c837f3ea8059ff43fdae8",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 30, 2024",
+    "title": "Day 116",
+    "events": [
+      {
+        "text": "Israeli tanks are stationed in Khan Younis hospital complex and are \"firing live ammunition,\" aid group says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-30-24/h_9924a7402756d82479f2f636981369ae",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian aid group loses contact with team attempting to rescue 6-year-old girl trapped in car after attack.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-30-24/h_37d15e08983b09a61840730e0940d113",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinians are eating grass and drinking polluted water as famine looms across Gaza.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-30-24/h_8022cf465c376d2f0c839f43b725f16a",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "41% of the Gaza Strip has been put under evacuation orders since December, UN office says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-30-24/h_8383614b80584255636eb4a56521848d",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "January 31, 2024",
+    "title": "Day 117",
+    "events": [
+      {
+        "text": "Israeli aircraft and artillery target neighborhood in western Khan Younis, journalists in Gaza tell CNN",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_25c7aec1acbd760abbfd6d10a8815ed0",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza's Al-Shifa Hospital is \"barely functional\" and is sheltering about 50,000 people, aid organization says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_5c3dede875368c6deca1d5066cefc0b6",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Aid group says Israeli forces still on Khan Younis hospital grounds, preventing occupants from leaving",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_b204b1ac97e05c0f5b0d059229dad741",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Legal expert warns IDF may have violated international law during West Bank hospital raid",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_7f01b5a208b1e372cd64358d9638b139",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Patients, staff, and displaced people \"in constant fear\" as IDF ramps up offensive in Khan Younis",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_85933e6bb3291fa44fc5f22ef2fd247b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel struck a compound housing humanitarian workers in Gaza safe zone earlier this month, aid agencies say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-01-31-24/h_26723edbf764a0634f7e259f0ae8f03c",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 01, 2024",
+    "title": "Day 118",
+    "events": [
+      {
+        "text": "Belgian officials to summon Israeli ambassador after bombing of development agency's offices in Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-01-24/h_ef5ad074eda5c70cb7d2647ac8080873",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN agency in Gaza warns it may not be able to continue operations past end of the month. Catch up here",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-01-24/h_8346aec6c628c3f4125512688f5bfb12",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian journalist documents the destruction of an entire neighborhood in northern Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-01-24/h_3aba4f8564b05a253c91b46cd7240cbc",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "In photos: As Israel's war with Hamas rages on, a humanitarian crisis grips southern Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-01-24/h_764daf95c4975a7e60e3519a1b60fb06",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Netanyahu says UN agency dealing with Palestinian assistance should be replaced by other aid groups",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-01-24/h_a36b65d68840a7b73c072a752ddb6383",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 02, 2024",
+    "title": "Day 119",
+    "events": [
+      {
+        "text": "Palestine Red Crescent Society calls for humanitarian corridor to evacuate Khan Younis hospital.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-02-24#h_129245382fa3645cb0e4d193e83d7b60",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Almost all children in Gaza require mental health and psychological support, UNICEF says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-02-24#h_98998c850c6b35032d4f3a959d910f83",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Fate of 6-year-old girl and crew sent to rescue her in Gaza remains unknown, aid agency says.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-02-24#h_d41ecd17e10f0eae34aa95eac14d037a",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More than 800 officials from across Europe and the US sign scathing criticism of Gaza policy.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-02-24#h_b5fa76d8365fa45a0a570f507ca827d2",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military eyes Rafah, where many displaced Gazans have sought refuge. Here\u2019s what you need to know.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-02-24#h_81ae3539e9dae8f82f48f21b3297a373",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 03, 2024",
+    "title": "Day 120",
+    "events": [
+      {
+        "text": "107 people killed in Gaza over past 24 hours, Hamas-controlled health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-03-24/h_024107fa1276539e41869202fcfbe377",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hamas and Islamic Jihad demand Israel fully ends aggression and withdraws from Gaza as part of hostage deal",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-03-24/h_1a75074544900a2fa7af1c06a9c3dc63",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN Security Council will meet Monday over US airstrikes",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-03-24/h_ea04aff7fd099d169d264823366c4d48",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Anti-government protests in Israel draw thousands",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-03-24/h_3b9af72fa0f0942977f3474c89ab7265",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 04, 2024",
+    "title": "Day 121",
+    "events": [
+      {
+        "text": "Israeli attacks killed 127 people in Gaza over the past 24 hours, Hamas-controlled Ministry of Health says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-04-24/h_a562d85516a222458125b61f0e54472c",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Dozens killed during 2 days of airstrikes in central and southern Gaza, local medical sources say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-04-24/h_e045e514388ff10eb57506a12017f357",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 05, 2024",
+    "title": "Day 122",
+    "events": [
+      {
+        "text": "About 8,000 displaced people evacuated Palestine Red Crescent Society headquarters and Al-Amal hospital.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-05-24/h_3b46204235a1a4342b4ee323a0cb9a33",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN relief agency says one of its aid truck was hit by Israeli fire.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-05-24/h_cb28c9762353d6b31a6dc2a6be971b11",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Scenes of wreckage emerge in Jabalya as IDF intensifies offensive in central and northern Gaza.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-05-24/h_63a5a0cbe77d0f83967818f4d2902fc1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Everyone is afraid\": Humanitarian worker cautions Israel's military push into Rafah.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-05-24/h_6cdabe39527fe65f4ace2c828f786b89",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza media office warns IDF ground offensive in Rafah would be \"disaster\" for displaced Palestinians.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-05-24/h_f2e93261230f76ddaef4a4dc0466b2f7",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 06, 2024",
+    "title": "Day 123",
+    "events": [
+      {
+        "text": "Khan Younis hospital complex under siege, Gaza health ministry says, as video shows small arms fire",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_b946d84bfc7c306a1310434c1a0bd4a7",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Calls for answers more than a week after rescuers went missing trying to save trapped 6-year-old girl",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_82385c6d31c10b11cec7f198157072db",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Tent city holding more than 1 million Palestinians is rapidly expanding, satellite images show",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_39ece1cd84adf75f86ad6a55fa70cc75",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Japanese trading giant Itochu to cut ties with Israeli defense firm over Gaza war",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_22e33f3b471a88574577c3ddaf99aa12",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Fighting intensifies in Gaza as aid workers caution expanded Israeli operation in Rafah. Catch up here",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_0f6db5e3bbc5cc6795b3f6fcef407ccd",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Intensive bombardment and strikes reported in Gaza City",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-06-24/h_29e39b8f8d986fc27732b3b88a3af90b",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 07, 2024",
+    "title": "Day 124",
+    "events": [
+      {
+        "text": "Civilians shot near hospital in Khan Younis, according to local reports and witnesses",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_91505e976daa17d669b9a641c99ead39",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Sharp increase in malnutrition among children in Gaza remains a \"significant concern,\" according to the UN",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_2191c23e8620f9ee766f513befc419f0",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN chief expresses concern over humanitarian crisis in Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_e515954f227a27043ec8823625ed489f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Blinken says he told Israeli leaders that the toll on Palestinian civilians in Gaza \"remains too high\"",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_5cdba3e14e44b3135e36f6e90fced54e",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Top Israeli general says there is no plan in place yet for how to minimize civilian deaths in Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_110a6345dd75a84cea18362abf260be3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"There won\u2019t be any hostages to release\" if Israel maintains plan to eliminate Hamas, former hostage says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_a8f0bf1e2b26d259e9be10540f4f6738",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Several Israel-based civil society groups and human rights organizations call for an immediate ceasefire in Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-07-24/h_1c56e0ff066aa2a88c3a1e11f1b27a8f",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 08, 2024",
+    "title": "Day 125",
+    "events": [
+      {
+        "text": "Israeli attacks leave 5 dead inside Gaza medical facilities, reports say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-08-24/h_bda6d734822361a756c51382857790b6",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 14 killed in Israeli airstrikes in Rafah, eyewitnesses say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-08-24/h_d2906507ecaec1d50fa1ef731ffdd00c",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "International alarm grows ahead of anticipated Israeli assault in Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-08-24/h_eb8ef22832c7cdd0bab4ca451460c85f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US says it wouldn't support Israeli military operations in Rafah without plan for civilians. Here's the latest",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-08-24/h_eb440b2f4b9f053829b7bff63a3a3c4c",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden says Israel's Gaza response \"has been over the top\"",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-08-24/h_e5308bab2ffbc66a9b0cdcd203fa2dc2",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 09, 2024",
+    "title": "Day 126",
+    "events": [
+      {
+        "text": "Israeli forces detain Palestine Red Crescent Society members and patients at Al-Amal Hospital, aid group says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_32309cb037c3de14f7559c6b1fc5e721",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mass evacuation in Rafah would have \"catastrophic consequences,\" human rights organization warns",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_581bdadd45a7adfc7cd81a723f71f3ac",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Deadly Israeli West Bank hospital raid may amount to war crime, UN experts say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_add8d2492ffa6dbc089933e666b3d566",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces search hospital in Khan Younis, says Palestine Red Crescent Society",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_387d02ead470f79f8f71529e35500750",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "NGOs warn Israeli ground offensive in Rafah could turn city into \"zone of bloodshed\"",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_237a7ab0a66a6b87cd3f03c341f2b258",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Half of UN requests to deliver aid in Gaza denied, UNRWA says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_d9e505f942f219a043a00e90b9924836",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden highlights Gaza civilians' plight as Israel eyes Rafah advance. Here's the latest",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-09-24/h_135af8bca511e834315c69e852c1849a",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 10, 2024",
+    "title": "Day 127",
+    "events": [
+      {
+        "text": "5-year-old Palestinian girl found dead after being trapped in a car under Israeli fire.",
+        "link": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_1d673bb3e3167fd18923855306c40080",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli airstrikes and shelling targeting Rafah kill at least 25, reports say.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_edfbd6a9b58a1fe14bff5e043bc0ed38",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Unimaginable devastation seen inside Khan Younis, the southern Gaza city once a safe haven for the displaced.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_ac114e7bfb0a43fd9930fcb417425ee0",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 1 dead at Gaza\u2019s Nasser Hospital as IDF continues operations in Khan Younis.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_e33f552d46abc4f0b1ab3d1918ab569c",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Deadly Israeli West Bank hospital raid may amount to a war crime, UN experts say.",
+        "link": "https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_15811dd113af336004889b0af3ee5dc3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mass evacuation in Rafah would have \"catastrophic consequences,\" human rights organization warns.",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-10-24/h_088468c5eba3284620e10d464aef99dc",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 11, 2024",
+    "title": "Day 128",
+    "events": [
+      {
+        "text": "More than 60 people killed in Israeli strikes on Rafah, Palestinian Red Crescent Society says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-11-24#h_7f0eb8cbe3f256416d5cdc7469d416af",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza residents describe \"total destruction\" and desperate conditions after Israeli operations\u00a0in the north",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-11-24#h_cb5b5369b7832b2d7f5298041c9b643e",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli airstrikes kill at least 5 police officers in Rafah, Palestinian police say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-11-24#h_f46c90527054af5b265a696fd796e404",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Qatar condemns Israel\u2019s plan to launch offensive in\u00a0Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-11-24#h_b0e9721bd02ffa5afa5d1b9bdd22144d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Saudi Arabia warns Israel of \"very serious repercussions\" for storming Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-11-24#h_5170e0330c6eb6e924e8955a51772713",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 12, 2024",
+    "title": "Day 129",
+    "events": [
+      {
+        "text": "Death toll rises to over 100 in Israeli airstrikes on Rafah, Palestine Red Crescent Society says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_d73ba87114722d5235b44dbf3dbdaca2",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hamas condemns Israel's \"horrific massacre\" of civilians in Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_b6b3dcfcea840fc7ed823b51f82032fc",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "IDF says it conducted operation in Rafah to extract hostages",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_70ffb26f90a0d7625a61432d68bd3c7b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden stresses to Netanyahu the need for \"credible\" plan to ensure safety of Rafah civilians",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_a6502b07c21c89b5b332d5b83a76aff9",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hamas says Israeli ground offensive in Rafah would destroy hostage negotiations",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_b0d5b80b8b107d44ad02112109e6b16d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Telling Israel not to enter Rafah is like telling us to lose the war, Prime Minister Netanyahu says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-12-24/h_aee916d4b3a9b213304f931ed1a07590",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 13, 2024",
+    "title": "Day 130",
+    "events": [
+      {
+        "text": "US calls on Israel to urgently investigate the death\u00a0of\u00a05-year-old Palestinian Hind Rajab",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_fa1c52a6a5709b91565c3a93bc12a9e3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden is growing more frustrated with Netanyahu as \"over the top\" Gaza campaign rages on, sources say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_4348188efba57a1b28dc68250509adaf",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian women describe 12-mile escape on foot from Gaza City",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_854f08d7972b01c5d9d9c56224d86643",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Military push into Rafah could lead to \"a slaughter,\" UN relief chief warns",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_bd3685712a889a32a476ca18976d2cc8",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel has become \"blinded by rage\" and risks unleashing a massacre in Rafah, Irish prime minister says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_0498e14d2f7195e5207110a8cd5c3461",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel orders Nasser medical complex to evacuate civilians seeking shelter, Hamas-run health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_e717fd91356aaa62a21acebacfa09be1",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "12 members of the same family killed in strike in central Gaza, local hospital says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_dbf0de8068a0d5884454ea366a31970d",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Al Jazeera says 2 journalists seriously injured in Israeli strike near Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-13-24/h_250b8f1f88212cf1369cf48a3132f4e6",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 14, 2024",
+    "title": "Day 131",
+    "events": [
+      {
+        "text": "Israeli snipers shoot and kill civilians as they flee hospital in Gaza, according to eyewitness",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-14-24/h_0249f6110efe03ec758435902524efac",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctors Without Borders condemns Israel's evacuation order for Gaza's Nasser Hospital",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-14-24/h_5884d44cb706bba8df4545551488e3b3",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli assault on Rafah would create humanitarian catastrophe, German foreign minister says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-14-24/h_dbfe7b586216971f990bb29e6f015b4f",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Countless lives are hanging in the balance,\u201d says Red Cross official about escalating hostilities in Rafah",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-14-24/h_b78a78c02e763e1c018d33def1edf67b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO chief pleads with Israel to not enter Rafah, warning the outcome could be \"hell\"",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-14-24/h_9271554afce452959763eae55bc97b15",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 15, 2024",
+    "title": "Day 132",
+    "events": [
+      {
+        "text": "Committee to Protect Journalists reports highest journalist death toll since 2015, largely due to war in Gaza",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_52ba55fd55601a0446b1ac32536093a6",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN secretary-general condemns IDF raid of Khan Younis hospital",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_f97a9ad6bdccb68f47ca6f2dd71f874a",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 12 dead after Israeli airstrike on Nuseirat refugee camp in Gaza, Palestinian health officials say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_28ca593928f7247f36ae6fbd5b521013",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli snipers shoot and kill civilians as they flee hospital in Gaza, Palestinian medical sources say",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_b368ca8e44234ae66b0d41e3e6643125",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military death toll in Gaza rises to 233",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_1570ae59a33145600140a279b1447ab6",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Aid worker says situation in Rafah is \"horrific and getting worse\" as Israel warns of a ground offensive",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_5ab4c977eb91f6dc485cf5175186c1a2",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 1 person killed in Israeli strike on Nasser Medical Complex, Gaza health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-15-24/h_b7c3cb0d11144881ac3bb81c5ae21755",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 16, 2024",
+    "title": "Day 133",
+    "events": [
+      {
+        "text": "5 dead at Gaza's largest remaining hospital as Biden hopes for a temporary ceasefire. Catch up here",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_1951cb48d31b8031012b5eb487232b38",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian surgeon inside Nasser Hospital warns \"all the ICU patients will die\" as Israeli raid continues",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_cc91d2597289e4e2f7a2c7a30a339b86",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "5 dead after power loss at Nasser Hospital, Hamas-run health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_3e0a84a3c748f14644074aca6615eda0",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "84% of health facilities in Gaza affected by attacks, UNRWA says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_ee9e6c5e8488c052d87e026f54b22891",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"We\u2019re all going to be wiped out,\" displaced Palestinian woman in Rafah tells CNN",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_1cc39fa7c604c494636551243a95992b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO says it is coordinating with UN and Israel to access Nasser Hospital",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-16-24#h_6bf1b050d278637ee70a6ccd3aa1b0f9",
+        "description": "",
+        "images": []
+      },
+    ]
+  },
+  {
+    "date": "February 17, 2024",
+    "title": "Day 134",
+    "events": [
+      {
+        "text": "More than a dozen killed in airstrikes on Rafah, according to hospital director",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_d5703632ab89c12357b9766a6219b92b",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Over 40 dead from Israeli airstrikes in central Gaza, doctor says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_b6d83635bd97ee1fe2c1ed924829eb4c",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\"Large number\" of medical personnel, patients and displaced people remain trapped inside Nasser Hospital",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_38b36fb42884cb88111481a0632d5f62",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian women describe terror of 12-mile escape on foot from Gaza City",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_db240b44700d2d98d73b19ddb44318e5",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian surgeon inside Nasser Hospital warns \"all the ICU patients will die\" as Israeli raid continues",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_b5f693d274c44f70f73604aceab14de2",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Displaced Palestinians fleeing Rafah after intensified Israeli airstrikes, say UN officials",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_c9d5a006cca01e3ca325969b870430be",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Biden says he has told Netanyahu there should be temporary ceasefire to secure release of hostages",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-17-24/h_0e5ad06963a27c7af92482ce6a68227a",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 18, 2024",
+    "title": "Day 135",
+    "events": [
+      {
+        "text": "Hospital reports more Palestinians killed, including children, in strikes on central Gaza city",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_1f44579f059780a0338cb6cb27db3f50",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "About 70 health care workers arrested in Israeli raid on Nasser Hospital, Gaza's health ministry says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_92ae596e408449474640ab1394cb9691",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza's largest remaining functioning medical facility is out of service after Israeli raid, WHO says",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_7351f55406fef0e3f35702487618c5f5",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More than a dozen killed in airstrikes on Rafah, according to hospital director",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_a44ebd44f190d4c9783d995cca914e26",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Displaced Palestinians fleeing Rafah after intensified Israeli airstrikes, say UN officials",
+        "link": "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-02-18-24/h_302772efe67366122296ab96ad558bda",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 19, 2024",
+    "title": "Day 136",
+    "events": [
+      {
+        "text": "Only three days of drinking water available at Khan Younis hospital: Red Crescent",
+        "link": "https://aje.io/9rxkm3?update=2719047",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO official urges \u2018proper medical evacuation\u2019 at Nasser Hospital",
+        "link": "https://aje.io/9rxkm3?update=2718972",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Steep rise\u2019 in malnutrition in Gaza reported",
+        "link": "https://aje.io/9rxkm3?update=2718992",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli raids on Lebanon hit civilian factories: Report",
+        "link": "https://aje.io/9rxkm3?update=2718745",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Multiple bombardments by Israeli forces near al-Amal Hospital: Red Crescent",
+        "link": "https://aje.io/9rxkm3?update=2718275",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 20, 2024",
+    "title": "Day 137",
+    "events": [
+      {
+        "text": "Journalists targeted by Israeli forces in Gaza City",
+        "link": "https://aje.io/blx5qm?update=2720744",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Charity says \u2018no respite for children\u2019 after US vetoes ceasefire resolution",
+        "link": "https://aje.io/blx5qm?update=2720926",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO completes second Gaza hospital evacuation amid ongoing raid",
+        "link": "https://aje.io/blx5qm?update=2720198",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hospital in Rafah overcrowded with orphans, premature babies",
+        "link": "https://aje.io/blx5qm?update=2720096",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 21, 2024",
+    "title": "Day 138",
+    "events": [
+      {
+        "text": "Israeli attacks kill 12 in Gaza, including journalist",
+        "link": "https://aje.io/ifxnyx?update=2724726",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctors Without Borders condemns Israeli attack on \u2018clearly marked\u2019 shelter",
+        "link": "https://aje.io/ifxnyx?update=2724836",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Human rights lawyer killed by Israeli shelling in Rafah",
+        "link": "https://aje.io/ifxnyx?update=2723937",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO says Gaza has become a \u2018death zone\u2019",
+        "link": "https://aje.io/ifxnyx?update=2724074",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli soldiers kill Palestinian child in occupied West Bank",
+        "link": "https://aje.io/ifxnyx?update=2724003",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Woman killed in Israeli shelling of Lebanese town Majdal Zoun",
+        "link": "https://aje.io/ifxnyx?update=2723095",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 22, 2024",
+    "title": "Day 139",
+    "events": [
+      {
+        "text": "Israeli forces re-invade Nasser Hospital: Health Ministry",
+        "link": "https://aje.io/t3kja8?update=2726782",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'Many in Gaza survive on just one meal a day, others find none': UNICEF",
+        "link": "https://aje.io/t3kja8?update=2726500",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attack kills doctor in Deir el-Balah",
+        "link": "https://aje.io/t3kja8?update=2726354",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Casualties reported in Israeli bombing of UNWRA building in Jabalia",
+        "link": "https://aje.io/t3kja8?update=2726146",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza\u2019s north faces famine, south continues to be bombed",
+        "link": "https://aje.io/t3kja8?update=2725647",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 23, 2024",
+    "title": "Day 140",
+    "events": [
+      {
+        "text": "At least 24 dead in Israeli strike on home in Deir el-Balah",
+        "link": "https://aje.io/i9wxuy?update=2728768",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Even in tents, Gazans are not safe\u2019",
+        "link": "https://aje.io/i9wxuy?update=2728302",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Tens of thousands facing health complications, famine: Gaza ministry",
+        "link": "https://aje.io/i9wxuy?update=2728342",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Beaten, stripped, used as human shield\u2019: Gaza victim recalls terror by Israeli forces",
+        "link": "https://aje.io/i9wxuy?update=2727955",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": " Mosque in Rafah flattened by Israeli air strike",
+        "link": "https://aje.io/i9wxuy?update=2727694",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN physician tells of dire conditions inside besieged Nasser Hospital",
+        "link": "https://aje.io/i9wxuy?update=2727766",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 24, 2024",
+    "title": "Day 141",
+    "events": [
+      {
+        "text": "\u2018For 8 years, we tried to have him\u2019: Family of baby killed in Israeli strike",
+        "link": "https://aje.io/8p17v5?update=2729731",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rafah bombing victims \u2018incinerated beyond recognition\u2019",
+        "link": "https://aje.io/8p17v5?update=2729734",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mostly women and children killed in overnight attacks",
+        "link": "https://aje.io/8p17v5?update=2729292",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Starvation as a \u2018weapon of war\u2019 in Gaza where aid agencies are at breaking point",
+        "link": "https://aje.io/8p17v5?update=2729191",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN experts say transfer of weapons to Israel violates humanitarian law",
+        "link": "https://aje.io/8p17v5?update=2729274",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 25, 2024",
+    "title": "Day 142",
+    "events": [
+      {
+        "text": "'Catastrohic conditions\u2019 at southern Gaza hospital",
+        "link": "https://aje.io/dsj94u?update=2732822",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Report of two-month-old baby dying in Gaza from hunger \u2018horrific\u2019: UNRWA",
+        "link": "https://aje.io/dsj94u?update=2732554",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA warns of diseases spreading due to unsanitary conditions in Gaza",
+        "link": "https://aje.io/dsj94u?update=2732069",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 26, 2024",
+    "title": "Day 143",
+    "events": [
+      {
+        "text": "\u2018Unless we invade them\u2019: Biden administration pressed on lax approach to Israel",
+        "link": "https://aje.io/him60l?update=2734705",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Boys recount eating \u2018bird and donkey food\u2019 every two days in Gaza City",
+        "link": "https://aje.io/him60l?update=2734133",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US airman dies after setting himself on fire in protest over Gaza \u2018genocide\u2019",
+        "link": "https://aje.io/him60l?update=2734156",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Four, including a child, killed north of Rafah in Israeli strike",
+        "link": "https://aje.io/him60l?update=2733275",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza authorities detail Israeli abuses since ICJ ruling",
+        "link": "https://aje.io/him60l?update=2734401",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 27, 2024",
+    "title": "Day 144",
+    "events": [
+      {
+        "text": "UN says quarter of Gaza\u2019s population \u2018one step away from famine\u2019",
+        "link": "https://aje.io/qi1psx?update=2736592",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "MSF says \u2018no signs\u2019 Israel is trying to alleviate suffering of civilians",
+        "link": "https://aje.io/qi1psx?update=2736409",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza Health Ministry warns of imminent mass deaths from famine",
+        "link": "https://aje.io/qi1psx?update=2736351",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO chief says al-Amal Hospital attacked 40 times in one month",
+        "link": "https://aje.io/qi1psx?update=2736202",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces stalled evacuation convoy, forced paramedics to strip: UN",
+        "link": "https://aje.io/qi1psx?update=2735742",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Nasser Hospital out of service as patients, staff await evacuation",
+        "link": "https://aje.io/qi1psx?update=2735522",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 28, 2024",
+    "title": "Day 145",
+    "events": [
+      {
+        "text": "Palestinian carrying bag of flour reportedly shot by Israeli troops",
+        "link": "https://aje.io/k5c04g?update=2738910",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA says one quarter of Gaza\u2019s wells have been destroyed",
+        "link": "https://aje.io/k5c04g?update=2738812",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Four children die of malnutrition: Gaza Health Ministry",
+        "link": "https://aje.io/k5c04g?update=2738621",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "In Gaza, water supply at only 7 percent of pre-October levels",
+        "link": "https://aje.io/k5c04g?update=2738257",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Journalist says family killed in Israeli bombardment in Gaza City",
+        "link": "https://aje.io/k5c04g?update=2738164",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "February 29, 2024",
+    "title": "Day 146",
+    "events": [
+      {
+        "text": "\u2018US cannot continue funding Netanyahu war machine\u2019: Bernie Sanders",
+        "link": "https://aje.io/gs2k6y?update=2741102",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Too many Palestinians died today\u2019: US on aid shooting",
+        "link": "https://aje.io/gs2k6y?update=2740943",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN chief condemns attack on \u2018desperate\u2019 Palestinian aid-seekers",
+        "link": "https://aje.io/gs2k6y?update=2740884",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll from Israeli attack on aid seekers rises to 112",
+        "link": "https://aje.io/gs2k6y?update=2740653",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 01, 2024",
+    "title": "Day 147",
+    "events": [
+      {
+        "text": "Child in Rafah among victims of latest Israeli strikes",
+        "link": "https://aje.io/6b1i2q?update=2743660",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN: Many victims of Gaza City attack have gunshot wounds",
+        "link": "https://aje.io/6b1i2q?update=2743614",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hamas: Seven captives killed in Israeli bombing of Gaza",
+        "link": "https://aje.io/6b1i2q?update=2743340",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "South Africa condemns Israel over deaths of Palestinians awaiting aid",
+        "link": "https://aje.io/6b1i2q?update=2743125",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 02, 2024",
+    "title": "Day 148",
+    "events": [
+      {
+        "text": "UNICEF chief says many children \u2018on the brink\u2019 of death from starvation in Gaza",
+        "link": "https://aje.io/hld8nn?update=2745033",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attack on displaced in tents \u2018outrageous\u2019: WHO chief",
+        "link": "https://aje.io/hld8nn?update=2744984",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll from aid-seekers attack rises to 118",
+        "link": "https://aje.io/hld8nn?update=2744882",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Eleven killed, 50 injured in Rafah strike on tent",
+        "link": "https://aje.io/hld8nn?update=2744523",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO: \u2018Sad threshold\u2019 as 10 children confirmed starved to death in Gaza",
+        "link": "https://aje.io/hld8nn?update=2743767",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 03, 2024",
+    "title": "Day 149",
+    "events": [
+      {
+        "text": "Death of children from malnutrition \u2018unlawful\u2019: Amnesty International chief",
+        "link": "https://aje.io/ibd315?update=2746612",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Child deaths we feared\u2019 in Gaza are here: UNICEF",
+        "link": "https://aje.io/ibd315?update=2746377",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least nine killed after Israeli air strike hits aid truck in Deir el-Balah",
+        "link": "https://aje.io/ibd315?update=2746020",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Health Ministry: 15 children died from lack of food, water in Kamal Adwan Hospital",
+        "link": "https://aje.io/ibd315?update=2745651",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN expert calls for sanctions against Israel as \u2018famine\u2019 may \u2018be already occurring\u2019 in Gaza",
+        "link": "https://aje.io/ibd315?update=2745344",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctor treating dehydrated, malnourished newborns appeals for help",
+        "link": "https://aje.io/ibd315?update=2745231",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 04, 2024",
+    "title": "Day 150",
+    "events": [
+      {
+        "text": "Attack on Gaza healthcare facilities ongoing: Canadian doctor",
+        "link": "https://aje.io/m9v6oa?update=2749363",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Another Israeli attack on aid seekers in Gaza City",
+        "link": "https://aje.io/m9v6oa?update=2749341",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces kill three Palestinians in al-Amari camp since October 7",
+        "link": "https://aje.io/m9v6oa?update=2748639",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Look at Yazan\u2019: Mansour pleads for Gaza children at UNGA",
+        "link": "https://aje.io/m9v6oa?update=2748750",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 05, 2024",
+    "title": "Day 151",
+    "events": [
+      {
+        "text": "Palestinian teenager dies of wounds days after Israeli raid",
+        "link": "https://aje.io/lxyadi?update=2751487",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel denies entry of UK relief items to Gaza",
+        "link": "https://aje.io/lxyadi?update=2751396",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA: 17,000 children orphaned in Gaza",
+        "link": "https://aje.io/lxyadi?update=2751048",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli bombardment killed MSF UK board trustee, organisation says",
+        "link": "https://aje.io/lxyadi?update=2750962",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO warns of \u2018extreme\u2019 malnutrition in north Gaza",
+        "link": "https://aje.io/lxyadi?update=2750342",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNICEF: Children in Gaza are paying the highest price for this war",
+        "link": "https://aje.io/lxyadi?update=2750253",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 06, 2024",
+    "title": "Day 152",
+    "events": [
+      {
+        "text": "At least five killed in Israeli bombing of mosque in north Gaza",
+        "link": "https://aje.io/ebcwlv?update=2754442",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian journalist killed in strike on Deir el-Balah",
+        "link": "https://aje.io/ebcwlv?update=2754075",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Children are dying of malnutrition in Gaza",
+        "link": "https://aje.io/ebcwlv?update=2752855",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO chief calls on aid to enter Gaza as hunger spreads",
+        "link": "https://aje.io/ebcwlv?update=2753595",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll from malnutrition, dehydration rises to 18",
+        "link": "https://aje.io/ebcwlv?update=2753133",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 07, 2024",
+    "title": "Day 153",
+    "events": [
+      {
+        "text": "In Gaza, babies have no more nappies, milk, as Israeli bombing continues",
+        "link": "https://aje.io/o6i80z?update=2756878",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Some 60,000 pregnant women in Gaza face malnutrition, dehydration",
+        "link": "https://aje.io/o6i80z?update=2756802",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Veteran aid worker says Gaza crisis \u2018worst\u2019 of his career",
+        "link": "https://aje.io/o6i80z?update=2756498",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Children dying and fainting in the streets from hunger\u2019",
+        "link": "https://aje.io/o6i80z?update=2756127",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Thousands of children are on their own in Gaza",
+        "link": "https://aje.io/o6i80z?update=2755995",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 08, 2024",
+    "title": "Day 154",
+    "events": [
+      {
+        "text": "Three more children die of hunger at al-Shifa Hospital",
+        "link": "https://aje.io/bg1i94?update=2759119",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Deadly airdrop accident shows urgent need for ceasefire",
+        "link": "https://aje.io/bg1i94?update=2759088",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 9 killed in Israeli bombardment of homes in Rafah",
+        "link": "https://aje.io/bg1i94?update=2758695",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza government confirms five killed in aid airdrop accident",
+        "link": "https://aje.io/bg1i94?update=2758664",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN says 95 percent of pregnant, breast-feeding women in Gaza face \u2018severe\u2019 food poverty",
+        "link": "https://aje.io/bg1i94?update=2758343",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces beat, arrest worshippers around Al-Aqsa Mosque",
+        "link": "https://aje.io/bg1i94?update=2758258",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 09, 2024",
+    "title": "Day 155",
+    "events": [
+      {
+        "text": "Infant and 20-year-old Gaza woman die of starvation",
+        "link": "https://aje.io/zbuy5m?update=2761111",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 10 killed in Nuseirat camp after Israeli air strike hits residential block",
+        "link": "https://aje.io/zbuy5m?update=2760614",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Five months into war, 80 percent of Gaza homes \u2018uninhabitable\u2019",
+        "link": "https://aje.io/zbuy5m?update=2760436",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza war has \u2018ruptured any sense of a shared humanity\u2019: ICRC",
+        "link": "https://aje.io/zbuy5m?update=2760418",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces arrest 15 Palestinians in occupied West Bank over two days",
+        "link": "https://aje.io/zbuy5m?update=2760322",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli strikes kill 82 people in Gaza over past day",
+        "link": "https://aje.io/zbuy5m?update=2759958",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 10, 2024",
+    "title": "Day 156",
+    "events": [
+      {
+        "text": "Al Jazeera\u2019s studio remembers slain Gaza children at start of Ramadan",
+        "link": "https://aje.io/tbkrop?update=2763800",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Exhausted medical personnel starving in northern Gaza",
+        "link": "https://aje.io/tbkrop?update=2763756",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Euro-Med Monitor: Gaza\u2019s elderly dying at rapid rates",
+        "link": "https://aje.io/tbkrop?update=2763738",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US NGO worker killed in Israeli attack",
+        "link": "https://aje.io/tbkrop?update=2761793",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Offices of a children\u2019s charity destroyed in Gaza",
+        "link": "https://aje.io/tbkrop?update=2761810",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Several killed, injured as Israel bombs home in Beit Lahiya",
+        "link": "https://aje.io/tbkrop?update=2761829",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Not a single inch is safe\u2019, says grandfather who survived Israeli attack on home",
+        "link": "https://aje.io/tbkrop?update=2761845",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 11, 2024",
+    "title": "Day 157",
+    "events": [
+      {
+        "text": "At least 21 Palestinian children have starved to death in Gaza",
+        "link": "https://aje.io/tsk5ik?update=2765847",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli air strike in southern Gaza kills family of human rights worker",
+        "link": "https://aje.io/tsk5ik?update=2765892",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 19 reported killed after Israel bombs residential homes in Rafah and Gaza City",
+        "link": "https://aje.io/tsk5ik?update=2765479",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Two more children in northern Gaza die from starvation",
+        "link": "https://aje.io/tsk5ik?update=2765123",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Director Jonathan Glazer condemns Israel\u2019s war on Gaza in Oscars speech",
+        "link": "https://aje.io/tsk5ik?update=2764912",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli air attack on Gaza City kills 10",
+        "link": "https://aje.io/tsk5ik?update=2764096",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel prevents Muslim worshippers from entering Al-Aqsa Mosque for Ramadan",
+        "link": "https://aje.io/tsk5ik?update=2764028",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 12, 2024",
+    "title": "Day 158",
+    "events": [
+      {
+        "text": "Palestinian child killed by Israeli bullets in occupied East Jerusalem",
+        "link": "https://aje.io/la84y5?update=2768828",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN: More children killed in four months of war on Gaza than in four years of global war",
+        "link": "https://aje.io/la84y5?update=2768649",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 17,000 children in Gaza separated from families",
+        "link": "https://aje.io/la84y5?update=2768655",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli strike on central Gaza cause casualties",
+        "link": "https://aje.io/la84y5?update=2768662",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza media office: More than 400 killed by Israeli fire while waiting for aid",
+        "link": "https://aje.io/la84y5?update=2767654",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Attacking aid seekers in Gaza is become new normal",
+        "link": "https://aje.io/la84y5?update=2767191",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attack kills 7 people waiting for aid in Gaza City",
+        "link": "https://aje.io/la84y5?update=2766698",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 13, 2024",
+    "title": "Day 159",
+    "events": [
+      {
+        "text": "UNRWA staff member killed, 22 wounded in Rafah warehouse strike",
+        "link": "https://aje.io/6mnkq4?update=2770639",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel attacking aid centres; war on Gaza has to stop: UN relief chief",
+        "link": "https://aje.io/6mnkq4?update=2770812",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: More children killed in Gaza than in four years of war worldwide",
+        "link": "https://aje.io/6mnkq4?update=2770113",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Several reported killed, injured in Israeli strike on UNRWA warehouse",
+        "link": "https://aje.io/6mnkq4?update=2770116",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Intense Israeli strikes continue on third day of Ramadan",
+        "link": "https://aje.io/6mnkq4?update=2769887",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "EU foreign policy chief says Israel using starvation as weapon of war",
+        "link": "https://aje.io/6mnkq4?update=2769298",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 14, 2024",
+    "title": "Day 160",
+    "events": [
+      {
+        "text": "20 dead bodies from Israeli attack on Kuwait Roundabout at al-Shifa Hospital: Ministry",
+        "link": "https://aje.io/zqb527?update=2773369",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 11 dead, 100 injured in Israeli attack on aid seekers: Health Ministry",
+        "link": "https://aje.io/zqb527?update=2773320",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel again shoots aid seekers in Gaza City, killing at least 5",
+        "link": "https://aje.io/zqb527?update=2773270",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More than a dozen bodies recovered in southern Gaza: PRCS",
+        "link": "https://aje.io/zqb527?update=2772827",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Nine family members killed in attack on Bureij refugee camp",
+        "link": "https://aje.io/zqb527?update=2772486",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Several killed in attack on aid warehouse in Gaza\u2019s Nuseirat camp",
+        "link": "https://aje.io/zqb527?update=2772411",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Israel strikes UN warehouse in Rafah as famine looms in Gaza",
+        "link": "https://aje.io/zqb527?update=2771373",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+    {
+    "date": "March 15, 2024",
+    "title": "Day 161",
+    "events": [
+      {
+        "text": "Many missing after Israeli forces hit Gaza City building",
+        "link": "https://aje.io/3awuth?update=2775564",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'Costing children's lives': More from UNICEF report on infant deaths",
+        "link": "https://aje.io/3awuth?update=2775563",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'Nowhere to go': Germany tells Israel Rafah invasion unjustified",
+        "link": "https://aje.io/3awuth?update=2775549",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNICEF: 'Staggering escalation' in infant deaths in northern Gaza",
+        "link": "https://aje.io/3awuth?update=2775547",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctor says level of malnutrition for pregnant women 'truly horrific'",
+        "link": "https://aje.io/3awuth?update=2775542",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'Unconscionable': Attacks on aid-seekers 'cannot be allowed to continue'",
+        "link": "https://aje.io/3awuth?update=2775023",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 56 people killed in Israeli attacks on aid centres in 48 hours: Gaza government",
+        "link": "https://aje.io/3awuth?update=2774800",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+    {
+    "date": "March 16, 2024",
+    "title": "Day 162",
+    "events": [
+      {
+        "text": "Israeli air attack kills 36 family members in central Gaza",
+        "link": "https://aje.io/zju41v?update=2777577",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian medics save lives with limited resources",
+        "link": "https://aje.io/zju41v?update=2777153",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018This humanitarian catastrophe must not be allowed to worsen\u2019",
+        "link": "https://aje.io/zju41v?update=2776938",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Tactics of starvation\u2019: Belgian PM discusses Gaza in Qatar",
+        "link": "https://aje.io/zju41v?update=2776912",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Catastrophic\u2019 humanitarian situation in Gaza \u2018deteriorates by the minute\u2019: UNRWA",
+        "link": "https://aje.io/zju41v?update=2776490",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Children, pregnant women killed in Nuseirat attack: Gaza authorities",
+        "link": "https://aje.io/zju41v?update=2775747",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 36 killed after Israeli bombing of house in central Gaza: Health Ministry",
+        "link": "https://aje.io/zju41v?update=2775654",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 17, 2024",
+    "title": "Day 163",
+    "events": [
+      {
+        "text": "UNICEF chief: Gaza babies \u2018don\u2019t even have energy to cry\u2019",
+        "link": "https://aje.io/5fimki?update=2779602",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA: Palestinians in Gaza on verge of famine",
+        "link": "https://aje.io/5fimki?update=2779564",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Photos: Gaza\u2019s Al-Aqsa Hospital provides limited care to patients in need of dialysis",
+        "link": "https://aje.io/5fimki?update=2778882",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mental support groups for traumatised Palestinian children, medics",
+        "link": "https://aje.io/5fimki?update=2779768",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Fourteenth Palestinian prisoner dies in Israeli custody since October 7",
+        "link": "https://aje.io/5fimki?update=2778730",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Totally inappropriate\u2019: Netanyahu hits back at Chuck Schumer speech",
+        "link": "https://aje.io/5fimki?update=2778905",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli pattern of targeting families inside residential homes",
+        "link": "https://aje.io/5fimki?update=2778274",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 18, 2024",
+    "title": "Day 164",
+    "events": [
+      {
+        "text": "Child killed in central Gaza: Red Crescent",
+        "link": "https://aje.io/ckq1oq?update=2782247",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "International community \u2018should hang head in shame\u2019 for allowing Gaza famine",
+        "link": "https://aje.io/ckq1oq?update=2782012",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel\u2019s Smotrich says one response to EU sanctions: \u2018Entrenching\u2019 settlements",
+        "link": "https://aje.io/ckq1oq?update=2781987",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel says UNRWA chief visit \u2018not submitted by necessary processes\u2019",
+        "link": "https://aje.io/ckq1oq?update=2781790",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "MSF chief: Rafah offensive must not be allowed to happen",
+        "link": "https://aje.io/ckq1oq?update=2781576",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza government says Israel \u2018assassinates\u2019 Gaza aid coordination official during raid",
+        "link": "https://aje.io/ckq1oq?update=2781337",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli army says it kills 20 Palestinian fighters at al-Shifa Hospital",
+        "link": "https://aje.io/ckq1oq?update=2781276",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 19, 2024",
+    "title": "Day 165",
+    "events": [
+      {
+        "text": "Entire Gaza population now 100 percent severely food insecure",
+        "link": "https://aje.io/zij5ht?update=2784156",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 23 dead in Israeli attack on Gaza aid committee",
+        "link": "https://aje.io/zij5ht?update=2784165",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "British doctor describes \u2018deeply tragic\u2019 hospital cases in Gaza",
+        "link": "https://aje.io/zij5ht?update=2784074",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "New video challenges Israeli explanation for killing Gaza journalists",
+        "link": "https://aje.io/zij5ht?update=2783980",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hezbollah attacks Israeli positions near Lebanese border",
+        "link": "https://aje.io/zij5ht?update=2783928",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Thousands of shoes laid out as memorial to children killed in Gaza",
+        "link": "https://aje.io/zij5ht?update=2783756",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN says Israel\u2019s blocking of Gaza aid may be war crime",
+        "link": "https://aje.io/zij5ht?update=2783246",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 20, 2024",
+    "title": "Day 166",
+    "events": [
+      {
+        "text": "Gaza people mourn dozens killed in Israeli strikes",
+        "link": "https://aje.io/nxg3jx?update=2786177",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Northern Gaza faces imminent famine",
+        "link": "https://aje.io/nxg3jx?update=2786169",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA chief: Hunger crisis in Gaza catastrophic",
+        "link": "https://aje.io/nxg3jx?update=2786098",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Starvation is stalking every doorway in Gaza",
+        "link": "https://aje.io/nxg3jx?update=2786076",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Constant struggle for Gaza mothers to keep children alive",
+        "link": "https://aje.io/nxg3jx?update=2785984",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Video shows moment Israel bombs house in Deir el-Balah",
+        "link": "https://aje.io/nxg3jx?update=2786090",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Bodies of al-Shifa evacuees still lying on the streets",
+        "link": "https://aje.io/nxg3jx?update=2785100",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 21, 2024",
+    "title": "Day 167",
+    "events": [
+      {
+        "text": "UNRWA says Gaza mothers having babies early, uncertain they will survive",
+        "link": "https://aje.io/fw14mj?update=2788384",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Many Palestinians \u2018executed extrajudicially\u2019 at al-Shifa Hospital",
+        "link": "https://aje.io/fw14mj?update=2788315",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO chief urges EU to avoid \u2018double standards\u2019 over Gaza and Ukraine",
+        "link": null,
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "One million children facing \u2018daily traumas\u2019 in Gaza",
+        "link": "https://aje.io/fw14mj?update=2788054",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Netanyahu tells US senators 28,000 people killed in Gaza",
+        "link": "https://aje.io/fw14mj?update=2786302",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 22, 2024",
+    "title": "Day 168",
+    "events": [
+      {
+        "text": "Ten people killed in attack on residential building in Gaza City",
+        "link": "https://aje.io/rvubaw?update=2789549",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli soldiers \u2018beat all the young men and arrested them\u2019 in al-Shifa Hospital",
+        "link": "https://aje.io/rvubaw?update=2789211",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US Congresswoman Tlaib: Israeli government using \u2018starvation as weapon of war\u2019",
+        "link": "https://aje.io/rvubaw?update=2789111",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN rapporteur: Israeli crimes in Gaza could keep ICC \u2018busy for the next five decades\u2019",
+        "link": "https://aje.io/rvubaw?update=2788938",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military bombs house near Rafah, killing 8: Report",
+        "link": "https://aje.io/rvubaw?update=2788918",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military bombs home in Khan Younis, killing 3: Report",
+        "link": "https://aje.io/rvubaw?update=2788896",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel\u2019s war on Gaza in numbers",
+        "link": "https://aje.io/rvubaw?update=2788879",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

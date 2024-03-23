@@ -60,7 +60,9 @@ const HeroWideSection: React.FC<HeroWideSectionProps> = ({
           <Link to={onClick1} spy={true} smooth={true} offset={0} duration={500}><HeroButton type="red" content={buttonText1} fontSize="1.2rem" /></Link>
         )}
         {buttonText2 !== "" && (
-          <HeroButton type="blue" content={buttonText2} fontSize="1.2rem" onClickFunc={() => navigate(onClick2)}/>
+          <HeroButton type="blue" content={buttonText2} fontSize="1.2rem" onClickFunc={() => {
+            window.open(onClick2, '_blank');
+          }}  />
         )}
         {showDay && (
           <h3 className="last-h3">

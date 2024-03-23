@@ -18,6 +18,7 @@ export const liesData = [
     "special": false,
     "source": "IDF & U.S.",
     "title": "False List of Terrorist Names",
+    "videos": ["https://www.youtube.com/embed/ZTcEL1BQ2qc"],
     "modalContent": "",
     "modalTextItems": [
       "The Israel Defense Forces claimed in a tweet that they found a list of terrorist names in one of Gaza's hospitals. They provided a video featuring an IDF spokesperson, aiming to prove this claim from inside the hospital. (<a href='https://twitter.com/IDF/status/1724169252054188276'>IDF Tweet</a>)",
@@ -39,6 +40,7 @@ export const liesData = [
     "special": false,
     "source": "UK Ambassador",
     "title": "Denying a Humanitarian Crisis in Gaza",
+    "videos": ["https://www.youtube.com/embed/_EL9udJQEAg?si=ldON2sFrgyanFlEj"],
     "modalContent": "",
     "modalTextItems": [
       "An interview with the UK ambassador was published on October 16, 2023, on Sky News which is very well in the crisis that faces Gaza.",
@@ -65,6 +67,7 @@ export const liesData = [
     "special": false,
     "source": "IDF",
     "title": "Denying The Usage of White Phosphorous in 2023",
+    "videos": ["https://www.youtube.com/embed/J3KXQb9rc70?si=O_MSS1HbuN6i7ST0"],
     "modalContent": "",
     "modalTextItems": [
       "Human Rights Watch has determined based on verified video and witness accounts that Israeli forces used white phosphorus in military operations in Lebanon and Gaza on October 10 and 11, 2023, respectively. The videos show multiple airbursts of artillery-fired white phosphorus over the Gaza City port and two rural locations along the Israel-Lebanon border (<a href='https://www.hrw.org/news/2023/10/12/questions-and-answers-israels-use-white-phosphorus-gaza-and-lebanon' target='_blank'>Human Rights Watch</a>)",
@@ -131,6 +134,7 @@ export const liesData = [
     "source": "IDF",
     "title": "Al-Ahli Hospital Blast",
     "modalContent": "",
+    "videos": ["https://www.youtube.com/embed/yyNLvL_8SeY?si=9Tt3dLXVCrs1JzZ4"],
     "modalTextItems": [
       "On the 17th of Oct., Al-Ahli hospital was blasted and over 470 were killed as a result according to Gaza's ministry of health."
       ,
@@ -160,6 +164,7 @@ export const liesData = [
     "source": "IDF",
     "title": "Murder of Shireen Abu Akleh",
     "modalContent": "",
+    "videos": ["https://www.youtube.com/embed/K1AmjYRKTek?si=rLa3s04k_7SDfM8i", "https://www.youtube.com/embed/RaJ8_5MJHAs?si=0oBsCxqH8R7sZDcB"],
     "modalTextItems": [
       "On May 11, 2022, at 7:04 AM, Al-Jazeera reported that Israeli forces had shot their correspondent, Shireen Abu Akleh, during her coverage of a military raid on the West Bank city of Jenin. (<a href='https://en.wikipedia.org/wiki/Killing_of_Shireen_Abu_Akleh#cite_note-%D9%85%D9%88%D9%82%D8%B9_%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B1_%D8%B9%D9%86_%D8%B4%D9%8A%D8%B1%D9%8A%D9%86_2022-121:~:text=At%20precisely%207%3A04%C2%A0am%20on%20Wednesday%2C%2011%20May%202022%2C%20Al%20Jazeera%2C%20the%20organization%20in%20which%20she%20was%20employed%2C%20announced%20the%20injury%20of%20their%20correspondent%20Shireen%20Abu%20Akleh.%20She%20was%20shot%20by%20Israeli%20defence%20forces%20while%20covering%20their%20incursion%20and%20raid%20on%20Jenin%20camp.'>Wikipedia</a>, <a href='https://www.theguardian.com/world/ng-interactive/2023/mar/21/the-killing-of-shireen-abu-akleh-what-one-morning-in-the-west-bank-reveals-about-the-occupation#:~:text=Jenin%20is%20a,also%20been%20shot.'>TheGuardian</a>)",
       "Subsequent video footage following the incident unequivocally depicted Shireen wearing a blue press vest prominently labeled with the word 'Press.' (<a href='https://www.theguardian.com/world/ng-interactive/2023/mar/21/the-killing-of-shireen-abu-akleh-what-one-morning-in-the-west-bank-reveals-about-the-occupation#:~:text=Hanaysha%20and%20Abu%20Akleh%20are%20both%20wearing%20helmets%20and%20bulletproof%20vests%20clearly%20marked%20%E2%80%98Press%E2%80%99.'>TheGuardian</a>, <a href='https://www.haaretz.com/israel-news/2022-05-11/ty-article/one-journalist-dead-another-wounded-during-idf-raid-in-jenin/00000180-d632-d452-a1fa-d7ff854c0000#:~:text=Samodi%2C%20working%20for,the%20word%20%E2%80%9CPRESS.%E2%80%9D'>Haaretz</a>)",
@@ -197,9 +202,45 @@ export const liesData = [
     `,
     "modalText": []
   },
+  {
+    "special": false,
+    "source": "Israeli government",
+    "title": "A man holding a rifle inside a hospital in Gaza",
+    "modalContent": `<ul>
+    <li>A video circulated on social media on Nov 10, collecting over 9.5 million views on platform X. The video claiming to depict an individual with a rifle at Gaza&#39;s Indonesian Hospital,  which was held up as evidence that Hamas is using hospitals as bases for military activity. (<a href="https://twitter.com/Israel/status/1722909221618896943">Twitter</a>, <a href="https://www.forbes.com/sites/mattnovak/2023/11/10/viral-video-of-gun-at-gazas-indonesian-hospital-actually-a-baton/?sh=3d241b851db5">Forbes</a>)</li>
+    <li>Israel&#39;s official account on Twitter actively promoted the video, stating, &quot;Footage of Hamas terrorists inside the Indonesian hospital in Gaza.&quot; (<a href="https://twitter.com/Israel/status/1722909221618896943">Twitter</a>)</li>
+    <li>Upon closer examination, the video does not show a firearm; rather, it reveals an individual wielding what appears to be a police baton. (<a href="https://www.forbes.com/sites/mattnovak/2023/11/10/viral-video-of-gun-at-gazas-indonesian-hospital-actually-a-baton/?sh=3d241b851db5">Forbes</a>)</li>
+    </ul>
+    `,
+    "modalText": []
+  },
+  {
+    "special": false,
+    "source": "A spokesperson in the Israel prime minister's office",
+    "title": "Video of a dog inside a tunnel",
+    "modalContent": `<ul>
+    <li>The spokesperson to the Arab media in the Israel prime minister&#39;s office Ofir Gendelman posted a video on Twitter that allegedly shows an IDF attack dogs go after Hamas fighter (<a href="https://twitter.com/ofirgendelman/status/1720844002520396222">Twitter</a>)</li>
+    <li>However, a military correspondent from Ynet, a major Israeli news outlet, countered the claim on Twitter, suggesting that the video might not be from the current conflict in Gaza. The correspondent stated, “I don’t know which Israeli official source is distributing this video but it appears to be from a preliminary test I conducted from Operation Protective Edge or from training from previous years”, where “Operation Protective Edge” is the 2014 israeli attack on Gaza (<a href="https://twitter.com/yoavzitun/status/1720865736757776630">Twitter</a>)</li>
+    </ul>
+    `,
+    "modalText": []
+  },
+  {
+    "special": true,
+    "source": "IDF",
+    "title": "Weapons in hospitals",
+    "modalContent": `<ul>
+    <li>IDF released a video on Nov 15 at Al-Shifa hospital which they claim depicts the weaponry found in the hospital. (<a href="https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_1d70c190adde686e6a2b59e963499e82">CNN</a>)</li>
+    <li>Later, during a guided tour for western media outlets, the footage depicted more weaponry on spots previously shown to contain less, raising concerns about possible manipulation of the scene by the IDF. and rearranging items. (<a href="https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_1d70c190adde686e6a2b59e963499e82">CNN</a>)</li>
+    <li>It is worth to note that the BBC reporter stated that &quot;Our visit was tightly controlled; we had very limited time on the ground and were not able to speak to doctors or patients there&quot; (<a href="https://www.bbc.com/news/world-middle-east-67436154">BBC</a>)</li>
+    <li>IDF response: IDF claims the discrepancy is due to the discovery of more weaponry and assets throughout the day (<a href="https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_1d70c190adde686e6a2b59e963499e82">CNN</a>), which further supports the suspicion of scene manipulation (the weapons in fact weren’t found in those place and were placed there).</li>
+    <li>This same IDF video was also filled with other inconsistencies and it has been taken down and reuploaded with modifications  (<strong><a href="https://youtu.be/I4nIQPQIgvw?si=Ydl4iEwTWMs2mhz_">TRT World</a></strong>)</li>
+    </ul>
+    `,
+    "modalText": [],
+    "videos": ["https://www.youtube.com/embed/NlBtJhI1fIw?si=fQGSTk2Ga-_EmIt-", "https://www.youtube.com/embed/I4nIQPQIgvw?si=Ydl4iEwTWMs2mhz_"],
+  }
 ];
-
-
 
 export const faqData = {
   title: "FAQ (How it works)",

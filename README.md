@@ -12,7 +12,7 @@ Stand-With-Palestine is an initiative (realized in the form of a website) aimed 
 
 ## 🇵🇸 Navigation Structure
 
-Visit the website at [Stand-With-Palestine.org](Stand-With-Palestine.org)
+Visit the website at [Stand-With-Palestine.org](https://Stand-With-Palestine.org)
 
 <table>
   <tr>
@@ -53,6 +53,8 @@ Visit the website at [Stand-With-Palestine.org](Stand-With-Palestine.org)
 Feedback is welcome, appreciated and considered; please don't hesitate to convey your thoughts by emailing Support@Stand-With-Palestine.org or by joining our liaise TFP [Discord Channel](https://techforpalestine.org/discord-invite).
 
 ## 🤝🏻 Contributing
+
+If you would to collaborate on creating or amending content on Stand-With-Palestine.org, check out the [collaboration form](https://tally.so/r/mDNNKN).
 
 **Folder Structure:**
 
@@ -118,14 +120,14 @@ Please propose any contributions through the TFP liaise [Discord channel](https:
     <td><a href="https://github.com/EssamWisam"><img src="https://github.com/EssamWisam.png" width="90px;"/><br /></a></td>
     <td><a href="https://github.com/Muhammad-saad-2000"><img src="https://github.com/Muhammad-saad-2000.png" width="90px;"/><br /></a></td>
     <td><a href="https://github.com/KnockerPulsar"><img src="https://github.com/KnockerPulsar.png" width="90px;"/><br /></a></td>
-    <td><a href="https://github.com/Halahamdy22"><img src="https://github.com/Halahamdy22.png" width="90px;"/><br /></a></td>
+    <td><a href="https://github.com/HalaHamdi"><img src="https://github.com/HalaHamdi.png" width="90px;"/><br /></a></td>
     <td><a href="https://github.com/ziad-atef"><img src="https://github.com/ziad-atef.png" width="90px;"/><br /></a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/EssamWisam">Essam Wisam</a></td>
     <td><a href="https://github.com/Muhammad-saad-2000">Mohamed Saad</a></td>
     <td><a href="https://github.com/KnockerPulsar">Tarek Yasser</a></td>
-    <td><a href="https://github.com/Halahamdy22">Hala Hamdy</a></td>
+    <td><a href="https://github.com/HalaHamdi">Hala Hamdy</a></td>
     <td><a href="https://github.com/ziad-atef">Ziad Atef</a></td>
   </tr>
 </table>

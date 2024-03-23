@@ -9,6 +9,7 @@ import SearchInput from "../../components/Simple/SearchInput";
 import Banner from "../../components/Simple/Banner";
 
 import './SupportPage.scss'
+import Head from "../../components/Simple/Head";
 
 const SupportPage: React.FC = () => {
   const [selectedOrg, setSelectedOrg] = React.useState(4);
@@ -62,6 +63,14 @@ const SupportPage: React.FC = () => {
         backgroundColor: "#101010",
       }}
     >
+      <Head
+        title="Support Palestine!"
+        description="Learn about the different ways you can support palestine and help the people in need."
+        keywords="Support, Help Palestine, Donate, Spread Awareness, Pray, Boycott, Proteste, Volunteer, Charity, Humanitarian Aid, Humanitarian Aid Organizations, Humanitarian Aid Donors, Humanitarian Aid Donations"
+        image=""
+        url=""
+      />
+
       <GradientHero title={"SUPPORT PALESTINE"} subTitle1="They Need Your Help" subTitle2="There Are Many Ways We Can Help Make Things Better" special={true} />
       <Banner title={"You Could Help Prevent Someone From Dying in the Hospital or From Starving to Death"} color="white" bgColor="transparent" styleObj={{ boxShadow: 'none' }} />
       <SearchInput
@@ -70,7 +79,7 @@ const SupportPage: React.FC = () => {
         placeHolder="Search for charities and donors..."
       />
       <div style={{ paddingBottom: "2%", paddingTop: "2%" }} className="org-cards" ref={orgCardsRef}>
-        {filteredSupportData.map((item:any, index:any) => {
+        {filteredSupportData.map((item: any, index: any) => {
           return (
             <div className="card-item">
               <OrgCard

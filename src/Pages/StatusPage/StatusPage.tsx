@@ -14,6 +14,7 @@ import {
   faqData
 } from "../../PagesData/StatusPageData";
 import "../../components/StatusSections/FAQSection.scss";
+import Head from "../../components/Simple/Head";
 
 
 
@@ -62,6 +63,13 @@ const StatusPage: React.FC = () => {
 	    backgroundColor: "#101010",
 	  }}
 	>
+	  <Head
+		title="Status Updates!"
+		description="Get the latest updates on the ongoing status of the conflict and statistics of the Martyrs and injuried."
+		keywords="Status Updates, Conflict Status, Palestinian-Isreali Conflict, Isreali-Palestinian Conflict, Isreali-Palestinian War, Palestinian Martyrs, Palestinian Injuried, Palestinian Casualties, Palestinian Deaths, Palestinian Injuries, Palestinian Wounded, Palestinian Killed, Palestinian Dead, Palestinian Murdered"
+		image=""
+		url=""
+	  />
 	  <Banner
 	    title="Israeli Onslaught on Palestine in Numbers Since 7th Oct. 2023"
 	    styleObj={{ color: "white" }}

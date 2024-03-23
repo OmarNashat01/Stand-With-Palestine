@@ -2,6 +2,7 @@ import React from "react";
 import { blogs } from "../../PagesData/BlogsPageData";
 import Card from "../../components/Simple/Card";
 import Banner from "../../components/Simple/Banner";
+import Head from "../../components/Simple/Head";
 
 function getBlogUrl(blogPath: string): string {
     return blogPath.split("/BlogsPage/")[1].replace(/\.(md|json)/, "");
@@ -16,6 +17,13 @@ const BlogsListPage: React.FC = () => {
                 backgroundColor: "#141414",
             }}
         >
+            <Head
+                title="Blogs and Interviews"
+                description="Read blogs and interviews regarding the ongoing conflict and previous incidents in Palestine."
+                keywords="Palestine, Palestinian, Palestinian people, Palestinian blogs, Palestinian interviews, Palestinian conflict, Palestinian conflict blogs, Palestinian conflict interviews"
+                image=""
+                url=""
+            />
             <Banner
                 title="Read Blogs and Interviews Regarding the Ongoing Conflict"
                 styleObj={{ color: "white" }}

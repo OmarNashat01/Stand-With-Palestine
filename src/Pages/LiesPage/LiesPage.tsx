@@ -7,6 +7,7 @@ import { liesData, faqData } from "../../PagesData/LiesPageData";
 // @ts-ignore
 import Faq from 'react-faq-component';
 import Banner from "../../components/Simple/Banner";
+import Head from "../../components/Simple/Head";
 
 const LiesPage: React.FC = () => {
   const [filteredLies, setFilteredLies] = useState([]);
@@ -24,6 +25,13 @@ const LiesPage: React.FC = () => {
         backgroundColor: "#101010",
       }}
     >
+      <Head
+        title="Lies Radar!"
+        description="Read about the lies and deceit that have been spread about the ongoing conflict in different media outlets."
+        keywords="Isreali Lies, Isreali Deceit, Isreali Propaganda, Isreali Media, Isreali Media Lies, Isreali Media Deceit, Isreali Media Propaganda, Isreali Media Propaganda Lies"
+        image=""
+        url=""
+      />
       <GradientHero
         title={"CONFLICT LIES"}
         subTitle1={"Numerous Lives in Gaza Have Been Lost due to Deceit"}
@@ -37,9 +45,9 @@ const LiesPage: React.FC = () => {
         onSearch={handleSearch}
         placeHolder="Search by lie or related information..."
       />
-    <LiesList dictData={filteredLies}/>
-    <Banner title="Frequently Asked Questions" styleObj={{ color: 'white' }} />
-    <Faq data={faqData} />
+      <LiesList dictData={filteredLies} />
+      <Banner title="Frequently Asked Questions" styleObj={{ color: 'white' }} />
+      <Faq data={faqData} />
     </div>
   );
 };

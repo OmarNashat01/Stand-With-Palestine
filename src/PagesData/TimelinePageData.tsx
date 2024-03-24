@@ -6706,5 +6706,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+    {
+    "date": "March 23, 2024",
+    "title": "Day 169",
+    "events": [
+      {
+        "text": "Israeli army has killed at least 560 Palestinians awaiting aid trucks: Rights group",
+        "link": "https://aje.io/y63tdq?update=2793464",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN: Gaza famine imminent as agriculture sector ravaged",
+        "link": "https://aje.io/y63tdq?update=2793424",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli bombing of home in Deir el-Balah kills 7 Palestinians",
+        "link": "https://aje.io/y63tdq?update=2793451",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll rises to 19 after Israeli attacks on aid seekers in Gaza City",
+        "link": "https://aje.io/y63tdq?update=2793122",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Five people trapped in al-Shifa Hospital amid siege killed: Ministry",
+        "link": "https://aje.io/y63tdq?update=2792437",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Seven killed in Israeli attack at aid distribution point in Gaza City",
+        "link": "https://aje.io/y63tdq?update=2792244",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Two killed in strike on Deir el-Balah roundabout",
+        "link": "https://aje.io/y63tdq?update=2791943",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

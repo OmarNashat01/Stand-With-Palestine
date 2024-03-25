@@ -6754,5 +6754,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 24, 2024",
+    "title": "Day 170",
+    "events": [
+      {
+        "text": "At least nine killed in Israeli strike on Deir el-Balah",
+        "link": "https://aje.io/wtnjk2?update=2795523",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN relief chief condemns northern Gaza aid block with deadly implications",
+        "link": "https://aje.io/wtnjk2?update=2795439",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces storm Al-Aqsa Mosque",
+        "link": "https://aje.io/wtnjk2?update=2795413",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian boy describes executions inside al-Shifa Hospital",
+        "link": "https://aje.io/wtnjk2?update=2795371",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US official accuses Israel of \u2018systematic\u2019 sexual abuse of Palestinians",
+        "link": "https://aje.io/wtnjk2?update=2795149",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel forces raped, killed women during raid on al-Shifa, witness says",
+        "link": "https://aje.io/wtnjk2?update=2793839",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces open fire on Gaza aid seekers, kill 19, witnesses say",
+        "link": "https://aje.io/wtnjk2?update=2793655",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

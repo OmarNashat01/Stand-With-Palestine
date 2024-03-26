@@ -6802,5 +6802,47 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 25, 2024",
+    "title": "Day 171",
+    "events": [
+      {
+        "text": "UN mourns 171 staff members killed by Israeli military in Gaza",
+        "link": "https://aje.io/6telhh?update=2797879",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Red Crescent: Gaza\u2019s al-Amal Hospital out of service after Israeli siege",
+        "link": "https://aje.io/6telhh?update=2797987",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN rapporteur calls for arms embargo on Israel, reparations",
+        "link": "https://aje.io/6telhh?update=2797785",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza hospitals under siege",
+        "link": "https://aje.io/6telhh?update=2796322",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Tanks crushed bodies, ambulances at al-Shifa Hospital: Report",
+        "link": "https://aje.io/6telhh?update=2795884",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel\u2019s war on Gaza in numbers",
+        "link": "https://aje.io/6telhh?update=2795675",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

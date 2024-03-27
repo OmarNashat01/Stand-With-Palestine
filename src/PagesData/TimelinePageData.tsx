@@ -6844,5 +6844,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 26, 2024",
+    "title": "Day 172",
+    "events": [
+      {
+        "text": "Children in Gaza dying of malnutrition, dehydration",
+        "link": "https://aje.io/5hqclk?update=2800852",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza \u2018shattered humanity\u2019s records for its darkest chapters\u2019",
+        "link": "https://aje.io/5hqclk?update=2800443",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018They scream in hunger\u2019 \u2013 How Israel is starving Gaza",
+        "link": "https://aje.io/5hqclk?update=2799809",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "In less than 6 months, Israel has destroyed Gaza: UN expert",
+        "link": "https://aje.io/5hqclk?update=2800007",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military in defiance of UN resolution",
+        "link": "https://aje.io/5hqclk?update=2799915",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Undeterred by UN resolution, Israel keeps pounding Gaza",
+        "link": "https://aje.io/5hqclk?update=2799011",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Children among Palestinians killed in latest Rafah attack",
+        "link": "https://aje.io/5hqclk?update=2798289",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

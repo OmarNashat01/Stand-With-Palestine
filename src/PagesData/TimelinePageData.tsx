@@ -6892,5 +6892,101 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "March 27, 2024",
+    "title": "Day 173",
+    "events": [
+      {
+        "text": "Several killed, wounded in Israeli bombing of aid workers",
+        "link": "https://aje.io/k18snl?update=2802898",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018They scream in hunger\u2019 \u2013 How Israel is starving Gaza",
+        "link": "https://aje.io/k18snl?update=2802927",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018A nightmare\u2019: MSF warns against looming Israeli operation in Rafah",
+        "link": "https://aje.io/k18snl?update=2802791",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Will UNRWA collapse without US support?",
+        "link": "https://aje.io/k18snl?update=2802890",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018War zone\u2019 near al-Shifa",
+        "link": "https://aje.io/k18snl?update=2802694",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel placing \u2018array of obstacles\u2019 on aid to Gaza: Rights group",
+        "link": "https://aje.io/k18snl?update=2802339",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel has destroyed Gaza, UN expert on Genocide Convention says",
+        "link": "https://aje.io/k18snl?update=2802246",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 28, 2024",
+    "title": "Day 174",
+    "events": [
+      {
+        "text": "Israel has become a \u2018rogue state\u2019",
+        "link": "https://aje.io/rsaoob?update=2804902",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "How Israel\u2019s destruction of Gaza schools shatters children\u2019s dreams",
+        "link": "https://aje.io/rsaoob?update=2804957",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018The time of Israeli impunity is fading away\u2019",
+        "link": "https://aje.io/rsaoob?update=2804868",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel responsible for more than 200 \u2018direct hits\u2019 on schools in Gaza: UN",
+        "link": "https://aje.io/rsaoob?update=2804424",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Catastrophic hunger\u2019: Israel blocking aid to Gaza: Oxfam",
+        "link": "https://aje.io/rsaoob?update=2804493",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza shooting video shows \u2018flagrant disregard for Palestinian life\u2019",
+        "link": "https://aje.io/rsaoob?update=2804167",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctors in northern Gaza sound alarm on infant malnutrition",
+        "link": "https://aje.io/rsaoob?update=2804055",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

@@ -6988,5 +6988,101 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+    {
+    "date": "March 30, 2024",
+    "title": "Day 176",
+    "events": [
+      {
+        "text": "Israeli attack on Palestinian aid seekers at Kuwait Roundabout kills 12",
+        "link": "https://aje.io/sknp3l?update=2808490",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza press office: 400 killed during Israel\u2019s al-Shifa Hospital siege",
+        "link": "https://aje.io/sknp3l?update=2808296",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel refuses to evacuate medical staff, patients stuck inside al-Shifa Hospital",
+        "link": "https://aje.io/sknp3l?update=2807991",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Nowhere is safe for children in Gaza\u2019: UNICEF",
+        "link": "https://aje.io/sknp3l?update=2807684",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "About 9,000 patients urgently need to be evacuated from Gaza: WHO",
+        "link": "https://aje.io/sknp3l?update=2807639",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN\u2019s Francesca Albanese praises \u2018courage\u2019 of US official who resigned over Gaza war",
+        "link": "https://aje.io/sknp3l?update=2807084",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Desperate parents struggle in Gaza \u2013 27 children succumb to malnutrition and dehydration",
+        "link": "https://aje.io/sknp3l?update=2807014",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "March 31, 2024",
+    "title": "Day 177",
+    "events": [
+      {
+        "text": "Israeli attack hit Al-Aqsa Hospital\u2019s courtyard",
+        "link": "https://aje.io/das33y?update=2809234",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Two air strikes targeted journalists, displaced people in Al-Aqsa Hospital",
+        "link": "https://aje.io/das33y?update=2809222",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces killed 26 members of Palestine Red Crescent, group says",
+        "link": "https://aje.io/das33y?update=2808953",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Attack on tent part of Israel\u2019s systematic targeting of media in Gaza",
+        "link": "https://aje.io/das33y?update=2809012",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Completely chaotic scenes after Israel targets people waiting for aid",
+        "link": "https://aje.io/das33y?update=2808840",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll from Israeli attack on aid seekers rises to 17",
+        "link": "https://aje.io/das33y?update=2808612",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "The moment a Palestinian child is rescued from under rubble",
+        "link": "https://aje.io/das33y?update=2808580",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

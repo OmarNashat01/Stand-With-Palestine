@@ -7084,5 +7084,47 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 01, 2024",
+    "title": "Day 178",
+    "events": [
+      {
+        "text": "Palestinian boy dies after fleeing hospital during Israeli raid",
+        "link": "https://aje.io/kwvlol?update=2811769",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Five aid workers, including four foreigners, killed in Israeli attack on Deir el-Balah",
+        "link": "https://aje.io/kwvlol?update=2811738",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Child killed in Israeli strike on mosque in Deir el-Balah",
+        "link": "https://aje.io/kwvlol?update=2811760",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Al-Shifa Hospital \u2018in ruins\u2019 after Israeli attack",
+        "link": "https://aje.io/kwvlol?update=2811652",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces \u2018executed\u2019 multiple civilians at al-Shifa Hospital, says PRCS",
+        "link": "https://aje.io/kwvlol?update=2810934",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018There is no life here\u2019: The aftermath of al-Shifa Hospital siege",
+        "link": "https://aje.io/kwvlol?update=2810650",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

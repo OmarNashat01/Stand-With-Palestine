@@ -7126,5 +7126,89 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 02, 2024",
+    "title": "Day 179",
+    "events": [
+      {
+        "text": "Israel\u2019s killing of aid workers comes as Gaza suffers \u2018man made famine\u2019",
+        "link": "https://aje.io/2wzycc?update=2813574",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018A clear war crime\u2019: President of Refugees International on killed aid workers",
+        "link": "https://aje.io/2wzycc?update=2813502",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Global condemnation of World Central Kitchen killings",
+        "link": "https://aje.io/2wzycc?update=2812458",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "April 03, 2024",
+    "title": "Day 180",
+    "events": [
+      {
+        "text": "WATCH: Horrific killing of aid workers highlights dangers in Gaza, says WHO chief",
+        "link": "https://aje.io/1p8ytp?update=2815837",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attack on aid workers part of \u2018a structure of death and destruction\u2019: Open Arms",
+        "link": "https://aje.io/1p8ytp?update=2816289",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Shocking increase\u2019 in number of children denied aid in conflicts: UN",
+        "link": "https://aje.io/1p8ytp?update=2815744",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Target on their back\u2019: Aid workers halt efforts after deadly Israeli strikes",
+        "link": "https://aje.io/1p8ytp?update=2814957",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "April 04, 2024",
+    "title": "Day 181",
+    "events": [
+      {
+        "text": "1,000 children in Gaza lost one or both of their legs: PRCS",
+        "link": "https://aje.io/y4222w?update=2818989",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli strike targets rescue team, killing four",
+        "link": "https://aje.io/y4222w?update=2817814",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "People in northern Gaza forced to survive on 245 calories a day: Oxfam",
+        "link": "https://aje.io/y4222w?update=2817604",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Famine stalks north Gaza as aid deliveries now in question",
+        "link": "https://aje.io/y4222w?update=2817640",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

@@ -7210,5 +7210,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+    {
+    "date": "April 05, 2024",
+    "title": "Day 182",
+    "events": [
+      {
+        "text": "\u2018Clear evidence of unconscionable brutality\u2019: OCHA official",
+        "link": "https://aje.io/2tfxrf?update=2820805",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Killing of aid workers \u2018a terrible chain of errors\u2019: Israeli military",
+        "link": "https://aje.io/2tfxrf?update=2820891",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Lebanese paramedic succumbs to wounds following Israeli air raid",
+        "link": "https://aje.io/2tfxrf?update=2820777",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli settlers set fire to occupied West Bank homes",
+        "link": "https://aje.io/2tfxrf?update=2820657",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian children speak of ordeals inside Israeli prisons",
+        "link": "https://aje.io/2tfxrf?update=2820329",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel currently detaining 200 Palestinian children: Prisoners group",
+        "link": "https://aje.io/2tfxrf?update=2820294",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Nothing can justify collective punishment of Palestinians: UN chief",
+        "link": "https://aje.io/2tfxrf?update=2820242",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

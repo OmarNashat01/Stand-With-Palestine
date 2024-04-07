@@ -7258,5 +7258,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 06, 2024",
+    "title": "Day 183",
+    "events": [
+      {
+        "text": "More than 13,000 children killed during the war, UNICEF\u2019s Russell says",
+        "link": "https://aje.io/z20u26?update=2821796",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military fire at aid seekers in Gaza City",
+        "link": "https://aje.io/z20u26?update=2821996",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Al-Shifa Hospital \u2018an empty shell with human graves\u2019: WHO",
+        "link": "https://aje.io/z20u26?update=2821683",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Attacks across Gaza obstructing humanitarian aid",
+        "link": "https://aje.io/z20u26?update=2821175",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian child wounded by Israeli bullets near Jenin",
+        "link": "https://aje.io/z20u26?update=2821959",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Ex-CIA chief: In my experience, the Israelis usually fire and then ask questions",
+        "link": "https://aje.io/z20u26?update=2821074",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli fire \u2018most likely\u2019 killed woman taken captive by Hamas on October 7: Army",
+        "link": "https://aje.io/z20u26?update=2821058",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

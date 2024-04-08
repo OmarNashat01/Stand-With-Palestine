@@ -7306,5 +7306,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 07, 2024",
+    "title": "Day 184",
+    "events": [
+      {
+        "text": "Deaths of Gaza children \u2018stain on all of humanity\u2019",
+        "link": "https://aje.io/50anui?update=2823083",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Pregnant women in Gaza face \u2018unimaginable stress\u2019",
+        "link": "https://aje.io/50anui?update=2823189",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Scrounging for leaves in Gaza to keep children alive",
+        "link": "https://aje.io/50anui?update=2822395",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Reusing scalpels, operating with no anaesthesia: A doctor\u2019s diary",
+        "link": "https://aje.io/50anui?update=2822358",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces detain Palestinian graduate student for third time in Ramallah raid",
+        "link": "https://aje.io/50anui?update=2822167",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian man dies after being shot during Ramallah raid",
+        "link": "https://aje.io/50anui?update=2822159",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Lebanese woman dies of wounds from Israeli air attack",
+        "link": "https://aje.io/50anui?update=2822115",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

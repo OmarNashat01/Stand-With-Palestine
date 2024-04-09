@@ -7354,5 +7354,101 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 08, 2024",
+    "title": "Day 185",
+    "events": [
+      {
+        "text": "Attack on WCK staff part of a \u2018continuing act of genocide\u2019: Rights groups",
+        "link": "https://aje.io/exr4kf?update=2825086",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Children dying of infections\u2019 at overwhelmed hospitals: UNICEF",
+        "link": "https://aje.io/exr4kf?update=2824725",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "84 bodies found in Khan Younis after Israeli withdrawal",
+        "link": "https://aje.io/exr4kf?update=2825145",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Khan Younis: \u2018Animals can\u2019t live here, so how can humans?\u2019",
+        "link": "https://aje.io/exr4kf?update=2824663",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "PRCS says \u2018significant damage\u2019 found at al-Amal Hospital in Khan Younis",
+        "link": "https://aje.io/exr4kf?update=2825045",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death of Palestinian detainee \u2018cruel reminder of Israel\u2019s systematic medical neglect\u2019",
+        "link": "https://aje.io/exr4kf?update=2825041",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Khan Younis \u2018destroyed beyond recognition\u2019",
+        "link": "https://aje.io/exr4kf?update=2824056",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "April 09, 2024",
+    "title": "Day 186",
+    "events": [
+      {
+        "text": "At least 10 killed, including four children, in Israeli attack on central Gaza",
+        "link": "https://aje.io/8twpyq?update=2827216",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Forensic experts needed to help identify the dead at al-Shifa Hospital",
+        "link": "https://aje.io/8twpyq?update=2827111",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Red Crescent footage shows destruction of al-Amal Hospital",
+        "link": "https://aje.io/8twpyq?update=2826721",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'There are no words to describe the pain'",
+        "link": "https://aje.io/8twpyq?update=2826406",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel deploys C-Dome defence system for the first time",
+        "link": "https://aje.io/8twpyq?update=2826258",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'Gaza is not Gaza any more'",
+        "link": "https://aje.io/8twpyq?update=2826327",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "'Clear history' of Israel exploiting Palestinian natural resources: Lawyer",
+        "link": "https://aje.io/8twpyq?update=2825438",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

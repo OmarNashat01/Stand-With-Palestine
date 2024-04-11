@@ -7450,5 +7450,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 10, 2024",
+    "title": "Day 187",
+    "events": [
+      {
+        "text": "Israeli air attack kills 3 children, 3 grandchildren of Hamas leader Haniyeh",
+        "link": "https://aje.io/nmcur0?update=2828708",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Killing of Haniyeh\u2019s children, grandchildren \u2018does not happen randomly\u2019",
+        "link": "https://aje.io/nmcur0?update=2829080",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018The Israelis want to send a message to Hamas\u2019",
+        "link": "https://aje.io/nmcur0?update=2828820",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel committed \u2018massacre\u2019 against Haniyeh\u2019s faimily, Gaza media office says",
+        "link": "https://aje.io/nmcur0?update=2828803",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Everything good about my life is gone\u2019",
+        "link": "https://aje.io/nmcur0?update=2828573",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018There is no Eid this year\u2019: People in Gaza mourn loved ones",
+        "link": "https://aje.io/nmcur0?update=2828413",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Stench of death is everywhere\u2019 after Israel\u2019s attack on al-Shifa Hospital",
+        "link": "https://aje.io/nmcur0?update=2828182",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

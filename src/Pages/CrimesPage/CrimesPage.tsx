@@ -19,6 +19,7 @@ import Modal from "../../components/Simple/Modal";
 import { saveSet, init } from "../../utils";
 import { IoSearchCircle } from "react-icons/io5";
 import SearchInput from "../../components/Simple/SearchInput";
+import Head from "../../components/Simple/Head";
 
 const CrimesPage: React.FC = () => {
   const [filteredCrimes, setFilteredCrimes] = useState(crimesDict);
@@ -85,6 +86,14 @@ const CrimesPage: React.FC = () => {
       }}
     >
       {/* Assuming CrimeHero and Banner components are imported */}
+      <Head
+        title="Crimes Radar!"
+        description="Read about the ongoing crimes against Palestinians."
+        keywords="Crimes, Isreali Crimes, IDF crimes, Isreali crimes against Palestinians, Isreali crimes against Palestinian children, Isreali crimes against women"
+        image=""
+        url=""
+      />
+
       <GradientHero
         title={crimeHeroDict["title"]}
         subTitle1={crimeHeroDict["subTitle1"]}

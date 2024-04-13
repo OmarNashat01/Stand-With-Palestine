@@ -54,6 +54,8 @@ Feedback is welcome, appreciated and considered; please don't hesitate to convey
 
 ## 🤝🏻 Contributing
 
+If you would to collaborate on creating or amending content on Stand-With-Palestine.org, check out the [collaboration form](https://tally.so/r/mDNNKN).
+
 **Folder Structure:**
 
 ```

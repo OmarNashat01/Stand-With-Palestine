@@ -6,6 +6,7 @@ import HeroWideSection from '../../components/HeroSections/HeroWideSection';
 import HeroSliderImage from '../../components/HeroSections/HeroSliderImage';
 import HeroGridVideo from '../../components/HeroSections/HeroGridVideo';
 import HeroButton from '../../components/Simple/HeroButton';
+import LazyLoad from 'react-lazyload';
 // Homepage Secondary Subcomponents
 import Banner from '../../components/Simple/Banner';
 import { Carousel } from 'react-responsive-carousel';

@@ -3,6 +3,7 @@ import HeroButton from "../../components/Simple/HeroButton";
 import { Fade } from "react-swift-reveal";
 import { Carousel } from "react-responsive-carousel";
 import MediaInput from "../Simple/MediaInput";
+import LazyLoad from 'react-lazyload';
 import "./CrimesList.scss";
 import { Link } from "react-router-dom";
 
@@ -24,6 +25,7 @@ const CrimesList: React.FC<CrimesListProps> = ({ crimesDict }) => {
   return (
     <div className="crimes-content">
       {crimesDict.map((crime: any, index: any) => (
+      <LazyLoad height={600}>
         <Fade key={index}>
           <div
             className="pairs-container"
@@ -103,6 +105,7 @@ const CrimesList: React.FC<CrimesListProps> = ({ crimesDict }) => {
             </div>
           </div>
         </Fade>
+        </LazyLoad>
       ))}
     </div>
   );

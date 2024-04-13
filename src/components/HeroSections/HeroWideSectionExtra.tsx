@@ -3,6 +3,7 @@ import './HeroWideSectionExtra.scss';
 import HeroButton from '../Simple/HeroButton';
 import { useNavigate } from "react-router-dom";
 import { blurFilter } from '../../utils';
+import LazyLoad from 'react-lazyload';
 
 interface HeroWideSectionExtraProps {
   imagePath: string;
@@ -53,6 +54,7 @@ const HeroWideSectionExtra: React.FC<HeroWideSectionExtraProps> = ({
   const navigate = useNavigate();
 
   return (
+    <LazyLoad height={"100%"}>
     <div className="hero-section-extra" style={{ backgroundImage: `url(${imagePath})` }}>
       <div className="overlay-effect" style={imagePath ? { background: overlayColor, backdropFilter: blur } : {}}></div>
       <div className="hero-content-extra" style={{ filter: 'brightness(1.0)', flexDirection: reverse ? 'row-reverse' : 'row' }}>
@@ -78,6 +80,7 @@ const HeroWideSectionExtra: React.FC<HeroWideSectionExtraProps> = ({
         </div>
       </div>
     </div>
+    </LazyLoad>
   );
 };
 

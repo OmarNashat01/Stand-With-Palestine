@@ -25,8 +25,8 @@ const CrimesList: React.FC<CrimesListProps> = ({ crimesDict }) => {
   return (
     <div className="crimes-content">
       {crimesDict.map((crime: any, index: any) => (
-      <LazyLoad height={600}>
         <Fade key={index}>
+          <LazyLoad height={600}>
           <div
             className="pairs-container"
             id={`${crime.title.replace(/\s+/g, "-")}`}
@@ -104,8 +104,8 @@ const CrimesList: React.FC<CrimesListProps> = ({ crimesDict }) => {
               <h1>{crime.title}</h1>
             </div>
           </div>
+          </LazyLoad>
         </Fade>
-        </LazyLoad>
       ))}
     </div>
   );

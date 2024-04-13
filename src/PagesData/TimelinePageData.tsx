@@ -7498,5 +7498,101 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+    {
+    "date": "April 11, 2024",
+    "title": "Day 188",
+    "events": [
+      {
+        "text": "At least 20 Palestinians killed across Gaza today, Gaza media office says",
+        "link": "https://aje.io/tdqtg0?update=2831255",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Destruction in Khan Younis \u2018disproportionate to anything one can imagine\u2019: WHO",
+        "link": "https://aje.io/tdqtg0?update=2831237",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN team witnesses \u2018profound destruction\u2019 in Khan Younis",
+        "link": "https://aje.io/tdqtg0?update=2831059",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Video shows moment Gaza City market was targeted by Israeli bombs",
+        "link": "https://aje.io/tdqtg0?update=2830971",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 6 killed in Israel bombing of Gaza City market",
+        "link": "https://aje.io/tdqtg0?update=2830614",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "PRCS worker dies from wounds sustained in Israeli raid on hospital",
+        "link": "https://aje.io/tdqtg0?update=2830326",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli shelling kills civilians near Gaza City: Report",
+        "link": "https://aje.io/tdqtg0?update=2830159",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "April 12, 2024",
+    "title": "Day 189",
+    "events": [
+      {
+        "text": "CPJ calls for investigation into Israeli attack on TV journalists",
+        "link": "https://aje.io/w1bj5f?update=2832776",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Five killed, more than 30 injured in attack on Gaza City: Civil Defence",
+        "link": "https://aje.io/w1bj5f?update=2832519",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attack on Gaza City leaves dead and wounded Palestinians",
+        "link": "https://aje.io/w1bj5f?update=2832515",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018I saw that my leg was amputated\u2019: Turkish journalist injured in Gaza",
+        "link": "https://aje.io/w1bj5f?update=2832484",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "TRT journalist loses foot after being wounded in Nuseirat attack",
+        "link": "https://aje.io/w1bj5f?update=2832053",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Attacks on journalists, aid workers, \u2018completely unacceptable\u2019: RSF",
+        "link": "https://aje.io/w1bj5f?update=2832268",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces \u2018deliberately killing, wounding journalists\u2019, Gaza media office says",
+        "link": "https://aje.io/w1bj5f?update=2832320",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

@@ -7594,5 +7594,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+    {
+    "date": "April 13, 2024",
+    "title": "Day 190",
+    "events": [
+      {
+        "text": "Israeli attacks kill 19, wounded more than 200 in last 24 hours in Nuseirat: Gaza Media Office",
+        "link": "https://aje.io/wn56df?update=2834331",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Journalists \u2018targeted\u2019 in Gaza",
+        "link": "https://aje.io/wn56df?update=2833002",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Artificial intelligence unleashes terror in killing fields of Gaza",
+        "link": "https://aje.io/wn56df?update=2833314",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces intensify attack on Nuseirat refugee camp",
+        "link": "https://aje.io/wn56df?update=2833332",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018They bury the evidence and silence the witnesses\u2019: Report",
+        "link": "https://aje.io/wn56df?update=2832984",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Deir el-Balah mosque destroyed in Israeli attack",
+        "link": "https://aje.io/wn56df?update=2833577",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli settlers expand attacks",
+        "link": "https://aje.io/wn56df?update=2833998",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

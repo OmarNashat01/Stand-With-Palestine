@@ -7642,5 +7642,149 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 14, 2024",
+    "title": "Day 191",
+    "events": [
+      {
+        "text": "Israeli air attack kills five civilians in Nuseirat: Wafa",
+        "link": "https://aje.io/t4taka?update=2837542",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinians discover bodies under sand mounds in Beit Lahia",
+        "link": "https://aje.io/t4taka?update=2837281",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Infrastructure damage in besieged and bombarded Gaza",
+        "link": "https://aje.io/t4taka?update=2836441",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Latest casualty figures",
+        "link": "https://aje.io/t4taka?update=2836263",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Iran and Israel\u2019s open warfare after decades of proxy-led conflict",
+        "link": "https://aje.io/t4taka?update=2836252",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military targets displaced families attempting return to north Gaza",
+        "link": "https://aje.io/t4taka?update=2835880",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli settler attacks kill two; 50 Palestinians wounded in occupied West Bank",
+        "link": "https://aje.io/t4taka?update=2835722",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "April 15, 2024",
+    "title": "Day 192",
+    "events": [
+      {
+        "text": "At least 10 bodies found in al-Shifa Hospital mass grave, Gaza health official says",
+        "link": "https://aje.io/3phtv?update=2839182",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hospital patients found in a mass grave with bandages, catheters still attached",
+        "link": "https://aje.io/3phtv?update=2838976",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hamas decries Israeli \u2018war crimes\u2019 at al-Shifa Hospital as mass grave found",
+        "link": "https://aje.io/3phtv?update=2838783",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mass graves discovered at al-Shifa Hospital and in Beit Lahiya",
+        "link": "https://aje.io/3phtv?update=2838779",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Young girl shot in the face as family attempts to return to north Gaza",
+        "link": "https://aje.io/3phtv?update=2837858",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces destroy mosque in Nuseirat camp",
+        "link": "https://aje.io/3phtv?update=2837825",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Five wounded in Israeli attack in Khan Younis: Report",
+        "link": "https://aje.io/3phtv?update=2837575",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "April 16, 2024",
+    "title": "Day 193",
+    "events": [
+      {
+        "text": "Israeli drone plays sounds of children crying to lure Palestinians, witnesses say",
+        "link": "https://aje.io/w2tkgb?update=2841397",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Children among several killed in attack on central Gaza\u2019s Maghazi camp",
+        "link": "https://aje.io/w2tkgb?update=2840903",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "One Gaza child \u2018killed or injured every 10 minutes\u2019: UNICEF",
+        "link": "https://aje.io/w2tkgb?update=2840202",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza\u2019s interior ministry decries Israeli attack on police vehicle",
+        "link": "https://aje.io/w2tkgb?update=2840793",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Unexploded 1,000-pound bombs found in Gaza schools",
+        "link": "https://aje.io/w2tkgb?update=2840267",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza vulnerable to epidemic-era infectious diseases: IRC",
+        "link": "https://aje.io/w2tkgb?update=2840192",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hospital generators risk going out \u2018at any moment\u2019",
+        "link": "https://aje.io/w2tkgb?update=2840102",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

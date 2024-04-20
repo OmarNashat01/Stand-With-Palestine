@@ -33,7 +33,7 @@ const LiesPage: React.FC = () => {
         url=""
       />
       <GradientHero
-        title={"CONFLICT LIES"}
+        title={"Misinformation"}
         subTitle1={"Numerous Lives in Gaza Have Been Lost due to Deceit"}
         subTitle2={
           "This includes numerous facts shared by Israel and western media that have possibly been proved to be false."

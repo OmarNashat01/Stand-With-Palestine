@@ -228,7 +228,7 @@ export const liesData = [
   {
     "special": true,
     "source": "IDF",
-    "title": "Weapons in hospitals",
+    "title": "Weapons in Al-Shifa Hospital",
     "modalContent": `<ul>
     <li>IDF released a video on Nov 15 at Al-Shifa hospital which they claim depicts the weaponry found in the hospital. (<a href="https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_1d70c190adde686e6a2b59e963499e82">CNN</a>)</li>
     <li>Later, during a guided tour for western media outlets, the footage depicted more weaponry on spots previously shown to contain less, raising concerns about possible manipulation of the scene by the IDF. and rearranging items. (<a href="https://edition.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-11-18-23/h_1d70c190adde686e6a2b59e963499e82">CNN</a>)</li>
@@ -239,6 +239,32 @@ export const liesData = [
     `,
     "modalText": [],
     "videos": ["https://www.youtube.com/embed/NlBtJhI1fIw?si=fQGSTk2Ga-_EmIt-", "https://www.youtube.com/embed/I4nIQPQIgvw?si=Ydl4iEwTWMs2mhz_"],
+  },
+  {
+    "source": "Arguments",
+    "title": "Hamas charter calls for destruction of Israel",
+    "modalContent": `<ul>
+    <li>Piers Morgan, Alan Dershowitz and many others have stated the Hamas calls for the eradication of Israel in their charter. (<a href="https://filmot.com/search/charter/1?channelID=UCatt7TBjfBkiJWx8khav_Gg&gridView=1&">YouTube</a>)</li>
+    <li>This refers to the covenant from 1988 and it may be only referring to the existence of the country, which is based on Palestinian land, and not the people. (<a href="https://avalon.law.yale.edu/20th_century/hamas.asp">Yale Law School</a>)</li>
+    <li>More importantly, Hamas's current charter which has been there since 2017, never makes such claim. Instead it mentions "Hamas affirms that its conflict is with the Zionist project not with the Jews because of their religion. Hamas does not wage a struggle against the Jews because they are Jewish but wages a struggle against the Zionists who occupy Palestine." (<a href="https://www.jewishvirtuallibrary.org/hamas-2017-document-of-general-principles-and-policies">Jewish Virtual Library</a>)</li>
+    </ul>
+    `,
+    "modalText": [],
+  },
+  {
+    "special": false,
+    "source": "IDF, U.S. Intel",
+    "title": "Hamas Control Center Under Al-Shifa Hospital",
+    "modalContent": `<ul>
+    <li>On October 28th, 2023, the IDF released a 3D animated video depicting that Hamas headquarters lie below Al-Shifa hospital. (<a href="https://www.youtube.com/watch?v=6pTYHBZVgVQ&ab_channel=IsraelDefenseForces">YouTube</a>)</li>
+    <li>The U.S. Intelligence further confirmed the fact on January 2nd, 2024. (<a href="https://www.nytimes.com/2024/01/02/us/politics/gaza-hospital-hamas.html">The New York Times</a>)</li>
+    <li>However, after the IDF captured the site, their videos have shown only modest collections of small arms, mostly assault rifles, recovered from the extensive medical complex.. (<a href="https://www.theguardian.com/world/2023/nov/17/idf-evidence-so-far-falls-well-short-of-al-shifa-hospital-being-hamas-hq">The Guardian</a>)</li>
+    <li>Even the videos that were released by the IDF were in some occasions proven to be likely staged (<a href="https://www.theguardian.com/world/2023/nov/17/idf-evidence-so-far-falls-well-short-of-al-shifa-hospital-being-hamas-hq">The Guardian</a>)</li>
+    <li>No evidence of the Hamas headquarters was found whatsoever after the operation. (<a href="https://www.theguardian.com/world/2023/nov/17/idf-evidence-so-far-falls-well-short-of-al-shifa-hospital-being-hamas-hq">The Guardian</a>).</li>
+    </ul>
+    `,
+    "modalText": [],
+    "videos": ["https://www.youtube.com/embed/hCIEKY27KnM?si=31J4HEguSY3LSsOm", ],
   }
 ];
 

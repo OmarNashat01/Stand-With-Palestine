@@ -7786,5 +7786,167 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 17, 2024",
+    "title": "Day 194",
+    "events": [
+      {
+        "text": "Child recounts shelling where displaced people were sleeping near Rafah",
+        "link": "https://aje.io/7dmzo6?update=2843501",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Several killed in Israeli attack on southern Gaza\u2019s Rafah",
+        "link": "https://aje.io/7dmzo6?update=2843364",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Children among the dead in Israeli attacks on refugee camps",
+        "link": "https://aje.io/7dmzo6?update=2841863",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Seven killed in Israeli strike on a house in Rafah",
+        "link": "https://aje.io/7dmzo6?update=2841521",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Dozens killed in multiple Israeli attacks across Gaza",
+        "link": "https://aje.io/7dmzo6?update=2841467",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "April 18, 2024",
+    "title": "Day 195",
+    "events": [
+      {
+        "text": "Deadliest overnight attack on Gaza kills 11, including 5 children",
+        "link": "https://aje.io/yb0fvf?update=2844076",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 6 people killed in Israeli attacks on Shati, Nuseirat camps in Gaza",
+        "link": "https://aje.io/yb0fvf?update=2845442",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "New mass grave discovered in front of al-Shifa Hospital: Gaza media office",
+        "link": "https://aje.io/yb0fvf?update=2844731",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinians arrested in Gaza \u2018beaten and humiliated\u2019",
+        "link": "https://aje.io/yb0fvf?update=2844334",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza civil defence workers pull bodies from Nuseirat destruction",
+        "link": "https://aje.io/yb0fvf?update=2844340",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Two-thirds of homes destroyed in Gaza: UNICEF",
+        "link": "https://aje.io/yb0fvf?update=2844527",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "April 19, 2024",
+    "title": "Day 196",
+    "events": [
+      {
+        "text": "Palestinian teen killed during Israeli raid on Tulkarem\u2019s Nur Shams refugee camp",
+        "link": "https://aje.io/i6sqvz?update=2847742",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli raids cause \u2018worst destruction in decades\u2019 in Tulkarem",
+        "link": "https://aje.io/i6sqvz?update=2847723",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Red Crescent says one of its medics wounded by Israeli forces in Nur Shams camp",
+        "link": "https://aje.io/i6sqvz?update=2847637",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More than 10,000 women killed in Gaza war: UN",
+        "link": "https://aje.io/i6sqvz?update=2846970",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "G7 ministers call for Gaza ceasefire, oppose Rafah invasion",
+        "link": "https://aje.io/i6sqvz?update=2846945",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Nine killed in overnight attacks by Israeli warplanes, 15 missing: Report",
+        "link": "https://aje.io/i6sqvz?update=2845992",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "April 20, 2024",
+    "title": "Day 197",
+    "events": [
+      {
+        "text": "Wounded rushed to hospital after Israeli strike on Bureij refugee camp",
+        "link": "https://aje.io/lr9uv1?update=2849114",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian medic killed during settler attack",
+        "link": "https://aje.io/lr9uv1?update=2849124",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN: Child killed or injured every 10 minutes in Israel\u2019s war on Gaza",
+        "link": null,
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces block Red Crescent ambulances in Nur Shams refugee camp",
+        "link": "https://aje.io/lr9uv1?update=2848128",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Deadly Israeli raid ongoing in Nur Shams, residents say \u2018worst destruction\u2019 in decades",
+        "link": "https://aje.io/lr9uv1?update=2848096",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll rises after Israeli attack on southern Gaza\u2019s Rafah",
+        "link": "https://aje.io/lr9uv1?update=2848186",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

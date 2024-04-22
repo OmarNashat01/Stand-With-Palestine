@@ -7948,5 +7948,53 @@ export const dailyNews = [
         "images": []
       }
     ]
-  }
+  },
+  {
+    "date": "April 21, 2024",
+    "title": "Day 198",
+    "events": [
+      {
+        "text": "Death toll from Rafah strikes rises to 22, including 18 children",
+        "link": "https://aje.io/za80m2?update=2851394",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Nearly 200 bodies found in mass grave at hospital in Gaza\u2019s Khan Younis",
+        "link": "https://aje.io/za80m2?update=2850812",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "13 children from 1 family among the dead in strikes on Rafah",
+        "link": "https://aje.io/za80m2?update=2850123",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Baby girl delivered from womb of Palestinian woman killed by Israeli attack",
+        "link": "https://aje.io/za80m2?update=2851267",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN expresses concern about violence in occupied West Bank",
+        "link": "https://aje.io/za80m2?update=2851508",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mass graves \u2018an indication that war crimes have been committed\u2019",
+        "link": "https://aje.io/za80m2?update=2851884",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "The ICC can no longer ignore the genocide in Gaza",
+        "link": "https://aje.io/za80m2?update=2851423",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
 ];

@@ -7997,4 +7997,52 @@ export const dailyNews = [
       }
     ]
   },
+  {
+    "date": "April 22, 2024",
+    "title": "Day 199",
+    "events": [
+      {
+        "text": "Israel\u2019s Gaza war has negatively impacted human rights, US report says",
+        "link": "https://aje.io/0dss8t?update=2853574",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Dozens arrested during pro-Palestinian demonstration at Columbia University",
+        "link": "https://aje.io/0dss8t?update=2853557",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli missile attack destroys residential block in Gaza City",
+        "link": "https://aje.io/0dss8t?update=2853344",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN expert warns of mental health risks for Palestinians from Israeli war",
+        "link": "https://aje.io/0dss8t?update=2853340",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli allegations against UNRWA \u2018amount to the mother of all lies\u2019: Former employee",
+        "link": "https://aje.io/0dss8t?update=2853293",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "73 bodies discovered in 3 more mass graves at Nasser Hospital",
+        "link": "https://aje.io/0dss8t?update=2853036",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rafah attack would eliminate \u2018what little remains\u2019 of Gaza\u2019s healthcare",
+        "link": "https://aje.io/0dss8t?update=2853043",
+        "description": "",
+        "images": []
+      }
+    ]
+  }
 ];

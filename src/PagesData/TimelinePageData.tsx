@@ -8044,5 +8044,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 23, 2024",
+    "title": "Day 200",
+    "events": [
+      {
+        "text": "Three killed in Israeli attack on residential building in Rafah",
+        "link": "https://aje.io/r5vgc7?update=2855948",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Discovery of mass graves \u2018stark evidence of war crimes\u2019",
+        "link": "https://aje.io/r5vgc7?update=2855280",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Discovery of mass graves \u2018stark evidence of war crimes\u2019, says Al-Haq",
+        "link": "https://aje.io/r5vgc7?update=2855280",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA\u2019s Lazzarini blasts \u2018blatant disregard\u2019 of agency\u2019s premises, staff in Gaza",
+        "link": "https://aje.io/r5vgc7?update=2855391",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN rights chief \u2018horrified\u2019 by mass grave reports at Gaza hospitals",
+        "link": "https://aje.io/r5vgc7?update=2854495",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Displaced Palestinians \u2018terrified of looming Rafah incursion\u2019",
+        "link": "https://aje.io/r5vgc7?update=2854395",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Video captures moment of Israeli bombing in north Gaza\u2019s Beit Lahiya",
+        "link": "https://aje.io/r5vgc7?update=2854035",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

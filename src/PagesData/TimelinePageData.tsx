@@ -8092,5 +8092,101 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 24, 2024",
+    "title": "Day 201",
+    "events": [
+      {
+        "text": "Israeli attack on Rafah kills three and wounds \u2018several\u2019",
+        "link": "https://aje.io/co05l6?update=2857884",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mother and child killed by Israeli attack on Gaza City",
+        "link": "https://aje.io/co05l6?update=2857296",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Bodies in Nasser Hospital mass grave \u2018unrecognisable\u2019",
+        "link": "https://aje.io/co05l6?update=2856586",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rafah health officials sound alarm after Israeli attack kills Palestinians",
+        "link": "https://aje.io/co05l6?update=2857484",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Trail of destruction\u2019 in Rafah, Nuseirat, Beit Lahiya",
+        "link": "https://aje.io/co05l6?update=2856301",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Continuous\u2019 shelling of northern Gaza neighborhoods follows Israeli evacuation order",
+        "link": null,
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Latest Israeli attacks kill four in central Gaza refugee camp",
+        "link": "https://aje.io/co05l6?update=2856082",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "April 25, 2024",
+    "title": "Day 202",
+    "events": [
+      {
+        "text": "Israeli attack on central Gaza neighbourhood kills eight Palestinians",
+        "link": "https://aje.io/zptxth?update=2860046",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Children among those buried in Gaza mass graves",
+        "link": "https://aje.io/zptxth?update=2858739",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Belgian aid worker killed in Rafah bombing",
+        "link": "https://aje.io/zptxth?update=2859030",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Four Palestinians attempting to return home killed by Israeli tank fire",
+        "link": "https://aje.io/zptxth?update=2858724",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Mass grave \u2018a new level of criminality\u2019",
+        "link": "https://aje.io/zptxth?update=2858943",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Indications of \u2018field executions\u2019 at Gaza mass graves",
+        "link": "https://aje.io/zptxth?update=2858644",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Grim mass grave search continues at Nasser Hospital",
+        "link": "https://aje.io/zptxth?update=2858543",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

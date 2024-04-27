@@ -8188,5 +8188,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+    {
+    "date": "April 26, 2024",
+    "title": "Day 203",
+    "events": [
+      {
+        "text": "Baby rescued from dead mother\u2019s womb after Israeli attack dies",
+        "link": "https://aje.io/84b476?update=2861963",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Three percent of Gaza\u2019s Christian community wiped out during war: Gaza priest",
+        "link": "https://aje.io/84b476?update=2861885",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinians in Rafah \u2018living in greenhouses-like structures\u2019 as temperatures soar",
+        "link": "https://aje.io/84b476?update=2862334",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Five civilians killed in Israeli bombing of central, southern Gaza Strip: Report",
+        "link": "https://aje.io/84b476?update=2862260",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: How Gaza\u2019s children are preparing for Israel\u2019s invasion of Rafah",
+        "link": "https://aje.io/84b476?update=2862420",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Constant artillery shelling\u2019 in eastern Rafah",
+        "link": "https://aje.io/84b476?update=2861131",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Aid workers have \u2018zero sense of safety\u2019 in Gaza",
+        "link": "https://aje.io/84b476?update=2861156",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

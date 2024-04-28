@@ -8236,5 +8236,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 27, 2024",
+    "title": "Day 204",
+    "events": [
+      {
+        "text": "At least 7 civilians killed in Israeli strike on Rafah: Report",
+        "link": "https://aje.io/ecz6dv?update=2863769",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian journalists call for boycott of White House correspondents dinner",
+        "link": "https://aje.io/ecz6dv?update=2864165",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018All Gaza citizens are drinking unsafe water\u2019",
+        "link": "https://aje.io/ecz6dv?update=2863528",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza\u2019s Health Ministry warns over spread of diseases, epidemics",
+        "link": "https://aje.io/ecz6dv?update=2863204",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza rescuers working \u2018tirelessly\u2019 to retrieve injured",
+        "link": "https://aje.io/ecz6dv?update=2863237",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Baby among 8 killed in Nuseirat refugee camp bombings: Wafa",
+        "link": "https://aje.io/ecz6dv?update=2862636",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli bombing kills five, including 2 children, in Rafah",
+        "link": "https://aje.io/ecz6dv?update=2862553",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

@@ -8284,5 +8284,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 28, 2024",
+    "title": "Day 205",
+    "events": [
+      {
+        "text": "\u2018Children face shattered lives in Gaza\u2019",
+        "link": "https://aje.io/jorl54?update=2866016",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Completely disfigured\u2019: Children severely wounded in Nuseirat camp",
+        "link": "https://aje.io/jorl54?update=2865104",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rafah attack: \u2018Anywhere you shoot you\u2019ll kill a bystander\u2019",
+        "link": "https://aje.io/jorl54?update=2865085",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "LISTEN: What it means to give birth in Gaza",
+        "link": "https://aje.io/jorl54?update=2866444",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Is starvation an Israeli weapon in Gaza?",
+        "link": "https://aje.io/jorl54?update=2866442",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "An Israeli air strike targeted a residential building in Rafah",
+        "link": "https://aje.io/jorl54?update=2866026",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinian killed in Israeli strike on Nuseirat refugee camp",
+        "link": "https://aje.io/jorl54?update=2866281",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

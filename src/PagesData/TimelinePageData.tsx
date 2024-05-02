@@ -8380,5 +8380,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 30, 2024",
+    "title": "Day 207",
+    "events": [
+      {
+        "text": "Two children killed in Israeli strike on Rafah",
+        "link": "https://aje.io/kdzu4n?update=2870406",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN aid chief warns Israeli invasion of Rafah \u2018on immediate horizon\u2019",
+        "link": "https://aje.io/kdzu4n?update=2870375",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza\u2019s Civil Defence pulls nine bodies from under rubble in Khan Younis",
+        "link": "https://aje.io/kdzu4n?update=2870502",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "PRCS: Child among those killed today in Israeli shelling of Nuseirat",
+        "link": "https://aje.io/kdzu4n?update=2870219",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least 300,000 children \u2018used to learn in UNRWA schools\u2019 in Gaza",
+        "link": "https://aje.io/kdzu4n?update=2870225",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Netanyahu says possibility of ICC warrant \u2018a scandal on a historic scale\u2019",
+        "link": "https://aje.io/kdzu4n?update=2869933",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Disease spreads as 10,000 bodies decompose in blown-up buildings",
+        "link": "https://aje.io/kdzu4n?update=2869200",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

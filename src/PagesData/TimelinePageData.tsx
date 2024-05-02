@@ -8428,5 +8428,54 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 01, 2024",
+    "title": "Day 208",
+    "events": [
+      {
+        "text": "UNICEF chief: Gaza war \u2018taking unimaginable toll on children\u2019",
+        "link": "https://aje.io/7gx7wv?update=2872726",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel \u2018militarising civilian objects\u2019 including schools in Gaza: rights monitor",
+        "link": "https://aje.io/7gx7wv?update=2872590",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli settler attack on aid convoys \u2018warrants global condemnation\u2019: Jordan FM",
+        "link": "https://aje.io/7gx7wv?update=2872519",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Nothing would be delivered without UNRWA coordination\u2019: Spokesperson",
+        "link": "https://aje.io/7gx7wv?update=2872496",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza filled with more debris and rubble than Ukraine: UN",
+        "link": "https://aje.io/7gx7wv?update=2872227",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Volunteer medics shocked by unprecedented scale of Gaza injuries",
+        "link": "https://aje.io/7gx7wv?update=2871607",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018More trauma and death\u2019 if Israeli assault on Rafah goes ahead, UN aid chief warns",
+        "link": "https://aje.io/7gx7wv?update=2870646",
+        "description": "",
+        "images": []
+      }
+    ]
   }
+  
 ];

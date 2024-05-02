@@ -8332,5 +8332,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "April 29, 2024",
+    "title": "Day 206",
+    "events": [
+      {
+        "text": "Search for survivors after Jabalia refugee camp bombing",
+        "link": "https://aje.io/dwuryi?update=2868432",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "At least three Palestinians killed in Nuseirat refugee camp",
+        "link": "https://aje.io/dwuryi?update=2868137",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Four people killed in Israeli air strike in Rafah",
+        "link": "https://aje.io/dwuryi?update=2867774",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Nine members of one family killed in Rafah",
+        "link": "https://aje.io/dwuryi?update=2866822",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attacks kill seven, including children, in Gaza City",
+        "link": "https://aje.io/dwuryi?update=2866667",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel has become a \u2018pariah state\u2019, says Jordanian FM",
+        "link": "https://aje.io/dwuryi?update=2867656",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll from latest Israeli attacks on Gaza stands at 22",
+        "link": "https://aje.io/dwuryi?update=2866707",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

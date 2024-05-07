@@ -8476,6 +8476,246 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 02, 2024",
+    "title": "Day 209",
+    "events": [
+      {
+        "text": "Diseases spread among displaced Gazans amid pollution, soaring temperatures",
+        "link": "https://aje.io/qvjfrm?update=2875662",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Boy loses limbs after \u2018hidden explosive charge\u2019 in food aid detonates",
+        "link": "https://aje.io/qvjfrm?update=2875265",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Deadly attack on aid convoy in Gaza City",
+        "link": "https://aje.io/qvjfrm?update=2875167",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctor killing takes medical sector death toll to 496",
+        "link": "https://aje.io/qvjfrm?update=2875170",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Five killed in Israeli strike on Bureij camp",
+        "link": "https://aje.io/qvjfrm?update=2874977",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza\u2019s ever-rising casualty figures",
+        "link": "https://aje.io/qvjfrm?update=2875426",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA shows extent of damage in Gaza",
+        "link": "https://aje.io/qvjfrm?update=2874873",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 03, 2024",
+    "title": "Day 210",
+    "events": [
+      {
+        "text": "\u2018Children\u2019s bodies were shredded\u2019",
+        "link": "https://aje.io/dad5z8?update=2877115",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018An entire family wiped out\u2019",
+        "link": "https://aje.io/dad5z8?update=2877418",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll from overnight Rafah attack rises to 7 including 4 children",
+        "link": "https://aje.io/dad5z8?update=2876398",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces have detained 53 Palestinian journalists: Palestinian Prisoner\u2019s Society",
+        "link": "https://aje.io/dad5z8?update=2876383",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Without Palestinian journalists, world would be \u2018in the dark\u2019: ActionAid",
+        "link": "https://aje.io/dad5z8?update=2876233",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "World Press Freedom Day: Gaza conflict deadliest for journalists",
+        "link": "https://aje.io/dad5z8?update=2876069",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Dozens of NGOs warn Biden of \u2018catastrophic loss\u2019 of life from Israeli attack on Rafah",
+        "link": "https://aje.io/dad5z8?update=2876026",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 04, 2024",
+    "title": "Day 211",
+    "events": [
+      {
+        "text": "Israel has a \u2018deliberate plan to kill children and women\u2019: UN official",
+        "link": "https://aje.io/u1brj4?update=2879407",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Full-blown famine\u2019 in north Gaza, says UN",
+        "link": "https://aje.io/u1brj4?update=2878821",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel strikes hit mosque near Khan Younis",
+        "link": "https://aje.io/u1brj4?update=2878794",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza\u2019s Health Ministry slams death of Palestinian doctor in Israeli jail",
+        "link": "https://aje.io/u1brj4?update=2878501",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "British Palestinian doctor says he was denied entry to France",
+        "link": "https://aje.io/u1brj4?update=2878106",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Pro-Palestine university protesters clash with state leaders in Texas",
+        "link": "https://aje.io/u1brj4?update=2878026",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces use bulldozer, excavator to destroy besieged house in Deir al-Ghusun",
+        "link": "https://aje.io/u1brj4?update=2877758",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 05, 2024",
+    "title": "Day 212",
+    "events": [
+      {
+        "text": "\u2018Use of force against students protesting genocide unacceptable\u2019: CAIR",
+        "link": "https://aje.io/bzs7sx?update=2881461",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Only a third of Gaza hospitals partly functional: WHO",
+        "link": "https://aje.io/bzs7sx?update=2881458",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Several killed in Israeli attack on Rafah",
+        "link": "https://aje.io/bzs7sx?update=2881480",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military claims attack on UNRWA facility \u2018used by Hamas\u2019",
+        "link": "https://aje.io/bzs7sx?update=2881335",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA schools used as shelters amid Gaza education shutdown",
+        "link": "https://aje.io/bzs7sx?update=2881289",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN sounds alarms on \u2018sanitation crisis\u2019 in war-stricken Gaza",
+        "link": "https://aje.io/bzs7sx?update=2880934",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hamas says Israeli army headquarters hit",
+        "link": "https://aje.io/bzs7sx?update=2880901",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 06, 2024",
+    "title": "Day 213",
+    "events": [
+      {
+        "text": "Eight children killed in Israeli attacks on Rafah",
+        "link": "https://aje.io/qzz5uf?update=2881750",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll from Rafah attacks rises to 21",
+        "link": "https://aje.io/qzz5uf?update=2881622",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel intensifies attacks on Rafah, hits 11 homes",
+        "link": "https://aje.io/qzz5uf?update=2881608",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rafah offensive to \u2018cause mass atrocities, mass civilian deaths\u2019",
+        "link": "https://aje.io/qzz5uf?update=2882132",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018The start of a nightmarish scenario\u2019",
+        "link": "https://aje.io/qzz5uf?update=2882120",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Fallout of Rafah offensive would be \u2018simply catastrophic\u2019",
+        "link": "https://aje.io/qzz5uf?update=2882148",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: No Refuge for Rafah\u2019s Children",
+        "link": "https://aje.io/qzz5uf?update=2882095",
+        "description": "",
+        "images": []
+      }
+    ]
   }
   
 ];

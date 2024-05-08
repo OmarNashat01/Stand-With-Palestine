@@ -8716,6 +8716,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 07, 2024",
+    "title": "Day 214",
+    "events": [
+      {
+        "text": "WATCH: \u2018Absolutely devastating\u2019 \u2013 Israel cuts off main entry point for Gaza aid",
+        "link": "https://aje.io/5cerl2?update=2886322",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018The goal is to destroy Gaza\u2019: Why Israel rejects a truce with Hamas",
+        "link": "https://aje.io/5cerl2?update=2886149",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rafah closure makes \u2018catastrophic situation far worse\u2019: WHO",
+        "link": "https://aje.io/5cerl2?update=2885821",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018They have gone crazy\u2019: Intense tank fire on Rafah",
+        "link": "https://aje.io/5cerl2?update=2885689",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Amnesty says Rafah assault to further compound \u2018unspeakable suffering of Palestinians\u2019",
+        "link": "https://aje.io/5cerl2?update=2885438",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinians subjected \u2018to a war of extermination, systematic starvation\u2019: Hamas",
+        "link": "https://aje.io/5cerl2?update=2885379",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rafah ground invasion would be \u2018intolerable\u2019, says UN chief",
+        "link": "https://aje.io/5cerl2?update=2883939",
+        "description": "",
+        "images": []
+      }
+    ]
   }
-  
 ];

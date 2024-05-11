@@ -8764,5 +8764,149 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 08, 2024",
+    "title": "Day 215",
+    "events": [
+      {
+        "text": "\u2018Extreme fear and endless anxiety\u2019 as Israel moves into Rafah",
+        "link": "https://aje.io/v6fmt2?update=2888527",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018The goal is to destroy Gaza\u2019: Why Israel rejects a ceasefire with Hamas",
+        "link": "https://aje.io/v6fmt2?update=2888278",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "People buried alive at al-Shifa Hospital: Gaza health official",
+        "link": "https://aje.io/v6fmt2?update=2887959",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Some recovered bodies at al-Shifa Hospital found \u2018without heads\u2019",
+        "link": "https://aje.io/v6fmt2?update=2887725",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Exhaustion\u2019, \u2018panic\u2019 as the displaced search for shelter in Deir el-Balah",
+        "link": "https://aje.io/v6fmt2?update=2887397",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "MSF chief says Israeli operation threatens to \u2018turn Rafah into a graveyard\u2019",
+        "link": "https://aje.io/v6fmt2?update=2886539",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "In Gaza, \u2018suffering will be remembered by the generation that follows\u2019",
+        "link": "https://aje.io/v6fmt2?update=2886444",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 09, 2024",
+    "title": "Day 216",
+    "events": [
+      {
+        "text": "Israeli assault on Rafah would \u2018decimate life-saving assistance\u2019: Amnesty",
+        "link": "https://aje.io/8mqpai?update=2890825",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Burn down the UN\u2019: Israelis set fire to UNRWA office in occupied East Jerusalem",
+        "link": "https://aje.io/8mqpai?update=2890818",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018It\u2019s like we\u2019re sheep\u2019: Palestinians flee Rafah with nowhere to go",
+        "link": "https://aje.io/8mqpai?update=2890908",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018It\u2019s not human\u2019: What a French doctor saw in Gaza as Israel invaded Rafah",
+        "link": "https://aje.io/8mqpai?update=2890616",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Children in Rafah at \u2018edge of survival\u2019 as Israeli military keeps border crossing closed",
+        "link": "https://aje.io/8mqpai?update=2888991",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Many women and children killed in Israeli attacks on Rafah: UN report",
+        "link": "https://aje.io/8mqpai?update=2888960",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Halting US bomb shipment over Rafah marks first time Biden says \u2018no\u2019 to Israel \u2013 publicly",
+        "link": "https://aje.io/8mqpai?update=2888858",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 10, 2024",
+    "title": "Day 217",
+    "events": [
+      {
+        "text": "WATCH: Gaza\u2019s hospitals failing as Israel cuts off supplies",
+        "link": "https://aje.io/oowhrg?update=2892431",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Killing of 12 members of one family by Israeli drone \u2018without justification\u2019: Monitor",
+        "link": "https://aje.io/oowhrg?update=2892383",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hospitals, ambulances face imminent shutdown as fuel runs out in Gaza: UN",
+        "link": "https://aje.io/oowhrg?update=2892188",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Newborns will die if Israeli attacks continue\u2019: Doctor",
+        "link": "https://aje.io/oowhrg?update=2892191",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN chief says Rafah offensive would lead to \u2018epic humanitarian disaster\u2019",
+        "link": "https://aje.io/oowhrg?update=2891937",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military seizes main road dividing eastern, western Rafah: Report",
+        "link": "https://aje.io/oowhrg?update=2891857",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Eight members of same family killed in attack on Khan Younis home",
+        "link": "https://aje.io/oowhrg?update=2891441",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

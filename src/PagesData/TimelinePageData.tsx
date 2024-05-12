@@ -8908,5 +8908,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+    {
+    "date": "May 11, 2024",
+    "title": "Day 218",
+    "events": [
+      {
+        "text": "Children among 9 killed in Israeli bombing in Rafah",
+        "link": "https://aje.io/bi718r?update=2894218",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli bombardment kills 19 in northern and central Gaza",
+        "link": "https://aje.io/bi718r?update=2894210",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctors Without Borders stops work after Rafah evacuation order",
+        "link": "https://aje.io/bi718r?update=2894171",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military invades Jabalia again as Hamas \u2018reconstitutes militarily\u2019",
+        "link": "https://aje.io/bi718r?update=2894119",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military destroys Gaza home of Al Jazeera\u2019s Anas al-Sharif",
+        "link": "https://aje.io/bi718r?update=2894083",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Let the haters hate\u2019: Hollywood actress Gal Gadot backs Israel\u2019s Eden Golan",
+        "link": "https://aje.io/bi718r?update=2894079",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Evacuation orders in Rafah for civilians \u2018unacceptable\u2019: EU",
+        "link": "https://aje.io/bi718r?update=2893944",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

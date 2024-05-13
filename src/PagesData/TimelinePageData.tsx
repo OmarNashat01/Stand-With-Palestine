@@ -8956,5 +8956,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 12, 2024",
+    "title": "Day 219",
+    "events": [
+      {
+        "text": "Israeli shelling kills four children in Gaza\u2019s al-Zuwaida: Red Crescent",
+        "link": "https://aje.io/tdla3w?update=2895949",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Health facility possibly targeted in central Gaza",
+        "link": "https://aje.io/tdla3w?update=2895968",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "What is happening in Gaza is a \u2018turkey shoot\u2019: UN special rapporteur",
+        "link": "https://aje.io/tdla3w?update=2895996",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Only broken lives and broken futures\u2019 in Gaza: UNRWA boss",
+        "link": "https://aje.io/tdla3w?update=2895961",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Victims unrecognisable due to traumatic injuries: Volunteer surgeon",
+        "link": "https://aje.io/tdla3w?update=2895493",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rescuers unable to reach 16 family members trapped under rubble in Zeitoun: Civil defence",
+        "link": "https://aje.io/tdla3w?update=2894914",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza\u2019s mass graves: Is the truth being uncovered?",
+        "link": "https://aje.io/tdla3w?update=2894368",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

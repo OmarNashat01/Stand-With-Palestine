@@ -41,11 +41,11 @@ const HomePage = () => {
       </Carousel >
 
       {/* Status Section*/}
-      <Banner {...homeData.statusBanner} id="first-banner" />
-      <HeroDigitsSection {...homeData.statusSection} />
+      {/* <Banner {...homeData.statusBanner} id="first-banner" />
+      <HeroDigitsSection {...homeData.statusSection} /> */}
 
       {/* Timeline Section*/}
-      <Banner {...homeData.timelineBanner} />
+      {/* <Banner {...homeData.timelineBanner} />
       <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true}>
         <HeroWideSectionExtra {...homeData.historicTimelineSection} />
         <HeroWideSectionExtra {...homeData.recentTimelineVeto2Section} />
@@ -53,30 +53,30 @@ const HomePage = () => {
         <HeroWideSectionExtra {...homeData.recentTimelineEndSection} />
         <HeroWideSectionExtra {...homeData.recentTimelineCrimeSection} />
         <HeroWideSectionExtra {...homeData.recentTimelineDiplomaticSection} />
-      </Carousel>
+      </Carousel> */}
 
       {/* War Lies and Crimes Section*/}
-      <Banner {...homeData.warCrimeBanner} />
+      {/* <Banner {...homeData.warCrimeBanner} />
       <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false} dynamicHeight={true}>
         <HeroWideSectionExtra {...homeData.genocideSection} />
         <HeroWideSectionExtra {...homeData.warCrimesLiesSection} />
         <HeroSliderImage {...homeData.beforeAfterSection} />
-      </Carousel>
+      </Carousel> */}
 
 
 
       {/* Blogs Section*/}
-      <Banner {...homeData.blogBanner} />
+      {/* <Banner {...homeData.blogBanner} />
       <Carousel swipeable={false} interval={50000} autoPlay infiniteLoop showStatus={false}>
         <HeroWideSectionExtra {...homeData.interviewSection1} />
         <HeroWideSectionExtra {...homeData.interviewSection0} />
         <HeroWideSectionExtra {...homeData.interviewSection2} />
-      </Carousel>
+      </Carousel> */}
 
       {/* Support Section*/}
-      <Banner {...homeData.supportBanner} />
+      {/* <Banner {...homeData.supportBanner} />
       <HeroWideSection {...homeData.supportSection}
-      />
+      /> */}
     </div>
   );
 }

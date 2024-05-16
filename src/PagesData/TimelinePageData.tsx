@@ -9004,5 +9004,101 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 13, 2024",
+    "title": "Day 220",
+    "events": [
+      {
+        "text": "UN employee, Palestinian driver injured in Israeli shelling near Rafah",
+        "link": "https://aje.io/whnay7?update=2897368",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018We need to see an end to indiscriminate killing of children\u2019: UNICEF",
+        "link": "https://aje.io/whnay7?update=2897808",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN confirms killing of first international staff in Gaza in Israeli \u2018attack\u2019",
+        "link": "https://aje.io/whnay7?update=2897775",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "EU official condemns killing of UN employee by Israeli forces",
+        "link": "https://aje.io/whnay7?update=2897907",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018We will not stop\u2019: Israel\u2019s Netanyahu promises revenge for October 7 attacks",
+        "link": "https://aje.io/whnay7?update=2897688",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "No child should experience \u2018absolutely terrifying\u2019 journey out of Rafah",
+        "link": "https://aje.io/whnay7?update=2897151",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Child among four killed in Israeli attack on Rafah",
+        "link": "https://aje.io/whnay7?update=2896428",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 14, 2024",
+    "title": "Day 221",
+    "events": [
+      {
+        "text": "UN says women and children at least 56% of Gaza war dead",
+        "link": "https://aje.io/8e598h?update=2900186",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Approximately 200 UN workers killed in Gaza to date: Official",
+        "link": "https://aje.io/8e598h?update=2900130",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "MSF ceases services at Rafah hospital amid Israeli attacks",
+        "link": "https://aje.io/8e598h?update=2899419",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel is attacking known aid worker locations in Gaza, says HRW",
+        "link": "https://aje.io/8e598h?update=2899347",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Overcrowded Al-Aqsa Hospital is barely walkable as more patients stream in",
+        "link": "https://aje.io/8e598h?update=2898800",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces firing on Palestinians trapped at UNRWA school in north Gaza",
+        "link": "https://aje.io/8e598h?update=2898253",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel subjecting Palestinians to \u2018geographical terror\u2019 tactics, says aid worker",
+        "link": "https://aje.io/8e598h?update=2898206",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

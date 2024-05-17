@@ -9100,5 +9100,101 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 15, 2024",
+    "title": "Day 222",
+    "events": [
+      {
+        "text": "WATCH: Israelis block aid bound for Gaza \u2013 Delivery trucks burned and food aid destroyed",
+        "link": "https://aje.io/qq5s1f?update=2900745",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Ten killed by shelling of UNRWA clinic in Gaza City",
+        "link": "https://aje.io/qq5s1f?update=2901002",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel\u2019s war on Gaza in numbers",
+        "link": "https://aje.io/qq5s1f?update=2900673",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Death toll mounts in another bloody night of Israeli attacks across Gaza Strip",
+        "link": "https://aje.io/qq5s1f?update=2900703",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Heart break\u2019 as mothers mourn children killed in Israeli attack on Nuseirat camp",
+        "link": "https://aje.io/qq5s1f?update=2900656",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Israeli lawyer\u2019s tearful plea decrying Gaza war and aid attacks",
+        "link": "https://aje.io/qq5s1f?update=2900688",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "ICC prosecutor faces demands for action against Israel at UN Security Council",
+        "link": "https://aje.io/qq5s1f?update=2900818",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 16, 2024",
+    "title": "Day 223",
+    "events": [
+      {
+        "text": "No food or water for days for northern Gaza residents",
+        "link": "https://aje.io/ktr30w?update=2905450",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military destroying schools, clinics in Jabalia, Zeitoun: Monitor",
+        "link": "https://aje.io/ktr30w?update=2905375",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Despite famine, Israel still restricting vital food aid: HRW",
+        "link": "https://aje.io/ktr30w?update=2905344",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Gaza largely wiped off the map\u2019: South Africa",
+        "link": "https://aje.io/ktr30w?update=2905279",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Threat of famine in Gaza never loomed larger\u2019: WFP",
+        "link": "https://aje.io/ktr30w?update=2905037",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More than 100 academics killed by Israeli assault: Gaza media office",
+        "link": "https://aje.io/ktr30w?update=2904843",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Four more killed in Jabalia",
+        "link": "https://aje.io/ktr30w?update=2904217",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

@@ -9196,5 +9196,149 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 17, 2024",
+    "title": "Day 224",
+    "events": [
+      {
+        "text": "\u2018Israel is making Gaza \u2018uninhabitable\u2019",
+        "link": "https://aje.io/fkg5rf?update=2906542",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Civil defence teams unable to reach bombarded northern Gaza areas",
+        "link": "https://aje.io/fkg5rf?update=2906527",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "No medical aid has entered Gaza since May 6: WHO",
+        "link": "https://aje.io/fkg5rf?update=2906367",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Immeasurable cost\u2019 as Gaza\u2019s children still out of school",
+        "link": "https://aje.io/fkg5rf?update=2905844",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Six Palestinians killed in Israeli attack on Jabalia camp",
+        "link": "https://aje.io/fkg5rf?update=2905774",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Civilians killed as Israeli aircraft, artillery strike across Gaza Strip",
+        "link": "https://aje.io/fkg5rf?update=2905617",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Renewed Israeli bombardment grips northern Gaza, Jabalia refugees bear the brunt",
+        "link": "https://aje.io/fkg5rf?update=2905546",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 18, 2024",
+    "title": "Day 225",
+    "events": [
+      {
+        "text": "Palestinian wounded and sick dying from Rafah closure: Monitor",
+        "link": "https://aje.io/vhq2tt?update=2908658",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rescuers recover 10 dead after homes hit near Kamal Adwan Hospital",
+        "link": "https://aje.io/vhq2tt?update=2908782",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Eight Palestinians including children killed while fetching water",
+        "link": "https://aje.io/vhq2tt?update=2907757",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Casualties mount in Jabalia after evacuation zone \u2018targeted\u2019",
+        "link": "https://aje.io/vhq2tt?update=2907628",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military says battle for Jabalia the \u2018most violent\u2019 of war so far: Monitors",
+        "link": "https://aje.io/vhq2tt?update=2907430",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Number of child deaths as starvation grips Gaza likely \u2018tip of the iceberg\u2019: Analyst",
+        "link": "https://aje.io/vhq2tt?update=2907361",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Video shows hardship of people displaced as Israel attacks Rafah",
+        "link": "https://aje.io/vhq2tt?update=2907297",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 19, 2024",
+    "title": "Day 226",
+    "events": [
+      {
+        "text": "Girl aged 10 lone survivor as Israel kills 20 in refugee camp",
+        "link": "https://aje.io/29g1kk?update=2909584",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Nearly a million Palestinians displaced since Israel launched its Rafah offensive",
+        "link": "https://aje.io/29g1kk?update=2909852",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli army continues attacks on Jabalia",
+        "link": "https://aje.io/29g1kk?update=2912070",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attack in Gaza\u2019s north kills 26 members of family",
+        "link": "https://aje.io/29g1kk?update=2909535",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: No one can deny ethnic cleansing, genocide in Gaza: Malaysian PM",
+        "link": "https://aje.io/29g1kk?update=2910311",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Situation in Gaza \u2018traumatising\u2019 for humanitarian aid workers \u2013 UN coordinator",
+        "link": "https://aje.io/29g1kk?update=2912259",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Safe, sustained access\u2019 into and across Gaza needed to prevent famine: WFP",
+        "link": "https://aje.io/29g1kk?update=2910629",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

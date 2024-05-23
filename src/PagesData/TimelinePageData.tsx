@@ -9340,5 +9340,149 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 20, 2024",
+    "title": "Day 227",
+    "events": [
+      {
+        "text": "Premature baby dies at Kaman Adwan Hospital: Report",
+        "link": "https://aje.io/cqz0qm?update=2915045",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Almost 40 percent of Gaza\u2019s population displaced in recent days, OCHA says",
+        "link": "https://aje.io/cqz0qm?update=2914930",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Civil Defence recovers eight bodies in Gaza City",
+        "link": "https://aje.io/cqz0qm?update=2914866",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli strikes kill 18 Palestinians in northern Gaza\u2019s Jabalia and Beit Lahiya",
+        "link": "https://aje.io/cqz0qm?update=2914779",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Two Palestinians shot to death at Gaza checkpoint",
+        "link": "https://aje.io/cqz0qm?update=2914753",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinians killed and wounded in attacks on Rafah",
+        "link": "https://aje.io/cqz0qm?update=2914609",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More on push for arrest warrants against Hamas officials",
+        "link": "https://aje.io/cqz0qm?update=2914008",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 21, 2024",
+    "title": "Day 228",
+    "events": [
+      {
+        "text": "Red Cross: Human remains must be recovered and returned to families",
+        "link": "https://aje.io/g6ufff?update=2917084",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Famine will spread with aid operations \u2018near collapse\u2019 in Gaza",
+        "link": "https://aje.io/g6ufff?update=2916957",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WHO chief: Kamal Adwan Hospital attacked four times today",
+        "link": "https://aje.io/g6ufff?update=2916973",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel\u2019s evacuation orders shut down 2 Rafah health facilities: UNRWA",
+        "link": "https://aje.io/g6ufff?update=2916931",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UNRWA suspends food distribution in Rafah",
+        "link": "https://aje.io/g6ufff?update=2916650",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli army issues statement on Jenin raid that killed at least 7 Palestinians",
+        "link": "https://aje.io/g6ufff?update=2916559",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Video shows Israeli forces seizing corpses in Gaza",
+        "link": "https://aje.io/g6ufff?update=2916314",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 22, 2024",
+    "title": "Day 229",
+    "events": [
+      {
+        "text": "Eight person confirmed dead in Israeli assault on Jenin",
+        "link": null,
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Doctor recounts being displaced from al-Awda Hospital in Jabalia",
+        "link": "https://aje.io/679c23?update=2919303",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Attacks continue across Gaza as Israel presses offensive",
+        "link": "https://aje.io/679c23?update=2917692",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attack in north Gaza kills six Palestinians",
+        "link": "https://aje.io/679c23?update=2917312",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Hospitals in northern Gaza under attack",
+        "link": "https://aje.io/679c23?update=2918184",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "All patients and staff reportedly evacuate from Kamal Adwan Hospital: WHO",
+        "link": "https://aje.io/679c23?update=2919401",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Children, women among eight killed in Israeli attacks on Gaza City",
+        "link": "https://aje.io/679c23?update=2917268",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

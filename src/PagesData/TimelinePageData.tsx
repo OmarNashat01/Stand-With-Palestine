@@ -9484,5 +9484,245 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 23, 2024",
+    "title": "Day 230",
+    "events": [
+      {
+        "text": "Al-Aqsa Hospital nearly out of fuel",
+        "link": "https://aje.io/3yycs4?update=2921524",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Health catastrophe\u2019 imminent if fuel not supplied to Al-Aqsa Hospital",
+        "link": "https://aje.io/3yycs4?update=2921559",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018No child should die from starvation\u2019: UNICEF chief",
+        "link": "https://aje.io/3yycs4?update=2921372",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "MSF sounds alarm on situation at al-Awda Hospital in northern Gaza",
+        "link": "https://aje.io/3yycs4?update=2921327",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Only 30 minutes of fuel remain at Al-Aqsa Hospital",
+        "link": "https://aje.io/3yycs4?update=2921143",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Al-Awda Hospital doctor pleads for trapped patients, staff",
+        "link": "https://aje.io/3yycs4?update=2920481",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attacks on hospitals part of \u2018campaign to eradicate Palestinian society\u2019",
+        "link": "https://aje.io/3yycs4?update=2920320",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 24, 2024",
+    "title": "Day 231",
+    "events": [
+      {
+        "text": "\u2018The healthcare system in Gaza is on its knees\u2019: UN",
+        "link": "https://aje.io/hg54p3?update=2923397",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Ceasefire now,\u2019 UNRWA says with 1 million children in need of psychosocial support",
+        "link": "https://aje.io/hg54p3?update=2923379",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: Worms, insects infest Gaza-bound food rotting in Egyptian sun",
+        "link": "https://aje.io/hg54p3?update=2923374",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "ICJ rules Israel must stop Rafah operation, what\u2019s next?",
+        "link": "https://aje.io/hg54p3?update=2923466",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel must comply with World Court ruling immediately: Amnesty",
+        "link": "https://aje.io/hg54p3?update=2923388",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "WATCH: ICJ rules Israel must \u2018immediately halt\u2019 offensive in Rafah",
+        "link": "https://aje.io/hg54p3?update=2922929",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "ICJ says Israel\u2019s evacuation efforts are not sufficient",
+        "link": "https://aje.io/hg54p3?update=2922791",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 25, 2024",
+    "title": "Day 232",
+    "events": [
+      {
+        "text": "'Children were playing' when Jabalia school attacked: witness",
+        "link": "https://aje.io/94x0rm?update=2924854",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Ten Palestinians killed in attack on northern Gaza school",
+        "link": "https://aje.io/94x0rm?update=2924460",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018You are responsible for our terrible failure \u2013 take responsibility\u2019",
+        "link": "https://aje.io/94x0rm?update=2925992",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "PHOTOS: Palestinians wounded in Israeli attack on school treated at Gaza\u2019s al-Ahli Arab Hospital",
+        "link": "https://aje.io/94x0rm?update=2924972",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli attacks killed 450 displaced people in UNRWA shelters since October 7",
+        "link": "https://aje.io/94x0rm?update=2924175",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Displaced Palestinians surviving on just 3% of minimum daily water needs: UN report",
+        "link": "https://aje.io/94x0rm?update=2923874",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "The youngest casualties \u2013 Children suffer as Israel\u2019s war on Gaza rages",
+        "link": "https://aje.io/94x0rm?update=2923807",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 26, 2024",
+    "title": "Day 233",
+    "events": [
+      {
+        "text": "UNRWA says Rafah attack shows Gaza is \u2018hell on earth\u2019",
+        "link": "https://aje.io/jwe0qf?update=2928939",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israel bombed Rafah over 60 times in 48 hours after ICJ orders",
+        "link": "https://aje.io/jwe0qf?update=2927951",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli military claims it attacks Rafah \u2018rocket launch site\u2019",
+        "link": "https://aje.io/jwe0qf?update=2928057",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Gaza office: Israel targeting displaced shelters with 2,000-pound bombs",
+        "link": "https://aje.io/jwe0qf?update=2928156",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018They burned people alive\u2019",
+        "link": "https://aje.io/jwe0qf?update=2928170",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Child killed in Israeli attack on Rafah",
+        "link": "https://aje.io/jwe0qf?update=2926160",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Health system \u2018incapable\u2019 of dealing with situation in Rafah: Red Cross",
+        "link": "https://aje.io/jwe0qf?update=2928201",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 27, 2024",
+    "title": "Day 234",
+    "events": [
+      {
+        "text": "Israel kills dozens of Palestinians in attack on Rafah camp for displaced",
+        "link": "https://aje.io/x8f7er?update=2929759",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Rafah casualties rises to 45, as Gaza death toll pushes above 36,000",
+        "link": "https://aje.io/x8f7er?update=2929306",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Survivors recount horror of Rafah camp attack",
+        "link": "https://aje.io/x8f7er?update=2929126",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Childrens\u2019 \u2018bodies turned into fragments\u2019",
+        "link": "https://aje.io/x8f7er?update=2929124",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinians killed and maimed in an area they were told to evacuate to",
+        "link": "https://aje.io/x8f7er?update=2929112",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN expert on Palestine urges sanctions against Israel",
+        "link": "https://aje.io/x8f7er?update=2928654",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Monstrous atrocity\u2019: UN expert on housing decries Rafah attack",
+        "link": "https://aje.io/x8f7er?update=2928618",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

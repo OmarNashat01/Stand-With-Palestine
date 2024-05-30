@@ -9724,5 +9724,101 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 28, 2024",
+    "title": "Day 235",
+    "events": [
+      {
+        "text": "Finland \u2018devastated\u2019 by deaths from Israel\u2019s attack on Rafah tent camp",
+        "link": "https://aje.io/udgx2i?update=2932450",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "After massacre in Gaza\u2019s Rafah, advocates ask: Where is Biden\u2019s red line?",
+        "link": "https://aje.io/udgx2i?update=2932408",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018No safe\u2019 place in Rafah: Doctor",
+        "link": "https://aje.io/udgx2i?update=2932321",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "One million people forced to flee from Rafah: UNRWA chief",
+        "link": "https://aje.io/udgx2i?update=2932248",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US vice president says Israel\u2019s deadly strike on Rafah beyond \u2018tragic\u2019",
+        "link": "https://aje.io/udgx2i?update=2932162",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "UN chief says \u2018horror\u2019 in Gaza must stop",
+        "link": "https://aje.io/udgx2i?update=2932163",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Let us be clear: Israel is committing genocide in Gaza\u2019",
+        "link": "https://aje.io/udgx2i?update=2932049",
+        "description": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "date": "May 29, 2024",
+    "title": "Day 236",
+    "events": [
+      {
+        "text": "Two paramedics killed in Israeli bombing of ambulance in Rafah: PRCS",
+        "link": "https://aje.io/0o7ovr?update=2934869",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Palestinians face harrowing journeys as they flee Rafah",
+        "link": "https://aje.io/0o7ovr?update=2934514",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "World Food Programme demands \u2018urgent\u2019 ceasefire as \u2018Rafah is burning\u2019",
+        "link": null,
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "More than 30 countries call for greater scrutiny of Israel\u2019s role in destroying Gaza health system",
+        "link": "https://aje.io/0o7ovr?update=2934462",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018Brutal and senseless occupation\u2019 of Palestinian land: Algeria ambassador",
+        "link": "https://aje.io/0o7ovr?update=2934448",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "US-made bombs used in deadly Israeli attack on Rafah: NYT",
+        "link": "https://aje.io/0o7ovr?update=2934370",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Three Israeli soldiers killed in southern Gaza",
+        "link": "https://aje.io/0o7ovr?update=2933501",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

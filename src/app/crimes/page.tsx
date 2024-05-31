@@ -1,7 +1,11 @@
+"use client";
+
+
 import React, { useEffect, useState } from "react";
-import Banner from "../../components/Simple/Banner";
+import Banner from "@/components/Simple/Banner";
 // @ts-ignore
 import Faq from "react-faq-component";
+import "@/components/StatusSections/FAQSection.scss";
 import {
   crimesDict,
   crimeHeroDict,
@@ -9,17 +13,17 @@ import {
   finaleVideoPath,
   faqData,
   oldCrimesDict,
-} from "../../PagesData/CrimesPageData";
-import CrimesList from "../../components/CrimeSections/CrimesList";
-import GradientHero from "../../components/Simple/GradientHero";
-import FinalNote from "../../components/CrimeSections/FinalNote";
-import ItemGrid from "../../components/Simple/ItemGrid";
-import TabComponent from "../../components/Simple/TabComponenet";
-import Modal from "../../components/Simple/Modal";
-import { saveSet, init } from "../../utils";
+} from "@/PagesData/CrimesPageData";
+import CrimesList from "@/components/CrimeSections/CrimesList";
+import GradientHero from "@/components/Simple/GradientHero";
+import FinalNote from "@/components/CrimeSections/FinalNote";
+import ItemGrid from "@/components/Simple/ItemGrid";
+import TabComponent from "@/components/Simple/TabComponenet";
+import Modal from "@/components/Simple/Modal";
+import { saveSet, init } from "@/utils";
 import { IoSearchCircle } from "react-icons/io5";
-import SearchInput from "../../components/Simple/SearchInput";
-import Head from "../../components/Simple/Head";
+import SearchInput from "@/components/Simple/SearchInput";
+import Head from "@/components/Simple/Head";
 
 const CrimesPage: React.FC = () => {
   const [filteredCrimes, setFilteredCrimes] = useState(crimesDict);
@@ -39,7 +43,12 @@ const CrimesPage: React.FC = () => {
   };
 
   const tabs = ["Ongoing", "2020+", "2018+", "2000+", "Massacres"];
-  const [activeTab, setActiveTab] = useState(init("CrimeTab", "Ongoing"));
+  const [activeTab, setActiveTab] = useState("Ongoing");
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    setActiveTab(init("CrimeTab", "Ongoing"));
+  }, []);
 
   useEffect(() => {
     if (activeTab === "2020+") {

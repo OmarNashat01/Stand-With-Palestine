@@ -1,3 +1,4 @@
+"use client";
 import "./GradientHero.scss";
 import React, { useEffect } from "react";
 
@@ -15,9 +16,12 @@ interface GradientHeroProps {
   
   const CrimeHero: React.FC<GradientHeroProps>  = ({title, subTitle1, subTitle2, subTitle3='', bloody=false, fontSize='4rem', circular=false, special=false, blog=false}) => {
 
-    const [screenWidth, setScreenWidth] = React.useState(window.innerWidth);
+    const [screenWidth, setScreenWidth] = React.useState(0);
 
     useEffect(() => {
+      if (typeof window !== 'undefined') {
+        setScreenWidth(window.innerWidth);
+      }
       const handleResize = () => {
         setScreenWidth(window.innerWidth);
       };

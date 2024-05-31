@@ -1,104 +1,112 @@
-@import '../../variables';
+@import '@/variables';
 
 .modal {
-    //display: none;
-    position: fixed;
+  //display: none;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); // Semi-transparent background
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  border-radius: 1rem;
+
+  ::-webkit-scrollbar-thumb {
+    border: 4px solid rgb(67, 67, 67);
+    background-clip: padding-box;
+  }
+
+  &.show {
     display: flex;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); // Semi-transparent background
-    justify-content: center;
-    align-items: center;
-    z-index: 99;
+  }
+
+
+
+  .modal_content {
+    background: #1a1a1a;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 900px;
+    max-height: 80%;
+
+    overflow: auto;
     border-radius: 1rem;
 
-    ::-webkit-scrollbar-thumb {
-      border: 4px solid rgb(67, 67, 67);
-      background-clip: padding-box;
-    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      text-align: left;
+      color: $primary-color-light;
+      padding: 1rem;
+      margin: 0.5rem 1rem;
 
-    &.show {
-      display: flex;
-    }
-
-    
-  
-    .modal_content {
-      background: #1a1a1a;
-      color: white;
-      padding: 20px;
-      border-radius: 8px;
-      max-width: 900px;
-      max-height: 80%;
-
-      overflow: auto;
-      border-radius: 1rem;
-
-      h1 {
-        font-size: 2rem;
-        margin-bottom: 10px;
-        text-align: left;
-        color: $primary-color-light;
-        padding: 1rem;
-        margin: 0.5rem 1rem;
-        @media only screen and (max-width: 900px) {
-          font-size: 1.35rem;         margin: 0.5rem 0.3rem;
-        } 
+      @media only screen and (max-width: 900px) {
+        font-size: 1.35rem;
+        margin: 0.5rem 0.3rem;
       }
+    }
 
-      ul {
+    ul {
+      margin: 0rem 0.3rem;
+      padding: 1.5rem;
+      border-radius: 0.8rem;
+      font-size: 1.2rem;
+      font-size: 0.9rem;
+
+      @media only screen and (max-width: 900px) {
+        font-size: 0.8rem;
         margin: 0rem 0.3rem;
-        padding: 1.5rem;
-        border-radius: 0.8rem;
-        font-size: 1.2rem;
-        font-size: 0.9rem;  
-        @media only screen and (max-width: 900px) {
-          font-size: 0.8rem;  
-          margin: 0rem 0.3rem;
-          padding: 1rem;      
-        } 
-        color:rgb(170, 169, 169);
-        a {
-          text-decoration: underline;
-        }
-        li {
-          padding-bottom: 0.5rem;
-          text-align: justify;
-        }
-      }
-  
-      p {
-        font-size: 1rem;
-        line-height: 1.4;
-        font-size: 1.2rem;
         padding: 1rem;
-        @media only screen and (max-width: 600px) {
-          font-size: 0.9rem;
-          padding: 0.5rem;
-        }
-        color:rgb(170, 169, 169);
-        text-align: left;
+      }
+
+      color:rgb(170, 169, 169);
+
+      a {
+        text-decoration: underline;
+      }
+
+      li {
+        padding-bottom: 0.5rem;
+        text-align: justify;
       }
     }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.4;
+      font-size: 1.2rem;
+      padding: 1rem;
+
+      @media only screen and (max-width: 600px) {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+      }
+
+      color:rgb(170, 169, 169);
+      text-align: left;
+    }
+  }
+}
+
+.iframe {
+  width: 800px;
+  height: 450px;
+}
+
+
+// Media query for responsiveness
+@media (max-width: 600px) {
+  .modal .modal_content {
+    max-width: 90%;
   }
 
   .iframe {
-    width: 800px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
   }
-  
 
-  // Media query for responsiveness
-  @media (max-width: 600px) {
-    .modal .modal_content {
-      max-width: 90%;
-    }
-    .iframe {
-      width: 100%;
-      height: 100%;
-    }
-    
-  }
-  
+}

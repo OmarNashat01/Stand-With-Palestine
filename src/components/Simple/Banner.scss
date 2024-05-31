@@ -1,37 +1,41 @@
-@import '../../variables';
+@import '@/variables';
 
 
 .banner {
 
-        text-align: center;
-        color: black;
-        //background-color:rgba($primary-color-light, 0.9);
-        background: linear-gradient(-45deg, rgba(lighten($primary-color-light, 2%), 0.9), rgba($primary-color, 0.9), rgba(lighten($primary-color-light, 2%), 0.9), rgba($primary-color, 0.9),);
-        background-size: 400% 400%;
-        animation: gradient 10s ease infinite;
+  text-align: center;
+  color: black;
+  //background-color:rgba($primary-color-light, 0.9);
+  background: linear-gradient(-45deg, rgba(lighten($primary-color-light, 2%), 0.9), rgba($primary-color, 0.9), rgba(lighten($primary-color-light, 2%), 0.9), rgba($primary-color, 0.9), );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
 
-        margin: 1rem auto;
-        padding: 0.5rem;
-        letter-spacing: 2px;
-        box-shadow: 3px 4px 8px rgba(172, 9, 9, 0.634); /* Adjust values as needed */
-        &::selection {
-          color: white !important;
-        }
+  margin: 1rem auto;
+  padding: 0.5rem;
+  letter-spacing: 2px;
+  box-shadow: 3px 4px 8px rgba(172, 9, 9, 0.634);
 
-        @keyframes gradient {
-          0% {
-            background-position: 0% 50%;
-          }
-          50% {
-            background-position: 100% 50%;
-          }
-          100% {
-            background-position: 0% 50%;
-          }
-        }
+  /* Adjust values as needed */
+  &::selection {
+    color: white !important;
+  }
 
-        @media only screen and (max-width: 900px) {
-          font-size: 0.8rem !important;
-        }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    font-size: 0.8rem !important;
+  }
 
 }

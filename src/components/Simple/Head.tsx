@@ -1,5 +1,6 @@
-import React, { FC } from 'react';
-import { Helmet } from 'react-helmet';
+import React from 'react';
+import {default as NextHead} from 'next/head';
+
 
 interface HeadProps {
     title: string;
@@ -9,22 +10,20 @@ interface HeadProps {
     url: string;
 }
 
-const Head: FC<HeadProps> = ({ title, description, keywords, image, url }) => {
+const Head = ({ title, description, keywords, image, url }: HeadProps) => {
     return (
-        <head>
-            <Helmet>
-                <title>{title}</title>
-                <meta name="description" content={description} />
-                <meta name="keywords" content={keywords} />
-                <meta property="og:title" content={title} />
-                <meta property="og:description" content={description} />
-                <meta property="og:image" content={image} />
-                <meta property="og:url" content={url} />
-                <meta name="twitter:title" content={title} />
-                <meta name="twitter:description" content={description} />
-                <meta name="twitter:image" content={image} />
-            </Helmet>
-        </head>
+        <NextHead>
+            <title>{title}</title>
+            <meta name="description" content={description} />
+            <meta name="keywords" content={keywords} />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+            <meta property="og:image" content={image} />
+            <meta property="og:url" content={url} />
+            <meta name="twitter:title" content={title} />
+            <meta name="twitter:description" content={description} />
+            <meta name="twitter:image" content={image} />
+        </NextHead>
     );
 }
 

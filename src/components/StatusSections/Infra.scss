@@ -1,4 +1,4 @@
-@import '../../variables';
+@import '@/variables';
 
 
 .infra-parent {
@@ -28,7 +28,7 @@
     @media (max-width: 1200px) {
       flex-basis: 40%;
     }
-   
+
 
     .icon {
       color: #fffaf0;

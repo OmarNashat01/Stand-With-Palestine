@@ -1,15 +1,16 @@
+"use client";
 import React, { useRef, useEffect, useState } from "react";
-import { supportPageData, supportActionData } from '../../PagesData/SupportPageData'
-import OrgCard from "../../components/donations/orgCard";
+import { supportPageData, supportActionData } from '@/PagesData/SupportPageData'
+import OrgCard from "@/components/donations/orgCard";
 import { Carousel as ResponsiveCarousel } from "react-responsive-carousel";
 
-import HeroButton from "../../components/Simple/HeroButton";
-import GradientHero from "../../components/Simple/GradientHero";
-import SearchInput from "../../components/Simple/SearchInput";
-import Banner from "../../components/Simple/Banner";
+import HeroButton from "@/components/Simple/HeroButton";
+import GradientHero from "@/components/Simple/GradientHero";
+import SearchInput from "@/components/Simple/SearchInput";
+import Banner from "@/components/Simple/Banner";
 
 import './SupportPage.scss'
-import Head from "../../components/Simple/Head";
+import Head from "@/components/Simple/Head";
 
 const SupportPage: React.FC = () => {
   const [selectedOrg, setSelectedOrg] = React.useState(4);
@@ -81,7 +82,7 @@ const SupportPage: React.FC = () => {
       <div style={{ paddingBottom: "2%", paddingTop: "2%" }} className="org-cards" ref={orgCardsRef}>
         {filteredSupportData.map((item: any, index: any) => {
           return (
-            <div className="card-item">
+            <div key={index} className="card-item">
               <OrgCard
                 // key={index}
                 title={item.organization}
@@ -124,7 +125,7 @@ const SupportPage: React.FC = () => {
       <div className="org-cards" ref={orgCardsRef1} style={{justifyContent: 'center'}}>
         {supportActionData.map((item, index) => {
           return (
-            <div className="card-item" >
+            <div key={index} className="card-item">
               <OrgCard
                 small={true}
                 title={item.organization}

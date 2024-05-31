@@ -1,13 +1,16 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
 // @ts-ignore
-import GradientHero from "../../components/Simple/GradientHero";
-import SearchInput from "../../components/Simple/SearchInput";
-import LiesList from "../../components/Simple/ItemGrid";
-import { liesData, faqData } from "../../PagesData/LiesPageData";
+import GradientHero from "@/components/Simple/GradientHero";
+import SearchInput from "@/components/Simple/SearchInput";
+import LiesList from "@/components/Simple/ItemGrid";
+import { liesData, faqData } from "@/PagesData/LiesPageData";
 // @ts-ignore
 import Faq from 'react-faq-component';
-import Banner from "../../components/Simple/Banner";
-import Head from "../../components/Simple/Head";
+import "@/components/StatusSections/FAQSection.scss";
+import Banner from "@/components/Simple/Banner";
+import Head from "@/components/Simple/Head";
 
 const LiesPage: React.FC = () => {
   const [filteredLies, setFilteredLies] = useState([]);
@@ -33,7 +36,7 @@ const LiesPage: React.FC = () => {
         url=""
       />
       <GradientHero
-        title={"CONFLICT LIES"}
+        title={"Misinformation"}
         subTitle1={"Numerous Lives in Gaza Have Been Lost due to Deceit"}
         subTitle2={
           "This includes numerous facts shared by Israel and western media that have possibly been proved to be false."
@@ -54,3 +57,4 @@ const LiesPage: React.FC = () => {
 
 
 export default LiesPage;
+

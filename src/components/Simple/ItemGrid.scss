@@ -1,4 +1,4 @@
-@import '../../variables';
+@import '@/variables';
 
 
 .wrapper-lies {
@@ -47,6 +47,7 @@
 
 .card-crime {
   min-height: 300px !important;
+
   @media (max-width: 800px) {
     min-height: 350px !important;
 
@@ -59,7 +60,7 @@
   position: relative;
   border-radius: 10px;
   min-height: 250px;
-  
+
 
   overflow: hidden;
   background: linear-gradient(45deg, #1f1f1f, #141414);
@@ -98,6 +99,7 @@
     left: 10px;
     margin-top: 2rem;
   }
+
   &__footer_right {
     position: absolute;
     bottom: 10px;
@@ -108,15 +110,19 @@
 
 .card--overlay--wide-crime {
   min-height: 250px !important;
+
   @media (max-width: 800px) {
     min-height: 300px !important;
-   }
+  }
 }
+
 .card--overlay--wide {
   min-height: 200px;
+
   @media (max-width: 800px) {
     min-height: 250px !important;
-   }
+  }
+
   .card {
     &__content {
       order: 1;

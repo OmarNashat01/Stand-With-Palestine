@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import { useNavigate } from "react-router-dom";
+import Link from "next/link";
 interface FooterProps {
   title: string;
   subTitle: string;
@@ -8,7 +8,6 @@ interface FooterProps {
 }
 
 const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
-  const navigate = useNavigate();
   const link = "stand-with-palestine.org";
   const text =
     "Learn more about the latest news, the status of Gaza, Israeli war crimes, and misinformation about the ongoing massacre in Gaza. Support Palestine!";
@@ -63,22 +62,22 @@ const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
           <div className="footer-menu">
             <ul className="f-menu">
               <li>
-                <a onClick={() => navigate("./")}>Home</a>
+                <Link href="./">Home</Link>
               </li>
               <li>
-                <a onClick={() => navigate("./timeline/recent")}>Timeline</a>
+                <Link href="./timeline/recent">Timeline</Link>
               </li>
               <li>
-                <a onClick={() => navigate("./crimes")}>Crimes</a>
+                <Link href="./crimes">Crimes</Link>
               </li>
               <li>
-                <a onClick={() => navigate("./lies")}>Lies</a>
+                <Link href="./lies">Lies</Link>
               </li>
               <li>
-                <a onClick={() => navigate("./blogs")}>Blogs</a>
+                <Link href="./blogs">Blogs</Link>
               </li>
               <li>
-                <a onClick={() => navigate("./support")}>Support</a>
+                <Link href="./support">Support</Link>
               </li>
             </ul>
           </div>

@@ -1,10 +1,11 @@
+"use client";
 import React from "react";
 import { Timeline, TimelineItemsProps } from "react-alternating-timeline";
 import "./RecentTimelinePage.scss";
 import { Zoom } from "react-swift-reveal";
-import Banner from "../../components/Simple/Banner";
-import { dailyNews } from "../../PagesData/TimelinePageData";
-import Head from "../../components/Simple/Head";
+import Banner from "@/components/Simple/Banner";
+import { dailyNews } from "@/PagesData/TimelinePageData";
+import Head from "@/components/Simple/Head";
 
 type Event = {
   text: string;

@@ -1,8 +1,10 @@
+"use client";
+
 import React from "react";
-import { blogs } from "../../PagesData/BlogsPageData";
-import Card from "../../components/Simple/Card";
-import Banner from "../../components/Simple/Banner";
-import Head from "../../components/Simple/Head";
+import { blogs } from "@/PagesData/BlogsPageData";
+import Card from "@/components/Simple/Card";
+import Banner from "@/components/Simple/Banner";
+import Head from "@/components/Simple/Head";
 
 function getBlogUrl(blogPath: string): string {
     return blogPath.split("/BlogsPage/")[1].replace(/\.(md|json)/, "");

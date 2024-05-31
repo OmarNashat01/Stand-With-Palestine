@@ -3,6 +3,7 @@ import "./InterviewSection.scss";
 import Markdown from "../Simple/Markdown";
 
 interface InterviewSectionProps {
+    key: number | string;
     section: {
         summary: string;
         conversation: {
@@ -13,9 +14,9 @@ interface InterviewSectionProps {
     };
 }
 
-const InterviewSection: FC<InterviewSectionProps> = ({ section }) => {
+const InterviewSection: FC<InterviewSectionProps> = ({ key, section }) => {
     return (
-        <div className="interview-section">
+        <div key={key} className="interview-section">
             <div className="section-header">
                 <Markdown
                     className="markdown-container"

@@ -1,27 +1,29 @@
-@import '../../variables';
+@import '@/variables';
 
 .final-note {
+  color: #717171;
+  text-align: center;
+  font-weight: bold;
+
+  &-text {
     color: #717171;
     text-align: center;
-    font-weight: bold;
+    padding: 3rem 6rem;
 
-    &-text {
-      color: #717171;
-      text-align: center;
-      padding: 3rem 6rem;
-      @media only screen and (max-width: 900px) {
-        font-size: 0.9rem;
-        padding: 1rem 3rem;
-      }
+    @media only screen and (max-width: 900px) {
+      font-size: 0.9rem;
+      padding: 1rem 3rem;
     }
+  }
 
-    .media-input-container {
-      display: flex;
-      justify-content: center;
-      @media only screen and (max-width: 900px) {
-        video {
-            max-width: 300px;
-        }
+  .media-input-container {
+    display: flex;
+    justify-content: center;
+
+    @media only screen and (max-width: 900px) {
+      video {
+        max-width: 300px;
       }
     }
   }
+}

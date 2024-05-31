@@ -1,7 +1,9 @@
-@import '../../variables';
+@import '@/variables';
 
-.react-multi-carousel-list, .carousel-container {
+.react-multi-carousel-list,
+.carousel-container {
     margin: 1rem 5rem !important;
+
     @media only screen and (max-width:700px) {
         margin: 1rem 1rem !important;
     }
@@ -13,33 +15,39 @@
     border-radius: 8px;
     padding: 1.2rem;
     cursor: pointer;
-    @media only screen and (max-width: 768px){
+
+    @media only screen and (max-width: 768px) {
         padding: 0.7rem;
     }
 
     .selected {
-        background: linear-gradient(45deg, #0041a2,  rgb(11, 37, 75)) !important;
+        background: linear-gradient(45deg, #0041a2, rgb(11, 37, 75)) !important;
     }
 
- 
+
 
     .card-content {
         background-color: #1d1d1d;
         color: $text-color;
         padding: 1rem;
-        @media only screen and (max-width: 768px){
+
+        @media only screen and (max-width: 768px) {
             padding: 0.5rem;
         }
+
         border-radius: 1rem;
+
         .card-body {
             min-height: 100px;
             max-height: 150px;
             min-width: 150px;
             max-width: 250px;
-            @media only screen and (max-width: 768px){
+
+            @media only screen and (max-width: 768px) {
                 min-width: 100px;
                 max-width: 200px;
             }
+
             display: flex;
             justify-content: center;
             align-items: center;
@@ -50,9 +58,10 @@
                 font-weight: 600;
                 border-bottom: none;
                 text-align: center;
+
                 @media only screen and (max-width:700px) {
                     font-size: 0.9rem;
-                    
+
                 }
             }
         }
@@ -61,26 +70,31 @@
     }
 
     .small {
+
         //max-width: 130px;
         .card-body {
             width: 100%;
             min-width: 120px !important;
-        max-width: 120px !important;
+            max-width: 120px !important;
         }
+
         .title {
             font-size: 1.0rem !important;
             font-weight: 600;
             border-bottom: none;
             text-align: center;
         }
-        @media only screen and (max-width: 768px){
-            
+
+        @media only screen and (max-width: 768px) {
+
             padding: 0.01rem 0.1rem !important;
+
             .card-body {
                 width: 100%;
                 min-width: 110px !important;
-            max-width: 110px !important;
+                max-width: 110px !important;
             }
+
             .title {
                 font-size: 0.8rem !important;
                 font-weight: 600;

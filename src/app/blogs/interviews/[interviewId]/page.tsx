@@ -1,20 +1,22 @@
+"use client";
 import React, { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
-import { blogs } from "../../PagesData/BlogsPageData";
-import GradientHero from "../../components/Simple/GradientHero";
-import { Interview } from "../../types/Interview";
-import InterviewSection from "../../components/InterviewSection/InterviewSection";
-import Markdown from "../../components/Simple/Markdown";
+import { redirect } from "next/navigation";
+import { blogs } from "@/PagesData/BlogsPageData";
+import GradientHero from "@/components/Simple/GradientHero";
+import { Interview } from "@/types/Interview";
+import InterviewSection from "@/components/InterviewSection/InterviewSection";
+import Markdown from "@/components/Simple/Markdown";
 //@ts-ignore
 import yaml from "js-yaml";
 
-const InterviewPage: React.FC = () => {
+const InterviewPage: React.FC = (
+    {params}: { params: { interviewId: string }}
+) => {
     const [interview, setInterview] = useState<Interview | null>(null);
     const [title, setTitle] = useState("");
     const [subTitle, setSubTitle] = useState("");
 
-    const navigate = useNavigate();
-    const { id } = useParams();
+    const id = params.interviewId;
 
     useEffect(() => {
         if (!id) return;
@@ -34,12 +36,12 @@ const InterviewPage: React.FC = () => {
                 })
                 .catch((error) => {
                     console.error("Error loading YAML:", error);
-                    //navigate("/404");
+                    //redirect("/404");
                 });
         } else {
-            navigate("/404");
+            redirect("/404");
         }
-    }, [id, navigate]);
+    }, [id]);
 
     return (
         <div

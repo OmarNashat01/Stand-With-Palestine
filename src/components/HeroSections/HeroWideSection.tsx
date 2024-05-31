@@ -1,7 +1,7 @@
+"use client";
 import React from "react";
 import "./HeroWideSection.scss";
 import HeroButton from "../Simple/HeroButton";
-import { useNavigate } from "react-router-dom";
 //@ts-ignore
 import { Link } from "react-scroll";
 
@@ -36,7 +36,6 @@ const HeroWideSection: React.FC<HeroWideSectionProps> = ({
   onClick1="./",
   onClick2="./",
 }) => {
-  const navigate = useNavigate();
   return (
     <div
       className="hero-wide-section"

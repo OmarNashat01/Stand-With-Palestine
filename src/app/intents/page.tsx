@@ -1,15 +1,17 @@
+"use client";
 import React from "react";
 // @ts-ignore
-import GradientHero from "../../components/Simple/GradientHero";
+import GradientHero from "@/components/Simple/GradientHero";
 import "./IntentsGrid.scss";
-import SearchInput from "../../components/Simple/SearchInput";
-import TabComponent from "../../components/Simple/TabComponenet";
-import { intents, weakIntents, faqData } from "../../PagesData/IntentsPageData";
-import { IntentCard } from "../../components/IntentSections/IntentCard";
+import SearchInput from "@/components/Simple/SearchInput";
+import TabComponent from "@/components/Simple/TabComponenet";
+import { intents, weakIntents, faqData } from "@/PagesData/IntentsPageData";
+import { IntentCard } from "@/components/IntentSections/IntentCard";
 // @ts-ignore
 import Faq from "react-faq-component";
-import Banner from "../../components/Simple/Banner";
-import Head from "../../components/Simple/Head";
+import "@/components/StatusSections/FAQSection.scss";
+import Banner from "@/components/Simple/Banner";
+import Head from "@/components/Simple/Head";
 
 const IntentsPage: React.FC = () => {
   // Array of intents

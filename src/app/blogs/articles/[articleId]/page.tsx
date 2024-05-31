@@ -1,16 +1,18 @@
+"use client";
 import React, { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
-import { blogs } from "../../PagesData/BlogsPageData";
-import Markdown from "../../components/Simple/Markdown";
-import GradientHero from "../../components/Simple/GradientHero";
+import { redirect } from "next/navigation";
+import { blogs } from "@/PagesData/BlogsPageData";
+import Markdown from "@/components/Simple/Markdown";
+import GradientHero from "@/components/Simple/GradientHero";
 
-const BlogPage: React.FC = () => {
+const BlogPage: React.FC = (
+    {params}: { params: { articleId: string }}
+) => {
     const [blog, setBlog] = useState("");
     const [title, setTitle] = useState("");
     const [subTitle, setSubTitle] = useState("");
 
-    const navigate = useNavigate();
-    const { id } = useParams();
+    const id = params.articleId;
 
     useEffect(() => {
         if (!id) return;
@@ -26,9 +28,9 @@ const BlogPage: React.FC = () => {
                 .then((res) => res.text())
                 .then((text) => setBlog(text));
         } else {
-            navigate("/404");
+            redirect("/404");
         }
-    }, [id, navigate]);
+    }, [id]);
 
     return (
         <div

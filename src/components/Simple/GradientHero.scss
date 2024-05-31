@@ -1,4 +1,4 @@
-@import '../../variables';
+@import '@/variables';
 
 h1 {
   cursor: pointer;
@@ -15,16 +15,17 @@ h1 {
   $hovered-color: darken($primary-color-2, 0%);
   $shadow-color: #f1f1f149;
 
-.special-dude {
-  color: $primary-color-2;
-  transition: color 0.3s ease, box-shadow 0.3s ease; // Add a smooth transition for color and box-shadow
-  display: inline-block;
-  margin: 0 auto;
-  &:hover {
-    color: $hovered-color;
-    text-shadow: 0 0 10px $shadow-color; // Add a subtle shadow on hover
+  .special-dude {
+    color: $primary-color-2;
+    transition: color 0.3s ease, box-shadow 0.3s ease; // Add a smooth transition for color and box-shadow
+    display: inline-block;
+    margin: 0 auto;
+
+    &:hover {
+      color: $hovered-color;
+      text-shadow: 0 0 10px $shadow-color; // Add a subtle shadow on hover
+    }
   }
-}
 
   .dead-dude {
     transition: all 3s ease-in-out;
@@ -42,33 +43,37 @@ h1 {
     }
 
   }
+
   @media (max-width: 1200px) {
     h1 {
       font-size: 3.3rem !important;
     }
   }
+
   @media (max-width: 1200px) {
     h2 {
-    font-size: 2rem !important;
+      font-size: 2rem !important;
     }
-   }
+  }
 
-   @media (max-width: 800px) {
+  @media (max-width: 800px) {
     h1 {
       font-size: 2.4rem !important;
     }
   }
+
   @media (max-width: 800px) {
     h2 {
-    font-size: 1.1rem !important;
+      font-size: 1.1rem !important;
     }
-   }
+  }
 
   h3 {
     color: #959595;
     font-weight: 300;
-   
+
   }
+
   h4 {
     color: #959595;
     font-weight: 300;
@@ -76,7 +81,7 @@ h1 {
 
   @media (max-width: 800px) {
     h3 {
-    font-size: 0.9rem !important;
+      font-size: 0.9rem !important;
     }
-   }
+  }
 }

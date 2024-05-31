@@ -1,39 +1,42 @@
+"use client";
 import React, { useState, useEffect } from "react";
-import { init } from "../../utils";
+import { init } from "@/utils";
 // @ts-ignore
 import Faq from 'react-faq-component';
-import GazaStatusSection from "../../components/StatusSections/GazaStatusSection";
-import WestBankStatusSection from "../../components/StatusSections/WestBankStatusSection";
-import Banner from "../../components/Simple/Banner";
-import InfraStatusSection from "../../components/StatusSections/InfrasStatusSection";
-import StatisticsSection from "../../components/StatusSections/StatisticsSection";
+import "@/components/StatusSections/FAQSection.scss";
+import GazaStatusSection from "@/components/StatusSections/GazaStatusSection";
+import WestBankStatusSection from "@/components/StatusSections/WestBankStatusSection";
+import Banner from "@/components/Simple/Banner";
+import InfraStatusSection from "@/components/StatusSections/InfrasStatusSection";
+import StatisticsSection from "@/components/StatusSections/StatisticsSection";
 import {
   historyData,
   recentData,
   readPcbsData,
   faqData
-} from "../../PagesData/StatusPageData";
-import "../../components/StatusSections/FAQSection.scss";
-import Head from "../../components/Simple/Head";
+} from "@/PagesData/StatusPageData";
+import Head from "@/components/Simple/Head";
 
 
 
 interface StatusPageProps {}
 
 const StatusPage: React.FC = () => {
-  const [selectedRegion, setSelectedRegion] = useState(init("region", "Gaza"));
-  const [isSelectedToday, setIsSelectedToday] = useState(
-    init("isSelectedToday", false)
-  );
+  const [selectedRegion, setSelectedRegion] = useState("Gaza");
+  const [isSelectedToday, setIsSelectedToday] = useState(false);
 
   const [data, setData] = useState<any[]>([]);
 
   useEffect(() => {
       const fetchData = async() => {
-	setData(await readPcbsData());
+	    setData(await readPcbsData());
       }
 
       fetchData();
+
+      if (typeof window === "undefined") return;
+      setIsSelectedToday(init("isSelectedToday", false));
+      setSelectedRegion(init("region", "Gaza"));
   }, []);
 
   if(data.length == 0) {

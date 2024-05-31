@@ -5,6 +5,7 @@ import { TbExternalLink } from "react-icons/tb";
 
 
 interface IntentCardProps {
+    key: number | string;
     quote: string;
     note: string;
     author: string;
@@ -15,6 +16,7 @@ interface IntentCardProps {
   }
   
 export  const IntentCard: React.FC<IntentCardProps> = ({
+    key,
     quote,
     note,
     author,
@@ -72,6 +74,7 @@ export  const IntentCard: React.FC<IntentCardProps> = ({
     }
     return (
       <div
+        key={key}
         style={{
           display: "flex",
           justifyContent: "center",

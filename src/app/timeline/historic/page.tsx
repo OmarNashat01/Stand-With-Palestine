@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import GradientHero from "../../components/Simple/GradientHero";
+import GradientHero from "@/components/Simple/GradientHero";
 
 const HistoricTimelinePage: React.FC = () => {
   return (
@@ -77,7 +78,7 @@ const HistoricTimelinePage: React.FC = () => {
     // </div>
     <div style={{ flex: 1, borderTopLeftRadius: '4rem', borderTopRightRadius: '4rem', backgroundColor: '#101010' }}>
       <GradientHero title={"COMING SOON"} subTitle1="This Page is Under Construction" subTitle2="We Are Working Hard To Get This Up Quickly!" />
-      <p style={{textAlign: 'center',color: 'white', fontSize: '0.9rem', padding: '0.5rem'}}>For know you can read about the history of the conflict <a style={{color:'red'}} href="https://www.aljazeera.com/news/2023/11/27/palestine-and-israel-brief-history-maps-and-charts">here</a>.</p>
+      <p style={{textAlign: 'center',color: 'white', fontSize: '0.9rem', padding: '0.5rem'}}>For now you can read about the history of the conflict <a style={{color:'red'}} href="https://www.aljazeera.com/news/2023/11/27/palestine-and-israel-brief-history-maps-and-charts">here</a>.</p>
     </div>
   );
 };

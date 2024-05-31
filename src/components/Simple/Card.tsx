@@ -3,7 +3,6 @@ import Link from "next/link";
 import "./Card.scss";
 
 interface CardProps {
-    key: number | string;
     imagePath: string;
     title: string;
     summary: string;
@@ -11,9 +10,9 @@ interface CardProps {
     link: string;
 }
 
-const Card: FC<CardProps> = ({ key, imagePath, title, summary, type, link }) => {
+const Card: FC<CardProps> = ({ imagePath, title, summary, type, link }) => {
     return (
-        <div key={key} className="card-og">
+        <div className="card-og">
             <Link href={link}>
                 <div className="card-img">
                     <img src={imagePath} alt={title} />

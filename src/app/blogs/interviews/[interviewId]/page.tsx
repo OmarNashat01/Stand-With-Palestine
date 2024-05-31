@@ -10,13 +10,13 @@ import Markdown from "@/components/Simple/Markdown";
 import yaml from "js-yaml";
 
 const InterviewPage: React.FC = (
-    {params}: { params: { interviewId: string }}
+    { params }: { params?: { interviewId: string } }
 ) => {
     const [interview, setInterview] = useState<Interview | null>(null);
     const [title, setTitle] = useState("");
     const [subTitle, setSubTitle] = useState("");
 
-    const id = params.interviewId;
+    const id = params?.interviewId;
 
     useEffect(() => {
         if (!id) return;

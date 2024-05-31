@@ -46,8 +46,9 @@ const CrimesPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState("Ongoing");
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    setActiveTab(init("CrimeTab", "Ongoing"));
+    if (typeof window !== "undefined") {
+      setActiveTab(init("CrimeTab", "Ongoing"));
+    }
   }, []);
 
   useEffect(() => {

@@ -22,7 +22,7 @@ const HeroGridVideo: React.FC<HeroGridVideoProps> = ({ videoSources, violences }
     <div className="grid-title-wrapper">
       <div className="wrapper">
         {videoSources.map((source, index) => (
-          <div className={`box`} id={`video${index + 1}`} style={gridStyles[index]}>
+          <div key={index} className={`box`} id={`video${index + 1}`} style={gridStyles[index]}>
             <video loop autoPlay controls muted style={{ filter: ((violences[index]) ? blurFilter() : '') }}>
               <source src={source} type="video/mp4" />
             </video>

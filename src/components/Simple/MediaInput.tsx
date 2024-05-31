@@ -2,7 +2,6 @@ import React, { useEffect, Fragment } from "react";
 import { blurFilter } from "../../utils";
 
 interface MediaInputProps {
-  key: number | string;
   mode: string;
   path: string;
   violence: boolean;
@@ -10,9 +9,9 @@ interface MediaInputProps {
   autoplay?: boolean;
 }
 
-const MediaInput: React.FC<MediaInputProps> = ({ key, mode, path, violence, crop, autoplay = true }) => {
+const MediaInput: React.FC<MediaInputProps> = ({ mode, path, violence, crop, autoplay = true }) => {
   return (
-    <Fragment key={key}>
+    <Fragment>
       {mode === "img" && (
         <img
           className="image-container-extra"

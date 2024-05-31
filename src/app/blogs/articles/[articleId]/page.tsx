@@ -6,13 +6,13 @@ import Markdown from "@/components/Simple/Markdown";
 import GradientHero from "@/components/Simple/GradientHero";
 
 const BlogPage: React.FC = (
-    {params}: { params: { articleId: string }}
+    { params }: { params?: { articleId: string } }
 ) => {
     const [blog, setBlog] = useState("");
     const [title, setTitle] = useState("");
     const [subTitle, setSubTitle] = useState("");
 
-    const id = params.articleId;
+    const id = params?.articleId;
 
     useEffect(() => {
         if (!id) return;

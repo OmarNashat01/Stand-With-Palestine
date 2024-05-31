@@ -19,7 +19,7 @@ interface TimelineCardInterface {
   events: Event[];
 }
 
-export function TimelineCard({
+function TimelineCard({
   cardData,
 }: {
   cardData: TimelineCardInterface;

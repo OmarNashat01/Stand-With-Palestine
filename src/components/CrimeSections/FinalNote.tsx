@@ -1,5 +1,5 @@
 import React from "react";
-import MediaInput from "../../components/Simple/MediaInput";
+import MediaInput from "@/components/Simple/MediaInput";
 import './FinalNote.scss'
 
 interface FinalNoteProps {
@@ -15,9 +15,9 @@ const FinalNote: React.FC<FinalNoteProps> = ({ videoPath, text1, text2 }) => {
       <div className="media-input-container">
         <MediaInput mode="video" path={videoPath} violence={false} crop={false} autoplay={false} />
       </div>
-      <p className="final-note-text" style={{fontWeight: "normal"}}>
+      <p className="final-note-text" style={{ fontWeight: "normal" }}>
         {text2}
-    </p>
+      </p>
     </div>
   );
 };

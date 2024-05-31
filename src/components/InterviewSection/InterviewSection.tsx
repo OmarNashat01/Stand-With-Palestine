@@ -3,7 +3,6 @@ import "./InterviewSection.scss";
 import Markdown from "../Simple/Markdown";
 
 interface InterviewSectionProps {
-    key: number | string;
     section: {
         summary: string;
         conversation: {
@@ -14,9 +13,9 @@ interface InterviewSectionProps {
     };
 }
 
-const InterviewSection: FC<InterviewSectionProps> = ({ key, section }) => {
+const InterviewSection: FC<InterviewSectionProps> = ({ section }) => {
     return (
-        <div key={key} className="interview-section">
+        <div className="interview-section">
             <div className="section-header">
                 <Markdown
                     className="markdown-container"
@@ -27,9 +26,8 @@ const InterviewSection: FC<InterviewSectionProps> = ({ key, section }) => {
             <div className="section-conversation">
                 {section.conversation.map((message, messageIndex) => (
                     <div
-                        className={`message ${
-                            message.interviewer ? "right" : "left"
-                        }`}
+                        className={`message ${message.interviewer ? "right" : "left"
+                            }`}
                         key={`section-${Math.floor(
                             Math.random() * 100000
                         ).toString()}-message-${messageIndex}`}

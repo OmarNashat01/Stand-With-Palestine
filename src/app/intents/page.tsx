@@ -36,23 +36,6 @@ const IntentsPage: React.FC = () => {
     setFilteredWeakIntents(filteredWeakIntents);
   };
 
-  const [screenWidth, setScreenWidth] = React.useState(window.innerWidth);
-
-  React.useEffect(() => {
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    };
-
-    // Add event listener for window resize
-    window.addEventListener('resize', handleResize);
-
-    // Remove event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-
   const [defSearch, setDefSearch] = React.useState("");
   const [key, setKey] = React.useState(0);
   const [execludeList, setExecludeList] = React.useState<string[]>([]);

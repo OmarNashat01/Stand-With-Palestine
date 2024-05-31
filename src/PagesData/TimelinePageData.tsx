@@ -9820,5 +9820,53 @@ export const dailyNews = [
         "images": []
       }
     ]
+  },
+  {
+    "date": "May 30, 2024",
+    "title": "Day 237",
+    "events": [
+      {
+        "text": "\u2018Unrelenting nightmare\u2019: 18,500 pregnant women flee Israeli attacks on Rafah",
+        "link": "https://aje.io/u2jqo6?update=2937990",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Israeli forces directly hit paramedics, prevented rescue: PRCS",
+        "link": "https://aje.io/u2jqo6?update=2937642",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "\u2018World must act to hold the perpetrators accountable\u2019",
+        "link": "https://aje.io/u2jqo6?update=2937274",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "The devastation is colossal\u2019: Jabalia in ruins after Israeli withdrawal",
+        "link": "https://aje.io/u2jqo6?update=2937029",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "PRCS says killing of medics in south Gaza \u2018war crime\u2019",
+        "link": "https://aje.io/u2jqo6?update=2936480",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Sick, wounded Palestinians desperately need evacuation: Palestinian Health Ministry",
+        "link": "https://aje.io/u2jqo6?update=2935936",
+        "description": "",
+        "images": []
+      },
+      {
+        "text": "Relentless aerial attacks leave victims trapped under rubble",
+        "link": "https://aje.io/u2jqo6?update=2935457",
+        "description": "",
+        "images": []
+      }
+    ]
   }
 ];

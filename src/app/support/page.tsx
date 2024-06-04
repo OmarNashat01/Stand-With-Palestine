@@ -3,6 +3,8 @@ import React, { useRef, useEffect, useState } from "react";
 import { supportPageData, supportActionData } from '@/PagesData/SupportPageData'
 import OrgCard from "@/components/donations/orgCard";
 import { Carousel as ResponsiveCarousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 
 import HeroButton from "@/components/Simple/HeroButton";
 import GradientHero from "@/components/Simple/GradientHero";
@@ -122,7 +124,7 @@ const SupportPage: React.FC = () => {
         </div>
       </div>
       <Banner title={"Or You Could Help End This Massacre Altogether"} color="white" bgColor="transparent" styleObj={{ boxShadow: 'none' }} />
-      <div className="org-cards" ref={orgCardsRef1} style={{justifyContent: 'center'}}>
+      <div className="org-cards" ref={orgCardsRef1} style={{ justifyContent: 'center' }}>
         {supportActionData.map((item, index) => {
           return (
             <div key={index} className="card-item">

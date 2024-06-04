@@ -1,5 +1,4 @@
 "use client";
-import type { Metadata } from "next";
 import "../index.scss";
 
 
@@ -10,6 +9,7 @@ import { useGlobalAudioPlayer } from "react-use-audio-player";
 import Footer from "@/components/Footer/Footer";
 import { init, saveSet } from "@/utils";
 import { usePathname } from "next/navigation";
+import Eye from "@/components/Global/Eye";
 
 
 // export const metadata: Metadata = {
@@ -23,27 +23,11 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
 
-    const [showModal, setShowModal] = useState(false); // eye modal
-    const { load } = useGlobalAudioPlayer();
     const [isBouncing, setIsBouncing] = useState(true);
     const [showMobNav, setShowMobNav] = useState(false);
-    const [showEyeButton, setShowEyeButton] = useState(false);
-    const { setVolume, volume } = useGlobalAudioPlayer();
+    const { setVolume } = useGlobalAudioPlayer();
     const [blur, setBlur] = useState(0);
 
-    useEffect(() => {
-        const timeoutId = setTimeout(() => {
-            if (isBouncing) {
-                setShowModal(true);
-                saveSet(setIsBouncing, "isBouncing", false);
-            }
-        }, 10000);
-
-        return () => {
-            // Clear the timeout if the component is unmounted before 7 seconds
-            clearTimeout(timeoutId);
-        };
-    }, [isBouncing]);
 
     useEffect(() => {
         if (typeof window === "undefined") return;
@@ -55,31 +39,6 @@ export default function RootLayout({
         }
     }, [setVolume]);
 
-    useEffect(() => {
-        load("./shells.mp3", {
-            autoplay: true,
-            initialVolume: init("volume", 0.001),
-        });
-    }, []);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollPercentage =
-                (window.scrollY /
-                    (document.documentElement.scrollHeight -
-                        window.innerHeight)) *
-                100;
-
-            // Set showEyeButton to true if scrolled through 0.5% of the page
-            setShowEyeButton(scrollPercentage >= 0.5);
-        };
-
-        window.addEventListener("scroll", handleScroll);
-
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
     return (
         <html lang="en">
             <body>
@@ -87,24 +46,11 @@ export default function RootLayout({
                     showMobNav={showMobNav}
                     setShowMobNav={setShowMobNav}
                 />
-                {showEyeButton && (
-                    <div
-                        className={`eye-button ${isBouncing ? "bounce" : ""}`}
-                        onClick={() => {
-                            setShowModal(!showModal);
-                            saveSet(setIsBouncing, "isBouncing", false);
-                        }}
-                    >
-                        <img src="\eye.png" />
-                    </div>
-                )}
-                <ModalEye
-                    showModal={showModal}
-                    setShowModal={setShowModal}
-                    volume={volume}
-                    setVolume={setVolume}
+                <Eye
                     blur={blur}
                     setBlur={setBlur}
+                    isBouncing={isBouncing}
+                    setIsBouncing={setIsBouncing}
                 />
                 {children}
                 <Footer

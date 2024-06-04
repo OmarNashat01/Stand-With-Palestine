@@ -1,5 +1,6 @@
 import React from "react";
 import { saveSet } from "../../utils";
+import Image from "next/image";
 
 interface MapSectionProps {
   selectedRegion: string | null;
@@ -26,13 +27,15 @@ const MapSection: React.FC<MapSectionProps> = ({
   return (
     <>
       <div className="map map-group" style={{ padding: "2.4rem" }}>
-        <img
+        <Image
           src={
             selectedRegion === "Gaza"
               ? "./StatusPage/gazaselect.svg"
               : "./StatusPage/westbankselect.svg"
           }
           alt="Map"
+          width={200}
+          height={500}
           style={{
             width: "100%",
             height: "100%",
@@ -59,7 +62,7 @@ const MapSection: React.FC<MapSectionProps> = ({
         </div>
         <div className="today-only">
           <button
-            className={"today-only " + (isSelectedToday ? "selected" : "greyed") }
+            className={"today-only " + (isSelectedToday ? "selected" : "greyed")}
             onClick={() => saveSet(setIsSelectedToday, "isSelectedToday", !isSelectedToday)}
           >
             Recent Only

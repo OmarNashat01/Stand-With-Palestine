@@ -2,6 +2,7 @@ import React from "react";
 import HeroButton from "@/components/Simple/HeroButton";
 import { Fade } from "react-swift-reveal";
 import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import MediaInput from "@/components/Simple/MediaInput";
 import LazyLoad from 'react-lazyload';
 import "./CrimesList.scss";

@@ -14,13 +14,14 @@ import { GiTargetShot } from 'react-icons/gi';
 
 // scss
 import './NavigationBar.scss';
+import Image from 'next/image';
 
 interface NavBarProps {
   showMobNav: boolean;
   setShowMobNav: (showMobNav: boolean) => void;
 }
 
-const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
+const NavigationBar: React.FC<NavBarProps> = ({ showMobNav, setShowMobNav }) => {
   const pathname = usePathname();
 
   const toggleMenu = () => {
@@ -35,17 +36,17 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
 
 
   return (
-    <div className={`navbar-container ${(showMobNav) ? 'hidenext': ''} ${(pathname === '/') ? 'navbar-container-home':''}`}>
+    <div className={`navbar-container ${(showMobNav) ? 'hidenext' : ''} ${(pathname === '/') ? 'navbar-container-home' : ''}`}>
       <div className="logo">
-        <div className='menu-icon'  onClick={toggleMenu}>
+        <div className='menu-icon' onClick={toggleMenu}>
           <FaBars className="menu-icon" />
         </div>
         <div className='logo-container'>
           <div className='logo-icon'>
-           <img src='\logo.png' width='30' alt='flag'></img>
+            <Image src='/logo.png' width={30} height={30} alt='flag' />
           </div>
           <Link href="./">
-          <div className='logo-text'>Stand With Palestine</div>
+            <div className='logo-text'>Stand With Palestine</div>
           </Link>
         </div>
       </div>
@@ -57,8 +58,8 @@ const NavigationBar: React.FC<NavBarProps> = ({showMobNav, setShowMobNav}) => {
           <li className={`nav-item ${pathname === '/status' ? 'selected' : ''}`}>
             <Link href="/status"><GiTargetShot style={{ margin: '-1px', paddingRight: '0.1rem' }} /> Status</Link>
           </li>
-          <li  className={`nav-item ${pathname.includes('timeline')? 'selected' : ''}`}>
-          <Link href="/timeline/recent"><BiSolidTimeFive style={{ margin: '-1px', paddingRight: '0.1rem' }} />Timeline</Link>
+          <li className={`nav-item ${pathname.includes('timeline') ? 'selected' : ''}`}>
+            <Link href="/timeline/recent"><BiSolidTimeFive style={{ margin: '-1px', paddingRight: '0.1rem' }} />Timeline</Link>
             {/* <span className={`${pathname.includes('timeline')? 'selected' : ''}`}><BiSolidTimeFive style={{ margin: '-2px', paddingRight: '0.1rem' }} /> Timeline</span>
             <ul className="dropdown-list">
               <li className={`nav-item`}>

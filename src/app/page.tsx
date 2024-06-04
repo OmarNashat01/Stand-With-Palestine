@@ -1,13 +1,7 @@
-"use client";
 import React from 'react';
 // Homepage Primary Subcomponents
-import HeroWideSectionExtra from '@/components/HeroSections/HeroWideSectionExtra';
-import HeroDigitsSection from '@/components/HeroSections/HeroDigitsSection';
 import HeroWideSection from '@/components/HeroSections/HeroWideSection';
-import HeroSliderImage from '@/components/HeroSections/HeroSliderImage';
 import HeroGridVideo from '@/components/HeroSections/HeroGridVideo';
-import HeroButton from '@/components/Simple/HeroButton';
-import LazyLoad from 'react-lazyload';
 // Homepage Secondary Subcomponents
 import Banner from '@/components/Simple/Banner';
 import { Carousel } from 'react-responsive-carousel';
@@ -35,11 +29,11 @@ const HomePage = () => {
 
       {/* Intense Section*/}
       <Banner {...homeData.intenseGridBanner} />
-      <Carousel swipeable={false} showThumbs={false} interval={50000} autoPlay infiniteLoop showStatus={false}>
-        {/* @ts-ignore */}
-        <HeroGridVideo {...homeData.intenseGridSection1} />
-        {/* <HeroGridVideo {...homeData.intenseGridSection2} /> */}
-      </Carousel >
+      {/* <Carousel swipeable={false} showThumbs={false} interval={50000} autoPlay infiniteLoop showStatus={false}> */}
+      {/* @ts-ignore */}
+      <HeroGridVideo {...homeData.intenseGridSection1} />
+      {/* <HeroGridVideo {...homeData.intenseGridSection2} /> */}
+      {/* </Carousel > */}
 
       {/* Status Section*/}
       {/* <Banner {...homeData.statusBanner} id="first-banner" />

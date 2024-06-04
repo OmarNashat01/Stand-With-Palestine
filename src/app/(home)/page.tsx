@@ -4,7 +4,6 @@ import HeroWideSection from '@/components/HeroSections/HeroWideSection';
 import HeroGridVideo from '@/components/HeroSections/HeroGridVideo';
 // Homepage Secondary Subcomponents
 import Banner from '@/components/Simple/Banner';
-import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 

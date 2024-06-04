@@ -225,11 +225,11 @@
 }
 
 .hidenext {
-  &+div {
+  &~div {
 
     // hide the next div
     @media screen and (max-width: 768px) {
-      display: none;
+      display: none !important;
     }
   }
 }

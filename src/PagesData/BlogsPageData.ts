@@ -1,4 +1,4 @@
-interface Blog {
+export interface Blog {
     showBlog: boolean;
     type: "article" | "interview";
     name: string;

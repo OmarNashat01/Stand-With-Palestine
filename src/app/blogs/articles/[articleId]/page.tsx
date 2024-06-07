@@ -1,36 +1,55 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import { redirect } from "next/navigation";
-import { blogs } from "@/PagesData/BlogsPageData";
+import React from "react";
+import { blogs, Blog } from "@/PagesData/BlogsPageData";
 import Markdown from "@/components/Simple/Markdown";
 import GradientHero from "@/components/Simple/GradientHero";
+import { notFound } from "next/navigation";
+import { getBlog } from "@/app/blogs/utils";
+import { Metadata, ResolvingMetadata } from "next";
 
-const BlogPage: React.FC = (
-    { params }: { params?: { articleId: string } }
-) => {
-    const [blog, setBlog] = useState("");
-    const [title, setTitle] = useState("");
-    const [subTitle, setSubTitle] = useState("");
 
-    const id = params?.articleId;
+export async function generateStaticParams() {
+    const getBlogId = (blog: Blog) => blog.blogPath.split("/BlogsPage/")[1].replace(/\.(md|json)/, "");
+    const paths = blogs.filter((blog) => blog.type === "article" && blog.showBlog).map((blog) => ({
+        articleId: getBlogId(blog),
+    }));
+    return paths;
+}
 
-    useEffect(() => {
-        if (!id) return;
 
-        const selectedBlog = blogs.find(
-            (blog) => blog.blogPath === `/BlogsPage/${id}.md`
-        );
+interface articleProps {
+    params: {
+        articleId: string;
+    }
+}
 
-        if (selectedBlog !== undefined) {
-            setTitle(selectedBlog.name);
-            setSubTitle(selectedBlog.subTitle);
-            fetch(selectedBlog.blogPath)
-                .then((res) => res.text())
-                .then((text) => setBlog(text));
-        } else {
-            redirect("/404");
-        }
-    }, [id]);
+
+export async function generateMetadata(
+    { params }: articleProps,
+    parent: ResolvingMetadata
+): Promise<Metadata> {
+
+    let blogData = getBlog(`/BlogsPage/${params.articleId}`);
+    if (!blogData) {
+        return notFound();
+    }
+    const { blog, content } = blogData;
+    return {
+        title: blog.name,
+        openGraph: {
+            type: 'article',
+        },
+    }
+}
+
+
+
+const BlogPage: React.FC<articleProps> = async ({ params }: articleProps) => {
+
+    let blogData = getBlog(`/BlogsPage/${params.articleId}`);
+    if (!blogData) {
+        notFound();
+    }
+    const { blog: article, content } = blogData;
 
     return (
         <div
@@ -45,15 +64,15 @@ const BlogPage: React.FC = (
             className="blog-page"
         >
             <GradientHero
-                title={title}
-                subTitle1={subTitle}
+                title={article.name}
+                subTitle1={article.subTitle}
                 subTitle2={""}
                 bloody={false}
                 circular={true}
                 fontSize={"2.7rem"}
                 blog={true}
             />
-            <Markdown className="markdown-container" markdownText={blog} />
+            <Markdown className="markdown-container" markdownText={content as string} />
         </div>
     );
 };

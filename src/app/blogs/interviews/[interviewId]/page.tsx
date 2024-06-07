@@ -1,47 +1,67 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import { redirect } from "next/navigation";
-import { blogs } from "@/PagesData/BlogsPageData";
+import React from "react";
+import { notFound } from "next/navigation";
+import type { Metadata, ResolvingMetadata } from 'next'
+import { blogs, Blog } from "@/PagesData/BlogsPageData";
 import GradientHero from "@/components/Simple/GradientHero";
 import { Interview } from "@/types/Interview";
 import InterviewSection from "@/components/InterviewSection/InterviewSection";
 import Markdown from "@/components/Simple/Markdown";
-//@ts-ignore
-import yaml from "js-yaml";
+import { getBlog } from "@/app/blogs/utils";
 
-const InterviewPage: React.FC = (
-    { params }: { params?: { interviewId: string } }
-) => {
-    const [interview, setInterview] = useState<Interview | null>(null);
-    const [title, setTitle] = useState("");
-    const [subTitle, setSubTitle] = useState("");
 
-    const id = params?.interviewId;
 
-    useEffect(() => {
-        if (!id) return;
+export async function generateStaticParams() {
+    const getBlogId = (blog: Blog) => blog.blogPath.split("/BlogsPage/")[1].replace(/\.(md|json)/, "");
+    const paths = blogs.filter((blog) => blog.type === "interview" && blog.showBlog).map((blog) => ({
+        interviewId: getBlogId(blog),
+    }));
 
-        const selectedInterview = blogs.find(
-            (interview) => interview.blogPath === `/BlogsPage/${id}.json`
-        );
+    return paths;
+}
 
-        if (selectedInterview !== undefined) {
-            setTitle(selectedInterview.name);
-            setSubTitle(selectedInterview.subTitle);
-            fetch(selectedInterview.blogPath)
-                .then((res) => res.text())
-                .then((yamlText) => {
-                    const interviewData = yaml.load(yamlText) as Interview;
-                    setInterview(interviewData);
-                })
-                .catch((error) => {
-                    console.error("Error loading YAML:", error);
-                    //redirect("/404");
-                });
-        } else {
-            redirect("/404");
-        }
-    }, [id]);
+
+
+interface interviewProps {
+    params: {
+        interviewId: string;
+    }
+}
+
+export async function generateMetadata(
+    { params }: interviewProps,
+    parent: ResolvingMetadata
+): Promise<Metadata> {
+
+    let blogData = getBlog(`/BlogsPage/${params.interviewId}`);
+    if (!blogData) {
+        return notFound();
+    }
+    const { blog, content } = blogData;
+    // optionally access and extend (rather than replace) parent metadata
+    const previousImages = (await parent).openGraph?.images || []
+    const interview = content as Interview;
+    const ytVideoIdRE = /\/embed\/([a-zA-Z0-9_-]+)\?/;
+    const ytVideoId = interview.summary.match(ytVideoIdRE)?.[1];
+    const videoImage = ytVideoId ? `https://img.youtube.com/vi/${ytVideoId}/0.jpg` : null;
+    const images = videoImage ? [videoImage, ...previousImages] : previousImages;
+    return {
+        title: blog.name,
+        openGraph: {
+            type: 'article',
+            images: images,
+        },
+    }
+}
+
+
+
+const InterviewPage: React.FC<interviewProps> = ({ params }: interviewProps) => {
+    let blogData = getBlog(`/BlogsPage/${params.interviewId}`);
+    if (!blogData) {
+        notFound();
+    }
+    const { blog: interview, content } = blogData;
+    const interviewData = content as Interview;
 
     return (
         <div
@@ -56,8 +76,8 @@ const InterviewPage: React.FC = (
             className="interview-page"
         >
             <GradientHero
-                title={title}
-                subTitle1={subTitle}
+                title={interview.name}
+                subTitle1={interview.subTitle}
                 subTitle2={""}
                 bloody={false}
                 circular={true}
@@ -66,10 +86,10 @@ const InterviewPage: React.FC = (
             />
             <Markdown
                 className="markdown-container"
-                markdownText={interview?.summary || ""}
+                markdownText={interviewData?.summary || ""}
             />
             <div>
-                {interview?.sections.map((section, sectionIndex) => (
+                {interviewData?.sections.map((section, sectionIndex) => (
                     <InterviewSection
                         section={section}
                         key={`interview-section-${sectionIndex}`}

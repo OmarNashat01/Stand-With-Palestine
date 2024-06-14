@@ -12,7 +12,7 @@ import { getBlog } from "@/app/blogs/utils";
 
 export async function generateStaticParams() {
     const getBlogId = (blog: Blog) => blog.blogPath.split("/BlogsPage/")[1].replace(/\.(md|json)/, "");
-    const paths = blogs.filter((blog) => blog.type === "interview" && blog.showBlog).map((blog) => ({
+    const paths = blogs.filter((blog) => blog.type === "interview").map((blog) => ({
         interviewId: getBlogId(blog),
     }));
 

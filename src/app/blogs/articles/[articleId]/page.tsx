@@ -9,7 +9,7 @@ import { Metadata, ResolvingMetadata } from "next";
 
 export async function generateStaticParams() {
     const getBlogId = (blog: Blog) => blog.blogPath.split("/BlogsPage/")[1].replace(/\.(md|json)/, "");
-    const paths = blogs.filter((blog) => blog.type === "article" && blog.showBlog).map((blog) => ({
+    const paths = blogs.filter((blog) => blog.type === "article").map((blog) => ({
         articleId: getBlogId(blog),
     }));
     return paths;

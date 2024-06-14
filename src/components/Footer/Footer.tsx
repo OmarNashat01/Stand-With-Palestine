@@ -1,6 +1,9 @@
 import React from "react";
 import "./Footer.scss";
 import Link from "next/link";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+
 interface FooterProps {
   title: string;
   subTitle: string;
@@ -25,7 +28,7 @@ const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-twitter"></i>
+                <FontAwesomeIcon icon={faTwitter} />
               </a>
             </li>
             <li>
@@ -34,7 +37,7 @@ const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-facebook"></i>
+                <FontAwesomeIcon icon={faFacebookF} />
               </a>
             </li>
             <li>
@@ -43,7 +46,7 @@ const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-linkedin-square"></i>
+                <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </li>
             <li>
@@ -52,7 +55,7 @@ const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-instagram"></i>
+                <FontAwesomeIcon icon={faInstagram} />
               </a>
             </li>
           </ul>
@@ -81,13 +84,13 @@ const Footer: React.FC<FooterProps> = ({ title, subTitle, boldSubTitle }) => {
               </li>
             </ul>
           </div>
-          <div style={{display: "flex", flexDirection: "row"}}>
-          <p >
+          <div style={{ display: "flex", flexDirection: "row" }}>
+            <p >
               <a href="https://tally.so/r/mDNNKN">&nbsp;Collaborate &nbsp;&nbsp;</a>
-          </p>
-          <p >
+            </p>
+            <p >
               <a href="mailto:support@stand-with-palestine.org">Contact Us</a>
-          </p>
+            </p>
           </div>
         </div>
       </footer>

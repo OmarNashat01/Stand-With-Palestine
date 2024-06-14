@@ -39,11 +39,7 @@ export async function generateMetadata(
     const { blog, content } = blogData;
     // optionally access and extend (rather than replace) parent metadata
     const previousImages = (await parent).openGraph?.images || []
-    const interview = content as Interview;
-    const ytVideoIdRE = /\/embed\/([a-zA-Z0-9_-]+)\?/;
-    const ytVideoId = interview.summary.match(ytVideoIdRE)?.[1];
-    const videoImage = ytVideoId ? `https://img.youtube.com/vi/${ytVideoId}/0.jpg` : null;
-    const images = videoImage ? [videoImage, ...previousImages] : previousImages;
+    const images = blog.imagePath ? [blog.imagePath, ...previousImages] : previousImages;
     return {
         title: blog.name,
         openGraph: {

@@ -1,7 +1,6 @@
 "use client"
 import { init, saveSet } from "@/utils";
 import React, { FC, useCallback, useRef, useEffect, useState } from 'react';
-import Image from "next/image";
 import { useGlobalAudioPlayer } from "react-use-audio-player";
 import HeroButton from "../Simple/HeroButton";
 import Slider from "rc-slider";
@@ -95,10 +94,8 @@ const Eye: React.FC<EyeProps> = ({ isBouncing, setIsBouncing, blur, setBlur }: E
                     saveSet(setIsBouncing, "isBouncing", false);
                 }}
             >
-                <Image src="/eye.png"
+                <img src="/eye.png"
                     alt="eye"
-                    width={50}
-                    height={30}
                 />
             </div>
             <div className="modal-eye" data-show={showModal}>

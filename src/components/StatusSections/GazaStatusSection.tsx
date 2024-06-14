@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { TbUserQuestion } from "react-icons/tb";
 import { GiFallingBomb } from "react-icons/gi";
 import { FaUserInjured } from "react-icons/fa";
@@ -50,7 +49,7 @@ const GazaStatusSection: React.FC<GazaStatusSectionProps> = ({
         <AnimatedNumber value={gazaDict["killed"]} className="number-h1" />
       </div>
       <div className="kids-killed grid-item killed-group">
-        <Image src="./StatusPage/Mat_Kids.svg" className="icon" width={50} height={50} alt="" />
+        <img src="./StatusPage/Mat_Kids.svg" className="icon" alt="" />
         <h1 className="mini-h1">Children</h1>
         <AnimatedNumber
           value={gazaDict["killedKids"]}
@@ -67,7 +66,7 @@ const GazaStatusSection: React.FC<GazaStatusSectionProps> = ({
         />
       </div>
       <div className="women-killed grid-item killed-group">
-        <Image src="./StatusPage/Mat_female.svg" className="icon" width={50} height={50} alt="" />
+        <img src="./StatusPage/Mat_female.svg" className="icon" alt="" />
         <h1 className="mini-h1">Women</h1>
         <AnimatedNumber
           value={gazaDict["killedWomen"]}
@@ -75,7 +74,7 @@ const GazaStatusSection: React.FC<GazaStatusSectionProps> = ({
         />
       </div>
       <div className="killed-un grid-item killed-group">
-        <Image src="./StatusPage/UN.svg" className="icon" style={{ width: "3.5rem" }} width={50} height={50} alt="" />
+        <img src="./StatusPage/UN.svg" className="icon" style={{ width: "3.5rem" }} alt="" />
         <h1 className="mini-h1">UN Staff</h1>
         <AnimatedNumber
           value={gazaDict["killedUN"]}
@@ -84,7 +83,7 @@ const GazaStatusSection: React.FC<GazaStatusSectionProps> = ({
         />
       </div>
       <div className="elderly-killed grid-item killed-group">
-        <Image src="./StatusPage/Mat_elder.svg" className="icon" width={50} height={50} alt="" />
+        <img src="./StatusPage/Mat_elder.svg" className="icon" alt="" />
         <h1 className="mini-h1">Elderly</h1>
         <AnimatedNumber
           value={gazaDict["killedElder"]}
@@ -101,13 +100,11 @@ const GazaStatusSection: React.FC<GazaStatusSectionProps> = ({
         />
       </div>
       <div className="men-killed grid-item killed-group">
-        <Image
+        <img
           src="./StatusPage/chalk-outline-murder.svg"
           style={{ width: "3.8rem" }}
           className="icon"
           alt=""
-          width={50}
-          height={50}
         />
         <h1 className="mini-h1">Men</h1>
         <AnimatedNumber
@@ -161,12 +158,10 @@ const GazaStatusSection: React.FC<GazaStatusSectionProps> = ({
         <AnimatedNumber value={gazaDict["missing"]} className="number-h1" />
       </div>
       <div className="kids-women-missing grid-item missing-group">
-        <Image
+        <img
           src="./StatusPage/missing-kids-women.svg"
           className="icon"
           alt=""
-          width={50}
-          height={50}
           style={{ maxWidth: "100px" }}
         />
         <h1 className="mini-h1">Others</h1>
@@ -176,12 +171,10 @@ const GazaStatusSection: React.FC<GazaStatusSectionProps> = ({
         />
       </div>
       <div className="others-missing grid-item missing-group">
-        <Image
+        <img
           src="./StatusPage/missing-men.svg"
           className="icon"
           alt=""
-          width={50}
-          height={50}
           style={{ maxWidth: "100px" }}
         />
         <h1 className="mini-h1">Men</h1>

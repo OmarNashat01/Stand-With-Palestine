@@ -14,7 +14,6 @@ import { GiTargetShot } from 'react-icons/gi';
 
 // scss
 import './NavigationBar.scss';
-import Image from 'next/image';
 
 interface NavBarProps {
   showMobNav: boolean;
@@ -43,7 +42,7 @@ const NavigationBar: React.FC<NavBarProps> = ({ showMobNav, setShowMobNav }) => 
         </div>
         <div className='logo-container'>
           <div className='logo-icon'>
-            <Image src='/logo.png' width={30} height={30} alt='flag' />
+            <img src='/logo.png' width='30' alt='flag' />
           </div>
           <Link href="./">
             <div className='logo-text'>Stand With Palestine</div>

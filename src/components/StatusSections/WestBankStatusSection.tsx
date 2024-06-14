@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { FaUserInjured } from "react-icons/fa";
 import { GiPrisoner } from "react-icons/gi";
 import { LiaUserInjuredSolid } from "react-icons/lia";
@@ -52,7 +51,7 @@ const WestBankStatusSection: React.FC<WestBankStatusSectionProps> = ({
         <AnimatedNumber value={westBankDict["injured"]} className="number-h1" />
       </div>
       <div className="killed-kids killed-group grid-item">
-        <Image src="./StatusPage/Mat_Kids.svg" className="icon" width={70} height={70} alt="" style={{ maxWidth: "110px" }} />
+        <img src="./StatusPage/Mat_Kids.svg" className="icon" alt="" style={{ maxWidth: "110px" }} />
         <h1 className="mini-h1">Children</h1>
         <AnimatedNumber
           value={westBankDict["killedKids"]}
@@ -60,7 +59,7 @@ const WestBankStatusSection: React.FC<WestBankStatusSectionProps> = ({
         />
       </div>
       <div className="killed-adults killed-group grid-item">
-        <Image src="./StatusPage/Mat_elder.svg" className="icon" width={70} height={70} alt="" style={{ maxWidth: "110px" }} />
+        <img src="./StatusPage/Mat_elder.svg" className="icon" alt="" style={{ maxWidth: "110px" }} />
         <h1 className="mini-h1">Adults</h1>
         <AnimatedNumber
           value={westBankDict["killedAdults"]}

@@ -39,7 +39,8 @@ export async function generateMetadata(
     const { blog, content } = blogData;
     // optionally access and extend (rather than replace) parent metadata
     const previousImages = (await parent).openGraph?.images || []
-    const images = blog.imagePath ? [blog.imagePath, ...previousImages] : previousImages;
+    const baseURL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+    const images = blog.imagePath ? [baseURL + blog.imagePath, ...previousImages] : previousImages;
     return {
         title: blog.name,
         openGraph: {
